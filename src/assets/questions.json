@@ -2,7 +2,7 @@
   {
     "id": 1,
     "difficulty": 1,
-    "difficulty_label": "Débutant",
+    "difficulty_label": "beginner",
     "category": "Capacités",
     "question": "Qu'est-ce que l'intelligence artificielle (IA) ?",
     "options": [
@@ -18,7 +18,7 @@
   {
     "id": 2,
     "difficulty": 1,
-    "difficulty_label": "Débutant",
+    "difficulty_label": "beginner",
     "category": "Capacités",
     "question": "Lequel de ces outils utilise de l'intelligence artificielle au quotidien ?",
     "options": [
@@ -34,7 +34,7 @@
   {
     "id": 3,
     "difficulty": 1,
-    "difficulty_label": "Débutant",
+    "difficulty_label": "beginner",
     "category": "Capacités",
     "question": "Qu'est-ce qu'un chatbot IA comme ChatGPT ou Claude est capable de faire ?",
     "options": [
@@ -50,7 +50,7 @@
   {
     "id": 4,
     "difficulty": 1,
-    "difficulty_label": "Débutant",
+    "difficulty_label": "beginner",
     "category": "Limites",
     "question": "Est-ce qu'une IA comme ChatGPT peut se tromper dans ses réponses ?",
     "options": [
@@ -66,7 +66,7 @@
   {
     "id": 5,
     "difficulty": 1,
-    "difficulty_label": "Débutant",
+    "difficulty_label": "beginner",
     "category": "Dangers",
     "question": "Qu'est-ce qu'un deepfake ?",
     "options": [
@@ -82,7 +82,7 @@
   {
     "id": 6,
     "difficulty": 1,
-    "difficulty_label": "Débutant",
+    "difficulty_label": "beginner",
     "category": "Éthique & société",
     "question": "L'IA peut-elle prendre des décisions à la place des humains dans des domaines importants ?",
     "options": [
@@ -98,7 +98,7 @@
   {
     "id": 7,
     "difficulty": 1,
-    "difficulty_label": "Débutant",
+    "difficulty_label": "beginner",
     "category": "Capacités",
     "question": "Qu'est-ce qu'une IA générative ?",
     "options": [
@@ -114,7 +114,7 @@
   {
     "id": 8,
     "difficulty": 1,
-    "difficulty_label": "Débutant",
+    "difficulty_label": "beginner",
     "category": "Limites",
     "question": "Une IA possède-t-elle des émotions ou une conscience ?",
     "options": [
@@ -130,7 +130,7 @@
   {
     "id": 9,
     "difficulty": 2,
-    "difficulty_label": "Intermédiaire",
+    "difficulty_label": "curious",
     "category": "Capacités",
     "question": "Comment une IA apprend-elle à reconnaître des photos de chats ?",
     "options": [
@@ -146,7 +146,7 @@
   {
     "id": 10,
     "difficulty": 2,
-    "difficulty_label": "Intermédiaire",
+    "difficulty_label": "curious",
     "category": "Éthique & société",
     "question": "Qu'est-ce que le biais algorithmique ?",
     "options": [
@@ -162,7 +162,7 @@
   {
     "id": 11,
     "difficulty": 2,
-    "difficulty_label": "Intermédiaire",
+    "difficulty_label": "curious",
     "category": "Limites",
     "question": "Pourquoi un chatbot IA ne connaît-il pas les événements très récents ?",
     "options": [
@@ -178,7 +178,7 @@
   {
     "id": 12,
     "difficulty": 2,
-    "difficulty_label": "Intermédiaire",
+    "difficulty_label": "curious",
     "category": "Dangers",
     "question": "Quel risque majeur pose la concentration du développement de l'IA dans quelques grandes entreprises ?",
     "options": [
@@ -194,7 +194,7 @@
   {
     "id": 13,
     "difficulty": 2,
-    "difficulty_label": "Intermédiaire",
+    "difficulty_label": "curious",
     "category": "Éthique & société",
     "question": "Quel est l'impact environnemental majeur lié à l'entraînement de grands modèles d'IA ?",
     "options": [
@@ -210,7 +210,7 @@
   {
     "id": 14,
     "difficulty": 2,
-    "difficulty_label": "Intermédiaire",
+    "difficulty_label": "curious",
     "category": "Capacités",
     "question": "À quoi sert la reconnaissance faciale basée sur l'IA ?",
     "options": [
@@ -226,7 +226,7 @@
   {
     "id": 15,
     "difficulty": 2,
-    "difficulty_label": "Intermédiaire",
+    "difficulty_label": "curious",
     "category": "Limites",
     "question": "Pourquoi ne faut-il pas faire confiance aveuglément aux sources citées par un LLM ?",
     "options": [
@@ -242,7 +242,7 @@
   {
     "id": 16,
     "difficulty": 2,
-    "difficulty_label": "Intermédiaire",
+    "difficulty_label": "curious",
     "category": "Dangers",
     "question": "Comment l'IA peut-elle être utilisée pour répandre de la désinformation ?",
     "options": [
@@ -258,7 +258,7 @@
   {
     "id": 17,
     "difficulty": 3,
-    "difficulty_label": "Confirmé",
+    "difficulty_label": "curious",
     "category": "Capacités",
     "question": "Qu'est-ce que le « prompt engineering » ?",
     "options": [
@@ -274,7 +274,7 @@
   {
     "id": 18,
     "difficulty": 3,
-    "difficulty_label": "Confirmé",
+    "difficulty_label": "curious",
     "category": "Limites",
     "question": "Pourquoi un LLM peut-il produire des réponses différentes à la même question posée deux fois ?",
     "options": [
@@ -290,7 +290,7 @@
   {
     "id": 19,
     "difficulty": 3,
-    "difficulty_label": "Confirmé",
+    "difficulty_label": "curious",
     "category": "Capacités",
     "question": "Qu'est-ce qu'un modèle d'IA multimodal ?",
     "options": [
@@ -306,7 +306,7 @@
   {
     "id": 20,
     "difficulty": 3,
-    "difficulty_label": "Confirmé",
+    "difficulty_label": "curious",
     "category": "Dangers",
     "question": "Qu'est-ce que le « jailbreak » d'un modèle d'IA ?",
     "options": [
@@ -322,7 +322,7 @@
   {
     "id": 21,
     "difficulty": 3,
-    "difficulty_label": "Confirmé",
+    "difficulty_label": "curious",
     "category": "Éthique & société",
     "question": "Que désigne l'« IA explicable » (XAI — Explainable AI) ?",
     "options": [
@@ -338,7 +338,7 @@
   {
     "id": 22,
     "difficulty": 3,
-    "difficulty_label": "Confirmé",
+    "difficulty_label": "curious",
     "category": "Capacités",
     "question": "Qu'est-ce qu'un « réseau de neurones artificiel » ?",
     "options": [
@@ -354,7 +354,7 @@
   {
     "id": 23,
     "difficulty": 3,
-    "difficulty_label": "Confirmé",
+    "difficulty_label": "curious",
     "category": "Limites",
     "question": "Qu'est-ce que le phénomène de « confabulation » dans un LLM ?",
     "options": [
@@ -370,7 +370,7 @@
   {
     "id": 24,
     "difficulty": 3,
-    "difficulty_label": "Confirmé",
+    "difficulty_label": "curious",
     "category": "Éthique & société",
     "question": "Qu'est-ce que le règlement européen sur l'IA (AI Act) cherche principalement à faire ?",
     "options": [
@@ -386,7 +386,7 @@
   {
     "id": 25,
     "difficulty": 3,
-    "difficulty_label": "Confirmé",
+    "difficulty_label": "curious",
     "category": "Dangers",
     "question": "Pourquoi les systèmes de recommandation basés sur l'IA peuvent-ils créer des « bulles de filtre » ?",
     "options": [
@@ -402,7 +402,7 @@
   {
     "id": 26,
     "difficulty": 4,
-    "difficulty_label": "Avancé",
+    "difficulty_label": "expert",
     "category": "Capacités",
     "question": "Qu'est-ce que l'apprentissage par renforcement avec retour humain (RLHF) ?",
     "options": [
@@ -418,7 +418,7 @@
   {
     "id": 27,
     "difficulty": 4,
-    "difficulty_label": "Avancé",
+    "difficulty_label": "expert",
     "category": "Limites",
     "question": "Qu'est-ce que la « fenêtre de contexte » (context window) d'un LLM, et quelle est sa conséquence principale ?",
     "options": [
@@ -434,7 +434,7 @@
   {
     "id": 28,
     "difficulty": 4,
-    "difficulty_label": "Avancé",
+    "difficulty_label": "expert",
     "category": "Capacités",
     "question": "Qu'est-ce que le RAG (Retrieval-Augmented Generation) et quel problème résout-il ?",
     "options": [
@@ -450,7 +450,7 @@
   {
     "id": 29,
     "difficulty": 4,
-    "difficulty_label": "Avancé",
+    "difficulty_label": "expert",
     "category": "Dangers",
     "question": "Qu'est-ce que l'« automation bias » et pourquoi est-il dangereux ?",
     "options": [
@@ -466,7 +466,7 @@
   {
     "id": 30,
     "difficulty": 4,
-    "difficulty_label": "Avancé",
+    "difficulty_label": "expert",
     "category": "Capacités",
     "question": "Qu'est-ce qu'un « agent IA » (AI agent) ?",
     "options": [
@@ -482,7 +482,7 @@
   {
     "id": 31,
     "difficulty": 4,
-    "difficulty_label": "Avancé",
+    "difficulty_label": "expert",
     "category": "Éthique & société",
     "question": "Qu'est-ce que le « problème d'alignement » en IA ?",
     "options": [
@@ -498,7 +498,7 @@
   {
     "id": 32,
     "difficulty": 4,
-    "difficulty_label": "Avancé",
+    "difficulty_label": "expert",
     "category": "Limites",
     "question": "Qu'est-ce que le phénomène de « catastrophic forgetting » dans les réseaux de neurones ?",
     "options": [
@@ -514,7 +514,7 @@
   {
     "id": 33,
     "difficulty": 4,
-    "difficulty_label": "Avancé",
+    "difficulty_label": "expert",
     "category": "Dangers",
     "question": "Qu'est-ce qu'une attaque par « prompt injection » contre un agent IA ?",
     "options": [
@@ -530,7 +530,7 @@
   {
     "id": 34,
     "difficulty": 4,
-    "difficulty_label": "Avancé",
+    "difficulty_label": "expert",
     "category": "Capacités",
     "question": "Qu'est-ce que le « fine-tuning » d'un modèle de langage ?",
     "options": [
@@ -546,7 +546,7 @@
   {
     "id": 35,
     "difficulty": 4,
-    "difficulty_label": "Avancé",
+    "difficulty_label": "expert",
     "category": "Éthique & société",
     "question": "Que signifie le concept de « IA ouverte » (open-source AI) et quels sont ses enjeux ?",
     "options": [
@@ -562,7 +562,7 @@
   {
     "id": 36,
     "difficulty": 5,
-    "difficulty_label": "Expert",
+    "difficulty_label": "expert",
     "category": "Éthique & société",
     "question": "Pourquoi un LLM peine-t-il à effectuer un raisonnement causal fiable, malgré d'excellentes performances en langage ?",
     "options": [
@@ -578,7 +578,7 @@
   {
     "id": 37,
     "difficulty": 5,
-    "difficulty_label": "Expert",
+    "difficulty_label": "expert",
     "category": "Capacités",
     "question": "Qu'est-ce que l'architecture Transformer, qui est à la base des LLMs modernes ?",
     "options": [
@@ -594,7 +594,7 @@
   {
     "id": 38,
     "difficulty": 5,
-    "difficulty_label": "Expert",
+    "difficulty_label": "expert",
     "category": "Limites",
     "question": "Qu'est-ce que le problème de la « généralisation hors distribution » (out-of-distribution generalization) pour les modèles d'IA ?",
     "options": [
@@ -610,7 +610,7 @@
   {
     "id": 39,
     "difficulty": 5,
-    "difficulty_label": "Expert",
+    "difficulty_label": "expert",
     "category": "Dangers",
     "question": "Qu'est-ce que le risque dit de « course to the bottom » dans le développement compétitif de l'IA ?",
     "options": [
@@ -626,7 +626,7 @@
   {
     "id": 40,
     "difficulty": 5,
-    "difficulty_label": "Expert",
+    "difficulty_label": "expert",
     "category": "Éthique & société",
     "question": "Que désigne le concept d'« AGI » (Artificial General Intelligence) et pourquoi son éventuelle émergence est-elle débattue ?",
     "options": [
