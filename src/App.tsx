@@ -2,10 +2,32 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
+import Onboarding from './components/Onboarding'
+import LoginScreen from './components/LoginScreen'
 import './App.css'
+
+const ONBOARDING_KEY = 'onboardingDone'
 
 function App() {
   const [count, setCount] = useState(0)
+  // L'onboarding ne s'affiche qu'à la première visite : on mémorise dans localStorage.
+  const [onboardingDone, setOnboardingDone] = useState(
+    () => localStorage.getItem(ONBOARDING_KEY) === 'true',
+  )
+  const [loggedIn, setLoggedIn] = useState(false)
+
+  const finishOnboarding = () => {
+    localStorage.setItem(ONBOARDING_KEY, 'true')
+    setOnboardingDone(true)
+  }
+
+  if (!onboardingDone) {
+    return <Onboarding onFinish={finishOnboarding} />
+  }
+
+  if (!loggedIn) {
+    return <LoginScreen onLogin={() => setLoggedIn(true)} />
+  }
 
   return (
     <>
