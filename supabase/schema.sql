@@ -16,7 +16,8 @@ create extension if not exists "pgcrypto";
 -- ----------------------------------------------------------------------------
 
 -- Rôle applicatif d'un utilisateur.
-create type user_role as enum ('user', 'admin');
+-- manager : reçoit l'alerte hebdo anonyme de son service, voit les stats agrégées.
+create type user_role as enum ('user', 'manager', 'admin');
 
 -- Niveau de compétence (ordre croissant : beginner < curious < expert).
 -- NB : voir la note en bas du fichier sur le mapping depuis questions.json.
@@ -60,9 +61,10 @@ create table users (
   job_title      varchar(150),
   declared_level skill_level  not null,           -- choisi à l'inscription, modifiable
   current_level  skill_level  not null,           -- évolue automatiquement (logique adaptative)
-  total_score    int          not null default 0,
-  created_at     timestamptz  not null default now(),
-  updated_at     timestamptz  not null default now()
+  total_score             int          not null default 0,
+  last_reminder_sent_at   timestamptz,                    -- dernier rappel lundi envoyé
+  created_at              timestamptz  not null default now(),
+  updated_at              timestamptz  not null default now()
 );
 
 -- quiz_sessions ─ Sessions hebdomadaires (weekly) ou manuelles (custom).
@@ -225,6 +227,55 @@ join services s on s.id = u.service_id
 where date(uqs.completed_at) = current_date
   and uqs.status = 'completed'
 group by u.id, u.first_name, u.last_name, u.service_id, s.name;
+
+-- ----------------------------------------------------------------------------
+-- 6. Vue : stats anonymes par service (pour l'alerte managériale)
+-- ----------------------------------------------------------------------------
+create view service_stats as
+select
+  s.id                                                        as service_id,
+  s.name                                                      as service_name,
+  count(distinct u.id)                                        as total_users,
+  count(distinct uqs.id) filter (where uqs.status = 'completed') as sessions_completed,
+  round(avg(uqs.success_rate) filter (where uqs.status = 'completed')::numeric, 2)
+                                                              as avg_success_rate,
+  count(distinct u.id) filter (where u.current_level = 'beginner') as count_beginner,
+  count(distinct u.id) filter (where u.current_level = 'curious')  as count_curious,
+  count(distinct u.id) filter (where u.current_level = 'expert')   as count_expert
+from services s
+left join users u             on u.service_id = s.id
+left join user_quiz_sessions uqs on uqs.user_id = u.id
+group by s.id, s.name;
+
+-- ============================================================================
+--  NOTE — Emails (Resend + Supabase Edge Functions + pg_cron)
+-- ============================================================================
+--
+--  2 types d'emails automatiques déclenchés chaque lundi à 8h via pg_cron :
+--
+--  A) Relance inter-session (→ tous les users actifs)
+--     Contenu : rang actuel du user + message d'accroche selon son niveau
+--     Condition : last_reminder_sent_at IS NULL
+--                 OR last_reminder_sent_at < now() - interval '6 days'
+--     Après envoi : UPDATE users SET last_reminder_sent_at = now()
+--
+--  B) Alerte managériale anonyme (→ users avec role = 'manager')
+--     Contenu : stats agrégées de leur service via la vue service_stats
+--     (aucun nom, aucune donnée individuelle — uniquement moyennes et comptages)
+--
+--  Setup :
+--    1. Créer un compte Resend (resend.com) → récupérer l'API key
+--    2. Ajouter RESEND_API_KEY dans Supabase → Project Settings → Edge Functions → Secrets
+--    3. Créer 2 Edge Functions : send-weekly-reminder / send-manager-alert
+--    4. Activer pg_cron : Database → Extensions → pg_cron
+--    5. Planifier via SQL :
+--         select cron.schedule('weekly-emails', '0 8 * * 1',
+--           $$select net.http_post(
+--             url := 'https://<project>.supabase.co/functions/v1/send-weekly-reminder',
+--             headers := '{"Authorization": "Bearer <anon-key>"}'
+--           )$$);
+--
+-- ============================================================================
 
 -- ============================================================================
 --  NOTE — Niveaux : 3 (spec) vs 5 (questions.json)
