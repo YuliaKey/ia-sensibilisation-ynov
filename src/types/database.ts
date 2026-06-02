@@ -38,12 +38,12 @@ export interface Database {
           created_at: string
           updated_at: string
         }
-        // role a un défaut ('user') et last_reminder_sent_at est nullable → optionnels.
+        // role a un défaut ('user'), job_title/last_reminder_sent_at sont nullables → optionnels.
         Insert: Omit<
           Database['public']['Tables']['users']['Row'],
-          'total_score' | 'created_at' | 'updated_at' | 'role' | 'last_reminder_sent_at'
+          'total_score' | 'created_at' | 'updated_at' | 'role' | 'job_title' | 'last_reminder_sent_at'
         > &
-          Partial<Pick<Database['public']['Tables']['users']['Row'], 'role' | 'last_reminder_sent_at'>>
+          Partial<Pick<Database['public']['Tables']['users']['Row'], 'role' | 'job_title' | 'last_reminder_sent_at'>>
         Update: Partial<Omit<Database['public']['Tables']['users']['Row'], 'id' | 'created_at' | 'updated_at'>>
         Relationships: []
       }

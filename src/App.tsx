@@ -1,19 +1,20 @@
 import { useState } from 'react'
 import { useAuth } from './contexts/AuthContext'
 import Onboarding from './components/Onboarding'
+import CreateAccount from './components/CreateAccount'
 import LoginScreen from './components/LoginScreen'
 import PrivacyPolicy from './components/PrivacyPolicy'
-import ProfileSetup from './components/ProfileSetup'
 import Quiz from './components/Quiz'
 import './App.css'
 
 const ONBOARDING_KEY = 'onboardingDone'
 
 function App() {
-  const { session, profile, loading } = useAuth()
+  const { session, loading } = useAuth()
   const [onboardingDone, setOnboardingDone] = useState(
     () => localStorage.getItem(ONBOARDING_KEY) === 'true',
   )
+  const [showLogin, setShowLogin]   = useState(false)
   const [showPrivacy, setShowPrivacy] = useState(false)
 
   const finishOnboarding = () => {
@@ -38,12 +39,15 @@ function App() {
   }
 
   if (!session) {
-    return <LoginScreen onShowPrivacy={() => setShowPrivacy(true)} />
-  }
-
-  // Connecté mais sans profil public.users → création de profil.
-  if (!profile) {
-    return <ProfileSetup />
+    if (showLogin) {
+      return (
+        <LoginScreen
+          onShowPrivacy={() => setShowPrivacy(true)}
+          onBack={() => setShowLogin(false)}
+        />
+      )
+    }
+    return <CreateAccount onLogin={() => setShowLogin(true)} />
   }
 
   return <Quiz />

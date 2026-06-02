@@ -1,0 +1,307 @@
+.create-account {
+  min-height: 100vh;
+  background: #F7F4EE;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--sans);
+  box-sizing: border-box;
+}
+
+/* ── Header ── */
+.create-account__header {
+  background: #F7F4EE;
+  padding: 16px 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-account__logo {
+  font-size: 18px;
+  font-weight: 800;
+  font-style: italic;
+  color: #0a0a0a;
+  letter-spacing: -0.5px;
+  margin-bottom: 16px;
+}
+
+.create-account__tabs {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.create-account__tab {
+  flex: 1;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: #9ca3af;
+  padding-bottom: 12px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.create-account__tab--active {
+  color: #0a0a0a;
+  font-weight: 600;
+}
+
+.create-account__progress {
+  display: flex;
+  width: 100%;
+  gap: 4px;
+  margin-top: 0;
+}
+
+.create-account__progress-seg {
+  flex: 1;
+  height: 3px;
+  border-radius: 999px;
+  background: #e5e7eb;
+}
+
+.create-account__progress-seg--active {
+  background: #0a0a0a;
+}
+
+/* ── Body ── */
+.create-account__body {
+  flex: 1;
+  padding: 40px 24px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.create-account__heading {
+  font-size: 40px;
+  font-weight: 900;
+  color: #0a0a0a;
+  letter-spacing: -1.5px;
+  margin: 0 0 8px;
+  line-height: 1.1;
+}
+
+.create-account__subtitle {
+  font-size: 15px;
+  color: #9ca3af;
+  margin: 0 0 32px;
+}
+
+/* ── Fields ── */
+.create-account__fields {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.create-account__input {
+  width: 100%;
+  padding: 18px 20px;
+  background: #EAEAF2;
+  border: none;
+  border-radius: 16px;
+  font-size: 16px;
+  color: #0a0a0a;
+  outline: none;
+  box-sizing: border-box;
+  font-family: var(--sans);
+  transition: background 0.15s;
+}
+
+.create-account__input::placeholder { color: #9ca3af; }
+.create-account__input:focus { background: #E0E0EE; }
+
+.create-account__select {
+  width: 100%;
+  padding: 18px 20px;
+  background: #EAEAF2;
+  border: none;
+  border-radius: 16px;
+  font-size: 16px;
+  color: #0a0a0a;
+  outline: none;
+  box-sizing: border-box;
+  font-family: var(--sans);
+  appearance: none;
+  cursor: pointer;
+}
+.create-account__select:focus { background: #E0E0EE; }
+
+/* Level selector */
+.create-account__levels {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.create-account__level {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 20px;
+  background: #EAEAF2;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background 0.15s;
+  border: 2px solid transparent;
+}
+.create-account__level:hover:not(.create-account__level--active) { background: #E0E0EE; }
+.create-account__level--active,
+.create-account__level--active:hover {
+  background: #0a0a0a !important;
+  border-color: #0a0a0a;
+  color: #fff;
+}
+.create-account__level--active .create-account__level-name,
+.create-account__level--active .create-account__level-desc { color: #fff; }
+
+.create-account__level-emoji {
+  font-size: 28px;
+  flex-shrink: 0;
+  width: 36px;
+  text-align: center;
+}
+
+.create-account__level-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #0a0a0a;
+}
+.create-account__level-desc {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+/* ── Service grid ── */
+.create-account__service-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  flex: 1;
+}
+
+.create-account__service-btn {
+  padding: 32px 12px;
+  background: #EAEAF2;
+  border: 2px solid transparent;
+  border-radius: 16px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #0a0a0a;
+  cursor: pointer;
+  text-align: center;
+  line-height: 1.3;
+  transition: background 0.15s, border-color 0.15s;
+  min-height: 80px;
+}
+.create-account__service-btn:hover:not(.create-account__service-btn--active) { background: #E0E0EE; }
+.create-account__service-btn--active,
+.create-account__service-btn--active:hover {
+  background: #0a0a0a !important;
+  color: #fff !important;
+  border-color: #0a0a0a;
+}
+
+/* ── Avatar (step 4) ── */
+.create-account__avatar-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+  margin-top: 16px;
+}
+
+.create-account__avatar {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: #D9D9D9;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-account__avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.create-account__avatar-placeholder {
+  width: 100%;
+  height: 100%;
+}
+
+.create-account__avatar-add {
+  position: absolute;
+  bottom: calc(50% - 130px);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #0a0a0a;
+  color: #fff;
+  border: none;
+  font-size: 24px;
+  font-weight: 300;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* ── Error ── */
+.create-account__error {
+  font-size: 13px;
+  color: #ef4444;
+  margin: 8px 0 0;
+}
+
+/* ── Footer ── */
+.create-account__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 24px 36px;
+}
+
+.create-account__back {
+  background: none;
+  border: none;
+  font-size: 22px;
+  color: #0a0a0a;
+  cursor: pointer;
+  padding: 8px;
+  line-height: 1;
+}
+.create-account__back:disabled { opacity: 0.2; cursor: default; }
+
+.create-account__next {
+  flex: 1;
+  margin-left: 16px;
+  padding: 16px;
+  background: transparent;
+  border: 2px solid #d1d5db;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #9ca3af;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.create-account__next:hover:not(.create-account__next--filled) {
+  border-color: #9ca3af;
+}
+.create-account__next:disabled { opacity: 0.5; cursor: default; }
+.create-account__next--filled {
+  background: #0a0a0a;
+  color: #fff;
+  border-color: #0a0a0a;
+}
