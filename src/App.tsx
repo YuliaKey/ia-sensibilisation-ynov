@@ -3,13 +3,14 @@ import { useAuth } from './contexts/AuthContext'
 import Onboarding from './components/Onboarding'
 import LoginScreen from './components/LoginScreen'
 import PrivacyPolicy from './components/PrivacyPolicy'
+import ProfileSetup from './components/ProfileSetup'
 import Quiz from './components/Quiz'
 import './App.css'
 
 const ONBOARDING_KEY = 'onboardingDone'
 
 function App() {
-  const { session, loading } = useAuth()
+  const { session, profile, loading } = useAuth()
   const [onboardingDone, setOnboardingDone] = useState(
     () => localStorage.getItem(ONBOARDING_KEY) === 'true',
   )
@@ -38,6 +39,11 @@ function App() {
 
   if (!session) {
     return <LoginScreen onShowPrivacy={() => setShowPrivacy(true)} />
+  }
+
+  // Connecté mais sans profil public.users → création de profil.
+  if (!profile) {
+    return <ProfileSetup />
   }
 
   return <Quiz />

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import questionsData from '../assets/questions-conseil-strategie.json'
-import { BASE_POINTS, TEST_USER_ID, getUserLevel, saveQuizResult } from '../lib/quizResults'
+import { useAuth } from '../contexts/AuthContext'
+import { BASE_POINTS, getUserLevel, saveQuizResult } from '../lib/quizResults'
 import './Quiz.css'
 
 type SkillLevel = 'beginner' | 'curious' | 'expert'
@@ -53,6 +54,10 @@ function buildSeries(level: SkillLevel): Question[] {
 }
 
 function Quiz() {
+  // Utilisateur authentifié (App ne rend le Quiz que si une session existe).
+  const { session } = useAuth()
+  const userId = session?.user.id
+
   // Niveau de l'utilisateur, récupéré dynamiquement depuis la base.
   const [level, setLevel] = useState<SkillLevel | null>(null)
   const [loading, setLoading] = useState(true)
@@ -86,31 +91,34 @@ function Quiz() {
     setLoading(false)
   }
 
-  // Au montage : récupère le niveau du user puis lance la première série.
+  // Au montage (et si l'utilisateur change) : récupère son niveau puis lance une série.
   useEffect(() => {
+    if (!userId) return
     let cancelled = false
-    getUserLevel(TEST_USER_ID).then(({ level: lvl }) => {
+    getUserLevel(userId).then(({ level: lvl }) => {
       if (!cancelled) applyLevelAndStart(lvl)
     })
     return () => {
       cancelled = true
     }
-    // Effet de montage uniquement : on charge le niveau une seule fois.
+    // On ne dépend que de l'utilisateur : recharge le niveau quand il change.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  }, [userId])
 
   // Nouvelle série : on relit le niveau (il a pu évoluer via la logique adaptative).
   const startNewSeries = () => {
+    if (!userId) return
     setLoading(true)
-    getUserLevel(TEST_USER_ID).then(({ level: lvl }) => applyLevelAndStart(lvl))
+    getUserLevel(userId).then(({ level: lvl }) => applyLevelAndStart(lvl))
   }
 
   // Termine la série : affiche les résultats et enregistre le score en base.
   const finishQuiz = async (correctCount: number) => {
+    if (!userId) return
     setFinished(true)
     setSaveState('saving')
     const { error } = await saveQuizResult({
-      userId: TEST_USER_ID,
+      userId,
       level: level ?? 'beginner',
       correctCount,
       totalCount: questions.length,

@@ -4,11 +4,6 @@ import type { SkillLevel } from '../types/database'
 // Points attribués par bonne réponse (aligné sur questions.base_points par défaut).
 export const BASE_POINTS = 10
 
-// Utilisateur de test en dur (en attendant l'authentification).
-// UUID d'un utilisateur existant dans public.users (Alice Martin).
-// Remplaçable par n'importe quel autre id de la table.
-export const TEST_USER_ID = '785461a7-d4ad-41c1-b428-0727c0fb221a'
-
 // Ordre des niveaux pour la logique adaptative.
 const LEVELS: SkillLevel[] = ['beginner', 'curious', 'expert']
 

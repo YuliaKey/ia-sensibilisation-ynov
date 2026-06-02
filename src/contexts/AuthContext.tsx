@@ -9,7 +9,7 @@ type UserProfile = Database['public']['Tables']['users']['Row']
 type ProfileData = {
   first_name: string
   last_name: string
-  service_id: string
+  service_id: string | null
   job_title: string
   declared_level: SkillLevel
 }
@@ -78,6 +78,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const { error } = await supabase.from('users').insert({
       id: session.user.id,
       ...data,
+      service_id: data.service_id ?? null, // service optionnel
       current_level: data.declared_level, // niveau initial = niveau déclaré
     })
 
@@ -92,6 +93,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   )
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export function useAuth() {
   const ctx = useContext(AuthContext)
   if (!ctx) throw new Error('useAuth doit être utilisé dans un AuthProvider')
