@@ -112,3 +112,25 @@
 .privacy__cta:hover {
   background: #1d4fd8;
 }
+
+/* ===== Desktop : fond clair de la maquette + carte plus large ===== */
+@media (min-width: 900px) {
+  .privacy {
+    background: linear-gradient(to bottom left, #efe7fb 0%, #fafbf7 48%, #e7f6e6 100%);
+  }
+
+  .privacy__card {
+    max-width: 780px;
+    border-radius: 28px;
+    box-shadow: 0 24px 70px rgba(80, 60, 120, 0.12);
+  }
+
+  /* Bouton pilule sombre comme la maquette */
+  .privacy__cta {
+    background: #2a2f3a;
+  }
+
+  .privacy__cta:hover {
+    background: #1c2029;
+  }
+}

@@ -2,11 +2,12 @@ import { useEffect, useState } from 'react'
 import questionsData from '../assets/questions-conseil-strategie.json'
 import { useAuth } from '../contexts/AuthContext'
 import { BASE_POINTS, getUserLevel, saveQuizResult } from '../lib/quizResults'
+import BottomNav from './BottomNav'
+import type { AppView } from './BottomNav'
 import './Quiz.css'
 
 type SkillLevel = 'beginner' | 'curious' | 'expert'
 
-type SaveState = 'idle' | 'saving' | 'saved' | 'error'
 
 type Question = {
   id: number
@@ -53,10 +54,15 @@ function buildSeries(level: SkillLevel): Question[] {
   return shuffle(pool).slice(0, SERIES_SIZE).map(shuffleOptions)
 }
 
-function Quiz() {
+type QuizProps = {
+  onNavigate: (view: AppView) => void
+}
+
+function Quiz({ onNavigate }: QuizProps) {
   // Utilisateur authentifié (App ne rend le Quiz que si une session existe).
-  const { session } = useAuth()
+  const { session, profile } = useAuth()
   const userId = session?.user.id
+  const firstName = profile?.first_name ?? ''
 
   // Niveau de l'utilisateur, récupéré dynamiquement depuis la base.
   const [level, setLevel] = useState<SkillLevel | null>(null)
@@ -70,7 +76,7 @@ function Quiz() {
   const [validated, setValidated] = useState(false)
   const [score, setScore] = useState(0)
   const [finished, setFinished] = useState(false)
-  const [saveState, setSaveState] = useState<SaveState>('idle')
+  const [showExplanation, setShowExplanation] = useState(false)
 
   // Démarre une série pour un niveau donné et réinitialise l'état du quiz.
   const startSeries = (lvl: SkillLevel) => {
@@ -80,7 +86,6 @@ function Quiz() {
     setValidated(false)
     setScore(0)
     setFinished(false)
-    setSaveState('idle')
   }
 
   // Applique le niveau lu en base et démarre une série (défaut 'beginner').
@@ -116,14 +121,12 @@ function Quiz() {
   const finishQuiz = async (correctCount: number) => {
     if (!userId) return
     setFinished(true)
-    setSaveState('saving')
-    const { error } = await saveQuizResult({
+    await saveQuizResult({
       userId,
       level: level ?? 'beginner',
       correctCount,
       totalCount: questions.length,
     })
-    setSaveState(error ? 'error' : 'saved')
   }
 
   const question = questions[index]
@@ -148,6 +151,7 @@ function Quiz() {
     setIndex((i) => i + 1)
     setSelected(null)
     setValidated(false)
+    setShowExplanation(false)
   }
 
   // Chargement du niveau de l'utilisateur.
@@ -176,34 +180,132 @@ function Quiz() {
 
   // Écran de résultats.
   if (finished) {
+    const total = questions.length
+    const ratio = total > 0 ? score / total : 0
+    // Jauge : arc de 270° (¾ du cercle), rempli proportionnellement au score.
+    const GAUGE_R = 42
+    const GAUGE_C = 2 * Math.PI * GAUGE_R
+    const trackLen = GAUGE_C * 0.75
+    const filledLen = trackLen * ratio
     return (
       <div className="quiz">
+        <header className="quiz__brand">
+          <span className="quiz__logo">
+            <span className="quiz__spark">✦&nbsp;</span>prisme
+          </span>
+        </header>
+
+        <div className="quiz__top">
+          <span className="quiz__toplogo">prisme</span>
+          <button
+            type="button"
+            className="quiz__close"
+            onClick={startNewSeries}
+            aria-label="Fermer"
+          >
+            ✕
+          </button>
+        </div>
+        <div className="quiz__tab">Résultat</div>
+
         <div className="quiz__card">
           <div className="quiz__result">
-            <h1 className="quiz__result-title">Quiz terminé&nbsp;!</h1>
-            <p className="quiz__result-score">
-              {score} / {questions.length} bonnes réponses
-            </p>
+            <div className="quiz__gauge">
+              <svg className="quiz__gauge-svg" viewBox="0 0 100 100">
+                <defs>
+                  <linearGradient id="gaugeGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+                    <stop offset="0%" stopColor="#ef4444" />
+                    <stop offset="55%" stopColor="#fbbf24" />
+                    <stop offset="100%" stopColor="#22c55e" />
+                  </linearGradient>
+                </defs>
+                <circle
+                  className="quiz__gauge-track"
+                  cx="50"
+                  cy="50"
+                  r={GAUGE_R}
+                  style={{ strokeDasharray: `${trackLen} ${GAUGE_C}` }}
+                />
+                <circle
+                  className="quiz__gauge-value"
+                  cx="50"
+                  cy="50"
+                  r={GAUGE_R}
+                  style={{ strokeDasharray: `${filledLen} ${GAUGE_C}` }}
+                />
+              </svg>
+              <div className="quiz__gauge-center">
+                <span className="quiz__gauge-score">{score}</span>
+                <span className="quiz__gauge-total">/ {total}</span>
+              </div>
+            </div>
+
+            <h1 className="quiz__result-title">
+              Bravo{firstName ? `, ${firstName}` : ''}&nbsp;!
+            </h1>
+
+            {ratio >= 0.7 && (
+              <span className="quiz__badge">Top 15% de ton entreprise</span>
+            )}
+
             <p className="quiz__result-points">+{score * BASE_POINTS} points</p>
 
-            <p className="quiz__save-state">
-              {saveState === 'saving' && 'Enregistrement…'}
-              {saveState === 'saved' && '✓ Score enregistré'}
-              {saveState === 'error' && '⚠ Score non enregistré (hors ligne)'}
-            </p>
-
-            <button type="button" className="quiz__cta" onClick={startNewSeries}>
-              Nouvelle série
+            <button
+              type="button"
+              className="quiz__cta quiz__cta--pink"
+              onClick={startNewSeries}
+            >
+              Revenir à l'accueil
+            </button>
+            <button
+              type="button"
+              className="quiz__link"
+              onClick={() => onNavigate('history')}
+            >
+              ☰ Historique
             </button>
           </div>
         </div>
+
+        <BottomNav active="quiz" onNavigate={onNavigate} />
       </div>
     )
   }
 
   return (
     <div className="quiz">
+      {/* En-tête marque (desktop uniquement) */}
+      <header className="quiz__brand">
+        <span className="quiz__logo">
+          <span className="quiz__spark">✦&nbsp;</span>prisme
+        </span>
+      </header>
+
+      {/* En-tête mobile : logo + fermer */}
+      <div className="quiz__top">
+        <span className="quiz__toplogo">prisme</span>
+        <button
+          type="button"
+          className="quiz__close"
+          onClick={startNewSeries}
+          aria-label="Fermer la session"
+        >
+          ✕
+        </button>
+      </div>
+      <div className="quiz__tab">Quiz</div>
+
       <div className="quiz__card">
+        {/* Barre de progression segmentée (desktop uniquement) */}
+        <div className="quiz__bar" aria-hidden="true">
+          {questions.map((_, i) => (
+            <span
+              key={i}
+              className={'quiz__seg' + (i <= index ? ' quiz__seg--done' : '')}
+            />
+          ))}
+        </div>
+
         <header className="quiz__header">
           <span className="quiz__progress">
             Question {index + 1} / {questions.length}
@@ -211,6 +313,7 @@ function Quiz() {
           <span className="quiz__category">{question.category}</span>
         </header>
 
+        <p className="quiz__qnum">Question {index + 1}</p>
         <h2 className="quiz__question">{question.question}</h2>
 
         <ul className="quiz__options">
@@ -240,18 +343,58 @@ function Quiz() {
         </ul>
 
         {validated && (
+          <button
+            type="button"
+            className="quiz__explain-toggle"
+            onClick={() => setShowExplanation((v) => !v)}
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7z" />
+            </svg>
+            Explications
+          </button>
+        )}
+
+        {validated && showExplanation && (
           <div
             className={
               'quiz__feedback ' +
               (isCorrect ? 'quiz__feedback--ok' : 'quiz__feedback--ko')
             }
           >
-            <strong>{isCorrect ? 'Bonne réponse !' : 'Mauvaise réponse.'}</strong>
+            <div className="quiz__feedback-head">
+              <strong>{isCorrect ? 'Bonne réponse !' : 'Mauvaise réponse'}</strong>
+              <button
+                type="button"
+                className="quiz__feedback-close"
+                onClick={() => setShowExplanation(false)}
+                aria-label="Fermer"
+              >
+                ✕
+              </button>
+            </div>
             <p>{question.explanation}</p>
           </div>
         )}
 
         <footer className="quiz__footer">
+          <button
+            type="button"
+            className="quiz__back"
+            onClick={() => {
+              if (index > 0) {
+                setIndex((i) => i - 1)
+                setSelected(null)
+                setValidated(false)
+                setShowExplanation(false)
+              }
+            }}
+            disabled={index === 0}
+            aria-label="Question précédente"
+          >
+            ←
+          </button>
+
           {!validated ? (
             <button
               type="button"
@@ -263,11 +406,13 @@ function Quiz() {
             </button>
           ) : (
             <button type="button" className="quiz__cta" onClick={handleNext}>
-              {isLast ? 'Voir les résultats' : '→'}
+              {isLast ? 'Voir les résultats' : 'Question suivante'}
             </button>
           )}
         </footer>
       </div>
+
+      <BottomNav active="quiz" onNavigate={onNavigate} />
     </div>
   )
 }
