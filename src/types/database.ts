@@ -1,12 +1,12 @@
 // Types générés manuellement — remplacer par `npx supabase gen types typescript` une fois le projet créé
 
-export type SkillLevel = 'debutant' | 'curieux' | 'expert'
-export type UserRole = 'user' | 'manager' | 'admin'
-export type SessionType = 'weekly' | 'custom'
+export type SkillLevel    = 'beginner' | 'curious' | 'expert'
+export type UserRole      = 'user' | 'manager'
+export type SessionType   = 'weekly' | 'custom'
 export type SessionStatus = 'pending' | 'active' | 'closed'
-export type AttemptStatus = 'in_progress' | 'completed'
-export type QuestionType = 'multiple_choice' | 'scenario'
-export type QuestionTheme = 'benefits' | 'risks' | 'limits'
+export type AttemptStatus = 'in_progress' | 'completed' | 'abandoned'
+export type QuestionType  = 'single_choice' | 'multiple_choice' | 'true_false'
+export type QuestionTheme = 'capacites' | 'limites' | 'dangers' | 'ethique_societe'
 
 export interface Database {
   public: {
@@ -43,7 +43,6 @@ export interface Database {
         Row: {
           id: string
           title: string
-          access_code: string | null
           created_by: string | null
           difficulty_level: SkillLevel
           type: SessionType
@@ -97,7 +96,7 @@ export interface Database {
           quiz_session_id: string
           score: number
           success_rate: number | null
-          level_snapshot: SkillLevel | null
+          level_snapshot: SkillLevel
           status: AttemptStatus
           started_at: string
           completed_at: string | null
@@ -110,7 +109,7 @@ export interface Database {
           id: string
           user_quiz_session_id: string
           question_id: string
-          answer_option_id: string
+          answer_option_id: string | null
           is_correct: boolean
           points_earned: number
           answered_at: string
@@ -130,6 +129,18 @@ export interface Database {
           daily_score: number
           global_rank: number
           service_rank: number
+        }
+      }
+      service_stats: {
+        Row: {
+          service_id: string
+          service_name: string
+          total_users: number
+          sessions_completed: number
+          avg_success_rate: number | null
+          count_beginner: number
+          count_curious: number
+          count_expert: number
         }
       }
     }
