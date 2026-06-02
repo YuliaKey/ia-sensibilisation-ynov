@@ -1,28 +1,22 @@
+/* ===========================================================================
+   MOBILE (base) — design d'origine : fond crème, carte carrée, points, flèche
+   =========================================================================== */
 .onb {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
   min-height: 100vh;
   padding: 24px;
-  background: #FAFBF7;
+  background: #fafbf7;
   box-sizing: border-box;
 }
 
-.onb__screen {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 360px;
-  min-height: 600px;
-  box-sizing: border-box;
-}
-
-/* Barre du haut : logo + Passer */
 .onb__top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 24px;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
 }
 
 .onb__logo {
@@ -32,6 +26,16 @@
   letter-spacing: -0.5px;
   color: #1f2430;
   margin: 0% 40%;
+}
+
+/* ✦ : masqué en mobile */
+.onb__spark {
+  display: none;
+  font-style: normal;
+  background: linear-gradient(135deg, #8b5cf6, #22d3ee 60%, #f59e0b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .onb__skip {
@@ -46,14 +50,55 @@
   color: #5a606b;
 }
 
+.onb__main {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Barre de progression + label étape : masqués en mobile */
+.onb__progress {
+  display: none;
+  gap: 6px;
+  width: 100%;
+}
+
+.onb__seg {
+  flex: 1;
+  height: 6px;
+  border-radius: 999px;
+  background: #e4e2ec;
+  transition: background 0.25s ease;
+}
+
+.onb__seg--done {
+  background: linear-gradient(90deg, #8b5cf6, #3b82f6, #22d3ee, #f59e0b);
+}
+
+.onb__step {
+  display: none;
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #8a8f99;
+}
+
+/* Titre mobile : « Bienvenue ! » (le 👋 est masqué) */
 .onb__welcome {
   margin: 24px;
   text-align: center;
   font-size: 20px;
+  font-weight: 400;
   color: #3a3f4a;
 }
 
-/* Carte illustration */
+.onb__wave {
+  display: none;
+  font-style: normal;
+}
+
 .onb__illu {
   display: flex;
   align-items: center;
@@ -63,12 +108,6 @@
   border-radius: 20px;
 }
 
-.onb__emoji {
-  font-size: 110px;
-  line-height: 1;
-  filter: drop-shadow(0 10px 12px rgba(0, 0, 0, 0.18));
-}
-
 .onb__img {
   width: 60%;
   height: 60%;
@@ -76,8 +115,6 @@
   filter: drop-shadow(0 10px 12px rgba(0, 0, 0, 0.18));
 }
 
-/* Légende : zone de hauteur fixe (~3 lignes) qui centre le texte vertical et
-   horizontal, pour que les points et le bouton ne bougent pas d'un écran à l'autre. */
 .onb__caption-wrap {
   display: flex;
   align-items: center;
@@ -99,13 +136,11 @@
   font-weight: 700;
 }
 
-/* Points de progression */
 .onb__dots {
   display: flex;
   justify-content: center;
   gap: 6px;
   margin: auto 0 24px;
-  padding-top: 24px;
 }
 
 .onb__dot {
@@ -121,7 +156,6 @@
   background: #2a2f3a;
 }
 
-/* Navigation : retour + bouton principal */
 .onb__nav {
   display: flex;
   align-items: center;
@@ -129,14 +163,10 @@
   justify-content: center;
 }
 
-.onb__back,
-.onb__back-spacer {
+/* Bouton retour : simple flèche en mobile (masquée à la 1re étape) */
+.onb__back {
   width: 40px;
   height: 40px;
-  flex-shrink: 0;
-}
-
-.onb__back {
   border: none;
   background: none;
   font-size: 22px;
@@ -144,19 +174,170 @@
   cursor: pointer;
 }
 
+.onb__back:disabled {
+  visibility: hidden;
+}
+
+.onb__back-text {
+  display: none;
+}
+
 .onb__cta {
-    padding: 8px 70px;
-    /* border: none; */
-    border-radius: 100px;
-    background: #2a2f3a;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background 0.2s ease;
-    width: 70%;
+  width: 70%;
+  padding: 8px 70px;
+  border: none;
+  border-radius: 100px;
+  background: #2a2f3a;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
 }
 
 .onb__cta:hover {
   background: #1c2029;
+}
+
+/* ===========================================================================
+   DESKTOP (≥ 900px) — au plus proche de la capture
+   =========================================================================== */
+@media (min-width: 900px) {
+  .onb {
+    padding: 28px 56px 56px;
+    background: linear-gradient(to bottom left, #efe7fb 0%, #fafbf7 48%, #e7f6e6 100%);
+  }
+
+  /* En-tête pleine largeur : logo à gauche, lien à droite */
+  .onb__top {
+    max-width: none;
+    margin: 0;
+  }
+
+  .onb__logo {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .onb__spark {
+    display: inline;
+  }
+
+  .onb__skip {
+    font-size: 15px;
+  }
+
+  /* Colonne étroite centrée, alignée en haut (comme la maquette) */
+  .onb__main {
+    max-width: 520px;
+    flex: none;
+    padding-top: 44px;
+  }
+
+  /* Barre de progression visible, points masqués */
+  .onb__progress {
+    display: flex;
+  }
+
+  .onb__step {
+    display: block;
+  }
+
+  .onb__dots {
+    display: none;
+  }
+
+  /* Grand titre aligné à gauche, gras italique */
+  .onb__welcome {
+    margin: 14px 0 18px;
+    text-align: left;
+    font-size: 38px;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: -1px;
+    color: #1c1c22;
+  }
+
+  .onb__excl {
+    display: none;
+  }
+
+  .onb__wave {
+    display: inline;
+  }
+
+  /* Carte illustration compacte (rectangle horizontal) */
+  .onb__illu {
+    aspect-ratio: auto;
+    height: 220px;
+    border-radius: 24px;
+    box-shadow: 0 18px 45px rgba(80, 60, 120, 0.13);
+  }
+
+  .onb__img {
+    width: auto;
+    height: 96px;
+  }
+
+  .onb__caption-wrap {
+    height: auto;
+    min-height: 48px;
+    margin-top: 18px;
+  }
+
+  .onb__caption {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  /* Navigation : Retour (clair) à gauche, Suivant (sombre) à droite */
+  .onb__nav {
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .onb__back {
+    width: auto;
+    height: auto;
+    padding: 12px 30px;
+    border: 1px solid #e2dfd6;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #6b7280;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  }
+
+  .onb__back:hover:not(:disabled) {
+    background: #f3f1ea;
+  }
+
+  /* À la 1re étape : Retour grisé mais visible (comme la capture) */
+  .onb__back:disabled {
+    visibility: visible;
+    opacity: 0.45;
+    cursor: not-allowed;
+  }
+
+  .onb__back-icon {
+    display: none;
+  }
+
+  .onb__back-text {
+    display: inline;
+  }
+
+  .onb__cta {
+    width: auto;
+    padding: 12px 40px;
+    border-radius: 999px;
+    background: #161616;
+  }
+
+  .onb__cta:hover {
+    background: #000000;
+  }
 }

@@ -1,0 +1,151 @@
+/* ===========================================================================
+   MOBILE (base)
+   =========================================================================== */
+.hist {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding-bottom: 92px; /* place pour la barre de navigation fixe */
+}
+
+.hist__top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 20px 12px;
+}
+
+.hist__logo {
+  font-size: 18px;
+  font-weight: 800;
+  font-style: italic;
+  color: #1f2430;
+}
+
+.hist__spark {
+  font-style: normal;
+  background: linear-gradient(135deg, #8b5cf6, #22d3ee 60%, #f59e0b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hist__title {
+  margin: 8px 22px 2px;
+  font-size: 26px;
+  font-weight: 800;
+  color: #1c1c22;
+}
+
+.hist__subtitle {
+  margin: 0 22px 16px;
+  font-size: 13px;
+  color: #9aa0ab;
+}
+
+.hist__card {
+  flex: 1;
+  padding: 0 18px;
+  box-sizing: border-box;
+}
+
+.hist__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.hist__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 16px;
+  border: 1px solid #eee;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.hist__main {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.hist__date {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1c1c22;
+}
+
+.hist__level {
+  font-size: 12px;
+  color: #9aa0ab;
+}
+
+.hist__stats {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hist__rate {
+  font-size: 14px;
+  font-weight: 700;
+  color: #2563ff;
+}
+
+.hist__points {
+  font-size: 14px;
+  font-weight: 700;
+  color: #16a34a;
+}
+
+.hist__empty {
+  margin: 40px auto;
+  text-align: center;
+  color: #777;
+}
+
+/* ===========================================================================
+   DESKTOP (≥ 900px) — carte centrée sur fond dégradé
+   =========================================================================== */
+@media (min-width: 900px) {
+  .hist {
+    align-items: center;
+    padding: 28px 56px 56px;
+    background: linear-gradient(to bottom left, #efe7fb 0%, #fafbf7 48%, #e7f6e6 100%);
+  }
+
+  .hist__top {
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+  }
+
+  .hist__logo {
+    font-size: 24px;
+  }
+
+  .hist__title,
+  .hist__subtitle {
+    width: 100%;
+    max-width: 640px;
+    text-align: left;
+  }
+
+  .hist__card {
+    flex: none;
+    width: 100%;
+    max-width: 640px;
+    padding: 28px 32px;
+    border-radius: 28px;
+    background: #ffffff;
+    box-shadow: 0 24px 70px rgba(80, 60, 120, 0.12);
+  }
+}

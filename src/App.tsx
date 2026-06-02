@@ -5,6 +5,9 @@ import CreateAccount from './components/CreateAccount'
 import LoginScreen from './components/LoginScreen'
 import PrivacyPolicy from './components/PrivacyPolicy'
 import Quiz from './components/Quiz'
+import Leaderboard from './components/Leaderboard'
+import History from './components/History'
+import type { AppView } from './components/BottomNav'
 import './App.css'
 
 const ONBOARDING_KEY = 'onboardingDone'
@@ -16,6 +19,7 @@ function App() {
   )
   const [showLogin, setShowLogin]   = useState(false)
   const [showPrivacy, setShowPrivacy] = useState(false)
+  const [view, setView] = useState<AppView>('quiz')
 
   const finishOnboarding = () => {
     localStorage.setItem(ONBOARDING_KEY, 'true')
@@ -50,7 +54,15 @@ function App() {
     return <CreateAccount onLogin={() => setShowLogin(true)} />
   }
 
-  return <Quiz />
+  if (view === 'leaderboard') {
+    return <Leaderboard onNavigate={setView} />
+  }
+
+  if (view === 'history') {
+    return <History onNavigate={setView} />
+  }
+
+  return <Quiz onNavigate={setView} />
 }
 
 export default App

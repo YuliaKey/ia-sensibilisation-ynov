@@ -9,7 +9,7 @@ import './Onboarding.css'
 type Step = {
   /** Dégradé de fond de la carte illustration */
   gradient: string
-  /** Illustration : image importée (prioritaire) ou emoji de repli */
+  /** Illustration : image importée */
   image?: string
   /** Légende, avec un fragment en gras */
   caption: ReactNode
@@ -80,15 +80,33 @@ function Onboarding({ onFinish }: OnboardingProps) {
 
   return (
     <div className="onb">
-      <div className="onb__screen">
-        <header className="onb__top">
-          <span className="onb__logo">prisme</span>
-          <button type="button" className="onb__skip" onClick={onFinish}>
-            Passer
-          </button>
-        </header>
+      <header className="onb__top">
+        <span className="onb__logo">
+          <span className="onb__spark">✦&nbsp;</span>prisme
+        </span>
+        <button type="button" className="onb__skip" onClick={onFinish}>
+          Passer
+        </button>
+      </header>
 
-        <p className="onb__welcome">Bienvenue&nbsp;!</p>
+      <main className="onb__main">
+        {/* Barre de progression (desktop uniquement) */}
+        <div className="onb__progress" aria-hidden="true">
+          {STEPS.map((_, i) => (
+            <span
+              key={i}
+              className={'onb__seg' + (i <= index ? ' onb__seg--done' : '')}
+            />
+          ))}
+        </div>
+        <p className="onb__step">
+          Étape {index + 1} / {STEPS.length}
+        </p>
+
+        <h1 className="onb__welcome">
+          Bienvenue<span className="onb__excl">&nbsp;!</span>
+          <span className="onb__wave">&nbsp;👋</span>
+        </h1>
 
         <div className="onb__illu" style={{ background: step.gradient }}>
           <img className="onb__img" src={step.image} alt="" />
@@ -98,6 +116,7 @@ function Onboarding({ onFinish }: OnboardingProps) {
           <p className="onb__caption">{step.caption}</p>
         </div>
 
+        {/* Points de progression (mobile uniquement) */}
         <div className="onb__dots" role="tablist" aria-label="Progression">
           {STEPS.map((_, i) => (
             <span
@@ -108,24 +127,21 @@ function Onboarding({ onFinish }: OnboardingProps) {
         </div>
 
         <div className="onb__nav">
-          {index > 0 ? (
-            <button
-              type="button"
-              className="onb__back"
-              onClick={handleBack}
-              aria-label="Précédent"
-            >
-              ←
-            </button>
-          ) : (
-            <span className="onb__back-spacer" />
-          )}
-
+          <button
+            type="button"
+            className={'onb__back' + (index === 0 ? ' onb__back--first' : '')}
+            onClick={handleBack}
+            disabled={index === 0}
+            aria-label="Précédent"
+          >
+            <span className="onb__back-icon">←</span>
+            <span className="onb__back-text">Retour</span>
+          </button>
           <button type="button" className="onb__cta" onClick={handleNext}>
             {step.cta}
           </button>
         </div>
-      </div>
+      </main>
     </div>
   )
 }

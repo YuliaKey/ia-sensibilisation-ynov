@@ -1,0 +1,150 @@
+/* ===========================================================================
+   MOBILE (base)
+   =========================================================================== */
+.lb {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding-bottom: 92px; /* place pour la barre de navigation fixe */
+}
+
+.lb__top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 20px 12px;
+}
+
+.lb__logo {
+  font-size: 18px;
+  font-weight: 800;
+  font-style: italic;
+  color: #1f2430;
+}
+
+.lb__spark {
+  font-style: normal;
+  background: linear-gradient(135deg, #8b5cf6, #22d3ee 60%, #f59e0b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.lb__title {
+  margin: 8px 22px 2px;
+  font-size: 26px;
+  font-weight: 800;
+  color: #1c1c22;
+}
+
+.lb__subtitle {
+  margin: 0 22px 16px;
+  font-size: 13px;
+  color: #9aa0ab;
+}
+
+.lb__card {
+  flex: 1;
+  padding: 0 18px;
+  box-sizing: border-box;
+}
+
+.lb__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.lb__row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  border: 1px solid #eee;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.lb__row--me {
+  border-color: #2563ff;
+  background: #eef1ff;
+}
+
+.lb__rank {
+  flex-shrink: 0;
+  width: 28px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #6b7280;
+}
+
+.lb__name {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1c1c22;
+}
+
+.lb__you {
+  font-weight: 400;
+  color: #2563ff;
+}
+
+.lb__score {
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #16a34a;
+}
+
+.lb__empty {
+  margin: 40px auto;
+  text-align: center;
+  color: #777;
+}
+
+/* ===========================================================================
+   DESKTOP (≥ 900px) — carte centrée sur fond dégradé
+   =========================================================================== */
+@media (min-width: 900px) {
+  .lb {
+    align-items: center;
+    padding: 28px 56px 56px;
+    background: linear-gradient(to bottom left, #efe7fb 0%, #fafbf7 48%, #e7f6e6 100%);
+  }
+
+  .lb__top {
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+  }
+
+  .lb__logo {
+    font-size: 24px;
+  }
+
+  .lb__title,
+  .lb__subtitle {
+    width: 100%;
+    max-width: 640px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+  }
+
+  .lb__card {
+    flex: none;
+    width: 100%;
+    max-width: 640px;
+    padding: 28px 32px;
+    border-radius: 28px;
+    background: #ffffff;
+    box-shadow: 0 24px 70px rgba(80, 60, 120, 0.12);
+  }
+}
