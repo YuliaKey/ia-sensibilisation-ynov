@@ -1,0 +1,557 @@
+/* ===========================================================================
+   MOBILE (base) — style maquette : fond blanc, options pilule, nav basse
+   =========================================================================== */
+.quiz {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding-bottom: 92px; /* place pour la barre de navigation fixe */
+}
+
+/* En-tête marque desktop : masqué en mobile */
+.quiz__brand {
+  display: none;
+}
+
+.quiz__logo {
+  display: inline-flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: -0.5px;
+  color: #1f2430;
+}
+
+.quiz__spark {
+  font-style: normal;
+  background: linear-gradient(135deg, #8b5cf6, #22d3ee 60%, #f59e0b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Barre segmentée desktop : masquée en mobile */
+.quiz__bar {
+  display: none;
+  gap: 6px;
+}
+
+.quiz__seg {
+  flex: 1;
+  height: 6px;
+  border-radius: 999px;
+  background: #e4e2ec;
+}
+
+.quiz__seg--done {
+  background: linear-gradient(90deg, #8b5cf6, #3b82f6, #22d3ee, #f59e0b);
+}
+
+/* En-tête mobile : logo centré + fermer */
+.quiz__top {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 20px 10px;
+}
+
+.quiz__toplogo {
+  font-size: 18px;
+  font-weight: 800;
+  font-style: italic;
+  color: #1f2430;
+}
+
+.quiz__close {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  font-size: 18px;
+  color: #1f2430;
+  cursor: pointer;
+}
+
+.quiz__tab {
+  position: relative;
+  margin: 0 16px 18px;
+  padding-bottom: 12px;
+  text-align: center;
+  font-size: 15px;
+  color: #4b5563;
+  border-bottom: 1px solid #eee;
+}
+
+.quiz__tab::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -1px;
+  transform: translateX(-50%);
+  width: 56px;
+  height: 2px;
+  background: #1f2430;
+}
+
+.quiz__card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 6px 22px 20px;
+  box-sizing: border-box;
+}
+
+/* En-tête « Question X / N » + catégorie : masqué en mobile (on utilise qnum) */
+.quiz__header {
+  display: none;
+}
+
+.quiz__category {
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: #eef1ff;
+  color: #2563ff;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.quiz__qnum {
+  margin: 6px 0 8px;
+  text-align: center;
+  font-size: 12px;
+  color: #282827;
+}
+
+.quiz__question {
+  margin: 0 0 22px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  /* line-height: 1.35; */
+  color: #282827;
+  font-family: massilia;
+}
+
+.quiz__options {
+  list-style: none;
+  margin: 0 0 14px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.quiz__option {
+  width: 100%;
+  padding: 13px 18px;
+  text-align: center;
+  border: 1.5px solid #282827;
+  border-radius: 90px;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #282827;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+  font-family: massilia;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.quiz__option:hover:not(:disabled) {
+  border-color: #1c1c22;
+}
+
+.quiz__option:disabled {
+  cursor: default;
+}
+
+.quiz__option--selected {
+  border-color: #22c55e;
+  background: #22c55e;
+}
+
+.quiz__option--correct {
+  border-color: #22c55e;
+  background: #22c55e;
+  color: black;
+  font-weight: 600;
+}
+
+.quiz__option--wrong {
+  border-color: #E94662;
+  background: #E94662;
+  color: black;
+}
+
+/* Bouton « Explications » (pilule jaune + icône ampoule) */
+.quiz__explain-toggle {
+  align-self: center;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 2px 0 14px;
+  padding: 9px 24px;
+  border: none;
+  border-radius: 999px;
+  background: #f3e3a0;
+  color: #282827;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.quiz__explain-toggle svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* Panneau d'explication (lavande) — feuille du bas qui recouvre nav + bouton */
+.quiz__feedback {
+  position: fixed;
+  left: 25px;
+  right: 25px;
+  bottom: 0;
+  z-index: 50;
+  margin: 0;
+  padding: 26px 24px 40px;
+  border-radius: 26px 26px 0 0;
+  background: #ece9fb;
+  box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.quiz__feedback-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+/* Titre visuellement centré : on compense la largeur du ✕ à droite */
+.quiz__feedback-head strong {
+  flex: 1;
+  text-align: center;
+  padding-left: 24px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.quiz__feedback--ok .quiz__feedback-head strong {
+  color: #16a34a;
+}
+
+.quiz__feedback--ko .quiz__feedback-head strong {
+  color: #f0568a;
+}
+
+.quiz__feedback-close {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: none;
+  font-size: 18px;
+  color: #1c1c22;
+  cursor: pointer;
+}
+
+.quiz__feedback p {
+  margin: 0;
+  text-align: center;
+  color: #444;
+}
+
+/* Pied : flèche retour + bouton principal */
+.quiz__footer {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.quiz__back {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border: none;
+  background: none;
+  font-size: 25px;
+  color: #282827;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.quiz__back:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  color: #282827;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.quiz__cta {
+  padding: 12px 0px;
+  border-radius: 90px;
+  background: #1c1c22;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: coconat;
+  font-size: 16px;
+  width: 50%;
+}
+
+.quiz__cta:hover:not(:disabled) {
+  background: #000000;
+}
+
+.quiz__cta:disabled {
+  background: #c9c9d2;
+  cursor: not-allowed;
+}
+
+.quiz__cta--pink {
+  flex: none;
+  background: #E94662;
+  border: none
+}
+
+.quiz__cta--pink:hover:not(:disabled) {
+  background: #E94662;
+}
+
+/* ===== Écran de résultats ===== */
+.quiz__result {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  text-align: center;
+}
+
+/* Jauge « compteur » : arc 270° rempli selon le score, bouts arrondis */
+.quiz__gauge {
+  position: relative;
+  width: 190px;
+  height: 190px;
+}
+
+.quiz__gauge-svg {
+  width: 100%;
+  height: 100%;
+  /* Ouvre la jauge en bas : le quart manquant (90°) est centré en bas */
+  transform: rotate(135deg);
+}
+
+.quiz__gauge-track,
+.quiz__gauge-value {
+  fill: none;
+  stroke-width: 13;
+  stroke-linecap: round; /* bouts arrondis */
+}
+
+.quiz__gauge-track {
+  stroke: #ececf1;
+}
+
+.quiz__gauge-value {
+  stroke: url(#gaugeGrad);
+}
+
+.quiz__gauge-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz__gauge-score {
+  font-size: 58px;
+  font-weight: 800;
+  color: #1c1c22;
+  line-height: 1;
+}
+
+.quiz__gauge-total {
+  font-size: 16px;
+  color: #9aa0ab;
+  margin-top: 2px;
+}
+
+.quiz__result-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 800;
+  color: #1c1c22;
+}
+
+.quiz__badge {
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: #fde8a6;
+  color: #7a5b00;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.quiz__result-points {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #16a34a;
+}
+
+.quiz__save-state {
+  margin: 0;
+  min-height: 18px;
+  font-size: 12px;
+  color: #9aa0ab;
+}
+
+.quiz__link {
+  border: none;
+  background: none;
+  color: #6b7280;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* Barre de navigation basse : groupe segmenté (segment actif sombre) */
+.quiz__navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0 18px;
+  background: #ffffff;
+}
+
+.quiz__navgroup {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px;
+  background: #ececf1;
+  border-radius: 999px;
+}
+
+.quiz__navbtn {
+  width: 70px;
+  height: 46px;
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  color: #1c1c22;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.quiz__navbtn svg {
+  width: 22px;
+  height: 22px;
+}
+
+.quiz__navbtn--active {
+  background: #1c1c22;
+  color: #ffffff;
+}
+
+.quiz__empty {
+  margin: auto;
+  text-align: center;
+  color: #777;
+}
+
+/* ===========================================================================
+   DESKTOP (≥ 900px) — carte blanche sur fond dégradé (chrome mobile masqué)
+   =========================================================================== */
+@media (min-width: 900px) {
+  .quiz {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 28px 56px 56px;
+    background: linear-gradient(to bottom left, #efe7fb 0%, #fafbf7 48%, #e7f6e6 100%);
+  }
+
+  /* Masque le chrome mobile */
+  .quiz__top,
+  .quiz__tab,
+  .quiz__navbar,
+  .quiz__qnum {
+    display: none;
+  }
+
+  /* Affiche le chrome desktop */
+  .quiz__brand {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .quiz__bar {
+    display: flex;
+    margin-bottom: 22px;
+  }
+
+  .quiz__header {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .quiz__progress {
+    display: none;
+  }
+
+  .quiz__card {
+    flex: none;
+    width: 100%;
+    max-width: 680px;
+    padding: 36px 44px;
+    border-radius: 28px;
+    background: #ffffff;
+    box-shadow: 0 24px 70px rgba(80, 60, 120, 0.12);
+  }
+
+  .quiz__question {
+    font-size: 26px;
+    color: #1c1c22;
+  }
+
+  /* Options alignées à gauche en cartes (rendu desktop) */
+  .quiz__option {
+    text-align: left;
+    border-radius: 12px;
+    font-size: 15px;
+    padding: 15px 18px;
+  }
+
+  /* Panneau d'explication : inline dans la carte (pas de feuille du bas) */
+  .quiz__feedback {
+    position: static;
+    z-index: auto;
+    margin-bottom: 18px;
+    padding: 22px 24px;
+    border-radius: 18px;
+    box-shadow: none;
+  }
+}

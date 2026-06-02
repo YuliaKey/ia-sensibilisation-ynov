@@ -1,0 +1,53 @@
+/* Barre de navigation basse : groupe segmenté (segment actif sombre) */
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0 18px;
+  background: #ffffff;
+}
+
+.navbar__group {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px;
+  background: #ececf1;
+  border-radius: 999px;
+}
+
+.navbar__btn {
+  width: 64px;
+  height: 46px;
+  border: none;
+  border-radius: 999px;
+  background: transparent;
+  color: #1c1c22;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.navbar__btn svg {
+  width: 22px;
+  height: 22px;
+}
+
+.navbar__btn--active {
+  background: #1c1c22;
+  color: #ffffff;
+}
+
+/* Masquée sur desktop (le desktop a son propre chrome) */
+@media (min-width: 900px) {
+  .navbar {
+    display: none;
+  }
+}

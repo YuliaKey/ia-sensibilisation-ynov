@@ -16,7 +16,9 @@ create extension if not exists "pgcrypto";
 -- ----------------------------------------------------------------------------
 
 -- Rôle applicatif d'un utilisateur.
-create type user_role as enum ('user', 'admin');
+-- manager : reçoit l'alerte hebdo anonyme de son service, voit les stats agrégées.
+-- Pas de rôle admin : les sessions sont créées automatiquement par pg_cron.
+create type user_role as enum ('user', 'manager');
 
 -- Niveau de compétence (ordre croissant : beginner < curious < expert).
 -- NB : voir la note en bas du fichier sur le mapping depuis questions.json.
@@ -60,19 +62,22 @@ create table users (
   job_title      varchar(150),
   declared_level skill_level  not null,           -- choisi à l'inscription, modifiable
   current_level  skill_level  not null,           -- évolue automatiquement (logique adaptative)
-  total_score    int          not null default 0,
-  created_at     timestamptz  not null default now(),
-  updated_at     timestamptz  not null default now()
+  total_score             int          not null default 0,
+  last_reminder_sent_at   timestamptz,                    -- dernier rappel lundi envoyé
+  created_at              timestamptz  not null default now(),
+  updated_at              timestamptz  not null default now()
 );
 
--- quiz_sessions ─ Sessions hebdomadaires (weekly) ou manuelles (custom).
+-- quiz_sessions ─ Sessions créées automatiquement chaque lundi par pg_cron.
+-- Une session par niveau (beginner / curious / expert) est créée à 8h le lundi.
+-- created_by NULL = créée par le système. L'utilisateur est assigné à la session
+-- correspondant à son current_level — aucune action manuelle requise.
 create table quiz_sessions (
   id               uuid primary key default gen_random_uuid(),
   title            varchar(200)   not null,
-  access_code      varchar(10)    unique,         -- ex : GEM-4X2 (sessions custom)
-  created_by       uuid           references users (id) on delete set null,
+  created_by       uuid           references users (id) on delete set null, -- NULL = système
   difficulty_level skill_level    not null,
-  type             session_type   not null,
+  type             session_type   not null default 'weekly',
   status           session_status not null default 'pending',
   scheduled_at     timestamptz,
   closed_at        timestamptz,
@@ -225,6 +230,65 @@ join services s on s.id = u.service_id
 where date(uqs.completed_at) = current_date
   and uqs.status = 'completed'
 group by u.id, u.first_name, u.last_name, u.service_id, s.name;
+
+-- ----------------------------------------------------------------------------
+-- 6. Vue : stats anonymes par service (pour l'alerte managériale)
+-- ----------------------------------------------------------------------------
+create view service_stats as
+select
+  s.id                                                        as service_id,
+  s.name                                                      as service_name,
+  count(distinct u.id)                                        as total_users,
+  count(distinct uqs.id) filter (where uqs.status = 'completed') as sessions_completed,
+  round(avg(uqs.success_rate) filter (where uqs.status = 'completed')::numeric, 2)
+                                                              as avg_success_rate,
+  count(distinct u.id) filter (where u.current_level = 'beginner') as count_beginner,
+  count(distinct u.id) filter (where u.current_level = 'curious')  as count_curious,
+  count(distinct u.id) filter (where u.current_level = 'expert')   as count_expert
+from services s
+left join users u             on u.service_id = s.id
+left join user_quiz_sessions uqs on uqs.user_id = u.id
+group by s.id, s.name;
+
+-- ============================================================================
+--  NOTE — Automatisations pg_cron (chaque lundi à 8h)
+-- ============================================================================
+--  Activer pg_cron : Supabase Dashboard → Database → Extensions → pg_cron
+--
+--  1. Création automatique des sessions hebdomadaires
+--     (une session par niveau, créées par le système — created_by = NULL)
+--
+--     select cron.schedule('create-weekly-sessions', '0 8 * * 1', $$
+--       insert into quiz_sessions (title, difficulty_level, type, status, scheduled_at)
+--       values
+--         ('Session ' || to_char(now(), 'WW-YYYY'), 'beginner', 'weekly', 'active', now()),
+--         ('Session ' || to_char(now(), 'WW-YYYY'), 'curious',  'weekly', 'active', now()),
+--         ('Session ' || to_char(now(), 'WW-YYYY'), 'expert',   'weekly', 'active', now());
+--     $$);
+--
+--  2. Emails automatiques (Resend + Edge Functions)
+--
+--  A) Relance inter-session → tous les users actifs
+--     Contenu : rang actuel + message selon niveau
+--     Condition : last_reminder_sent_at IS NULL
+--                 OR last_reminder_sent_at < now() - interval '6 days'
+--     Après envoi : UPDATE users SET last_reminder_sent_at = now()
+--
+--  B) Alerte managériale anonyme → users avec role = 'manager'
+--     Contenu : stats agrégées du service via la vue service_stats
+--
+--  Setup emails :
+--    1. Créer un compte Resend (resend.com) → récupérer l'API key
+--    2. Ajouter RESEND_API_KEY dans Supabase → Settings → Edge Functions → Secrets
+--    3. Créer 2 Edge Functions : send-weekly-reminder / send-manager-alert
+--    4. Planifier via SQL :
+--         select cron.schedule('weekly-emails', '0 8 * * 1',
+--           $$select net.http_post(
+--             url := 'https://<project>.supabase.co/functions/v1/send-weekly-reminder',
+--             headers := '{"Authorization": "Bearer <anon-key>"}'
+--           )$$);
+--
+-- ============================================================================
 
 -- ============================================================================
 --  NOTE — Niveaux : 3 (spec) vs 5 (questions.json)

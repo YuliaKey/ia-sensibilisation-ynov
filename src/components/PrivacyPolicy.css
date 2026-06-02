@@ -1,0 +1,136 @@
+.privacy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 24px;
+  background: #2f2f2f;
+  box-sizing: border-box;
+}
+
+.privacy__card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 640px;
+  max-height: calc(100vh - 48px);
+  padding: 28px 28px 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.privacy__header {
+  flex-shrink: 0;
+}
+
+.privacy__back {
+  margin-bottom: 12px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: #2563ff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.privacy__back:hover {
+  text-decoration: underline;
+}
+
+.privacy__title {
+  margin: 0;
+  font-size: 24px;
+  color: #1a1a1a;
+}
+
+.privacy__updated {
+  margin: 4px 0 0;
+  font-size: 12px;
+  color: #888;
+}
+
+.privacy__content {
+  flex: 1;
+  overflow-y: auto;
+  margin: 16px 0;
+  padding-right: 8px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.privacy__content h2 {
+  margin: 24px 0 8px;
+  font-size: 16px;
+  color: #1a1a1a;
+}
+
+.privacy__content p {
+  margin: 0 0 12px;
+}
+
+.privacy__content ul {
+  margin: 0 0 12px;
+  padding-left: 20px;
+}
+
+.privacy__content li {
+  margin-bottom: 6px;
+}
+
+.privacy__disclaimer {
+  margin-top: 20px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: #fff7e6;
+  color: #8a6d3b;
+  font-size: 13px;
+}
+
+.privacy__footer {
+  flex-shrink: 0;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+}
+
+.privacy__cta {
+  width: 100%;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 999px;
+  background: #2563ff;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.privacy__cta:hover {
+  background: #1d4fd8;
+}
+
+/* ===== Desktop : fond clair de la maquette + carte plus large ===== */
+@media (min-width: 900px) {
+  .privacy {
+    background: linear-gradient(to bottom left, #efe7fb 0%, #fafbf7 48%, #e7f6e6 100%);
+  }
+
+  .privacy__card {
+    max-width: 780px;
+    border-radius: 28px;
+    box-shadow: 0 24px 70px rgba(80, 60, 120, 0.12);
+  }
+
+  /* Bouton pilule sombre comme la maquette */
+  .privacy__cta {
+    background: #2a2f3a;
+  }
+
+  .privacy__cta:hover {
+    background: #1c2029;
+  }
+}
