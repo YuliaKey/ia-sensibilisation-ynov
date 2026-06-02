@@ -1,12 +1,12 @@
 // Types générés manuellement — remplacer par `npx supabase gen types typescript` une fois le projet créé
 
-// Valeurs alignées sur supabase/schema.sql et le JSON des questions.
-export type SkillLevel = 'beginner' | 'curious' | 'expert'
-export type UserRole = 'user' | 'admin'
-export type SessionType = 'weekly' | 'custom'
+// Valeurs alignées sur supabase/schema.sql
+export type SkillLevel    = 'beginner' | 'curious' | 'expert'
+export type UserRole      = 'user' | 'manager'
+export type SessionType   = 'weekly' | 'custom'
 export type SessionStatus = 'pending' | 'active' | 'closed'
 export type AttemptStatus = 'in_progress' | 'completed' | 'abandoned'
-export type QuestionType = 'single_choice' | 'multiple_choice' | 'true_false'
+export type QuestionType  = 'single_choice' | 'multiple_choice' | 'true_false'
 export type QuestionTheme = 'capacites' | 'limites' | 'dangers' | 'ethique_societe'
 
 export interface Database {
@@ -34,6 +34,7 @@ export interface Database {
           declared_level: SkillLevel
           current_level: SkillLevel
           total_score: number
+          last_reminder_sent_at: string | null
           created_at: string
           updated_at: string
         }
@@ -45,7 +46,6 @@ export interface Database {
         Row: {
           id: string
           title: string
-          access_code: string | null
           created_by: string | null
           difficulty_level: SkillLevel
           type: SessionType
@@ -103,7 +103,7 @@ export interface Database {
           quiz_session_id: string
           score: number
           success_rate: number | null
-          level_snapshot: SkillLevel | null
+          level_snapshot: SkillLevel
           status: AttemptStatus
           started_at: string
           completed_at: string | null
@@ -117,7 +117,7 @@ export interface Database {
           id: string
           user_quiz_session_id: string
           question_id: string
-          answer_option_id: string
+          answer_option_id: string | null
           is_correct: boolean
           points_earned: number
           answered_at: string
@@ -140,6 +140,18 @@ export interface Database {
           service_rank: number
         }
         Relationships: []
+      }
+      service_stats: {
+        Row: {
+          service_id: string
+          service_name: string
+          total_users: number
+          sessions_completed: number
+          avg_success_rate: number | null
+          count_beginner: number
+          count_curious: number
+          count_expert: number
+        }
       }
     }
     Functions: Record<string, never>

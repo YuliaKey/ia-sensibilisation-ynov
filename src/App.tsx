@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useAuth } from './contexts/AuthContext'
 import Onboarding from './components/Onboarding'
 import LoginScreen from './components/LoginScreen'
 import PrivacyPolicy from './components/PrivacyPolicy'
@@ -8,11 +9,10 @@ import './App.css'
 const ONBOARDING_KEY = 'onboardingDone'
 
 function App() {
-  // L'onboarding ne s'affiche qu'à la première visite : on mémorise dans localStorage.
+  const { session, loading } = useAuth()
   const [onboardingDone, setOnboardingDone] = useState(
     () => localStorage.getItem(ONBOARDING_KEY) === 'true',
   )
-  const [loggedIn, setLoggedIn] = useState(false)
   const [showPrivacy, setShowPrivacy] = useState(false)
 
   const finishOnboarding = () => {
@@ -20,22 +20,24 @@ function App() {
     setOnboardingDone(true)
   }
 
+  if (loading) {
+    return (
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+        Chargement...
+      </div>
+    )
+  }
+
   if (!onboardingDone) {
     return <Onboarding onFinish={finishOnboarding} />
   }
 
-  // Page accessible depuis le lien de l'écran de connexion.
   if (showPrivacy) {
     return <PrivacyPolicy onBack={() => setShowPrivacy(false)} />
   }
 
-  if (!loggedIn) {
-    return (
-      <LoginScreen
-        onLogin={() => setLoggedIn(true)}
-        onShowPrivacy={() => setShowPrivacy(true)}
-      />
-    )
+  if (!session) {
+    return <LoginScreen onShowPrivacy={() => setShowPrivacy(true)} />
   }
 
   return <Quiz />

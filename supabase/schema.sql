@@ -17,7 +17,8 @@ create extension if not exists "pgcrypto";
 
 -- Rôle applicatif d'un utilisateur.
 -- manager : reçoit l'alerte hebdo anonyme de son service, voit les stats agrégées.
-create type user_role as enum ('user', 'manager', 'admin');
+-- Pas de rôle admin : les sessions sont créées automatiquement par pg_cron.
+create type user_role as enum ('user', 'manager');
 
 -- Niveau de compétence (ordre croissant : beginner < curious < expert).
 -- NB : voir la note en bas du fichier sur le mapping depuis questions.json.
@@ -67,14 +68,16 @@ create table users (
   updated_at              timestamptz  not null default now()
 );
 
--- quiz_sessions ─ Sessions hebdomadaires (weekly) ou manuelles (custom).
+-- quiz_sessions ─ Sessions créées automatiquement chaque lundi par pg_cron.
+-- Une session par niveau (beginner / curious / expert) est créée à 8h le lundi.
+-- created_by NULL = créée par le système. L'utilisateur est assigné à la session
+-- correspondant à son current_level — aucune action manuelle requise.
 create table quiz_sessions (
   id               uuid primary key default gen_random_uuid(),
   title            varchar(200)   not null,
-  access_code      varchar(10)    unique,         -- ex : GEM-4X2 (sessions custom)
-  created_by       uuid           references users (id) on delete set null,
+  created_by       uuid           references users (id) on delete set null, -- NULL = système
   difficulty_level skill_level    not null,
-  type             session_type   not null,
+  type             session_type   not null default 'weekly',
   status           session_status not null default 'pending',
   scheduled_at     timestamptz,
   closed_at        timestamptz,
@@ -248,27 +251,37 @@ left join user_quiz_sessions uqs on uqs.user_id = u.id
 group by s.id, s.name;
 
 -- ============================================================================
---  NOTE — Emails (Resend + Supabase Edge Functions + pg_cron)
+--  NOTE — Automatisations pg_cron (chaque lundi à 8h)
 -- ============================================================================
+--  Activer pg_cron : Supabase Dashboard → Database → Extensions → pg_cron
 --
---  2 types d'emails automatiques déclenchés chaque lundi à 8h via pg_cron :
+--  1. Création automatique des sessions hebdomadaires
+--     (une session par niveau, créées par le système — created_by = NULL)
 --
---  A) Relance inter-session (→ tous les users actifs)
---     Contenu : rang actuel du user + message d'accroche selon son niveau
+--     select cron.schedule('create-weekly-sessions', '0 8 * * 1', $$
+--       insert into quiz_sessions (title, difficulty_level, type, status, scheduled_at)
+--       values
+--         ('Session ' || to_char(now(), 'WW-YYYY'), 'beginner', 'weekly', 'active', now()),
+--         ('Session ' || to_char(now(), 'WW-YYYY'), 'curious',  'weekly', 'active', now()),
+--         ('Session ' || to_char(now(), 'WW-YYYY'), 'expert',   'weekly', 'active', now());
+--     $$);
+--
+--  2. Emails automatiques (Resend + Edge Functions)
+--
+--  A) Relance inter-session → tous les users actifs
+--     Contenu : rang actuel + message selon niveau
 --     Condition : last_reminder_sent_at IS NULL
 --                 OR last_reminder_sent_at < now() - interval '6 days'
 --     Après envoi : UPDATE users SET last_reminder_sent_at = now()
 --
---  B) Alerte managériale anonyme (→ users avec role = 'manager')
---     Contenu : stats agrégées de leur service via la vue service_stats
---     (aucun nom, aucune donnée individuelle — uniquement moyennes et comptages)
+--  B) Alerte managériale anonyme → users avec role = 'manager'
+--     Contenu : stats agrégées du service via la vue service_stats
 --
---  Setup :
+--  Setup emails :
 --    1. Créer un compte Resend (resend.com) → récupérer l'API key
---    2. Ajouter RESEND_API_KEY dans Supabase → Project Settings → Edge Functions → Secrets
+--    2. Ajouter RESEND_API_KEY dans Supabase → Settings → Edge Functions → Secrets
 --    3. Créer 2 Edge Functions : send-weekly-reminder / send-manager-alert
---    4. Activer pg_cron : Database → Extensions → pg_cron
---    5. Planifier via SQL :
+--    4. Planifier via SQL :
 --         select cron.schedule('weekly-emails', '0 8 * * 1',
 --           $$select net.http_post(
 --             url := 'https://<project>.supabase.co/functions/v1/send-weekly-reminder',
