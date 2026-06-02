@@ -1,12 +1,13 @@
 // Types générés manuellement — remplacer par `npx supabase gen types typescript` une fois le projet créé
 
-export type SkillLevel = 'debutant' | 'curieux' | 'expert'
-export type UserRole = 'user' | 'manager' | 'admin'
+// Valeurs alignées sur supabase/schema.sql et le JSON des questions.
+export type SkillLevel = 'beginner' | 'curious' | 'expert'
+export type UserRole = 'user' | 'admin'
 export type SessionType = 'weekly' | 'custom'
 export type SessionStatus = 'pending' | 'active' | 'closed'
-export type AttemptStatus = 'in_progress' | 'completed'
-export type QuestionType = 'multiple_choice' | 'scenario'
-export type QuestionTheme = 'benefits' | 'risks' | 'limits'
+export type AttemptStatus = 'in_progress' | 'completed' | 'abandoned'
+export type QuestionType = 'single_choice' | 'multiple_choice' | 'true_false'
+export type QuestionTheme = 'capacites' | 'limites' | 'dangers' | 'ethique_societe'
 
 export interface Database {
   public: {
@@ -20,6 +21,7 @@ export interface Database {
         }
         Insert: Omit<Database['public']['Tables']['services']['Row'], 'id' | 'created_at'>
         Update: Partial<Database['public']['Tables']['services']['Insert']>
+        Relationships: []
       }
       users: {
         Row: {
@@ -32,12 +34,12 @@ export interface Database {
           declared_level: SkillLevel
           current_level: SkillLevel
           total_score: number
-          last_reminder_sent_at: string | null
           created_at: string
           updated_at: string
         }
         Insert: Omit<Database['public']['Tables']['users']['Row'], 'total_score' | 'created_at' | 'updated_at'>
-        Update: Partial<Database['public']['Tables']['users']['Insert']>
+        Update: Partial<Omit<Database['public']['Tables']['users']['Row'], 'id' | 'created_at' | 'updated_at'>>
+        Relationships: []
       }
       quiz_sessions: {
         Row: {
@@ -54,6 +56,7 @@ export interface Database {
         }
         Insert: Omit<Database['public']['Tables']['quiz_sessions']['Row'], 'id' | 'created_at'>
         Update: Partial<Database['public']['Tables']['quiz_sessions']['Insert']>
+        Relationships: []
       }
       questions: {
         Row: {
@@ -68,6 +71,7 @@ export interface Database {
         }
         Insert: Omit<Database['public']['Tables']['questions']['Row'], 'id' | 'created_at'>
         Update: Partial<Database['public']['Tables']['questions']['Insert']>
+        Relationships: []
       }
       answer_options: {
         Row: {
@@ -79,6 +83,7 @@ export interface Database {
         }
         Insert: Omit<Database['public']['Tables']['answer_options']['Row'], 'id'>
         Update: Partial<Database['public']['Tables']['answer_options']['Insert']>
+        Relationships: []
       }
       session_questions: {
         Row: {
@@ -89,6 +94,7 @@ export interface Database {
         }
         Insert: Omit<Database['public']['Tables']['session_questions']['Row'], 'id'>
         Update: Partial<Database['public']['Tables']['session_questions']['Insert']>
+        Relationships: []
       }
       user_quiz_sessions: {
         Row: {
@@ -102,8 +108,9 @@ export interface Database {
           started_at: string
           completed_at: string | null
         }
-        Insert: Omit<Database['public']['Tables']['user_quiz_sessions']['Row'], 'id' | 'score' | 'started_at'>
+        Insert: Omit<Database['public']['Tables']['user_quiz_sessions']['Row'], 'id' | 'started_at'>
         Update: Partial<Database['public']['Tables']['user_quiz_sessions']['Insert']>
+        Relationships: []
       }
       user_answers: {
         Row: {
@@ -117,6 +124,7 @@ export interface Database {
         }
         Insert: Omit<Database['public']['Tables']['user_answers']['Row'], 'id' | 'answered_at'>
         Update: Partial<Database['public']['Tables']['user_answers']['Insert']>
+        Relationships: []
       }
     }
     Views: {
@@ -131,7 +139,11 @@ export interface Database {
           global_rank: number
           service_rank: number
         }
+        Relationships: []
       }
     }
+    Functions: Record<string, never>
+    Enums: Record<string, never>
+    CompositeTypes: Record<string, never>
   }
 }

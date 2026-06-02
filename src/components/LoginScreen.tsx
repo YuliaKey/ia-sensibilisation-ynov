@@ -3,9 +3,11 @@ import './LoginScreen.css'
 type LoginScreenProps = {
   /** Appelé au clic sur « Se connecter via SSO » */
   onLogin: () => void
+  /** Appelé au clic sur « Politique de confidentialité » */
+  onShowPrivacy: () => void
 }
 
-function LoginScreen({ onLogin }: LoginScreenProps) {
+function LoginScreen({ onLogin, onShowPrivacy }: LoginScreenProps) {
   return (
     <div className="login">
       <div className="login__card">
@@ -17,9 +19,9 @@ function LoginScreen({ onLogin }: LoginScreenProps) {
           <button type="button" className="login__cta" onClick={onLogin}>
             Se connecter via SSO
           </button>
-          <a className="login__link" href="#">
+          <button type="button" className="login__link" onClick={onShowPrivacy}>
             Politique de confidentialité
-          </a>
+          </button>
         </div>
       </div>
     </div>
