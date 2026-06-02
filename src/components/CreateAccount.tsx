@@ -28,7 +28,7 @@ function CreateAccount({ onLogin }: Props) {
 
   const [levelIndex, setLevelIndex] = useState(0)
 
-  const [avatarFile,    setAvatarFile]    = useState<File | null>(null)
+  //const [avatarFile,    setAvatarFile]    = useState<File | null>(null)
   const [avatarPreview, setAvatarPreview] = useState<string | null>(null)
   const fileInputRef = useRef<HTMLInputElement>(null)
 
@@ -64,7 +64,7 @@ function CreateAccount({ onLogin }: Props) {
   const handleAvatarChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0]
     if (!file) return
-    setAvatarFile(file)
+    //setAvatarFile(file)
     setAvatarPreview(URL.createObjectURL(file))
   }
 
@@ -82,6 +82,7 @@ function CreateAccount({ onLogin }: Props) {
     const userId = authData.user.id
 
     // Upload photo si sélectionnée
+    /*
     let avatarUrl: string | null = null
     if (avatarFile) {
       const ext = avatarFile.name.split('.').pop()
@@ -93,6 +94,7 @@ function CreateAccount({ onLogin }: Props) {
         avatarUrl = urlData.publicUrl
       }
     }
+      */
 
     const { error: profileError } = await supabase.from('users').insert({
       id:             userId,
