@@ -3,6 +3,7 @@ import { useAuth } from '../contexts/AuthContext'
 import { supabase } from '../lib/supabase'
 import BottomNav from './BottomNav'
 import type { AppView } from './BottomNav'
+import Logo from './Logo'
 import './Leaderboard.css'
 
 type UserRow = {
@@ -90,7 +91,7 @@ function Leaderboard({ onNavigate }: LeaderboardProps) {
     <div className="lb">
       <header className="lb__top">
         <span className="lb__logo">
-          prisme
+          <Logo variant="text" />
         </span>
         <button
           type="button"

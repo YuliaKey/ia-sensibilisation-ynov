@@ -4,6 +4,7 @@ import { useAuth } from '../contexts/AuthContext'
 import { BASE_POINTS, getUserLevel, saveQuizResult } from '../lib/quizResults'
 import BottomNav from './BottomNav'
 import type { AppView } from './BottomNav'
+import Logo from './Logo'
 import './Quiz.css'
 
 type SkillLevel = 'beginner' | 'curious' | 'expert'
@@ -191,13 +192,11 @@ function Quiz({ onNavigate, onHome }: QuizProps) {
     return (
       <div className="quiz">
         <header className="quiz__brand">
-          <span className="quiz__logo">
-            <span className="quiz__spark">✦&nbsp;</span>prisme
-          </span>
+          <Logo variant="full" />
         </header>
 
         <div className="quiz__top">
-          <span className="quiz__toplogo">prisme</span>
+          <Logo variant="text" />
           <button
             type="button"
             className="quiz__close"
@@ -277,14 +276,12 @@ function Quiz({ onNavigate, onHome }: QuizProps) {
     <div className="quiz">
       {/* En-tête marque (desktop uniquement) */}
       <header className="quiz__brand">
-        <span className="quiz__logo">
-          <span className="quiz__spark">✦&nbsp;</span>prisme
-        </span>
+        <Logo variant="full" />
       </header>
 
       {/* En-tête mobile : logo + fermer */}
       <div className="quiz__top">
-        <span className="quiz__toplogo">prisme</span>
+        <Logo variant="text" />
         <button
           type="button"
           className="quiz__close"

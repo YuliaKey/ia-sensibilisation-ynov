@@ -1,3 +1,4 @@
+import Logo from './Logo'
 import './BottomNav.css'
 
 export type AppView = 'quiz' | 'leaderboard' | 'history' | 'profile'
@@ -21,13 +22,14 @@ const MOBILE_ITEMS: { view: AppView | null; label: string; icon: string }[] = [
     icon: 'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z',
   },
 ]
-/*
+
 // Desktop : liens texte (Accueil + Classement)
 const DESKTOP_LINKS: { view: AppView; label: string }[] = [
   { view: 'quiz', label: 'Accueil' },
   { view: 'leaderboard', label: 'Classement' },
+  { view: 'profile', label: 'Profil' },
 ]
-*/
+
 function BottomNav({ active, onNavigate }: BottomNavProps) {
   return (
     <nav className="navbar" aria-label="Navigation">
@@ -49,30 +51,25 @@ function BottomNav({ active, onNavigate }: BottomNavProps) {
           </button>
         ))}
       </div>
-
-        <button
-          type="button"
-          className={
-            'navbar__btn' + (active === 'leaderboard' ? ' navbar__btn--active' : '')
-          }
-          onClick={() => onNavigate('leaderboard')}
-          aria-label="Classement"
-        >
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M7 4h10v2h3v3a4 4 0 0 1-4 4 5 5 0 0 1-3 2v2h3v3H8v-3h3v-2a5 5 0 0 1-3-2 4 4 0 0 1-4-4V6h3V4zm0 4H6v1a2 2 0 0 0 1 1.7V8zm10 0v2.7A2 2 0 0 0 18 9V8h-1z" />
-          </svg>
-        </button>
-
-        <button
-          type="button"
-          className={'navbar__btn' + (active === 'profile' ? ' navbar__btn--active' : '')}
-          onClick={() => onNavigate('profile')}
-          aria-label="Profil"
-        >
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-          </svg>
-        </button>
+      {/* Desktop : barre de navigation classique */}
+      <div className="navbar__desktop">
+        <Logo variant="full" className="logo-wrap--lg" />
+        <div className="navbar__desktop-links">
+          {DESKTOP_LINKS.map((item) => (
+            <button
+              key={item.label}
+              type="button"
+              className={
+                'navbar__desktop-link' +
+                (active === item.view ? ' navbar__desktop-link--active' : '')
+              }
+              onClick={() => onNavigate(item.view)}
+            >
+              {item.label}
+            </button>
+          ))}
+        </div>
+      </div>
     </nav>
   )
 }

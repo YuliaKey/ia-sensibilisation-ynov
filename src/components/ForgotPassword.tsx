@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { supabase } from '../lib/supabase'
+import Logo from './Logo'
 
 type Props = {
   onBack: () => void
@@ -28,9 +29,7 @@ function ForgotPassword({ onBack }: Props) {
 
       {/* Header */}
       <div style={{ padding: '16px 24px 0', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <span style={{ fontSize: '18px', fontWeight: 800, fontStyle: 'italic', color: '#0a0a0a', marginBottom: '16px' }}>
-          prisme
-        </span>
+        <Logo variant="text" />
         <div style={{ width: '100%', height: '3px', borderRadius: '999px', background: '#e5e7eb' }} />
       </div>
 

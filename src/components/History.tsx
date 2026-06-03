@@ -4,6 +4,7 @@ import { getHistory } from '../lib/quizResults'
 import type { HistoryEntry } from '../lib/quizResults'
 import BottomNav from './BottomNav'
 import type { AppView } from './BottomNav'
+import Logo from './Logo'
 import './History.css'
 
 // Note sur 10 à partir du taux de réussite.
@@ -55,7 +56,7 @@ function History({ onNavigate }: HistoryProps) {
     <div className="hist">
       <header className="hist__top">
         <span className="hist__logo">
-          prisme
+          <Logo variant="text" />
         </span>
         <button type="button" className="hist__settings" aria-label="Réglages">
           Réglages ⚙

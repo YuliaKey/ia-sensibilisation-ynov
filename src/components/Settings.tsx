@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { useAuth } from '../contexts/AuthContext'
 import { supabase } from '../lib/supabase'
 import type { SkillLevel } from '../types/database'
+import Logo from './Logo'
 import './Settings.css'
 
 type SubPage = 'profile-settings' | 'privacy' | 'language' | 'faq' | 'contact' | 'cgu' | 'charte-ia' | null
@@ -55,7 +56,7 @@ function SubHeader({ title, onBack }: { title: string; onBack: () => void }) {
           </svg>
           Retour
         </button>
-        <span className="settings__logo">prisme</span>
+        <Logo variant="text" />
         <div style={{ width: 70 }} />
       </div>
       <h1 className="settings__title">{title}</h1>
@@ -433,7 +434,7 @@ function Settings({ onBack, onShowPrivacy }: Props) {
           </svg>
           Retour
         </button>
-        <span className="settings__logo">prisme</span>
+        <Logo variant="text" />
         <div style={{ width: 70 }} />
       </div>
 

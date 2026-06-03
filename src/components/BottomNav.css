@@ -11,7 +11,6 @@
   align-items: center;
   justify-content: center;
   padding: 12px 0 18px;
-  background: #ffffff;
 }
 
 .navbar__group--mobile {
@@ -80,7 +79,7 @@
   }
 
   .navbar__desktop-logo {
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 800;
     font-style: italic;
     letter-spacing: -0.5px;

@@ -1,0 +1,28 @@
+.logo-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-wrap__icon {
+  height: 32px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.logo-wrap__text {
+  height: 22px;
+  width: auto;
+}
+
+/* Sur fond sombre, texte blanc */
+.logo-wrap--light .logo-wrap__text {
+  filter: brightness(0) invert(1);
+}
+
+/* Grand format (navbar desktop) */
+.logo-wrap--lg .logo-wrap__icon { height: 40px; }
+.logo-wrap--lg .logo-wrap__text { height: 28px; }
+
+/* Icône seule */
+.logo-wrap--icon-only .logo-wrap__text { display: none; }

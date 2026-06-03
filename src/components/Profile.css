@@ -190,3 +190,41 @@
   text-align: center;
   line-height: 1.2;
 }
+
+/* ===========================================================================
+   DESKTOP (≥ 900px) — fond dégradé, header masqué, contenu centré
+   =========================================================================== */
+@media (min-width: 900px) {
+  .profile {
+    background: linear-gradient(to bottom left, #efe7fb 0%, #fafbf7 48%, #e7f6e6 100%);
+  }
+
+  /* La BottomNav desktop fournit le logo — on masque le header mobile */
+  .profile__header {
+    display: none;
+  }
+
+  .profile__body {
+    max-width: 680px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 96px; /* compense la hauteur de la navbar fixe */
+    padding-bottom: 56px;
+  }
+
+  /* Badges sur 4 colonnes */
+  .profile__badges-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* Avatar légèrement plus grand */
+  .profile__avatar {
+    width: 120px;
+    height: 120px;
+    font-size: 42px;
+  }
+
+  .profile__name {
+    font-size: 26px;
+  }
+}

@@ -8,7 +8,6 @@ import PrivacyPolicy from './components/PrivacyPolicy'
 import Quiz from './components/Quiz'
 import Leaderboard from './components/Leaderboard'
 import History from './components/History'
-import BottomNav from './components/BottomNav'
 import Home from './components/Home'
 import Profile from './components/Profile'
 import Settings from './components/Settings'
@@ -92,21 +91,8 @@ function App() {
   }
 
   if (view === 'profile') {
-    return (
-      <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', background: '#fff', paddingBottom: 92 }}>
-        <p style={{ margin: 'auto', textAlign: 'center', color: '#9aa0ab', fontSize: 15 }}>
-          Page profil en cours de création…
-        </p>
-        <BottomNav active="profile" onNavigate={setView} />
-      </div>
-    )
+    return <Profile onNavigate={setView} onSettings={() => setShowSettings(true)} />
   }
-
-  /*
-    return <Quiz onNavigate={setView} />
-      return <Profile onNavigate={setView} onSettings={() => setShowSettings(true)} />
-    }
-  */
   if (quizActive) {
     return <Quiz onNavigate={(v) => { setView(v); setQuizActive(false) }} onHome={() => setQuizActive(false)} />
   }

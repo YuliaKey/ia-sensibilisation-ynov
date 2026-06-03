@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { supabase } from '../lib/supabase'
 import type { SkillLevel } from '../types/database'
+import Logo from './Logo'
 import './CreateAccount.css'
 
 type Service = { id: string; name: string }
@@ -88,6 +89,7 @@ function CreateAccount({ onLogin, onBack }: Props) {
     setLoading(true)
     setError(null)
 
+    // 1. Créer le compte Supabase Auth
     const { data: authData, error: authError } = await supabase.auth.signUp({ email, password })
     if (authError || !authData.user) {
       setError(authError?.message ?? 'Erreur lors de la création du compte.')
@@ -127,7 +129,7 @@ function CreateAccount({ onLogin, onBack }: Props) {
 
       {/* Header */}
       <div className="create-account__header">
-        <span className="create-account__logo">prisme</span>
+        <Logo variant="text" />
         <span className="create-account__page-title">Créer un compte</span>
         <div className="create-account__progress">
           <div className="create-account__progress-fill" style={{ width: `${(step / TOTAL_STEPS) * 100}%` }} />

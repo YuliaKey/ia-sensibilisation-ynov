@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useAuth } from '../contexts/AuthContext'
+import Logo from './Logo'
 
 type Props = {
   onShowPrivacy: () => void
@@ -31,9 +32,7 @@ function LoginScreen({ onBack, onForgotPassword }: Props) {
 
       {/* Header */}
       <div style={{ padding: '16px 24px 0', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <span style={{ fontSize: '18px', fontWeight: 800, fontStyle: 'italic', color: '#0a0a0a', marginBottom: '16px' }}>
-          prisme
-        </span>
+        <Logo variant="text" />
         <span style={{ fontSize: '22px', fontWeight: 400, color: '#0a0a0a', paddingBottom: '12px', fontFamily: 'Georgia, serif', letterSpacing: '0.01em' }}>
           Se connecter
         </span>

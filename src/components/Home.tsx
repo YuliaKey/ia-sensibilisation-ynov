@@ -3,6 +3,7 @@ import { useAuth } from '../contexts/AuthContext'
 import { supabase } from '../lib/supabase'
 import BottomNav from './BottomNav'
 import type { AppView } from './BottomNav'
+import Logo from './Logo'
 import './Home.css'
 
 type HomeProps = {
@@ -15,7 +16,8 @@ const GAUGE_C   = 2 * Math.PI * GAUGE_R
 const TRACK_LEN = GAUGE_C * 0.78
 
 function Home({ onStartQuiz, onNavigate }: HomeProps) {
-  const { profile, session } = useAuth()
+  //profile,
+  const { session } = useAuth()
 
   const [quizCount, setQuizCount] = useState<number>(0)
   const [moyenne,   setMoyenne]   = useState<number>(0)
@@ -50,7 +52,7 @@ function Home({ onStartQuiz, onNavigate }: HomeProps) {
 
       {/* Header */}
       <div className="home__header">
-        <span className="home__logo">prisme</span>
+        <Logo variant="text" />
       </div>
 
       <div className="home__body">

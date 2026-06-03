@@ -4,6 +4,7 @@ import certificateImg from '../assets/certificate.png'
 import notificationImg from '../assets/notification.png'
 import reportImg from '../assets/report.png'
 import mortarboardImg from '../assets/mortarboard.png'
+import Logo from './Logo'
 import './Onboarding.css'
 
 type Step = {
@@ -81,9 +82,7 @@ function Onboarding({ onFinish }: OnboardingProps) {
   return (
     <div className="onb">
       <header className="onb__top">
-        <span className="onb__logo">
-          <span className="onb__spark">✦&nbsp;</span>prisme
-        </span>
+        <Logo variant="full" />
         <button type="button" className="onb__skip" onClick={onFinish}>
           Passer
         </button>
