@@ -90,7 +90,7 @@ function Leaderboard({ onNavigate }: LeaderboardProps) {
     <div className="lb">
       <header className="lb__top">
         <span className="lb__logo">
-          <span className="lb__spark">✦&nbsp;</span>prisme
+          prisme
         </span>
         <button
           type="button"

@@ -7,14 +7,15 @@
   min-height: 100vh;
   background: #ffffff;
   box-sizing: border-box;
-  padding-bottom: 92px; /* place pour la barre de navigation fixe */
+  padding-bottom: 92px;
 }
 
 .lb__top {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 18px 20px 12px;
+  padding: 18px 20px 8px;
 }
 
 .lb__logo {
@@ -32,22 +33,61 @@
   color: transparent;
 }
 
+.lb__close {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  font-size: 18px;
+  color: #1f2430;
+  cursor: pointer;
+}
+
 .lb__title {
-  margin: 8px 22px 2px;
-  font-size: 26px;
+  margin: 6px 0 2px;
+  text-align: center;
+  font-size: 24px;
   font-weight: 800;
   color: #1c1c22;
 }
 
 .lb__subtitle {
-  margin: 0 22px 16px;
+  margin: 0 0 14px;
+  text-align: center;
+  font-size: 12px;
+  color: #000000;
+}
+
+/* Bascule personne / service */
+.lb__toggle {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 0 16px;
+}
+
+.lb__tab {
+  padding: 6px 16px;
+  border: 1px solid #e0e0e6;
+  border-radius: 999px;
+  background: #fff;
   font-size: 13px;
-  color: #9aa0ab;
+  color: #6b7280;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.lb__tab--active {
+  background: #ECEFF7;
+  border-color: #ECEFF7;
+  color: black;
 }
 
 .lb__card {
   flex: 1;
-  padding: 0 18px;
+  padding: 0 16px;
   box-sizing: border-box;
 }
 
@@ -63,44 +103,53 @@
 .lb__row {
   display: flex;
   align-items: center;
-  gap: 14px;
-  padding: 12px 16px;
+  gap: 20px;
+  padding: 5px 20px;
   border: 1px solid #eee;
-  border-radius: 14px;
-  background: #fff;
+  border-radius: 20px;
+  background: #ECEFF7;
 }
 
 .lb__row--me {
-  border-color: #2563ff;
-  background: #eef1ff;
+  border: 1.5px solid #e9b949;
+  background: #fffaf0;
 }
 
 .lb__rank {
   flex-shrink: 0;
-  width: 28px;
+  width: 40px;
   text-align: center;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 700;
   color: #6b7280;
 }
 
-.lb__name {
+.lb__info {
   flex: 1;
-  font-size: 14px;
-  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  min-width: 0;
+}
+
+.lb__name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.15;
   color: #1c1c22;
 }
 
-.lb__you {
-  font-weight: 400;
-  color: #2563ff;
+.lb__sub {
+  font-size: 10px;
+  line-height: 1.1;
+  color: #282827;
 }
 
 .lb__score {
   flex-shrink: 0;
   font-size: 14px;
   font-weight: 700;
-  color: #16a34a;
+  color: #E94662;
 }
 
 .lb__empty {
@@ -110,7 +159,7 @@
 }
 
 /* ===========================================================================
-   DESKTOP (≥ 900px) — carte centrée sur fond dégradé
+   DESKTOP (≥ 900px)
    =========================================================================== */
 @media (min-width: 900px) {
   .lb {
@@ -119,30 +168,11 @@
     background: linear-gradient(to bottom left, #efe7fb 0%, #fafbf7 48%, #e7f6e6 100%);
   }
 
-  .lb__top {
-    width: 100%;
-    justify-content: flex-start;
-    margin-bottom: 16px;
-  }
-
-  .lb__logo {
-    font-size: 24px;
-  }
-
-  .lb__title,
-  .lb__subtitle {
-    width: 100%;
-    max-width: 640px;
-    margin-left: 0;
-    margin-right: 0;
-    text-align: left;
-  }
-
   .lb__card {
     flex: none;
     width: 100%;
-    max-width: 640px;
-    padding: 28px 32px;
+    max-width: 560px;
+    padding: 24px 28px;
     border-radius: 28px;
     background: #ffffff;
     box-shadow: 0 24px 70px rgba(80, 60, 120, 0.12);
