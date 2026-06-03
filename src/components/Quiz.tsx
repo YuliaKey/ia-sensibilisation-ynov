@@ -56,9 +56,10 @@ function buildSeries(level: SkillLevel): Question[] {
 
 type QuizProps = {
   onNavigate: (view: AppView) => void
+  onHome?:    () => void
 }
 
-function Quiz({ onNavigate }: QuizProps) {
+function Quiz({ onNavigate, onHome }: QuizProps) {
   // Utilisateur authentifié (App ne rend le Quiz que si une session existe).
   const { session, profile } = useAuth()
   const userId = session?.user.id
@@ -253,7 +254,7 @@ function Quiz({ onNavigate }: QuizProps) {
             <button
               type="button"
               className="quiz__cta quiz__cta--pink"
-              onClick={startNewSeries}
+              onClick={onHome ?? startNewSeries}
             >
               Revenir à l'accueil
             </button>
