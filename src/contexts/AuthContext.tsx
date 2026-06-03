@@ -22,6 +22,7 @@ type AuthContextType = {
   signUp: (email: string, password: string) => Promise<{ error: string | null }>
   signOut: () => Promise<void>
   createProfile: (data: ProfileData) => Promise<{ error: string | null }>
+  refreshProfile: () => Promise<void>
 }
 
 const AuthContext = createContext<AuthContextType | null>(null)
@@ -72,6 +73,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     await supabase.auth.signOut()
   }
 
+  const refreshProfile = async () => {
+    const { data: { session: current } } = await supabase.auth.getSession()
+    if (current) await fetchProfile(current.user.id)
+  }
+
   const createProfile = async (data: ProfileData) => {
     if (!session) return { error: 'Non authentifié' }
 
@@ -87,7 +93,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }
 
   return (
-    <AuthContext.Provider value={{ session, profile, loading, signIn, signUp, signOut, createProfile }}>
+    <AuthContext.Provider value={{ session, profile, loading, signIn, signUp, signOut, createProfile, refreshProfile }}>
       {children}
     </AuthContext.Provider>
   )

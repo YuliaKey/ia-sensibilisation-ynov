@@ -1,0 +1,184 @@
+.home {
+  min-height: 100vh;
+  background: #F7F4EE;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--sans);
+  padding-bottom: 92px;
+  box-sizing: border-box;
+}
+
+/* ── Header ── */
+.home__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px 8px;
+}
+
+.home__logo {
+  font-size: 18px;
+  font-weight: 800;
+  font-style: italic;
+  color: #0a0a0a;
+}
+
+/* ── Body ── */
+.home__body {
+  flex: 1;
+  padding: 8px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.home__title {
+  font-size: 22px;
+  font-weight: 400;
+  color: #0a0a0a;
+  font-family: Georgia, serif;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+
+/* ── Stats card ── */
+.home__card {
+  width: 100%;
+  background: #E8EAF4;
+  border-radius: 24px;
+  padding: 24px 20px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.home__card-hint {
+  font-size: 14px;
+  color: #374151;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ── Gauge ── */
+.home__gauge-wrap {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__gauge-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(135deg);
+}
+
+.home__gauge-track {
+  fill: none;
+  stroke: #d1d5db;
+  stroke-width: 10;
+  stroke-linecap: round;
+}
+
+.home__gauge-fill {
+  fill: none;
+  stroke: #4ade80;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.6s ease;
+}
+
+.home__gauge-center {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+}
+
+.home__gauge-score {
+  font-size: 52px;
+  font-weight: 900;
+  color: #0a0a0a;
+  letter-spacing: -2px;
+  line-height: 1;
+}
+
+.home__gauge-denom {
+  font-size: 18px;
+  font-weight: 600;
+  color: #6b7280;
+  margin-top: -4px;
+}
+
+.home__gauge-label {
+  font-size: 13px;
+  color: #9ca3af;
+  margin-top: 4px;
+}
+
+/* ── Sparkles ── */
+.home__sparkle {
+  position: absolute;
+  font-size: 16px;
+  color: #0a0a0a;
+  pointer-events: none;
+}
+
+.home__sparkle--tl { top: 18px;  left: 10px; font-size: 12px; }
+.home__sparkle--tr { top: 8px;   right: 16px; font-size: 18px; }
+.home__sparkle--bl { bottom: 22px; left: 20px; font-size: 10px; }
+
+/* ── Quiz count ── */
+.home__quiz-count {
+  font-size: 13px;
+  color: #9ca3af;
+  margin: 0;
+  text-align: center;
+}
+
+/* ── Buttons ── */
+.home__cta {
+  width: 100%;
+  padding: 18px;
+  background: #e05c6b;
+  border: none;
+  border-radius: 999px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  font-family: var(--sans);
+  transition: opacity 0.15s;
+}
+
+.home__cta:hover { opacity: 0.88; }
+
+.home__history {
+  width: 100%;
+  padding: 16px;
+  background: #EAEAF2;
+  border: none;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #374151;
+  cursor: pointer;
+  font-family: var(--sans);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: opacity 0.15s;
+}
+
+.home__history:hover { opacity: 0.8; }
