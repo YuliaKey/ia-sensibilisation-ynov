@@ -7,6 +7,7 @@ import PrivacyPolicy from './components/PrivacyPolicy'
 import Quiz from './components/Quiz'
 import Leaderboard from './components/Leaderboard'
 import History from './components/History'
+import BottomNav from './components/BottomNav'
 import type { AppView } from './components/BottomNav'
 import './App.css'
 
@@ -60,6 +61,17 @@ function App() {
 
   if (view === 'history') {
     return <History onNavigate={setView} />
+  }
+
+  if (view === 'profile') {
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', background: '#fff', paddingBottom: 92 }}>
+        <p style={{ margin: 'auto', textAlign: 'center', color: '#9aa0ab', fontSize: 15 }}>
+          Page profil en cours de création…
+        </p>
+        <BottomNav active="profile" onNavigate={setView} />
+      </div>
+    )
   }
 
   return <Quiz onNavigate={setView} />

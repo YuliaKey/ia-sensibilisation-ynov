@@ -1,4 +1,6 @@
-/* Barre de navigation basse : groupe segmenté (segment actif sombre) */
+/* ===========================================================================
+   MOBILE — barre basse segmentée
+   =========================================================================== */
 .navbar {
   position: fixed;
   left: 0;
@@ -12,7 +14,7 @@
   background: #ffffff;
 }
 
-.navbar__group {
+.navbar__group--mobile {
   display: flex;
   align-items: center;
   gap: 4px;
@@ -45,9 +47,91 @@
   color: #ffffff;
 }
 
-/* Masquée sur desktop (le desktop a son propre chrome) */
+/* Desktop bar : masquée en mobile */
+.navbar__desktop {
+  display: none;
+}
+
+/* ===========================================================================
+   DESKTOP (≥ 900px) — barre de navigation classique (style web)
+   =========================================================================== */
 @media (min-width: 900px) {
   .navbar {
+    top: 0;
+    bottom: auto;
+    padding: 0 48px;
+    height: 64px;
+    background: transparent;
+    justify-content: stretch;
+    z-index: 100;
+  }
+
+  /* Masque la barre mobile */
+  .navbar__group--mobile {
     display: none;
+  }
+
+  /* Barre desktop : logo à gauche, liens à droite */
+  .navbar__desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .navbar__desktop-logo {
+    font-size: 22px;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: -0.5px;
+    color: #1f2430;
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+
+  .navbar__desktop-spark {
+    font-style: normal;
+    background: linear-gradient(135deg, #8b5cf6, #22d3ee 60%, #f59e0b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Liens de navigation à droite */
+  .navbar__desktop-links {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .navbar__desktop-link {
+    padding: 7px 18px;
+    border: none;
+    border-radius: 999px;
+    background: transparent;
+    color: #6b7280;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+    white-space: nowrap;
+  }
+
+  .navbar__desktop-link:hover {
+    color: #1c1c22;
+    background: rgba(0, 0, 0, 0.05);
+  }
+
+  /* Lien actif : pilule sombre (comme sur la capture) */
+  .navbar__desktop-link--active {
+    background: #1c1c22;
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  .navbar__desktop-link--active:hover {
+    background: #11141c;
+    color: #ffffff;
   }
 }

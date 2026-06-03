@@ -127,18 +127,19 @@
 @media (min-width: 900px) {
   .hist {
     align-items: center;
-    padding: 28px 56px 56px;
+    padding: 96px 56px 56px; /* 96px = hauteur barre nav (68px) + marge */
     background: linear-gradient(to bottom left, #efe7fb 0%, #fafbf7 48%, #e7f6e6 100%);
   }
 
+  /* Header mobile masqué sur desktop (la BottomNav fournit le logo) */
   .hist__top {
-    width: 100%;
-    max-width: 680px;
+    display: none;
   }
 
   .hist__title {
     width: 100%;
-    max-width: 680px;
+    max-width: 720px;
+    text-align: left;
   }
 
   .hist__card {

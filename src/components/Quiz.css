@@ -80,12 +80,13 @@
 
 .quiz__tab {
   position: relative;
-  margin: 0 16px 18px;
+  margin: 3% 16px 18px;
   padding-bottom: 12px;
   text-align: center;
   font-size: 15px;
   color: #4b5563;
   border-bottom: 1px solid #eee;
+
 }
 
 .quiz__tab::after {
@@ -122,10 +123,11 @@
 }
 
 .quiz__qnum {
-  margin: 6px 0 8px;
-  text-align: center;
-  font-size: 12px;
-  color: #282827;
+    /* margin-top: auto; */
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 12px;
+    color: #282827;
 }
 
 .quiz__question {
@@ -140,11 +142,11 @@
 
 .quiz__options {
   list-style: none;
-  margin: 0 0 14px;
+  margin: 5% 0 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 15px;
 }
 
 .quiz__option {
@@ -196,7 +198,7 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin: 2px 0 14px;
+  margin: 10% 0 14px;
   padding: 9px 24px;
   border: none;
   border-radius: 999px;
@@ -299,6 +301,8 @@
 }
 
 .quiz__cta {
+  margin-top: 5%;
+
   padding: 12px 0px;
   border-radius: 90px;
   background: #1c1c22;
@@ -488,7 +492,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding: 28px 56px 56px;
+    padding: 96px 56px 56px;
     background: linear-gradient(to bottom left, #efe7fb 0%, #fafbf7 48%, #e7f6e6 100%);
   }
 
@@ -500,12 +504,9 @@
     display: none;
   }
 
-  /* Affiche le chrome desktop */
+  /* quiz__brand masqué : le logo est géré par la BottomNav desktop */
   .quiz__brand {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 32px;
+    display: none;
   }
 
   .quiz__bar {
