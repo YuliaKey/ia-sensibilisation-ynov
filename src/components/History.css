@@ -59,30 +59,35 @@
 .hist__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
+  gap: 5px;
 }
 
 .hist__cell {
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 1;
   border-radius: 22px;
-  padding: 14px;
-  display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
   width: 75%;
+  padding: 10px;
+  display: flex;
 }
 
 .hist__cell--green {
   background: #74e0a0;
+  align-items:anchor-center;
+
 }
 
 .hist__cell--yellow {
   background: #f4d65e;
+  align-items:anchor-center;
 }
 
 .hist__cell--red {
   background: #f06d86;
+  align-items:anchor-center;
+
 }
 
 .hist__cell-score {
@@ -139,7 +144,7 @@
   .hist__card {
     flex: none;
     width: 100%;
-    max-width: 680px;
+    max-width: 720px;
     padding: 28px 32px;
     border-radius: 28px;
     background: #ffffff;
@@ -147,6 +152,7 @@
   }
 
   .hist__grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
   }
 }
