@@ -4,8 +4,10 @@ import './BottomNav.css'
 export type AppView = 'quiz' | 'leaderboard' | 'history' | 'profile'
 
 type BottomNavProps = {
-  active: AppView
+  active?: AppView
   onNavigate: (view: AppView) => void
+  onSettings?: () => void
+  settingsActive?: boolean
 }
 
 // Mobile : Accueil + Classement + Profil (Historique accessible depuis l'écran résultat)
@@ -30,7 +32,7 @@ const DESKTOP_LINKS: { view: AppView; label: string }[] = [
   { view: 'profile', label: 'Profil' },
 ]
 
-function BottomNav({ active, onNavigate }: BottomNavProps) {
+function BottomNav({ active, onNavigate, onSettings, settingsActive }: BottomNavProps) {
   return (
     <nav className="navbar" aria-label="Navigation">
       {/* Mobile : groupe segmenté en bas */}
@@ -68,6 +70,16 @@ function BottomNav({ active, onNavigate }: BottomNavProps) {
               {item.label}
             </button>
           ))}
+          {onSettings && (
+            <button
+              type="button"
+              className={'navbar__desktop-link' + (settingsActive ? ' navbar__desktop-link--active' : '')}
+              onClick={onSettings}
+              aria-label="Réglages"
+            >
+              Réglages
+            </button>
+          )}
         </div>
       </div>
     </nav>

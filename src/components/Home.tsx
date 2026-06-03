@@ -9,13 +9,14 @@ import './Home.css'
 type HomeProps = {
   onStartQuiz: () => void
   onNavigate:  (view: AppView) => void
+  onSettings?: () => void
 }
 
 const GAUGE_R   = 54
 const GAUGE_C   = 2 * Math.PI * GAUGE_R
 const TRACK_LEN = GAUGE_C * 0.78
 
-function Home({ onStartQuiz, onNavigate }: HomeProps) {
+function Home({ onStartQuiz, onNavigate, onSettings }: HomeProps) {
   //profile,
   const { session } = useAuth()
 
@@ -110,7 +111,7 @@ function Home({ onStartQuiz, onNavigate }: HomeProps) {
         </button>
       </div>
 
-      <BottomNav active="quiz" onNavigate={onNavigate} />
+      <BottomNav active="quiz" onNavigate={onNavigate} onSettings={onSettings} />
     </div>
   )
 }

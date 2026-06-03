@@ -28,9 +28,10 @@ const MEDALS = ['🥇', '🥈', '🥉']
 
 type LeaderboardProps = {
   onNavigate: (view: AppView) => void
+  onSettings?: () => void
 }
 
-function Leaderboard({ onNavigate }: LeaderboardProps) {
+function Leaderboard({ onNavigate, onSettings }: LeaderboardProps) {
   const { session, profile } = useAuth()
   const meId = session?.user.id
   const myServiceId = profile?.service_id ?? null
@@ -144,7 +145,7 @@ function Leaderboard({ onNavigate }: LeaderboardProps) {
         )}
       </div>
 
-      <BottomNav active="leaderboard" onNavigate={onNavigate} />
+      <BottomNav active="leaderboard" onNavigate={onNavigate} onSettings={onSettings} />
     </div>
   )
 }

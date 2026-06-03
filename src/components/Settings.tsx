@@ -3,6 +3,8 @@ import { useAuth } from '../contexts/AuthContext'
 import { supabase } from '../lib/supabase'
 import type { SkillLevel } from '../types/database'
 import Logo from './Logo'
+import BottomNav from './BottomNav'
+import type { AppView } from './BottomNav'
 import './Settings.css'
 
 type SubPage = 'profile-settings' | 'privacy' | 'language' | 'faq' | 'contact' | 'cgu' | 'charte-ia' | null
@@ -10,6 +12,7 @@ type SubPage = 'profile-settings' | 'privacy' | 'language' | 'faq' | 'contact' |
 type Props = {
   onBack: () => void
   onShowPrivacy: () => void
+  onNavigate?: (view: AppView) => void
 }
 
 // ── Shared helpers ────────────────────────────────────────────────────────────
@@ -391,7 +394,7 @@ function CGUPage({ onBack }: { onBack: () => void }) {
 
 // ── Main Settings ─────────────────────────────────────────────────────────────
 
-function Settings({ onBack, onShowPrivacy }: Props) {
+function Settings({ onBack, onShowPrivacy, onNavigate }: Props) {
   const { signOut } = useAuth()
 
   const [subPage, setSubPage] = useState<SubPage>(null)
@@ -442,10 +445,13 @@ function Settings({ onBack, onShowPrivacy }: Props) {
 
       <div className="settings__body">
 
-        <button className="settings-row settings-row--icon" onClick={() => setSubPage('charte-ia')}>
+        <button
+          className="settings-row settings-row--icon"
+          onClick={() => window.open(`${import.meta.env.BASE_URL}Charte_IA_Kit.pdf`, '_blank', 'noopener')}
+        >
           <span>Charte IA</span>
           <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
-            <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-8a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/>
           </svg>
         </button>
 
@@ -501,6 +507,10 @@ function Settings({ onBack, onShowPrivacy }: Props) {
         <p className="settings__version">Version 1.02.01</p>
 
       </div>
+
+      {onNavigate && (
+        <BottomNav onNavigate={onNavigate} onSettings={onBack} settingsActive />
+      )}
     </div>
   )
 }

@@ -63,7 +63,13 @@ function App() {
   }
 
   if (showSettings) {
-    return <Settings onBack={() => setShowSettings(false)} onShowPrivacy={() => { setShowSettings(false); setShowPrivacy(true) }} />
+    return (
+      <Settings
+        onBack={() => setShowSettings(false)}
+        onShowPrivacy={() => { setShowSettings(false); setShowPrivacy(true) }}
+        onNavigate={(v) => { setShowSettings(false); setView(v) }}
+      />
+    )
   }
 
   if (!session) {
@@ -82,22 +88,25 @@ function App() {
     return <CreateAccount onLogin={() => setShowLogin(true)} onBack={() => setOnboardingDone(false)} />
   }
 
+  const openSettings = () => setShowSettings(true)
+
   if (view === 'leaderboard') {
-    return <Leaderboard onNavigate={setView} />
+    return <Leaderboard onNavigate={setView} onSettings={openSettings} />
   }
 
   if (view === 'history') {
-    return <History onNavigate={setView} />
+    return <History onNavigate={setView} onSettings={openSettings} />
   }
 
   if (view === 'profile') {
-    return <Profile onNavigate={setView} onSettings={() => setShowSettings(true)} />
-  }
-  if (quizActive) {
-    return <Quiz onNavigate={(v) => { setView(v); setQuizActive(false) }} onHome={() => setQuizActive(false)} />
+    return <Profile onNavigate={setView} onSettings={openSettings} />
   }
 
-  return <Home onStartQuiz={() => setQuizActive(true)} onNavigate={setView} />
+  if (quizActive) {
+    return <Quiz onNavigate={(v) => { setView(v); setQuizActive(false) }} onHome={() => setQuizActive(false)} onSettings={openSettings} />
+  }
+
+  return <Home onStartQuiz={() => setQuizActive(true)} onNavigate={setView} onSettings={openSettings} />
 }
 
 export default App

@@ -1,4 +1,4 @@
-.settings {
+﻿.settings {
   min-height: 100vh;
   background: #F7F4EE;
   display: flex;
@@ -6,7 +6,7 @@
   font-family: var(--sans);
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .settings__header {
   display: flex;
   align-items: center;
@@ -43,7 +43,7 @@
   letter-spacing: -0.5px;
 }
 
-/* ── Body ── */
+/* â”€â”€ Body â”€â”€ */
 .settings__body {
   flex: 1;
   padding: 0 20px 40px;
@@ -53,7 +53,7 @@
   overflow-y: auto;
 }
 
-/* ── Section label ── */
+/* â”€â”€ Section label â”€â”€ */
 .settings__section-label {
   font-size: 12px;
   font-weight: 600;
@@ -63,7 +63,7 @@
   letter-spacing: 0.02em;
 }
 
-/* ── Row ── */
+/* â”€â”€ Row â”€â”€ */
 .settings-row {
   width: 100%;
   display: flex;
@@ -115,7 +115,7 @@
   cursor: default;
 }
 
-/* ── Toggle ── */
+/* â”€â”€ Toggle â”€â”€ */
 .settings-toggle {
   width: 48px;
   height: 28px;
@@ -149,7 +149,7 @@
   transform: translateX(20px);
 }
 
-/* ── Slider ── */
+/* â”€â”€ Slider â”€â”€ */
 .settings-slider {
   width: 100%;
   appearance: none;
@@ -170,7 +170,7 @@
   box-shadow: 0 1px 4px rgba(0,0,0,0.2);
 }
 
-/* ── Confirm delete ── */
+/* â”€â”€ Confirm delete â”€â”€ */
 .settings__confirm-delete {
   background: #fff0f3;
   border-radius: 16px;
@@ -227,7 +227,7 @@
   opacity: 0.5;
 }
 
-/* ── Input ── */
+/* â”€â”€ Input â”€â”€ */
 .settings-input {
   width: 100%;
   padding: 18px 20px;
@@ -247,7 +247,7 @@
   color: #9ca3af;
 }
 
-/* ── Save button ── */
+/* â”€â”€ Save button â”€â”€ */
 .settings-row--save {
   background: #0a0a0a;
   color: #fff;
@@ -270,7 +270,7 @@
   color: #0a0a0a;
 }
 
-/* ── Hint ── */
+/* â”€â”€ Hint â”€â”€ */
 .settings__hint {
   font-size: 13px;
   color: #9ca3af;
@@ -285,7 +285,7 @@
   color: #9ca3af;
 }
 
-/* ── FAQ ── */
+/* â”€â”€ FAQ â”€â”€ */
 .settings-faq-item {
   background: #EAEAF2;
   border-radius: 16px;
@@ -317,7 +317,7 @@
   line-height: 1.6;
 }
 
-/* ── Legal ── */
+/* â”€â”€ Legal â”€â”€ */
 .settings-legal {
   font-size: 14px;
   color: #374151;
@@ -345,11 +345,41 @@
   margin: 0;
 }
 
-/* ── Version ── */
+/* â”€â”€ Version â”€â”€ */
 .settings__version {
   font-size: 12px;
   color: #9ca3af;
   text-align: center;
   text-decoration: underline;
   margin-top: 16px;
+}
+
+/* ===========================================================================
+   DESKTOP (>= 900px)
+   =========================================================================== */
+@media (min-width: 900px) {
+  .settings {
+    background: linear-gradient(to bottom left, #efe7fb 0%, #fafbf7 48%, #e7f6e6 100%);
+    align-items: center;
+    padding-bottom: 0;
+  }
+
+  /* Masque le header mobile (back + logo) sur desktop :
+     la navbar BottomNav s'en charge */
+  .settings__header {
+    display: none;
+  }
+
+  .settings__title {
+    margin-top: 96px; /* compense la navbar fixe */
+    text-align: left;
+    width: 100%;
+    max-width: 640px;
+  }
+
+  .settings__body {
+    width: 100%;
+    max-width: 640px;
+    padding: 0 0 80px;
+  }
 }

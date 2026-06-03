@@ -58,9 +58,10 @@ function buildSeries(level: SkillLevel): Question[] {
 type QuizProps = {
   onNavigate: (view: AppView) => void
   onHome?:    () => void
+  onSettings?: () => void
 }
 
-function Quiz({ onNavigate, onHome }: QuizProps) {
+function Quiz({ onNavigate, onHome, onSettings }: QuizProps) {
   // Utilisateur authentifié (App ne rend le Quiz que si une session existe).
   const { session, profile } = useAuth()
   const userId = session?.user.id
@@ -267,7 +268,7 @@ function Quiz({ onNavigate, onHome }: QuizProps) {
           </div>
         </div>
 
-        <BottomNav active="quiz" onNavigate={onNavigate} />
+        <BottomNav active="quiz" onNavigate={onNavigate} onSettings={onSettings} />
       </div>
     )
   }

@@ -29,9 +29,10 @@ function formatDate(iso: string | null): string {
 
 type HistoryProps = {
   onNavigate: (view: AppView) => void
+  onSettings?: () => void
 }
 
-function History({ onNavigate }: HistoryProps) {
+function History({ onNavigate, onSettings }: HistoryProps) {
   const { session } = useAuth()
   const userId = session?.user.id
 
@@ -90,7 +91,7 @@ function History({ onNavigate }: HistoryProps) {
         )}
       </div>
 
-      <BottomNav active="history" onNavigate={onNavigate} />
+      <BottomNav active="history" onNavigate={onNavigate} onSettings={onSettings} />
     </div>
   )
 }

@@ -212,7 +212,7 @@ function Profile({ onNavigate, onSettings }: ProfileProps) {
         </div>
       </div>
 
-      <BottomNav active="profile" onNavigate={onNavigate} />
+      <BottomNav active="profile" onNavigate={onNavigate} onSettings={onSettings} />
     </div>
   )
 }
