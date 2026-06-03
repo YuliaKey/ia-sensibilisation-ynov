@@ -6,18 +6,25 @@ import BottomNav from './BottomNav'
 import type { AppView } from './BottomNav'
 import './History.css'
 
-const LEVEL_LABELS: Record<HistoryEntry['level'], string> = {
-  beginner: 'Débutant',
-  curious: 'Curieux',
-  expert: 'Expert',
+// Note sur 10 à partir du taux de réussite.
+function noteOn10(successRate: number | null): number {
+  return successRate != null ? Math.round(successRate * 10) : 0
 }
 
-const dateFmt = new Intl.DateTimeFormat('fr-FR', {
-  day: '2-digit',
-  month: 'short',
-  hour: '2-digit',
-  minute: '2-digit',
-})
+// Couleur de la carte selon la note.
+function toneClass(note: number): string {
+  if (note >= 7) return 'hist__cell--green'
+  if (note >= 4) return 'hist__cell--yellow'
+  return 'hist__cell--red'
+}
+
+// Date « 01.06.2026 ».
+function formatDate(iso: string | null): string {
+  if (!iso) return '—'
+  const d = new Date(iso)
+  const p = (n: number) => String(n).padStart(2, '0')
+  return `${p(d.getDate())}.${p(d.getMonth() + 1)}.${d.getFullYear()}`
+}
 
 type HistoryProps = {
   onNavigate: (view: AppView) => void
@@ -48,12 +55,14 @@ function History({ onNavigate }: HistoryProps) {
     <div className="hist">
       <header className="hist__top">
         <span className="hist__logo">
-          <span className="hist__spark">✦&nbsp;</span>prisme
+          prisme
         </span>
+        <button type="button" className="hist__settings" aria-label="Réglages">
+          Réglages ⚙
+        </button>
       </header>
 
       <h1 className="hist__title">Historique</h1>
-      <p className="hist__subtitle">Tes derniers tests</p>
 
       <div className="hist__card">
         {loading ? (
@@ -63,25 +72,20 @@ function History({ onNavigate }: HistoryProps) {
             Aucun test terminé pour l'instant. Lance un quiz&nbsp;!
           </p>
         ) : (
-          <ul className="hist__list">
+          <div className="hist__grid">
             {entries.map((e) => {
-              const rate = e.successRate != null ? Math.round(e.successRate * 100) : 0
+              const note = noteOn10(e.successRate)
               return (
-                <li key={e.id} className="hist__row">
-                  <div className="hist__main">
-                    <span className="hist__date">
-                      {e.date ? dateFmt.format(new Date(e.date)) : '—'}
-                    </span>
-                    <span className="hist__level">{LEVEL_LABELS[e.level]}</span>
+                <div key={e.id} className={'hist__cell ' + toneClass(note)}>
+                  <div className="hist__cell-score">
+                    <span className="hist__cell-num">{note}</span>
+                    <span className="hist__cell-den">/10</span>
                   </div>
-                  <div className="hist__stats">
-                    <span className="hist__rate">{rate}%</span>
-                    <span className="hist__points">+{e.score} pts</span>
-                  </div>
-                </li>
+                  <div className="hist__cell-date">Fait le {formatDate(e.date)}</div>
+                </div>
               )
             })}
-          </ul>
+          </div>
         )}
       </div>
 

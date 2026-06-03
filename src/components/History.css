@@ -7,14 +7,14 @@
   min-height: 100vh;
   background: #ffffff;
   box-sizing: border-box;
-  padding-bottom: 92px; /* place pour la barre de navigation fixe */
+  padding-bottom: 92px;
 }
 
 .hist__top {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 18px 20px 12px;
+  justify-content: space-between;
+  padding: 18px 22px 8px;
 }
 
 .hist__logo {
@@ -22,6 +22,7 @@
   font-weight: 800;
   font-style: italic;
   color: #1f2430;
+  padding: 0% 0% 0% 40%;
 }
 
 .hist__spark {
@@ -32,17 +33,20 @@
   color: transparent;
 }
 
-.hist__title {
-  margin: 8px 22px 2px;
-  font-size: 26px;
-  font-weight: 800;
-  color: #1c1c22;
+.hist__settings {
+  border: none;
+  background: none;
+  font-size: 13px;
+  color: #6b7280;
+  cursor: pointer;
 }
 
-.hist__subtitle {
-  margin: 0 22px 16px;
-  font-size: 13px;
-  color: #9aa0ab;
+.hist__title {
+  margin: 6px 0 18px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  color: #1c1c22;
 }
 
 .hist__card {
@@ -51,59 +55,59 @@
   box-sizing: border-box;
 }
 
-.hist__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.hist__row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+/* Grille de cartes colorées */
+.hist__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 12px;
-  padding: 12px 16px;
-  border: 1px solid #eee;
-  border-radius: 14px;
-  background: #fff;
 }
 
-.hist__main {
+.hist__cell {
+  aspect-ratio: 1 / 1;
+  border-radius: 22px;
+  padding: 14px;
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  justify-content: center;
+  gap: 10px;
+  width: 75%;
 }
 
-.hist__date {
-  font-size: 14px;
+.hist__cell--green {
+  background: #74e0a0;
+}
+
+.hist__cell--yellow {
+  background: #f4d65e;
+}
+
+.hist__cell--red {
+  background: #f06d86;
+}
+
+.hist__cell-score {
+  display: flex;
+  align-items: baseline;
+}
+
+.hist__cell-num {
+  font-size: 70px;
+  font-weight: 800;
+  color: #1c1c22;
+  line-height: 1;
+}
+
+.hist__cell-den {
+  margin-left: 3px;
+  font-size: 20px;
   font-weight: 600;
   color: #1c1c22;
 }
 
-.hist__level {
-  font-size: 12px;
-  color: #9aa0ab;
-}
-
-.hist__stats {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.hist__rate {
-  font-size: 14px;
-  font-weight: 700;
-  color: #2563ff;
-}
-
-.hist__points {
-  font-size: 14px;
-  font-weight: 700;
-  color: #16a34a;
+.hist__cell-date {
+  font-size: 11px;
+  color: #1c1c22;
+  opacity: 0.8;
 }
 
 .hist__empty {
@@ -113,7 +117,7 @@
 }
 
 /* ===========================================================================
-   DESKTOP (≥ 900px) — carte centrée sur fond dégradé
+   DESKTOP (≥ 900px)
    =========================================================================== */
 @media (min-width: 900px) {
   .hist {
@@ -124,28 +128,25 @@
 
   .hist__top {
     width: 100%;
-    justify-content: flex-start;
-    margin-bottom: 16px;
+    max-width: 680px;
   }
 
-  .hist__logo {
-    font-size: 24px;
-  }
-
-  .hist__title,
-  .hist__subtitle {
+  .hist__title {
     width: 100%;
-    max-width: 640px;
-    text-align: left;
+    max-width: 680px;
   }
 
   .hist__card {
     flex: none;
     width: 100%;
-    max-width: 640px;
+    max-width: 680px;
     padding: 28px 32px;
     border-radius: 28px;
     background: #ffffff;
     box-shadow: 0 24px 70px rgba(80, 60, 120, 0.12);
+  }
+
+  .hist__grid {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
