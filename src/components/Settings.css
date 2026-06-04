@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: column;
   font-family: var(--sans);
+  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 /* â”€â”€ Header â”€â”€ */
@@ -66,6 +68,7 @@
 /* â”€â”€ Row â”€â”€ */
 .settings-row {
   width: 100%;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -268,6 +271,7 @@
 .settings-row--link {
   text-decoration: none;
   color: #0a0a0a;
+  display: flex;
 }
 
 /* â”€â”€ Hint â”€â”€ */
