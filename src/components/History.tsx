@@ -59,7 +59,7 @@ function History({ onNavigate, onSettings }: HistoryProps) {
         <span className="hist__logo">
           <Logo variant="text" />
         </span>
-        <button type="button" className="hist__settings" aria-label="Réglages">
+        <button type="button" className="hist__settings" aria-label="Réglages" onClick={onSettings}>
           Réglages ⚙
         </button>
       </header>
