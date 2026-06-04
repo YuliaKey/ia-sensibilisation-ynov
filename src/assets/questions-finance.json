@@ -4,23 +4,23 @@
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Capacités",
-        "question":  "Quel est le gain principal de l\\u0027usage d\\u0027un outil de lecture IA (OCR + NLP) dans une phase de Due Diligence d\\u0027acquisition ?",
+        "question":  "Quel est le gain principal de l'usage d'un outil de lecture IA (OCR + NLP) dans une phase de Due Diligence d'acquisition ?",
         "options":  [
-                        "Remplacer l\\u0027avis final de l\\u0027avocat d\\u0027affaires",
+                        "Remplacer l'avis final de l'avocat d'affaires",
                         "Extraire et synthétiser en quelques minutes les clauses financières clés de centaines de contrats commerciaux",
-                        "Supprimer le besoin d\\u0027auditer les comptes",
+                        "Supprimer le besoin d'auditer les comptes",
                         "Négocier une baisse de prix automatiquement avec le vendeur"
                     ],
         "correct_index":  1,
         "correct_answer":  "Extraire et synthétiser en quelques minutes les clauses financières clés de centaines de contrats commerciaux",
-        "explanation":  "Les outils IA de traitement du langage excellent dans la lecture de masse, permettant d\\u0027isoler rapidement les clauses de changement de contrôle ou les indexations de prix cachées dans les contrats d\\u0027une cible."
+        "explanation":  "Les outils IA de traitement du langage excellent dans la lecture de masse, permettant d'isoler rapidement les clauses de changement de contrôle ou les indexations de prix cachées dans les contrats d'une cible."
     },
     {
         "id":  2,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Capacités",
-        "question":  "En conseil M\\u0026A, comment l\\u0027IA peut-elle aider à l\\u0027étape du \\u0027Screening\\u0027 (recherche de cibles) ?",
+        "question":  "En conseil M&A, comment l'IA peut-elle aider à l'étape du 'Screening' (recherche de cibles) ?",
         "options":  [
                         "En envoyant automatiquement des offres de rachat signées",
                         "En scannant des bases de données mondiales pour identifier les entreprises répondant précisément à des critères sectoriels et de marge",
@@ -29,222 +29,222 @@
                     ],
         "correct_index":  1,
         "correct_answer":  "En scannant des bases de données mondiales pour identifier les entreprises répondant précisément à des critères sectoriels et de marge",
-        "explanation":  "L\\u0027IA automatise le tri initial de milliers d\\u0027entreprises selon des critères financiers et sémantiques complexes pour générer une \\u0027long list\\u0027 pertinente pour le consultant."
+        "explanation":  "L'IA automatise le tri initial de milliers d'entreprises selon des critères financiers et sémantiques complexes pour générer une 'long list' pertinente pour le consultant."
     },
     {
         "id":  3,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Limites",
-        "question":  "Pourquoi une prévision de chiffre d\\u0027affaires générée par une IA sur 5 ans peut-elle être hors-sol pour une startup en stratégie ?",
+        "question":  "Pourquoi une prévision de chiffre d'affaires générée par une IA sur 5 ans peut-elle être hors-sol pour une startup en stratégie ?",
         "options":  [
-                        "Parce que l\\u0027IA ne sait pas faire de multiplications",
-                        "Parce que l\\u0027IA se base sur des données passées et ne peut pas anticiper un pivot stratégique ou une innovation de rupture",
-                        "Parce que les startups refusent d\\u0027utiliser les mathématiques",
-                        "Parce que les ordinateurs n\\u0027aiment pas l\\u0027hypercroissance"
+                        "Parce que l'IA ne sait pas faire de multiplications",
+                        "Parce que l'IA se base sur des données passées et ne peut pas anticiper un pivot stratégique ou une innovation de rupture",
+                        "Parce que les startups refusent d'utiliser les mathématiques",
+                        "Parce que les ordinateurs n'aiment pas l'hypercroissance"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Parce que l\\u0027IA se base sur des données passées et ne peut pas anticiper un pivot stratégique ou une innovation de rupture",
-        "explanation":  "L\\u0027IA extrapole des tendances historiques. Si une startup change de business model ou crée un nouveau marché, la machine n\\u0027a aucun historique pour le modéliser."
+        "correct_answer":  "Parce que l'IA se base sur des données passées et ne peut pas anticiper un pivot stratégique ou une innovation de rupture",
+        "explanation":  "L'IA extrapole des tendances historiques. Si une startup change de business model ou crée un nouveau marché, la machine n'a aucun historique pour le modéliser."
     },
     {
         "id":  4,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Dangers",
-        "question":  "Quel danger y a-t-il à téléverser le plan d\\u0027affaires confidentiel d\\u0027un client dans une IA générative grand public ?",
+        "question":  "Quel danger y a-t-il à téléverser le plan d'affaires confidentiel d'un client dans une IA générative grand public ?",
         "options":  [
-                        "L\\u0027outil va corrompre le fichier Excel",
+                        "L'outil va corrompre le fichier Excel",
                         "Les données confidentielles peuvent être stockées et réutilisées pour entraîner le modèle public, violant le NDA",
-                        "L\\u0027IA va rejeter le document car elle ne traite pas la finance",
-                        "L\\u0027ordinateur du client va s\\u0027éteindre immédiatement"
+                        "L'IA va rejeter le document car elle ne traite pas la finance",
+                        "L'ordinateur du client va s'éteindre immédiatement"
                     ],
         "correct_index":  1,
         "correct_answer":  "Les données confidentielles peuvent être stockées et réutilisées pour entraîner le modèle public, violant le NDA",
-        "explanation":  "Les clauses des outils d\\u0027IA grand public prévoient souvent l\\u0027usage des prompts pour l\\u0027entraînement. C\\u0027est une faute professionnelle majeure au regard des accords de confidentialité (NDA)."
+        "explanation":  "Les clauses des outils d'IA grand public prévoient souvent l'usage des prompts pour l'entraînement. C'est une faute professionnelle majeure au regard des accords de confidentialité (NDA)."
     },
     {
         "id":  5,
         "difficulty":  1,
         "difficulty_label":  "beginner",
-        "category":  "…?thique \\u0026 société",
-        "question":  "Qui assume la responsabilité finale d\\u0027un plan de restructuration financière erroné s\\u0027il a été suggéré par une IA ?",
+        "category":  "éthique & société",
+        "question":  "Qui assume la responsabilité finale d'un plan de restructuration financière erroné s'il a été suggéré par une IA ?",
         "options":  [
-                        "L\\u0027éditeur du logiciel d\\u0027IA",
+                        "L'éditeur du logiciel d'IA",
                         "Le cabinet de conseil et les associés qui ont validé et présenté la recommandation au client",
-                        "L\\u0027algorithme prédictif autonome",
+                        "L'algorithme prédictif autonome",
                         "Le stagiaire qui a copié le résultat dans PowerPoint"
                     ],
         "correct_index":  1,
         "correct_answer":  "Le cabinet de conseil et les associés qui ont validé et présenté la recommandation au client",
-        "explanation":  "L\\u0027IA n\\u0027est qu\\u0027un outil d\\u0027aide à la décision. La responsabilité légale et morale des livrables repose entièrement sur les professionnels qui les signent."
+        "explanation":  "L'IA n'est qu'un outil d'aide à la décision. La responsabilité légale et morale des livrables repose entièrement sur les professionnels qui les signent."
     },
     {
         "id":  6,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Capacités",
-        "question":  "Comment l\\u0027IA aide-t-elle un consultant à préparer une note sectorielle (Market Etude) ?",
+        "question":  "Comment l'IA aide-t-elle un consultant à préparer une note sectorielle (Market Etude) ?",
         "options":  [
                         "En rédigeant un rapport complet sans aucune source réelle",
                         "En synthétisant rapidement les tendances clés, les multiples de valorisation récents et les rapports de brokers du secteur",
                         "En remplaçant les entretiens avec les experts métiers",
-                        "En interdisant l\\u0027accès aux données des concurrents"
+                        "En interdisant l'accès aux données des concurrents"
                     ],
         "correct_index":  1,
         "correct_answer":  "En synthétisant rapidement les tendances clés, les multiples de valorisation récents et les rapports de brokers du secteur",
-        "explanation":  "L\\u0027IA permet d\\u0027accélérer la phase de recherche documentaire (desk research) en faisant ressortir les faits saillants d\\u0027un marché en un temps record."
+        "explanation":  "L'IA permet d'accélérer la phase de recherche documentaire (desk research) en faisant ressortir les faits saillants d'un marché en un temps record."
     },
     {
         "id":  7,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Limites",
-        "question":  "Qu\\u0027est-ce qu\\u0027une \\u0027hallucination\\u0027 financière de la part d\\u0027un modèle de langage (LLM) ?",
+        "question":  "Qu'est-ce qu'une 'hallucination' financière de la part d'un modèle de langage (LLM) ?",
         "options":  [
                         "Un graphique de performance en 3D",
-                        "L\\u0027invention pure et simple d\\u0027un chiffre ou d\\u0027une performance financière présentée avec une apparence de certitude absolue",
-                        "Un bug qui efface la mémoire de l\\u0027outil",
-                        "Le refus de l\\u0027IA d\\u0027analyser des entreprises en perte"
+                        "L'invention pure et simple d'un chiffre ou d'une performance financière présentée avec une apparence de certitude absolue",
+                        "Un bug qui efface la mémoire de l'outil",
+                        "Le refus de l'IA d'analyser des entreprises en perte"
                     ],
         "correct_index":  1,
-        "correct_answer":  "L\\u0027invention pure et simple d\\u0027un chiffre ou d\\u0027une performance financière présentée avec une apparence de certitude absolue",
-        "explanation":  "Les LLM prédisent la probabilité des mots suivants, ils ne vérifient pas l\\u0027exactitude comptable par défaut. Ils peuvent inventer de faux indicateurs financiers (ex: un faux EBITDA)."
+        "correct_answer":  "L'invention pure et simple d'un chiffre ou d'une performance financière présentée avec une apparence de certitude absolue",
+        "explanation":  "Les LLM prédisent la probabilité des mots suivants, ils ne vérifient pas l'exactitude comptable par défaut. Ils peuvent inventer de faux indicateurs financiers (ex: un faux EBITDA)."
     },
     {
         "id":  8,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Dangers",
-        "question":  "Quelle est la meilleure approche pour un cabinet de conseil voulant utiliser l\\u0027IA en toute sécurité ?",
+        "question":  "Quelle est la meilleure approche pour un cabinet de conseil voulant utiliser l'IA en toute sécurité ?",
         "options":  [
                         "Faire confiance aveugle aux outils gratuits du web",
-                        "Déployer une instance d\\u0027IA privée et sécurisée (Enterprise) dont les données ne sortent pas du réseau du cabinet",
-                        "Ne travailler qu\\u0027avec des captures d\\u0027écran floues",
-                        "Demander aux clients de saisir eux-mêmes leurs données financières dans l\\u0027IA"
+                        "Déployer une instance d'IA privée et sécurisée (Enterprise) dont les données ne sortent pas du réseau du cabinet",
+                        "Ne travailler qu'avec des captures d'écran floues",
+                        "Demander aux clients de saisir eux-mêmes leurs données financières dans l'IA"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Déployer une instance d\\u0027IA privée et sécurisée (Enterprise) dont les données ne sortent pas du réseau du cabinet",
-        "explanation":  "L\\u0027usage d\\u0027environnements IA fermés et sécurisés garantit qu\\u0027aucune donnée financière sensible ou stratégique ne fuite à l\\u0027extérieur."
+        "correct_answer":  "Déployer une instance d'IA privée et sécurisée (Enterprise) dont les données ne sortent pas du réseau du cabinet",
+        "explanation":  "L'usage d'environnements IA fermés et sécurisés garantit qu'aucune donnée financière sensible ou stratégique ne fuite à l'extérieur."
     },
     {
         "id":  9,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Capacités",
-        "question":  "Lors d\\u0027un projet de réorganisation, comment l\\u0027IA peut-elle aider à optimiser le besoin en fonds de roulement (BFR) ?",
+        "question":  "Lors d'un projet de réorganisation, comment l'IA peut-elle aider à optimiser le besoin en fonds de roulement (BFR) ?",
         "options":  [
-                        "En annulant toutes les dettes de l\\u0027entreprise auprès de ses banques",
+                        "En annulant toutes les dettes de l'entreprise auprès de ses banques",
                         "En analysant les profils de paiement des clients pour prédire les retards et cibler les relances prioritaires",
                         "En licenciant automatiquement les équipes comptables",
                         "En forçant les fournisseurs à accepter des délais de paiement infinis"
                     ],
         "correct_index":  1,
         "correct_answer":  "En analysant les profils de paiement des clients pour prédire les retards et cibler les relances prioritaires",
-        "explanation":  "L\\u0027IA analyse l\\u0027historique des transactions pour segmenter les clients selon leur risque de retard, permettant une gestion prédictive et optimisée des encaissements."
+        "explanation":  "L'IA analyse l'historique des transactions pour segmenter les clients selon leur risque de retard, permettant une gestion prédictive et optimisée des encaissements."
     },
     {
         "id":  10,
         "difficulty":  1,
         "difficulty_label":  "beginner",
-        "category":  "…?thique \\u0026 société",
-        "question":  "Quel impact l\\u0027IA a-t-elle sur le métier de consultant junior en stratégie financière ?",
+        "category":  "éthique & société",
+        "question":  "Quel impact l'IA a-t-elle sur le métier de consultant junior en stratégie financière ?",
         "options":  [
                         "Elle supprime le besoin de comprendre la comptabilité",
-                        "Elle le libère des tâches d\\u0027extraction manuelle de données pour lui permettre de passer plus de temps sur l\\u0027analyse critique",
-                        "Elle l\\u0027oblige à devenir ingénieur en informatique",
-                        "Elle élimine toute forme d\\u0027interaction avec le management"
+                        "Elle le libère des tâches d'extraction manuelle de données pour lui permettre de passer plus de temps sur l'analyse critique",
+                        "Elle l'oblige à devenir ingénieur en informatique",
+                        "Elle élimine toute forme d'interaction avec le management"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Elle le libère des tâches d\\u0027extraction manuelle de données pour lui permettre de passer plus de temps sur l\\u0027analyse critique",
-        "explanation":  "L\\u0027IA modifie la pyramide des tâches : le travail de saisie et de mise en forme basique diminue, accélérant la transition du junior vers des tâches à plus forte valeur intellectuelle."
+        "correct_answer":  "Elle le libère des tâches d'extraction manuelle de données pour lui permettre de passer plus de temps sur l'analyse critique",
+        "explanation":  "L'IA modifie la pyramide des tâches : le travail de saisie et de mise en forme basique diminue, accélérant la transition du junior vers des tâches à plus forte valeur intellectuelle."
     },
     {
         "id":  11,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Capacités",
-        "question":  "Que permet de faire un outil IA de \\u0027Data Room\\u0027 intelligente pour un acheteur pressé ?",
+        "question":  "Que permet de faire un outil IA de 'Data Room' intelligente pour un acheteur pressé ?",
         "options":  [
-                        "Rédiger la lettre d\\u0027intention (LOI) finale à la place de l\\u0027acheteur",
+                        "Rédiger la lettre d'intention (LOI) finale à la place de l'acheteur",
                         "Trier automatiquement les dossiers et signaler les documents manquants ou suspects par rapport à une liste de contrôle standard",
-                        "Garantir qu\\u0027aucune fraude n\\u0027existe dans les comptes de la cible",
+                        "Garantir qu'aucune fraude n'existe dans les comptes de la cible",
                         "Masquer les pertes financières aux yeux des auditeurs concurrents"
                     ],
         "correct_index":  1,
         "correct_answer":  "Trier automatiquement les dossiers et signaler les documents manquants ou suspects par rapport à une liste de contrôle standard",
-        "explanation":  "L\\u0027indexation et le tri automatisés par IA font gagner un temps précieux lors des premiers jours d\\u0027ouverture d\\u0027une data room électronique (VDR)."
+        "explanation":  "L'indexation et le tri automatisés par IA font gagner un temps précieux lors des premiers jours d'ouverture d'une data room électronique (VDR)."
     },
     {
         "id":  12,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Capacités",
-        "question":  "De quelle manière l\\u0027IA générative peut-elle assister la rédaction d\\u0027un mémorandum d\\u0027information (Info Memo) en M\\u0026A ?",
+        "question":  "De quelle manière l'IA générative peut-elle assister la rédaction d'un mémorandum d'information (Info Memo) en M&A ?",
         "options":  [
-                        "En inventant l\\u0027historique de l\\u0027entreprise pour la rendre plus attractive",
+                        "En inventant l'historique de l'entreprise pour la rendre plus attractive",
                         "En structurant les sections narratives et en mettant en forme les données financières brutes selon les standards du marché",
-                        "En signant le document pour engager la responsabilité légale de l\\u0027ordinateur",
+                        "En signant le document pour engager la responsabilité légale de l'ordinateur",
                         "En envoyant le document à tous les concurrents par erreur"
                     ],
         "correct_index":  1,
         "correct_answer":  "En structurant les sections narratives et en mettant en forme les données financières brutes selon les standards du marché",
-        "explanation":  "L\\u0027IA générative sert de copilote de rédaction, harmonisant le ton professionnel et la structure des documents de présentation (pitchbooks, IM)."
+        "explanation":  "L'IA générative sert de copilote de rédaction, harmonisant le ton professionnel et la structure des documents de présentation (pitchbooks, IM)."
     },
     {
         "id":  13,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Limites",
-        "question":  "Pourquoi l\\u0027IA a-t-elle du mal à évaluer la valeur financière d\\u0027un brevet technologique naissant ?",
+        "question":  "Pourquoi l'IA a-t-elle du mal à évaluer la valeur financière d'un brevet technologique naissant ?",
         "options":  [
-                        "Parce que la loi interdit d\\u0027évaluer les actifs immatériels par ordinateur",
-                        "Parce que la valeur dépend d\\u0027applications stratégiques futures inédites sans données transactionnelles comparables passées",
-                        "Parce que l\\u0027IA ne sait lire que les fichiers Excel et pas les textes de brevets",
-                        "Parce que les brevets n\\u0027ont aucune valeur comptable officielle"
+                        "Parce que la loi interdit d'évaluer les actifs immatériels par ordinateur",
+                        "Parce que la valeur dépend d'applications stratégiques futures inédites sans données transactionnelles comparables passées",
+                        "Parce que l'IA ne sait lire que les fichiers Excel et pas les textes de brevets",
+                        "Parce que les brevets n'ont aucune valeur comptable officielle"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Parce que la valeur dépend d\\u0027applications stratégiques futures inédites sans données transactionnelles comparables passées",
-        "explanation":  "Une technologie de rupture n\\u0027a pas d\\u0027équivalent historique sur le marché. L\\u0027évaluation requiert un jugement d\\u0027expert sur l\\u0027évolution du marché, hors de portée des algorithmes de pure extrapolation."
+        "correct_answer":  "Parce que la valeur dépend d'applications stratégiques futures inédites sans données transactionnelles comparables passées",
+        "explanation":  "Une technologie de rupture n'a pas d'équivalent historique sur le marché. L'évaluation requiert un jugement d'expert sur l'évolution du marché, hors de portée des algorithmes de pure extrapolation."
     },
     {
         "id":  14,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Dangers",
-        "question":  "Quel problème pose l\\u0027usage d\\u0027une IA dont les données d\\u0027entraînement financier s\\u0027arrêtent à l\\u0027année précédente ?",
+        "question":  "Quel problème pose l'usage d'une IA dont les données d'entraînement financier s'arrêtent à l'année précédente ?",
         "options":  [
-                        "Elle refusera d\\u0027ouvrir les fichiers de l\\u0027année en cours",
-                        "Elle va ignorer les évolutions réglementaires, fiscales ou de taux d\\u0027intérêt survenues depuis, faussant ses analyses récentes",
-                        "Elle calculera les pourcentages à l\\u0027envers",
-                        "Elle effacera les données de l\\u0027année en cours par sécurité"
+                        "Elle refusera d'ouvrir les fichiers de l'année en cours",
+                        "Elle va ignorer les évolutions réglementaires, fiscales ou de taux d'intérêt survenues depuis, faussant ses analyses récentes",
+                        "Elle calculera les pourcentages à l'envers",
+                        "Elle effacera les données de l'année en cours par sécurité"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Elle va ignorer les évolutions réglementaires, fiscales ou de taux d\\u0027intérêt survenues depuis, faussant ses analyses récentes",
-        "explanation":  "C\\u0027est le problème de la fraîcheur des données (cutoff). Un modèle non mis à jour ignore les retournements récents du marché ou les réformes fiscales votées au dernier trimestre."
+        "correct_answer":  "Elle va ignorer les évolutions réglementaires, fiscales ou de taux d'intérêt survenues depuis, faussant ses analyses récentes",
+        "explanation":  "C'est le problème de la fraîcheur des données (cutoff). Un modèle non mis à jour ignore les retournements récents du marché ou les réformes fiscales votées au dernier trimestre."
     },
     {
         "id":  15,
         "difficulty":  1,
         "difficulty_label":  "beginner",
-        "category":  "…?thique \\u0026 société",
-        "question":  "Pourquoi la transparence des algorithmes d\\u0027IA est-elle jugée essentielle dans le secteur du scoring financier d\\u0027entreprises ?",
+        "category":  "éthique & société",
+        "question":  "Pourquoi la transparence des algorithmes d'IA est-elle jugée essentielle dans le secteur du scoring financier d'entreprises ?",
         "options":  [
                         "Pour accélérer la vitesse de calcul des processeurs",
-                        "Pour permettre aux dirigeants d\\u0027entreprises de comprendre et, le cas échéant, de contester une décision de refus de financement",
-                        "Pour s\\u0027assurer que le logiciel est libre de droits",
+                        "Pour permettre aux dirigeants d'entreprises de comprendre et, le cas échéant, de contester une décision de refus de financement",
+                        "Pour s'assurer que le logiciel est libre de droits",
                         "Pour éviter que les banques ne fassent des bénéfices excessifs"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Pour permettre aux dirigeants d\\u0027entreprises de comprendre et, le cas échéant, de contester une décision de refus de financement",
-        "explanation":  "Le droit à l\\u0027explicabilité (notamment sous l\\u0027égide du RGPD et de l\\u0027AI Act) impose que toute décision automatisée ayant un impact économique fort puisse être expliquée de manière intelligible."
+        "correct_answer":  "Pour permettre aux dirigeants d'entreprises de comprendre et, le cas échéant, de contester une décision de refus de financement",
+        "explanation":  "Le droit à l'explicabilité (notamment sous l'égide du RGPD et de l'AI Act) impose que toute décision automatisée ayant un impact économique fort puisse être expliquée de manière intelligible."
     },
     {
         "id":  16,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Capacités",
-        "question":  "Comment l\\u0027IA peut-elle accélérer l\\u0027analyse de la structure de coûts d\\u0027une entreprise cible lors d\\u0027un audit ?",
+        "question":  "Comment l'IA peut-elle accélérer l'analyse de la structure de coûts d'une entreprise cible lors d'un audit ?",
         "options":  [
                         "En classant automatiquement des milliers de lignes de dépenses comptables éparses dans des catégories standardisées",
                         "En supprimant arbitrairement les lignes de dépenses les plus élevées",
@@ -253,38 +253,38 @@
                     ],
         "correct_index":  0,
         "correct_answer":  "En classant automatiquement des milliers de lignes de dépenses comptables éparses dans des catégories standardisées",
-        "explanation":  "La classification automatisée (spend analysis) par machine learning permet de nettoyer et de catégoriser instantanément des flux de dépenses volumineux pour identifier les anomalies ou les gisements d\\u0027économies."
+        "explanation":  "La classification automatisée (spend analysis) par machine learning permet de nettoyer et de catégoriser instantanément des flux de dépenses volumineux pour identifier les anomalies ou les gisements d'économies."
     },
     {
         "id":  17,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Limites",
-        "question":  "Quelle limite rencontre une IA financière face à l\\u0027évaluation des risques réglementaires spécifiques à un pays en développement ?",
+        "question":  "Quelle limite rencontre une IA financière face à l'évaluation des risques réglementaires spécifiques à un pays en développement ?",
         "options":  [
                         "Les modèles IA ne fonctionnent que dans les pays du G7",
-                        "Le manque de données financières publiques fiables et structurées pour nourrir et entraîner correctement l\\u0027algorithme",
-                        "L\\u0027incapacité des algorithmes à convertir les devises locales",
-                        "Le refus légal des pays en développement d\\u0027accepter l\\u0027informatique"
+                        "Le manque de données financières publiques fiables et structurées pour nourrir et entraîner correctement l'algorithme",
+                        "L'incapacité des algorithmes à convertir les devises locales",
+                        "Le refus légal des pays en développement d'accepter l'informatique"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Le manque de données financières publiques fiables et structurées pour nourrir et entraîner correctement l\\u0027algorithme",
-        "explanation":  "Les modèles IA sont dépendants de la quantité et de la qualité des données disponibles. Dans les zones où l\\u0027information financière est opaque ou peu numérisée, l\\u0027efficacité de l\\u0027IA chute drastiquement."
+        "correct_answer":  "Le manque de données financières publiques fiables et structurées pour nourrir et entraîner correctement l'algorithme",
+        "explanation":  "Les modèles IA sont dépendants de la quantité et de la qualité des données disponibles. Dans les zones où l'information financière est opaque ou peu numérisée, l'efficacité de l'IA chute drastiquement."
     },
     {
         "id":  18,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Dangers",
-        "question":  "Quel risque court un consultant qui utilise l\\u0027IA pour générer automatiquement les graphiques financiers d\\u0027un pitch client ?",
+        "question":  "Quel risque court un consultant qui utilise l'IA pour générer automatiquement les graphiques financiers d'un pitch client ?",
         "options":  [
                         "Que les couleurs ne plaisent pas au client",
-                        "Que l\\u0027IA crée des axes trompeurs ou intervertisse des lignes de données sans validation humaine, faussant le message financier",
+                        "Que l'IA crée des axes trompeurs ou intervertisse des lignes de données sans validation humaine, faussant le message financier",
                         "Que le fichier devienne trop lourd pour être envoyé par email",
-                        "Que l\\u0027IA supprime la licence du logiciel de présentation"
+                        "Que l'IA supprime la licence du logiciel de présentation"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Que l\\u0027IA crée des axes trompeurs ou intervertisse des lignes de données sans validation humaine, faussant le message financier",
+        "correct_answer":  "Que l'IA crée des axes trompeurs ou intervertisse des lignes de données sans validation humaine, faussant le message financier",
         "explanation":  "Les outils de génération visuelle automatique ne comprennent pas le sens business profond des données. Une relecture rigoureuse des échelles et des légendes reste indispensable."
     },
     {
@@ -292,55 +292,55 @@
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Capacités",
-        "question":  "En quoi l\\u0027IA peut-elle aider à valider la conformité des états financiers (Compliance) d\\u0027un groupe multi-entités ?",
+        "question":  "En quoi l'IA peut-elle aider à valider la conformité des états financiers (Compliance) d'un groupe multi-entités ?",
         "options":  [
                         "En signant la certification légale à la place des commissaires aux comptes",
-                        "En repérant automatiquement les écarts d\\u0027application des normes comptables (ex: bascule IFRS) entre les filiales",
-                        "En masquant les anomalies fiscales pour s\\u0027éviter un contrôle",
+                        "En repérant automatiquement les écarts d'application des normes comptables (ex: bascule IFRS) entre les filiales",
+                        "En masquant les anomalies fiscales pour s'éviter un contrôle",
                         "En modifiant les dates de clôture fiscale pour optimiser les résultats"
                     ],
         "correct_index":  1,
-        "correct_answer":  "En repérant automatiquement les écarts d\\u0027application des normes comptables (ex: bascule IFRS) entre les filiales",
-        "explanation":  "L\\u0027IA excelle à comparer des structures de comptes hétérogènes par rapport à un référentiel normatif strict et à cartographier les divergences de lettrage ou de règles."
+        "correct_answer":  "En repérant automatiquement les écarts d'application des normes comptables (ex: bascule IFRS) entre les filiales",
+        "explanation":  "L'IA excelle à comparer des structures de comptes hétérogènes par rapport à un référentiel normatif strict et à cartographier les divergences de lettrage ou de règles."
     },
     {
         "id":  20,
         "difficulty":  1,
         "difficulty_label":  "beginner",
-        "category":  "…?thique \\u0026 société",
+        "category":  "éthique & société",
         "question":  "Quelle dérive éthique guette un cabinet de conseil qui facture au forfait horaire humain des livrables entièrement produits par une IA ?",
         "options":  [
-                        "Une amende automatique de la part des éditeurs de logiciels d\\u0027IA",
-                        "Un problème d\\u0027honnêteté commerciale et un risque de rupture de confiance majeure si le client découvre l\\u0027absence de valeur ajoutée humaine",
-                        "L\\u0027obligation légale d\\u0027embaucher plus de consultants juniors",
+                        "Une amende automatique de la part des éditeurs de logiciels d'IA",
+                        "Un problème d'honnêteté commerciale et un risque de rupture de confiance majeure si le client découvre l'absence de valeur ajoutée humaine",
+                        "L'obligation légale d'embaucher plus de consultants juniors",
                         "La baisse immédiate de la qualité visuelle des rapports"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Un problème d\\u0027honnêteté commerciale et un risque de rupture de confiance majeure si le client découvre l\\u0027absence de valeur ajoutée humaine",
-        "explanation":  "L\\u0027usage de l\\u0027IA doit mener à une redéfinition des modèles de facturation (valeur ajoutée vs temps passé), sous peine de créer un préjudice éthique et d\\u0027image face à des clients avertis."
+        "correct_answer":  "Un problème d'honnêteté commerciale et un risque de rupture de confiance majeure si le client découvre l'absence de valeur ajoutée humaine",
+        "explanation":  "L'usage de l'IA doit mener à une redéfinition des modèles de facturation (valeur ajoutée vs temps passé), sous peine de créer un préjudice éthique et d'image face à des clients avertis."
     },
     {
         "id":  21,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Capacités",
-        "question":  "Comment l\\u0027IA aide-t-elle à la vérification des CV de l\\u0027équipe de direction (Management Team) lors d\\u0027un audit stratégique ?",
+        "question":  "Comment l'IA aide-t-elle à la vérification des CV de l'équipe de direction (Management Team) lors d'un audit stratégique ?",
         "options":  [
                         "En rédigeant de fausses biographies pour impressionner les acheteurs",
-                        "En croisant automatiquement les parcours déclarés avec les registres publics d\\u0027entreprises et les réseaux professionnels pour détecter les incohérences de dates ou de diplômes",
+                        "En croisant automatiquement les parcours déclarés avec les registres publics d'entreprises et les réseaux professionnels pour détecter les incohérences de dates ou de diplômes",
                         "En licenciant automatiquement les dirigeants ayant un parcours atypique",
-                        "En garantissant que tous les dirigeants obtiendront d\\u0027excellents résultats futurs"
+                        "En garantissant que tous les dirigeants obtiendront d'excellents résultats futurs"
                     ],
         "correct_index":  1,
-        "correct_answer":  "En croisant automatiquement les parcours déclarés avec les registres publics d\\u0027entreprises et les réseaux professionnels pour détecter les incohérences de dates ou de diplômes",
-        "explanation":  "L\\u0027IA simplifie le travail de \\u0027background check\\u0027 de l\\u0027équipe managériale d\\u0027une cible d\\u0027acquisition, un élément clé de l\\u0027audit de confiance en M\\u0026A."
+        "correct_answer":  "En croisant automatiquement les parcours déclarés avec les registres publics d'entreprises et les réseaux professionnels pour détecter les incohérences de dates ou de diplômes",
+        "explanation":  "L'IA simplifie le travail de 'background check' de l'équipe managériale d'une cible d'acquisition, un élément clé de l'audit de confiance en M&A."
     },
     {
         "id":  22,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Capacités",
-        "question":  "De quelle manière l\\u0027IA simplifie-t-elle la traduction des rapports financiers internationaux pour un cabinet conseil ?",
+        "question":  "De quelle manière l'IA simplifie-t-elle la traduction des rapports financiers internationaux pour un cabinet conseil ?",
         "options":  [
                         "En modifiant les chiffres pour les adapter aux normes monétaires locales",
                         "En traduisant instantanément des milliers de pages de bilans comptables étrangers tout en conservant le contexte et le lexique technique financier propre à chaque pays",
@@ -356,95 +356,95 @@
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Limites",
-        "question":  "Quelle limite évidente rencontre un consultant qui demande à une IA générative d\\u0027interpréter le climat social d\\u0027une usine à céder ?",
+        "question":  "Quelle limite évidente rencontre un consultant qui demande à une IA générative d'interpréter le climat social d'une usine à céder ?",
         "options":  [
-                        "L\\u0027IA refuse d\\u0027étudier les sites industriels",
-                        "L\\u0027IA ne peut pas capter les tensions non écrites, le langage corporel des syndicats ou le moral informel des équipes sur le terrain",
+                        "L'IA refuse d'étudier les sites industriels",
+                        "L'IA ne peut pas capter les tensions non écrites, le langage corporel des syndicats ou le moral informel des équipes sur le terrain",
                         "Les rapports sur le climat social sont obligatoirement chiffrés sous forme de pourcentages simples",
-                        "L\\u0027IA propose systématiquement de fermer l\\u0027usine pour économiser des coûts"
+                        "L'IA propose systématiquement de fermer l'usine pour économiser des coûts"
                     ],
         "correct_index":  1,
-        "correct_answer":  "L\\u0027IA ne peut pas capter les tensions non écrites, le langage corporel des syndicats ou le moral informel des équipes sur le terrain",
-        "explanation":  "L\\u0027évaluation humaine sur site reste indispensable. L\\u0027IA ne sait analyser que les données textuelles ou chiffrées qu\\u0027on lui fournit, passant à côté de la réalité émotionnelle et sociale directe."
+        "correct_answer":  "L'IA ne peut pas capter les tensions non écrites, le langage corporel des syndicats ou le moral informel des équipes sur le terrain",
+        "explanation":  "L'évaluation humaine sur site reste indispensable. L'IA ne sait analyser que les données textuelles ou chiffrées qu'on lui fournit, passant à côté de la réalité émotionnelle et sociale directe."
     },
     {
         "id":  24,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Dangers",
-        "question":  "Quel risque prend un cabinet qui utilise une IA non sécurisée pour stocker les questions-réponses (Q\\u0026A) confidentielles d\\u0027un deal M\\u0026A ?",
+        "question":  "Quel risque prend un cabinet qui utilise une IA non sécurisée pour stocker les questions-réponses (Q&A) confidentielles d'un deal M&A ?",
         "options":  [
                         "Le risque de voir le texte changer de police de caractères automatiquement",
-                        "Le risque d\\u0027espionnage industriel ou de délit d\\u0027initié si des tiers accèdent aux intentions d\\u0027achat et aux prix négociés via les failles de l\\u0027outil",
-                        "Le risque de voir l\\u0027IA interdire la vente de l\\u0027entreprise",
+                        "Le risque d'espionnage industriel ou de délit d'initié si des tiers accèdent aux intentions d'achat et aux prix négociés via les failles de l'outil",
+                        "Le risque de voir l'IA interdire la vente de l'entreprise",
                         "Le risque que les fichiers soient convertis en images illisibles"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Le risque d\\u0027espionnage industriel ou de délit d\\u0027initié si des tiers accèdent aux intentions d\\u0027achat et aux prix négociés via les failles de l\\u0027outil",
-        "explanation":  "Les flux de Q\\u0026A contiennent les secrets les plus critiques d\\u0027une transaction. L\\u0027utilisation d\\u0027outils d\\u0027IA cloud publics sans protection stricte met en péril l\\u0027intégralité du deal."
+        "correct_answer":  "Le risque d'espionnage industriel ou de délit d'initié si des tiers accèdent aux intentions d'achat et aux prix négociés via les failles de l'outil",
+        "explanation":  "Les flux de Q&A contiennent les secrets les plus critiques d'une transaction. L'utilisation d'outils d'IA cloud publics sans protection stricte met en péril l'intégralité du deal."
     },
     {
         "id":  25,
         "difficulty":  1,
         "difficulty_label":  "beginner",
-        "category":  "…?thique \\u0026 société",
-        "question":  "Quel principe de transparence est bafoué si un conseiller utilise l\\u0027IA pour générer une fausse attestation d\\u0027évaluation d\\u0027actifs ?",
+        "category":  "éthique & société",
+        "question":  "Quel principe de transparence est bafoué si un conseiller utilise l'IA pour générer une fausse attestation d'évaluation d'actifs ?",
         "options":  [
                         "Le principe de secret de fabrication",
-                        "Le principe d\\u0027intégrité intellectuelle et d\\u0027honnêteté professionnelle, constitutif de la responsabilité fiduciaire envers le client et le marché",
-                        "Le principe d\\u0027économie de moyens informatiques",
+                        "Le principe d'intégrité intellectuelle et d'honnêteté professionnelle, constitutif de la responsabilité fiduciaire envers le client et le marché",
+                        "Le principe d'économie de moyens informatiques",
                         "Le principe de libre concurrence des éditeurs de logiciels"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Le principe d\\u0027intégrité intellectuelle et d\\u0027honnêteté professionnelle, constitutif de la responsabilité fiduciaire envers le client et le marché",
-        "explanation":  "Manipuler ou inventer des données d\\u0027évaluation financière à l\\u0027aide de l\\u0027IA constitue une faute grave, assimilable à de la fraude ou de la falsification de livrables professionnels."
+        "correct_answer":  "Le principe d'intégrité intellectuelle et d'honnêteté professionnelle, constitutif de la responsabilité fiduciaire envers le client et le marché",
+        "explanation":  "Manipuler ou inventer des données d'évaluation financière à l'aide de l'IA constitue une faute grave, assimilable à de la fraude ou de la falsification de livrables professionnels."
     },
     {
         "id":  26,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Capacités",
-        "question":  "De quelle manière l\\u0027IA peut-elle aider à cartographier le paysage concurrentiel (Competitive Landscape) d\\u0027un secteur ?",
+        "question":  "De quelle manière l'IA peut-elle aider à cartographier le paysage concurrentiel (Competitive Landscape) d'un secteur ?",
         "options":  [
                         "En éliminant informatiquement les sites web des concurrents",
-                        "En extrayant et catégorisant automatiquement les parts de marché, offres de prix et positionnements stratégiques de centaines d\\u0027acteurs à partir du web",
+                        "En extrayant et catégorisant automatiquement les parts de marché, offres de prix et positionnements stratégiques de centaines d'acteurs à partir du web",
                         "En rachetant les bases de données secrètes de la concurrence sans autorisation",
                         "En créant un marché de monopole artificiel pour le client"
                     ],
         "correct_index":  1,
-        "correct_answer":  "En extrayant et catégorisant automatiquement les parts de marché, offres de prix et positionnements stratégiques de centaines d\\u0027acteurs à partir du web",
-        "explanation":  "Les outils d\\u0027intelligence concurrentielle boostés à l\\u0027IA automatisent la collecte de données publiques éparses pour structurer des matrices concurrentielles claires."
+        "correct_answer":  "En extrayant et catégorisant automatiquement les parts de marché, offres de prix et positionnements stratégiques de centaines d'acteurs à partir du web",
+        "explanation":  "Les outils d'intelligence concurrentielle boostés à l'IA automatisent la collecte de données publiques éparses pour structurer des matrices concurrentielles claires."
     },
     {
         "id":  27,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Limites",
-        "question":  "Pourquoi les recommandations stratégiques d\\u0027une IA standard ont-elles tendance à être stéréotypées (génériques) ?",
+        "question":  "Pourquoi les recommandations stratégiques d'une IA standard ont-elles tendance à être stéréotypées (génériques) ?",
         "options":  [
-                        "Parce que les modèles d\\u0027IA manquent de puissance de calcul",
-                        "Parce qu\\u0027elles reflètent la moyenne statistique des données textuelles du web sur lesquelles elles ont été entraînées, manquant d\\u0027audace créative",
+                        "Parce que les modèles d'IA manquent de puissance de calcul",
+                        "Parce qu'elles reflètent la moyenne statistique des données textuelles du web sur lesquelles elles ont été entraînées, manquant d'audace créative",
                         "Parce que la loi interdit aux IA de proposer des idées originales",
-                        "Parce que le secteur du conseil exige par défaut l\\u0027application de formules fixes"
+                        "Parce que le secteur du conseil exige par défaut l'application de formules fixes"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Parce qu\\u0027elles reflètent la moyenne statistique des données textuelles du web sur lesquelles elles ont été entraînées, manquant d\\u0027audace créative",
-        "explanation":  "Les modèles de langage recherchent le consensus probabiliste. Leurs réponses initiales manquent souvent de la finesse d\\u0027ajustement ou de la vision disruptive attendue d\\u0027un grand cabinet de stratégie."
+        "correct_answer":  "Parce qu'elles reflètent la moyenne statistique des données textuelles du web sur lesquelles elles ont été entraînées, manquant d'audace créative",
+        "explanation":  "Les modèles de langage recherchent le consensus probabiliste. Leurs réponses initiales manquent souvent de la finesse d'ajustement ou de la vision disruptive attendue d'un grand cabinet de stratégie."
     },
     {
         "id":  28,
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Dangers",
-        "question":  "Quel problème engendre la perte de compétences de calcul de base chez les analystes juniors qui se reposent trop sur l\\u0027IA ?",
+        "question":  "Quel problème engendre la perte de compétences de calcul de base chez les analystes juniors qui se reposent trop sur l'IA ?",
         "options":  [
-                        "La baisse de la vitesse d\\u0027écriture au clavier",
-                        "L\\u0027incapacité à détecter à l\\u0027…",
+                        "La baisse de la vitesse d'écriture au clavier",
+                        "L'incapacité à détecter à l'…",
                         ",\r\n                        ",
                         ",\r\n                        "
                     ],
         "correct_index":  1,
-        "correct_answer":  "L\\u0027incapacité à détecter à l\\u0027…",
+        "correct_answer":  "L'incapacité à détecter à l'…",
         "explanation":  "La sur-dépendance aux outils technologiques atrophie le sens critique. Un bon consultant doit conserver une intuition chiffrée minimale pour détecter immédiatement les aberrations générées par une machine."
     },
     {
@@ -452,60 +452,60 @@
         "difficulty":  1,
         "difficulty_label":  "beginner",
         "category":  "Capacités",
-        "question":  "Comment l\\u0027IA peut-elle aider à la préparation des réunions de négociation de prix entre l\\u0027acheteur et le vendeur ?",
+        "question":  "Comment l'IA peut-elle aider à la préparation des réunions de négociation de prix entre l'acheteur et le vendeur ?",
         "options":  [
                         "En se connectant au micro de la partie adverse à son insu",
-                        "En simulant les arguments probables de la partie adverse à partir de l\\u0027historique de ses transactions passées et de son profil public",
-                        "En imposant un prix d\\u0027achat final par un arbitrage informatique indiscutable",
+                        "En simulant les arguments probables de la partie adverse à partir de l'historique de ses transactions passées et de son profil public",
+                        "En imposant un prix d'achat final par un arbitrage informatique indiscutable",
                         "En rédigeant un script de négociation immuable que le consultant doit lire mot à mot"
                     ],
         "correct_index":  1,
-        "correct_answer":  "En simulant les arguments probables de la partie adverse à partir de l\\u0027historique de ses transactions passées et de son profil public",
-        "explanation":  "L\\u0027IA générative peut être utilisée pour mener des simulations de rôles (role-playing), aidant les négociateurs humains à anticiper les objections et à affûter leurs contre-arguments."
+        "correct_answer":  "En simulant les arguments probables de la partie adverse à partir de l'historique de ses transactions passées et de son profil public",
+        "explanation":  "L'IA générative peut être utilisée pour mener des simulations de rôles (role-playing), aidant les négociateurs humains à anticiper les objections et à affûter leurs contre-arguments."
     },
     {
         "id":  30,
         "difficulty":  1,
         "difficulty_label":  "beginner",
-        "category":  "…?thique \\u0026 société",
-        "question":  "Quel est l\\u0027impact sociétal de l\\u0027usage massif de l\\u0027IA de screening par les fonds de capital-risque (Venture Capital) ?",
+        "category":  "éthique & société",
+        "question":  "Quel est l'impact sociétal de l'usage massif de l'IA de screening par les fonds de capital-risque (Venture Capital) ?",
         "options":  [
                         "La disparition complète des levées de fonds en physique",
-                        "Un risque d\\u0027exclusion des fondateurs atypiques ou issus de minorités si les critères algorithmiques reproduisent les profils des succès passés (clonage social)",
-                        "L\\u0027obligation pour toutes les startups de développer des logiciels d\\u0027IA pour être financées",
-                        "L\\u0027augmentation mathématique du taux de réussite de 100% des projets financés"
+                        "Un risque d'exclusion des fondateurs atypiques ou issus de minorités si les critères algorithmiques reproduisent les profils des succès passés (clonage social)",
+                        "L'obligation pour toutes les startups de développer des logiciels d'IA pour être financées",
+                        "L'augmentation mathématique du taux de réussite de 100% des projets financés"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Un risque d\\u0027exclusion des fondateurs atypiques ou issus de minorités si les critères algorithmiques reproduisent les profils des succès passés (clonage social)",
-        "explanation":  "Si les algorithmes de sélection des fonds sont paramétrés uniquement sur les caractéristiques des succès passés (ex: diplômes d\\u0027écoles spécifiques, profils types), ils ferment la porte aux innovations issues de profils plus divers."
+        "correct_answer":  "Un risque d'exclusion des fondateurs atypiques ou issus de minorités si les critères algorithmiques reproduisent les profils des succès passés (clonage social)",
+        "explanation":  "Si les algorithmes de sélection des fonds sont paramétrés uniquement sur les caractéristiques des succès passés (ex: diplômes d'écoles spécifiques, profils types), ils ferment la porte aux innovations issues de profils plus divers."
     },
     {
         "id":  31,
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Capacités",
-        "question":  "En Restructuring (entreprises en difficulté), que permet l\\u0027analyse prédictive de l\\u0027IA sur la trésorerie ?",
+        "question":  "En Restructuring (entreprises en difficulté), que permet l'analyse prédictive de l'IA sur la trésorerie ?",
         "options":  [
                         "De créer de la trésorerie artificielle pour rassurer le tribunal",
-                        "D\\u0027anticiper le point de rupture de liquidité (cash out-date) avec une grande finesse en croisant des flux de données internes et externes",
-                        "D\\u0027automatiser le choix des créanciers à ne pas rembourser",
+                        "D'anticiper le point de rupture de liquidité (cash out-date) avec une grande finesse en croisant des flux de données internes et externes",
+                        "D'automatiser le choix des créanciers à ne pas rembourser",
                         "De masquer les alertes des commissaires aux comptes"
                     ],
         "correct_index":  1,
-        "correct_answer":  "D\\u0027anticiper le point de rupture de liquidité (cash out-date) avec une grande finesse en croisant des flux de données internes et externes",
-        "explanation":  "L\\u0027IA permet d\\u0027établir des modèles dynamiques de \\u0027cash flow forecasting\\u0027 capables de simuler les entrées et sorties de fonds au jour le jour pour prévenir les défauts de paiement."
+        "correct_answer":  "D'anticiper le point de rupture de liquidité (cash out-date) avec une grande finesse en croisant des flux de données internes et externes",
+        "explanation":  "L'IA permet d'établir des modèles dynamiques de 'cash flow forecasting' capables de simuler les entrées et sorties de fonds au jour le jour pour prévenir les défauts de paiement."
     },
     {
         "id":  32,
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Capacités",
-        "question":  "Comment l\\u0027IA valorise-t-elle une démarche de Vendor Due Diligence (VDD) pour un fonds de Private Equity ?",
+        "question":  "Comment l'IA valorise-t-elle une démarche de Vendor Due Diligence (VDD) pour un fonds de Private Equity ?",
         "options":  [
                         "En garantissant un prix de vente deux fois plus élevé",
                         "En prouvant scientifiquement la récurrence et la fidélité des revenus clients (calcul de Churn prédictif) grâce à des analyses de données de masse",
-                        "En effaçant l\\u0027historique des mauvaises années comptables",
-                        "En signant la vente sans passer par une banque d\\u0027affaires"
+                        "En effaçant l'historique des mauvaises années comptables",
+                        "En signant la vente sans passer par une banque d'affaires"
                     ],
         "correct_index":  1,
         "correct_answer":  "En prouvant scientifiquement la récurrence et la fidélité des revenus clients (calcul de Churn prédictif) grâce à des analyses de données de masse",
@@ -516,124 +516,124 @@
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Limites",
-        "question":  "Pourquoi les méthodes d\\u0027évaluation d\\u0027entreprise automatisées par IA échouent-elles sur les secteurs en pleine disruption ?",
+        "question":  "Pourquoi les méthodes d'évaluation d'entreprise automatisées par IA échouent-elles sur les secteurs en pleine disruption ?",
         "options":  [
-                        "Car les secteurs disruptifs n\\u0027ont pas de valeur financière",
-                        "Car les modèles IA s\\u0027appuient sur des bases de multiples historiques (EBITDA, CA) obsolètes face à l\\u0027émergence de nouveaux business models",
-                        "Car les algorithmes n\\u0027acceptent pas les entreprises sans bureaux physiques",
-                        "Car l\\u0027IA calcule uniquement en monnaie locale"
+                        "Car les secteurs disruptifs n'ont pas de valeur financière",
+                        "Car les modèles IA s'appuient sur des bases de multiples historiques (EBITDA, CA) obsolètes face à l'émergence de nouveaux business models",
+                        "Car les algorithmes n'acceptent pas les entreprises sans bureaux physiques",
+                        "Car l'IA calcule uniquement en monnaie locale"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Car les modèles IA s\\u0027appuient sur des bases de multiples historiques (EBITDA, CA) obsolètes face à l\\u0027émergence de nouveaux business models",
-        "explanation":  "L\\u0027évaluation d\\u0027une entreprise innovante est un pari stratégique sur l\\u0027avenir, fondé sur des options réelles et une vision macroéconomique que les algorithmes standards basés sur le passé ne capturent pas."
+        "correct_answer":  "Car les modèles IA s'appuient sur des bases de multiples historiques (EBITDA, CA) obsolètes face à l'émergence de nouveaux business models",
+        "explanation":  "L'évaluation d'une entreprise innovante est un pari stratégique sur l'avenir, fondé sur des options réelles et une vision macroéconomique que les algorithmes standards basés sur le passé ne capturent pas."
     },
     {
         "id":  34,
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Dangers",
-        "question":  "Qu\\u0027est-ce que le \\u0027biais d\\u0027automatisation\\u0027 (automation bias) pour un manager en cabinet de conseil ?",
+        "question":  "Qu'est-ce que le 'biais d'automatisation' (automation bias) pour un manager en cabinet de conseil ?",
         "options":  [
-                        "L\\u0027obligation légale d\\u0027utiliser l\\u0027IA sur chaque projet",
-                        "La tendance humaine à valider les conclusions ou graphiques d\\u0027une IA sans en vérifier la cohérence et les hypothèses sous-jacentes",
-                        "Le fait de préférer travailler seul plutôt qu\\u0027en équipe",
+                        "L'obligation légale d'utiliser l'IA sur chaque projet",
+                        "La tendance humaine à valider les conclusions ou graphiques d'une IA sans en vérifier la cohérence et les hypothèses sous-jacentes",
+                        "Le fait de préférer travailler seul plutôt qu'en équipe",
                         "La baisse de performance des ordinateurs portables"
                     ],
         "correct_index":  1,
-        "correct_answer":  "La tendance humaine à valider les conclusions ou graphiques d\\u0027une IA sans en vérifier la cohérence et les hypothèses sous-jacentes",
-        "explanation":  "Le biais d\\u0027automatisation endort la vigilance des équipes. Faire une confiance aveugle à une modélisation financière produite par IA peut mener à présenter des erreurs massives au COMEX du client."
+        "correct_answer":  "La tendance humaine à valider les conclusions ou graphiques d'une IA sans en vérifier la cohérence et les hypothèses sous-jacentes",
+        "explanation":  "Le biais d'automatisation endort la vigilance des équipes. Faire une confiance aveugle à une modélisation financière produite par IA peut mener à présenter des erreurs massives au COMEX du client."
     },
     {
         "id":  35,
         "difficulty":  2,
         "difficulty_label":  "curious",
-        "category":  "…?thique \\u0026 société",
-        "question":  "Au sens de l\\u0027AI Act européen, quelle est la contrainte indirecte pour l\\u0027IA utilisée dans la notation des risques financiers d\\u0027entreprises ?",
+        "category":  "éthique & société",
+        "question":  "Au sens de l'AI Act européen, quelle est la contrainte indirecte pour l'IA utilisée dans la notation des risques financiers d'entreprises ?",
         "options":  [
-                        "L\\u0027interdiction pure et simple de ces outils",
+                        "L'interdiction pure et simple de ces outils",
                         "Une obligation stricte de transparence, de gouvernance des données et de possibilité de contrôle humain",
                         "La gratuité des algorithmes pour les petites structures",
-                        "L\\u0027obligation de publier le code source sur un site public"
+                        "L'obligation de publier le code source sur un site public"
                     ],
         "correct_index":  1,
         "correct_answer":  "Une obligation stricte de transparence, de gouvernance des données et de possibilité de contrôle humain",
-        "explanation":  "L\\u0027Union européenne exige que les systèmes impactant l\\u0027évaluation financière ou de solvabilité soient explicables, audités et soumis à une supervision humaine finale rigoureuse."
+        "explanation":  "L'Union européenne exige que les systèmes impactant l'évaluation financière ou de solvabilité soient explicables, audités et soumis à une supervision humaine finale rigoureuse."
     },
     {
         "id":  36,
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Capacités",
-        "question":  "Quel est l\\u0027avantage de coupler l\\u0027IA avec la simulation de Monte Carlo dans un modèle de valorisation financière ?",
+        "question":  "Quel est l'avantage de coupler l'IA avec la simulation de Monte Carlo dans un modèle de valorisation financière ?",
         "options":  [
-                        "…?liminer totalement toute forme de risque ou d\\u0027incertitude",
-                        "Calibrer plus fidèlement et dynamiquement les lois de probabilité des variables d\\u0027entrée à partir de données de marché complexes",
+                        "éliminer totalement toute forme de risque ou d'incertitude",
+                        "Calibrer plus fidèlement et dynamiquement les lois de probabilité des variables d'entrée à partir de données de marché complexes",
                         "Générer automatiquement un prix de vente fixe et non négociable",
                         "Rendre la feuille Excel plus légère à stocker"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Calibrer plus fidèlement et dynamiquement les lois de probabilité des variables d\\u0027entrée à partir de données de marché complexes",
-        "explanation":  "L\\u0027IA permet d\\u0027alimenter les simulations financières avec des distributions réalistes et corrélées, rendant l\\u0027analyse des scénarios de risques bien plus robuste qu\\u0027avec de simples estimations manuelles."
+        "correct_answer":  "Calibrer plus fidèlement et dynamiquement les lois de probabilité des variables d'entrée à partir de données de marché complexes",
+        "explanation":  "L'IA permet d'alimenter les simulations financières avec des distributions réalistes et corrélées, rendant l'analyse des scénarios de risques bien plus robuste qu'avec de simples estimations manuelles."
     },
     {
         "id":  37,
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Limites",
-        "question":  "Que rappelle l\\u0027expression \\u0027Garbage in, Garbage out\\u0027 dans l\\u0027évaluation des synergies d\\u0027une fusion de deux groupes par une IA ?",
+        "question":  "Que rappelle l'expression 'Garbage in, Garbage out' dans l'évaluation des synergies d'une fusion de deux groupes par une IA ?",
         "options":  [
-                        "Que l\\u0027IA doit analyser les performances de gestion des déchets",
-                        "Que si les données de coûts de départ fournies par les filiales sont fausses ou mal nettoyées, les estimations de synergies de l\\u0027IA seront totalement erronées",
+                        "Que l'IA doit analyser les performances de gestion des déchets",
+                        "Que si les données de coûts de départ fournies par les filiales sont fausses ou mal nettoyées, les estimations de synergies de l'IA seront totalement erronées",
                         "Que les vieux ordinateurs produisent des modèles de moins bonne qualité",
-                        "Que l\\u0027IA rejette automatiquement les projets de fusion complexes"
+                        "Que l'IA rejette automatiquement les projets de fusion complexes"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Que si les données de coûts de départ fournies par les filiales sont fausses ou mal nettoyées, les estimations de synergies de l\\u0027IA seront totalement erronées",
-        "explanation":  "L\\u0027IA ne possède pas de bon sens inné. Si le consultant y injecte des données comptables erronées ou incohérentes, l\\u0027algorithme produira une analyse mathématiquement parfaite mais fondamentalement fausse."
+        "correct_answer":  "Que si les données de coûts de départ fournies par les filiales sont fausses ou mal nettoyées, les estimations de synergies de l'IA seront totalement erronées",
+        "explanation":  "L'IA ne possède pas de bon sens inné. Si le consultant y injecte des données comptables erronées ou incohérentes, l'algorithme produira une analyse mathématiquement parfaite mais fondamentalement fausse."
     },
     {
         "id":  38,
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Dangers",
-        "question":  "Lors d\\u0027une négociation M\\u0026A stratégique, pourquoi ne peut-on pas confier le pricing final à un agent IA autonome ?",
+        "question":  "Lors d'une négociation M&A stratégique, pourquoi ne peut-on pas confier le pricing final à un agent IA autonome ?",
         "options":  [
-                        "Parce que la loi interdit aux algorithmes de posséder de l\\u0027argent",
-                        "Parce que l\\u0027IA ignore les dynamiques psychologiques, le bluff et les intérêts politiques non écrits des parties en présence",
+                        "Parce que la loi interdit aux algorithmes de posséder de l'argent",
+                        "Parce que l'IA ignore les dynamiques psychologiques, le bluff et les intérêts politiques non écrits des parties en présence",
                         "Parce que les serveurs IA ne fonctionnent pas pendant les heures de closing boursier",
-                        "Parce que les outils IA refusent d\\u0027abaisser le prix d\\u0027un actif"
+                        "Parce que les outils IA refusent d'abaisser le prix d'un actif"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Parce que l\\u0027IA ignore les dynamiques psychologiques, le bluff et les intérêts politiques non écrits des parties en présence",
-        "explanation":  "Une négociation de haut niveau est profondément humaine. L\\u0027IA ne sait pas capter le langage corporel, les intentions de blocage politique ou le compromis affectif d\\u0027un fondateur cédant son entreprise."
+        "correct_answer":  "Parce que l'IA ignore les dynamiques psychologiques, le bluff et les intérêts politiques non écrits des parties en présence",
+        "explanation":  "Une négociation de haut niveau est profondément humaine. L'IA ne sait pas capter le langage corporel, les intentions de blocage politique ou le compromis affectif d'un fondateur cédant son entreprise."
     },
     {
         "id":  39,
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Capacités",
-        "question":  "Comment un outil IA spécialisé peut-il aider à analyser les risques de la chaîne d\\u0027approvisionnement (Supply Chain) d\\u0027une cible d\\u0027acquisition ?",
+        "question":  "Comment un outil IA spécialisé peut-il aider à analyser les risques de la chaîne d'approvisionnement (Supply Chain) d'une cible d'acquisition ?",
         "options":  [
                         "En rachetant les fournisseurs stratégiques pour sécuriser les flux",
-                        "En croisant les données géopolitiques, météo et de santé financière des sous-traitants pour simuler la résilience des coûts d\\u0027approvisionnement",
+                        "En croisant les données géopolitiques, météo et de santé financière des sous-traitants pour simuler la résilience des coûts d'approvisionnement",
                         "En interdisant les achats en dehors de la zone euro",
-                        "En forçant les fournisseurs à baisser leurs tarifs de 15% d\\u0027office"
+                        "En forçant les fournisseurs à baisser leurs tarifs de 15% d'office"
                     ],
         "correct_index":  1,
-        "correct_answer":  "En croisant les données géopolitiques, météo et de santé financière des sous-traitants pour simuler la résilience des coûts d\\u0027approvisionnement",
-        "explanation":  "L\\u0027IA permet d\\u0027intégrer des variables non financières (données climat, risques politiques) dans la modélisation financière des coûts de production futurs de l\\u0027entreprise cible."
+        "correct_answer":  "En croisant les données géopolitiques, météo et de santé financière des sous-traitants pour simuler la résilience des coûts d'approvisionnement",
+        "explanation":  "L'IA permet d'intégrer des variables non financières (données climat, risques politiques) dans la modélisation financière des coûts de production futurs de l'entreprise cible."
     },
     {
         "id":  40,
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Capacités",
-        "question":  "En Private Equity, comment l\\u0027IA aide-t-elle à optimiser la phase de \\u0027Portfolio Management\\u0027 (suivi des participations) ?",
+        "question":  "En Private Equity, comment l'IA aide-t-elle à optimiser la phase de 'Portfolio Management' (suivi des participations) ?",
         "options":  [
                         "En prenant la place du Directeur Général de chaque filiale du portefeuille",
                         "En centralisant et analysant en temps réel les KPI financiers de toutes les participations pour émettre des alertes précoces en cas de sous-performance",
-                        "En vendant automatiquement les filiales dès qu\\u0027elles affichent une perte mensuelle",
-                        "En automatisant la falsification des rapports d\\u0027activité destinés aux investisseurs (LPs)"
+                        "En vendant automatiquement les filiales dès qu'elles affichent une perte mensuelle",
+                        "En automatisant la falsification des rapports d'activité destinés aux investisseurs (LPs)"
                     ],
         "correct_index":  1,
         "correct_answer":  "En centralisant et analysant en temps réel les KPI financiers de toutes les participations pour émettre des alertes précoces en cas de sous-performance",
@@ -648,91 +648,91 @@
         "options":  [
                         "Parce que les ordinateurs ne comprennent pas les termes juridiques",
                         "Parce que la loi modifie les règles du jeu économiques, invalidant les corrélations statistiques observées sur les données passées",
-                        "Parce que le gouvernement bloque l\\u0027accès aux serveurs IA par sécurité",
+                        "Parce que le gouvernement bloque l'accès aux serveurs IA par sécurité",
                         "Parce que les réformes rendent toutes les entreprises automatiquement bénéficiaires"
                     ],
         "correct_index":  1,
         "correct_answer":  "Parce que la loi modifie les règles du jeu économiques, invalidant les corrélations statistiques observées sur les données passées",
-        "explanation":  "C\\u0027est l\\u0027essence du changement de paradigme. Si le cadre réglementaire change radicalement (ex: fin des aides d\\u0027…?tat ou nouvelles protections contre la faillite), l\\u0027historique d\\u0027entraînement de l\\u0027IA n\\u0027a plus valeur de vérité."
+        "explanation":  "C'est l'essence du changement de paradigme. Si le cadre réglementaire change radicalement (ex: fin des aides d'état ou nouvelles protections contre la faillite), l'historique d'entraînement de l'IA n'a plus valeur de vérité."
     },
     {
         "id":  42,
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Dangers",
-        "question":  "Quel est le risque de sécurité lié à l\\u0027intégration d\\u0027API d\\u0027IA tierces au sein des outils internes de modélisation financière d\\u0027un cabinet ?",
+        "question":  "Quel est le risque de sécurité lié à l'intégration d'API d'IA tierces au sein des outils internes de modélisation financière d'un cabinet ?",
         "options":  [
-                        "Le risque que les formules Excel s\\u0027effacent d\\u0027elles-mêmes",
-                        "Le risque d\\u0027exfiltration ou d\\u0027interception de données financières stratégiques si l\\u0027API tierce n\\u0027offre pas des garanties de chiffrement et d\\u0027étanchéité de niveau industriel",
-                        "Le risque de devoir payer des taxes d\\u0027importation de logiciels",
-                        "Le risque de voir l\\u0027IA modifier l\\u0027adresse email des clients du cabinet"
+                        "Le risque que les formules Excel s'effacent d'elles-mêmes",
+                        "Le risque d'exfiltration ou d'interception de données financières stratégiques si l'API tierce n'offre pas des garanties de chiffrement et d'étanchéité de niveau industriel",
+                        "Le risque de devoir payer des taxes d'importation de logiciels",
+                        "Le risque de voir l'IA modifier l'adresse email des clients du cabinet"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Le risque d\\u0027exfiltration ou d\\u0027interception de données financières stratégiques si l\\u0027API tierce n\\u0027offre pas des garanties de chiffrement et d\\u0027étanchéité de niveau industriel",
-        "explanation":  "L\\u0027utilisation de briques technologiques externes (API) nécessite un audit de sécurité informatique poussé pour éviter que les flux de données financières transitant vers ces serveurs ne soient interceptés."
+        "correct_answer":  "Le risque d'exfiltration ou d'interception de données financières stratégiques si l'API tierce n'offre pas des garanties de chiffrement et d'étanchéité de niveau industriel",
+        "explanation":  "L'utilisation de briques technologiques externes (API) nécessite un audit de sécurité informatique poussé pour éviter que les flux de données financières transitant vers ces serveurs ne soient interceptés."
     },
     {
         "id":  43,
         "difficulty":  2,
         "difficulty_label":  "curious",
-        "category":  "…?thique \\u0026 société",
-        "question":  "Comment l\\u0027IA peut-elle induire des biais de discrimination indirecte lors de l\\u0027évaluation de la solvabilité d\\u0027une PME ?",
+        "category":  "éthique & société",
+        "question":  "Comment l'IA peut-elle induire des biais de discrimination indirecte lors de l'évaluation de la solvabilité d'une PME ?",
         "options":  [
                         "En refusant de calculer la solvabilité des entreprises dirigées par des femmes",
-                        "En corrélant négativement et de manière disproportionnée la solvabilité avec le code postal du siège social, si l\\u0027historique d\\u0027entraînement contenait des biais géographiques passés",
+                        "En corrélant négativement et de manière disproportionnée la solvabilité avec le code postal du siège social, si l'historique d'entraînement contenait des biais géographiques passés",
                         "En pénalisant les entreprises dont le nom contient moins de 5 lettres",
                         "En accordant de meilleures notes aux entreprises utilisant des ordinateurs de marque spécifique"
                     ],
         "correct_index":  1,
-        "correct_answer":  "En corrélant négativement et de manière disproportionnée la solvabilité avec le code postal du siège social, si l\\u0027historique d\\u0027entraînement contenait des biais géographiques passés",
-        "explanation":  "L\\u0027IA reproduit les discriminations systémiques présentes dans l\\u0027historique. Si un secteur géographique a historiquement souffert de sous-investissement, l\\u0027IA pénalisera indûment les nouvelles entreprises saines de cette zone."
+        "correct_answer":  "En corrélant négativement et de manière disproportionnée la solvabilité avec le code postal du siège social, si l'historique d'entraînement contenait des biais géographiques passés",
+        "explanation":  "L'IA reproduit les discriminations systémiques présentes dans l'historique. Si un secteur géographique a historiquement souffert de sous-investissement, l'IA pénalisera indûment les nouvelles entreprises saines de cette zone."
     },
     {
         "id":  44,
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Capacités",
-        "question":  "Dans le conseil en restructuration, comment l\\u0027IA peut-elle aider à prioriser le plan de cession d\\u0027actifs (Asset Stripping) ?",
+        "question":  "Dans le conseil en restructuration, comment l'IA peut-elle aider à prioriser le plan de cession d'actifs (Asset Stripping) ?",
         "options":  [
                         "En vendant en premier les actifs les plus symboliques pour impressionner le marché",
-                        "En simulant l\\u0027impact de la vente de chaque filiale sur l\\u0027EBITDA résiduel, la notation de crédit et le désendettement global du groupe",
-                        "En supprimant du bilan les actifs les moins rentables sans l\\u0027accord du conseil d\\u0027administration",
-                        "En rachetant elle-même les actifs immobiliers de l\\u0027entreprise cliente"
+                        "En simulant l'impact de la vente de chaque filiale sur l'EBITDA résiduel, la notation de crédit et le désendettement global du groupe",
+                        "En supprimant du bilan les actifs les moins rentables sans l'accord du conseil d'administration",
+                        "En rachetant elle-même les actifs immobiliers de l'entreprise cliente"
                     ],
         "correct_index":  1,
-        "correct_answer":  "En simulant l\\u0027impact de la vente de chaque filiale sur l\\u0027EBITDA résiduel, la notation de crédit et le désendettement global du groupe",
-        "explanation":  "L\\u0027IA permet de réaliser des analyses d\\u0027impact croisées à haute vitesse, mesurant instantanément les arbitrages financiers complexes liés à un détourage d\\u0027urgence d\\u0027actifs."
+        "correct_answer":  "En simulant l'impact de la vente de chaque filiale sur l'EBITDA résiduel, la notation de crédit et le désendettement global du groupe",
+        "explanation":  "L'IA permet de réaliser des analyses d'impact croisées à haute vitesse, mesurant instantanément les arbitrages financiers complexes liés à un détourage d'urgence d'actifs."
     },
     {
         "id":  45,
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Limites",
-        "question":  "Pourquoi l\\u0027IA peine-t-elle à évaluer le risque de gouvernance (le \\u0027G\\u0027 de l\\u0027ESG) d\\u0027une entreprise familiale cible ?",
+        "question":  "Pourquoi l'IA peine-t-elle à évaluer le risque de gouvernance (le 'G' de l'ESG) d'une entreprise familiale cible ?",
         "options":  [
-                        "Parce que les entreprises familiales n\\u0027ont pas l\\u0027obligation de publier de bilan financier",
-                        "Parce que les dynamiques de pouvoir, les conflits successoraux et l\\u0027influence informelle des fondateurs ne se traduisent pas en données quantitatives structurées",
-                        "Parce que l\\u0027IA refuse d\\u0027analyser les entreprises comptant moins de trois actionnaires",
-                        "Parce que les critères de gouvernance sont interdits d\\u0027analyse par les lois européennes"
+                        "Parce que les entreprises familiales n'ont pas l'obligation de publier de bilan financier",
+                        "Parce que les dynamiques de pouvoir, les conflits successoraux et l'influence informelle des fondateurs ne se traduisent pas en données quantitatives structurées",
+                        "Parce que l'IA refuse d'analyser les entreprises comptant moins de trois actionnaires",
+                        "Parce que les critères de gouvernance sont interdits d'analyse par les lois européennes"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Parce que les dynamiques de pouvoir, les conflits successoraux et l\\u0027influence informelle des fondateurs ne se traduisent pas en données quantitatives structurées",
-        "explanation":  "Les risques de gouvernance intime ou politique échappent aux radars purement comptables et textuels publics. L\\u0027analyse humaine directe reste indispensable pour évaluer la solidité managériale."
+        "correct_answer":  "Parce que les dynamiques de pouvoir, les conflits successoraux et l'influence informelle des fondateurs ne se traduisent pas en données quantitatives structurées",
+        "explanation":  "Les risques de gouvernance intime ou politique échappent aux radars purement comptables et textuels publics. L'analyse humaine directe reste indispensable pour évaluer la solidité managériale."
     },
     {
         "id":  46,
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Dangers",
-        "question":  "Quel risque opérationnel pose l\\u0027usage d\\u0027un modèle IA de prévision de demande client non supervisé par les équipes commerciales ?",
+        "question":  "Quel risque opérationnel pose l'usage d'un modèle IA de prévision de demande client non supervisé par les équipes commerciales ?",
         "options":  [
                         "Le risque de générer des rapports de stock au format PDF uniquement",
-                        "Le risque de provoquer des ruptures de stock massives ou des surstocks coûteux si l\\u0027IA surréagit à une anomalie temporaire du marché (effet coup de fouet)",
-                        "Le risque de voir l\\u0027IA modifier unilatéralement les prix de vente sur le site internet",
+                        "Le risque de provoquer des ruptures de stock massives ou des surstocks coûteux si l'IA surréagit à une anomalie temporaire du marché (effet coup de fouet)",
+                        "Le risque de voir l'IA modifier unilatéralement les prix de vente sur le site internet",
                         "Le risque de voir les clients refuser de payer par virement bancaire"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Le risque de provoquer des ruptures de stock massives ou des surstocks coûteux si l\\u0027IA surréagit à une anomalie temporaire du marché (effet coup de fouet)",
+        "correct_answer":  "Le risque de provoquer des ruptures de stock massives ou des surstocks coûteux si l'IA surréagit à une anomalie temporaire du marché (effet coup de fouet)",
         "explanation":  "Sans garde-fou métier humain, un modèle mathématique peut interpréter une commande exceptionnelle et unique comme une tendance lourde, entraînant des décisions de production aberrantes."
     },
     {
@@ -740,23 +740,23 @@
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Capacités",
-        "question":  "Comment l\\u0027IA peut-elle optimiser la politique de prix (Pricing Strategy) d\\u0027une entreprise dans le cadre d\\u0027un plan d\\u0027amélioration de la marge ?",
+        "question":  "Comment l'IA peut-elle optimiser la politique de prix (Pricing Strategy) d'une entreprise dans le cadre d'un plan d'amélioration de la marge ?",
         "options":  [
-                        "En augmentant l\\u0027ensemble des tarifs de 20% d\\u0027un coup sans analyser l\\u0027impact",
-                        "En mesurant l\\u0027élasticité-prix par segment de clientèle de façon dynamique pour identifier les opportunités de hausse de tarifs sans perte de volume",
+                        "En augmentant l'ensemble des tarifs de 20% d'un coup sans analyser l'impact",
+                        "En mesurant l'élasticité-prix par segment de clientèle de façon dynamique pour identifier les opportunités de hausse de tarifs sans perte de volume",
                         "En forçant la concurrence à aligner ses prix par un système de piratage",
                         "En proposant des prix différents à chaque minute de manière aléatoire"
                     ],
         "correct_index":  1,
-        "correct_answer":  "En mesurant l\\u0027élasticité-prix par segment de clientèle de façon dynamique pour identifier les opportunités de hausse de tarifs sans perte de volume",
-        "explanation":  "L\\u0027analyse prédictive de l\\u0027élasticité-prix par machine learning permet de concevoir des stratégies de tarification chirurgicales, maximisant la capture de valeur pour le client du cabinet."
+        "correct_answer":  "En mesurant l'élasticité-prix par segment de clientèle de façon dynamique pour identifier les opportunités de hausse de tarifs sans perte de volume",
+        "explanation":  "L'analyse prédictive de l'élasticité-prix par machine learning permet de concevoir des stratégies de tarification chirurgicales, maximisant la capture de valeur pour le client du cabinet."
     },
     {
         "id":  48,
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Capacités",
-        "question":  "En intégration post-fusion (PMI), comment l\\u0027IA peut-elle aider à rationaliser le catalogue de produits des deux entités ?",
+        "question":  "En intégration post-fusion (PMI), comment l'IA peut-elle aider à rationaliser le catalogue de produits des deux entités ?",
         "options":  [
                         "En supprimant la moitié du catalogue de manière aléatoire pour simplifier la gestion",
                         "En identifiant automatiquement les doublons fonctionnels, les cannibalisions de gammes et les complémentarités de marges au travers des bases de données",
@@ -765,114 +765,114 @@
                     ],
         "correct_index":  1,
         "correct_answer":  "En identifiant automatiquement les doublons fonctionnels, les cannibalisions de gammes et les complémentarités de marges au travers des bases de données",
-        "explanation":  "L\\u0027IA simplifie l\\u0027analyse de vastes portefeuilles d\\u0027offres hétérogènes, accélérant la prise de décision stratégique lors du regroupement opérationnel de deux structures commerciales."
+        "explanation":  "L'IA simplifie l'analyse de vastes portefeuilles d'offres hétérogènes, accélérant la prise de décision stratégique lors du regroupement opérationnel de deux structures commerciales."
     },
     {
         "id":  49,
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Limites",
-        "question":  "Pourquoi les prévisions financières d\\u0027une IA sont-elles fragiles lorsqu\\u0027une entreprise fait l\\u0027objet d\\u0027un boycott de réputation soudain ?",
+        "question":  "Pourquoi les prévisions financières d'une IA sont-elles fragiles lorsqu'une entreprise fait l'objet d'un boycott de réputation soudain ?",
         "options":  [
-                        "Parce que l\\u0027IA ne sait pas lire les commentaires négatifs sur les réseaux sociaux",
-                        "Parce que la cinétique d\\u0027une crise de réputation dépend de dynamiques émotionnelles humaines explosives, impossibles à anticiper par la pure comptabilité historique",
+                        "Parce que l'IA ne sait pas lire les commentaires négatifs sur les réseaux sociaux",
+                        "Parce que la cinétique d'une crise de réputation dépend de dynamiques émotionnelles humaines explosives, impossibles à anticiper par la pure comptabilité historique",
                         "Parce que les boycotts annulent instantanément la valeur légale de la monnaie",
-                        "Parce que les modèles d\\u0027IA refusent d\\u0027analyser les crises d\\u0027origine éthique"
+                        "Parce que les modèles d'IA refusent d'analyser les crises d'origine éthique"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Parce que la cinétique d\\u0027une crise de réputation dépend de dynamiques émotionnelles humaines explosives, impossibles à anticiper par la pure comptabilité historique",
-        "explanation":  "Une crise de réputation est un événement irrationnel et hautement volatil. Les modèles quantitatifs ne possèdent pas les outils psychologiques pour prédire l\\u0027ampleur exacte de la destruction de valeur associée."
+        "correct_answer":  "Parce que la cinétique d'une crise de réputation dépend de dynamiques émotionnelles humaines explosives, impossibles à anticiper par la pure comptabilité historique",
+        "explanation":  "Une crise de réputation est un événement irrationnel et hautement volatil. Les modèles quantitatifs ne possèdent pas les outils psychologiques pour prédire l'ampleur exacte de la destruction de valeur associée."
     },
     {
         "id":  50,
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Dangers",
-        "question":  "Quel risque court un fonds d\\u0027investissement à utiliser un modèle de scoring IA de cibles non audité pendant plusieurs années ?",
+        "question":  "Quel risque court un fonds d'investissement à utiliser un modèle de scoring IA de cibles non audité pendant plusieurs années ?",
         "options":  [
-                        "Le risque de devoir mettre à jour le système d\\u0027exploitation des ordinateurs",
-                        "Le risque de \\u0027concept drift\\u0027 (dérive du modèle) où les critères de succès du marché ont changé, conduisant l\\u0027IA à sélectionner des cibles en réalité obsolètes",
-                        "Le risque de voir l\\u0027IA réclamer des droits d\\u0027auteur sur les investissements réalisés",
-                        "Le risque de voir le logiciel s\\u0027arrêter définitivement un jour de clôture"
+                        "Le risque de devoir mettre à jour le système d'exploitation des ordinateurs",
+                        "Le risque de 'concept drift' (dérive du modèle) où les critères de succès du marché ont changé, conduisant l'IA à sélectionner des cibles en réalité obsolètes",
+                        "Le risque de voir l'IA réclamer des droits d'auteur sur les investissements réalisés",
+                        "Le risque de voir le logiciel s'arrêter définitivement un jour de clôture"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Le risque de \\u0027concept drift\\u0027 (dérive du modèle) où les critères de succès du marché ont changé, conduisant l\\u0027IA à sélectionner des cibles en réalité obsolètes",
-        "explanation":  "L\\u0027économie évolue. Un modèle de scoring paramétré sur les critères de rentabilité pré-crise économique va continuer à chercher des profils inadéquats si on ne réajuste pas ses variables régulièrement."
+        "correct_answer":  "Le risque de 'concept drift' (dérive du modèle) où les critères de succès du marché ont changé, conduisant l'IA à sélectionner des cibles en réalité obsolètes",
+        "explanation":  "L'économie évolue. Un modèle de scoring paramétré sur les critères de rentabilité pré-crise économique va continuer à chercher des profils inadéquats si on ne réajuste pas ses variables régulièrement."
     },
     {
         "id":  51,
         "difficulty":  2,
         "difficulty_label":  "curious",
-        "category":  "…?thique \\u0026 société",
-        "question":  "Pourquoi l\\u0027utilisation de l\\u0027IA pour optimiser agressivement les plans de licenciement (Downsizing) pose-t-elle un problème d\\u0027éthique managériale ?",
+        "category":  "éthique & société",
+        "question":  "Pourquoi l'utilisation de l'IA pour optimiser agressivement les plans de licenciement (Downsizing) pose-t-elle un problème d'éthique managériale ?",
         "options":  [
-                        "Parce que l\\u0027IA calcule les indemnités de licenciement de manière erronée",
-                        "Parce qu\\u0027elle déshumanise le choix des départs en les réduisant à de pures variables de coût à court terme, ignorant le coût social et la perte de savoir-faire à long terme",
-                        "Parce que le droit européen interdit d\\u0027utiliser Excel pour gérer les ressources humaines",
-                        "Parce que les syndicats refusent de dialoguer avec des entreprises équipées d\\u0027outils informatiques"
+                        "Parce que l'IA calcule les indemnités de licenciement de manière erronée",
+                        "Parce qu'elle déshumanise le choix des départs en les réduisant à de pures variables de coût à court terme, ignorant le coût social et la perte de savoir-faire à long terme",
+                        "Parce que le droit européen interdit d'utiliser Excel pour gérer les ressources humaines",
+                        "Parce que les syndicats refusent de dialoguer avec des entreprises équipées d'outils informatiques"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Parce qu\\u0027elle déshumanise le choix des départs en les réduisant à de pures variables de coût à court terme, ignorant le coût social et la perte de savoir-faire à long terme",
-        "explanation":  "Traiter le capital humain via de purs algorithmes d\\u0027optimisation financière sans y intégrer le sens du dialogue social et de la préservation des compétences clés constitue une dérive éthique et managériale majeure."
+        "correct_answer":  "Parce qu'elle déshumanise le choix des départs en les réduisant à de pures variables de coût à court terme, ignorant le coût social et la perte de savoir-faire à long terme",
+        "explanation":  "Traiter le capital humain via de purs algorithmes d'optimisation financière sans y intégrer le sens du dialogue social et de la préservation des compétences clés constitue une dérive éthique et managériale majeure."
     },
     {
         "id":  52,
         "difficulty":  2,
         "difficulty_label":  "curious",
         "category":  "Capacités",
-        "question":  "Comment l\\u0027IA peut-elle aider à évaluer les risques environnementaux (passifs environnementaux) d\\u0027un site industriel en fusions-acquisitions ?",
+        "question":  "Comment l'IA peut-elle aider à évaluer les risques environnementaux (passifs environnementaux) d'un site industriel en fusions-acquisitions ?",
         "options":  [
                         "En nettoyant virtuellement la pollution des sols sur les cartes du projet",
-                        "En analysant des décennies d\\u0027images satellites et de données de capteurs de sols pour identifier des anomalies d\\u0027exploitation ou des fuites chimiques cachées",
-                        "En certifiant que le site respecte l\\u0027environnement sans envoyer d\\u0027experts sur place",
-                        "En interdisant l\\u0027achat de sites industriels par le biais de messages d\\u0027alerte"
+                        "En analysant des décennies d'images satellites et de données de capteurs de sols pour identifier des anomalies d'exploitation ou des fuites chimiques cachées",
+                        "En certifiant que le site respecte l'environnement sans envoyer d'experts sur place",
+                        "En interdisant l'achat de sites industriels par le biais de messages d'alerte"
                     ],
         "correct_index":  1,
-        "correct_answer":  "En analysant des décennies d\\u0027images satellites et de données de capteurs de sols pour identifier des anomalies d\\u0027exploitation ou des fuites chimiques cachées",
-        "explanation":  "L\\u0027utilisation de la vision par ordinateur et du machine learning sur des données géosatellitaires permet de détecter des risques écologiques enfouis (passifs) indétectables dans les simples rapports comptables."
+        "correct_answer":  "En analysant des décennies d'images satellites et de données de capteurs de sols pour identifier des anomalies d'exploitation ou des fuites chimiques cachées",
+        "explanation":  "L'utilisation de la vision par ordinateur et du machine learning sur des données géosatellitaires permet de détecter des risques écologiques enfouis (passifs) indétectables dans les simples rapports comptables."
     },
     {
         "id":  53,
         "difficulty":  3,
         "difficulty_label":  "curious",
-        "category":  "…?thique \\u0026 société",
+        "category":  "éthique & société",
         "question":  "Quelle mention méthodologique un cabinet de conseil éthique doit-il ajouter dans son livrable stratégique ?",
         "options":  [
                         "Aucune, pour faire croire que tout a été rédigé manuellement par des seniors",
-                        "Une description transparente de l\\u0027usage des outils IA dans le traitement des données et la confirmation du processus humain de revue critique",
-                        "Une décharge stipulant que toute erreur dans le rapport est de la faute exclusive de l\\u0027IA",
-                        "L\\u0027intégralité du code informatique utilisé par le cabinet"
+                        "Une description transparente de l'usage des outils IA dans le traitement des données et la confirmation du processus humain de revue critique",
+                        "Une décharge stipulant que toute erreur dans le rapport est de la faute exclusive de l'IA",
+                        "L'intégralité du code informatique utilisé par le cabinet"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Une description transparente de l\\u0027usage des outils IA dans le traitement des données et la confirmation du processus humain de revue critique",
-        "explanation":  "La transparence sur la boîte à outils méthodologique renforce la crédibilité du cabinet et montre que l\\u0027IA est maîtrisée comme un accélérateur, sous la gouvernance des consultants."
+        "correct_answer":  "Une description transparente de l'usage des outils IA dans le traitement des données et la confirmation du processus humain de revue critique",
+        "explanation":  "La transparence sur la boîte à outils méthodologique renforce la crédibilité du cabinet et montre que l'IA est maîtrisée comme un accélérateur, sous la gouvernance des consultants."
     },
     {
         "id":  54,
         "difficulty":  3,
         "difficulty_label":  "curious",
         "category":  "Capacités",
-        "question":  "Comment l\\u0027analyse sémantique par IA (Sentiment Analysis) enrichit-elle l\\u0027audit stratégique d\\u0027une marque cible ?",
+        "question":  "Comment l'analyse sémantique par IA (Sentiment Analysis) enrichit-elle l'audit stratégique d'une marque cible ?",
         "options":  [
                         "En modifiant les avis négatifs sur internet avant la vente",
-                        "En analysant de manière exhaustive des millions de verbatims clients, posts et articles pour mesurer l\\u0027attractivité réelle de la cible face à ses concurrents",
+                        "En analysant de manière exhaustive des millions de verbatims clients, posts et articles pour mesurer l'attractivité réelle de la cible face à ses concurrents",
                         "En écrivant automatiquement des lettres de satisfaction clients",
-                        "En remplaçant les chiffres du chiffre d\\u0027affaires par des indices de bonheur"
+                        "En remplaçant les chiffres du chiffre d'affaires par des indices de bonheur"
                     ],
         "correct_index":  1,
-        "correct_answer":  "En analysant de manière exhaustive des millions de verbatims clients, posts et articles pour mesurer l\\u0027attractivité réelle de la cible face à ses concurrents",
-        "explanation":  "L\\u0027IA permet d\\u0027objectiver la valeur immatérielle (la réputation de la marque) en traduisant une masse de données textuelles non structurées en indicateurs quantitatifs de tendance."
+        "correct_answer":  "En analysant de manière exhaustive des millions de verbatims clients, posts et articles pour mesurer l'attractivité réelle de la cible face à ses concurrents",
+        "explanation":  "L'IA permet d'objectiver la valeur immatérielle (la réputation de la marque) en traduisant une masse de données textuelles non structurées en indicateurs quantitatifs de tendance."
     },
     {
         "id":  55,
         "difficulty":  3,
         "difficulty_label":  "curious",
         "category":  "Limites",
-        "question":  "En quoi le biais d\\u0027ancrage historique d\\u0027un modèle IA pénalise-t-il la stratégie financière lors d\\u0027une crise macroéconomique soudaine ?",
+        "question":  "En quoi le biais d'ancrage historique d'un modèle IA pénalise-t-il la stratégie financière lors d'une crise macroéconomique soudaine ?",
         "options":  [
-                        "L\\u0027IA plante dès que l\\u0027inflation dépasse 5%",
+                        "L'IA plante dès que l'inflation dépasse 5%",
                         "Le modèle projette des marges et des coûts fondés sur une longue période de stabilité, ignorant les dynamiques de rupture",
-                        "L\\u0027IA refuse d\\u0027analyser les hausses de taux d\\u0027intérêt",
+                        "L'IA refuse d'analyser les hausses de taux d'intérêt",
                         "Les serveurs de calcul deviennent plus lents en période de crise"
                     ],
         "correct_index":  1,
@@ -884,63 +884,63 @@
         "difficulty":  3,
         "difficulty_label":  "curious",
         "category":  "Dangers",
-        "question":  "Qu\\u0027est-ce qu\\u0027une attaque par \\u0027empoisonnement de données\\u0027 (Data Poisoning) dans le cadre d\\u0027un screening stratégique de cibles ?",
+        "question":  "Qu'est-ce qu'une attaque par 'empoisonnement de données' (Data Poisoning) dans le cadre d'un screening stratégique de cibles ?",
         "options":  [
                         "Une intrusion de virus bloquant les ordinateurs des consultants",
                         "La manipulation malveillante par des entreprises de leurs rapports publics sémantiques pour tromper artificiellement les algorithmes de détection des fonds de PE",
-                        "L\\u0027envoi de fausses données de facturation par mail",
+                        "L'envoi de fausses données de facturation par mail",
                         "Le chiffrement des fichiers de modélisation par un rançongiciel"
                     ],
         "correct_index":  1,
         "correct_answer":  "La manipulation malveillante par des entreprises de leurs rapports publics sémantiques pour tromper artificiellement les algorithmes de détection des fonds de PE",
-        "explanation":  "Sachant que les investisseurs utilisent l\\u0027IA pour détecter les pépites, certaines structures peuvent optimiser leurs communications (mots-clés financiers, rapports RSE) pour valider de force les critères des algorithmes."
+        "explanation":  "Sachant que les investisseurs utilisent l'IA pour détecter les pépites, certaines structures peuvent optimiser leurs communications (mots-clés financiers, rapports RSE) pour valider de force les critères des algorithmes."
     },
     {
         "id":  57,
         "difficulty":  3,
         "difficulty_label":  "curious",
-        "category":  "…?thique \\u0026 société",
-        "question":  "Comment l\\u0027IA peut-elle aider un fonds de Private Equity à valider sa conformité avec le règlement européen SFDR (finance durable) ?",
+        "category":  "éthique & société",
+        "question":  "Comment l'IA peut-elle aider un fonds de Private Equity à valider sa conformité avec le règlement européen SFDR (finance durable) ?",
         "options":  [
                         "En certifiant automatiquement que toutes les participations sont 100% vertes sans contrôle",
-                        "En extrayant et consolidant les indicateurs d\\u0027impact ESG (ex: émissions de carbone, parité) au travers de milliers de documents non structurés issus des filiales",
+                        "En extrayant et consolidant les indicateurs d'impact ESG (ex: émissions de carbone, parité) au travers de milliers de documents non structurés issus des filiales",
                         "En effaçant les rapports environnementaux négatifs de la base de données",
                         "En payant des compensations carbone virtuelles via des algorithmes de trading"
                     ],
         "correct_index":  1,
-        "correct_answer":  "En extrayant et consolidant les indicateurs d\\u0027impact ESG (ex: émissions de carbone, parité) au travers de milliers de documents non structurés issus des filiales",
-        "explanation":  "La conformité SFDR exige une collecte de données colossale. L\\u0027IA fait gagner un temps précieux en automatisant la récolte et la structuration des KPI extra-financiers nécessaires aux rapports réglementaires."
+        "correct_answer":  "En extrayant et consolidant les indicateurs d'impact ESG (ex: émissions de carbone, parité) au travers de milliers de documents non structurés issus des filiales",
+        "explanation":  "La conformité SFDR exige une collecte de données colossale. L'IA fait gagner un temps précieux en automatisant la récolte et la structuration des KPI extra-financiers nécessaires aux rapports réglementaires."
     },
     {
         "id":  58,
         "difficulty":  3,
         "difficulty_label":  "curious",
         "category":  "Capacités",
-        "question":  "En quoi consiste l\\u0027usage de l\\u0027IA pour la détection précoce des anomalies de type \\u0027window dressing\\u0027 (habillage des bilans) en audit d\\u0027acquisition ?",
+        "question":  "En quoi consiste l'usage de l'IA pour la détection précoce des anomalies de type 'window dressing' (habillage des bilans) en audit d'acquisition ?",
         "options":  [
-                        "…? redessiner les graphiques financiers pour qu\\u0027ils soient plus lisibles",
-                        "…? repérer des flux de trésorerie anormalement élevés juste avant la date de clôture, suivis de flux inverses immédiatement après",
-                        "…? modifier les dates comptables pour lisser la saisonnalité des ventes",
-                        "…? valider la conformité esthétique des rapports financiers annuels"
+                        "é redessiner les graphiques financiers pour qu'ils soient plus lisibles",
+                        "é repérer des flux de trésorerie anormalement élevés juste avant la date de clôture, suivis de flux inverses immédiatement après",
+                        "é modifier les dates comptables pour lisser la saisonnalité des ventes",
+                        "é valider la conformité esthétique des rapports financiers annuels"
                     ],
         "correct_index":  1,
-        "correct_answer":  "…? repérer des flux de trésorerie anormalement élevés juste avant la date de clôture, suivis de flux inverses immédiatement après",
-        "explanation":  "Les modèles d\\u0027IA de détection d\\u0027anomalies temporelles excellent à repérer les manipulations comptables de court terme visant à embellir artificiellement la situation de liquidité à la date du bilan."
+        "correct_answer":  "é repérer des flux de trésorerie anormalement élevés juste avant la date de clôture, suivis de flux inverses immédiatement après",
+        "explanation":  "Les modèles d'IA de détection d'anomalies temporelles excellent à repérer les manipulations comptables de court terme visant à embellir artificiellement la situation de liquidité à la date du bilan."
     },
     {
         "id":  59,
         "difficulty":  3,
         "difficulty_label":  "curious",
         "category":  "Limites",
-        "question":  "Pourquoi les prévisions d\\u0027inflation générées par des IA complexes se sont-elles avérées imprécises lors des chocs géopolitiques récents ?",
+        "question":  "Pourquoi les prévisions d'inflation générées par des IA complexes se sont-elles avérées imprécises lors des chocs géopolitiques récents ?",
         "options":  [
                         "Parce que les IA ne prennent pas en compte le prix du pétrole",
-                        "Parce que les chocs géopolitiques majeurs constituent des événements uniques de type \\u0027Cygne Noir\\u0027 absents des données historiques d\\u0027entraînement des modèles",
-                        "Parce que les gouvernements interdisent aux IA d\\u0027anticiper les hausses de prix",
-                        "Parce que les mathématiques financières ne s\\u0027appliquent pas en période de guerre"
+                        "Parce que les chocs géopolitiques majeurs constituent des événements uniques de type 'Cygne Noir' absents des données historiques d'entraînement des modèles",
+                        "Parce que les gouvernements interdisent aux IA d'anticiper les hausses de prix",
+                        "Parce que les mathématiques financières ne s'appliquent pas en période de guerre"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Parce que les chocs géopolitiques majeurs constituent des événements uniques de type \\u0027Cygne Noir\\u0027 absents des données historiques d\\u0027entraînement des modèles",
+        "correct_answer":  "Parce que les chocs géopolitiques majeurs constituent des événements uniques de type 'Cygne Noir' absents des données historiques d'entraînement des modèles",
         "explanation":  "Un algorithme calcule des probabilités basées sur le passé. Face à une rupture géopolitique inédite (guerre, sanctions majeures), la logique purement statistique échoue et doit céder la place au jugement de scénarios politiques humains."
     },
     {
@@ -948,247 +948,247 @@
         "difficulty":  3,
         "difficulty_label":  "curious",
         "category":  "Dangers",
-        "question":  "Quel est le risque lié à la \\u0027dépendance technologique\\u0027 d\\u0027un cabinet de conseil vis-à-vis d\\u0027un unique fournisseur de solutions d\\u0027IA financière ?",
+        "question":  "Quel est le risque lié à la 'dépendance technologique' d'un cabinet de conseil vis-à-vis d'un unique fournisseur de solutions d'IA financière ?",
         "options":  [
-                        "L\\u0027obligation d\\u0027acheter des ordinateurs de la même marque",
-                        "Un risque majeur de continuité d\\u0027activité et de perte de souveraineté sur les méthodologies d\\u0027analyse en cas de hausse drastique des prix ou de panne du fournisseur",
+                        "L'obligation d'acheter des ordinateurs de la même marque",
+                        "Un risque majeur de continuité d'activité et de perte de souveraineté sur les méthodologies d'analyse en cas de hausse drastique des prix ou de panne du fournisseur",
                         "Le risque de voir ses consultants perdre leur capacité à écrire manuellement sur papier",
-                        "L\\u0027interdiction d\\u0027utiliser des tableurs de calcul traditionnels"
+                        "L'interdiction d'utiliser des tableurs de calcul traditionnels"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Un risque majeur de continuité d\\u0027activité et de perte de souveraineté sur les méthodologies d\\u0027analyse en cas de hausse drastique des prix ou de panne du fournisseur",
-        "explanation":  "C\\u0027est le risque d\\u0027enfermement propriétaire (vendor lock-in). Les cabinets de conseil stratégique doivent veiller à conserver une indépendance technologique et des compétences internes pour ne pas devenir dépendants d\\u0027un tiers."
+        "correct_answer":  "Un risque majeur de continuité d'activité et de perte de souveraineté sur les méthodologies d'analyse en cas de hausse drastique des prix ou de panne du fournisseur",
+        "explanation":  "C'est le risque d'enfermement propriétaire (vendor lock-in). Les cabinets de conseil stratégique doivent veiller à conserver une indépendance technologique et des compétences internes pour ne pas devenir dépendants d'un tiers."
     },
     {
         "id":  61,
         "difficulty":  4,
         "difficulty_label":  "expert",
         "category":  "Capacités",
-        "question":  "Qu\\u0027apporte l\\u0027IA Explicable (XAI - Explainable AI) dans la modélisation des risques financiers présentée à un Conseil d\\u0027Administration ?",
+        "question":  "Qu'apporte l'IA Explicable (XAI - Explainable AI) dans la modélisation des risques financiers présentée à un Conseil d'Administration ?",
         "options":  [
                         "La traduction simultanée des diapositives PowerPoint",
-                        "Des techniques (ex: valeurs SHAP) permettant de décomposer l\\u0027influence précise de chaque variable d\\u0027entrée sur l\\u0027output prédictif de la boîte noire",
+                        "Des techniques (ex: valeurs SHAP) permettant de décomposer l'influence précise de chaque variable d'entrée sur l'output prédictif de la boîte noire",
                         "Une voix de synthèse qui commente le business plan à haute voix",
                         "Une certification automatique du modèle par les autorités de régulation"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Des techniques (ex: valeurs SHAP) permettant de décomposer l\\u0027influence précise de chaque variable d\\u0027entrée sur l\\u0027output prédictif de la boîte noire",
-        "explanation":  "En haute stratégie, l\\u0027effet \\u0027boîte noire\\u0027 n\\u0027est pas toléré. L\\u0027XAI redonne le contrôle aux décideurs en explicitant les facteurs mathématiques exacts qui mènent à une prévision de risque ou de valorisation."
+        "correct_answer":  "Des techniques (ex: valeurs SHAP) permettant de décomposer l'influence précise de chaque variable d'entrée sur l'output prédictif de la boîte noire",
+        "explanation":  "En haute stratégie, l'effet 'boîte noire' n'est pas toléré. L'XAI redonne le contrôle aux décideurs en explicitant les facteurs mathématiques exacts qui mènent à une prévision de risque ou de valorisation."
     },
     {
         "id":  62,
         "difficulty":  4,
         "difficulty_label":  "expert",
-        "category":  "…?thique \\u0026 société",
-        "question":  "Pourquoi la Due Diligence stratégique moderne doit-elle auditer les algorithmes de tarification dynamique (Dynamic Pricing) d\\u0027une cible ?",
+        "category":  "éthique & société",
+        "question":  "Pourquoi la Due Diligence stratégique moderne doit-elle auditer les algorithmes de tarification dynamique (Dynamic Pricing) d'une cible ?",
         "options":  [
-                        "Pour s\\u0027assurer que l\\u0027IA consomme peu d\\u0027électricité",
+                        "Pour s'assurer que l'IA consomme peu d'électricité",
                         "Pour détecter des risques de collusion tacite algorithmique ou de discrimination illégale de prix, qui exposeraient le repreneur à de lourdes amendes antitrust",
                         "Pour vérifier si le code source est libre de droits",
                         "Pour imposer le passage à des prix fixes traditionnels"
                     ],
         "correct_index":  1,
         "correct_answer":  "Pour détecter des risques de collusion tacite algorithmique ou de discrimination illégale de prix, qui exposeraient le repreneur à de lourdes amendes antitrust",
-        "explanation":  "L\\u0027audit des actifs immatériels inclut désormais la conformité légale des IA internes de la cible. Une IA qui s\\u0027entendrait inconsciemment sur les prix avec la concurrence représente un risque juridique majeur pour l\\u0027acheteur."
+        "explanation":  "L'audit des actifs immatériels inclut désormais la conformité légale des IA internes de la cible. Une IA qui s'entendrait inconsciemment sur les prix avec la concurrence représente un risque juridique majeur pour l'acheteur."
     },
     {
         "id":  63,
         "difficulty":  4,
         "difficulty_label":  "expert",
         "category":  "Limites",
-        "question":  "Comment le phénomène de \\u0027Data Drift\\u0027 (dérive des données) affecte-t-il les outils d\\u0027intelligence sectorielle des cabinets de conseil ?",
+        "question":  "Comment le phénomène de 'Data Drift' (dérive des données) affecte-t-il les outils d'intelligence sectorielle des cabinets de conseil ?",
         "options":  [
                         "Il efface automatiquement les données obsolètes",
-                        "Il rend les prévisions de l\\u0027IA obsolètes car les relations et comportements économiques réels changent par rapport aux données d\\u0027entraînement initiales du modèle",
-                        "Il s\\u0027agit d\\u0027un problème matériel lié à la surchauffe des disques durs",
-                        "Il force l\\u0027outil à basculer vers des analyses qualitatives uniquement"
+                        "Il rend les prévisions de l'IA obsolètes car les relations et comportements économiques réels changent par rapport aux données d'entraînement initiales du modèle",
+                        "Il s'agit d'un problème matériel lié à la surchauffe des disques durs",
+                        "Il force l'outil à basculer vers des analyses qualitatives uniquement"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Il rend les prévisions de l\\u0027IA obsolètes car les relations et comportements économiques réels changent par rapport aux données d\\u0027entraînement initiales du modèle",
-        "explanation":  "Les structures de marché évoluent (ex: nouvelles réglementations ESG, changements post-pandémie). Si l\\u0027IA n\\u0027est pas réentraînée en continu, son modèle mathématique devient déconnecté de la réalité de terrain."
+        "correct_answer":  "Il rend les prévisions de l'IA obsolètes car les relations et comportements économiques réels changent par rapport aux données d'entraînement initiales du modèle",
+        "explanation":  "Les structures de marché évoluent (ex: nouvelles réglementations ESG, changements post-pandémie). Si l'IA n'est pas réentraînée en continu, son modèle mathématique devient déconnecté de la réalité de terrain."
     },
     {
         "id":  64,
         "difficulty":  4,
         "difficulty_label":  "expert",
         "category":  "Dangers",
-        "question":  "Qu\\u0027est-ce que le \\u0027Model Risk Management\\u0027 (MRM) appliqué à la structuration financière d\\u0027un montage LBO ?",
+        "question":  "Qu'est-ce que le 'Model Risk Management' (MRM) appliqué à la structuration financière d'un montage LBO ?",
         "options":  [
                         "La sécurisation des mots de passe des modèles financiers du cabinet",
-                        "Un cadre de gouvernance visant à auditer, valider de façon indépendante et surveiller les risques d\\u0027erreurs logiques ou mathématiques au sein des modèles IA décisionnels",
-                        "L\\u0027assurance contre le piratage des serveurs informatiques",
+                        "Un cadre de gouvernance visant à auditer, valider de façon indépendante et surveiller les risques d'erreurs logiques ou mathématiques au sein des modèles IA décisionnels",
+                        "L'assurance contre le piratage des serveurs informatiques",
                         "La sélection des meilleurs profils de consultants pour bâtir les modèles"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Un cadre de gouvernance visant à auditer, valider de façon indépendante et surveiller les risques d\\u0027erreurs logiques ou mathématiques au sein des modèles IA décisionnels",
-        "explanation":  "Le MRM est une discipline cruciale : si l\\u0027IA utilisée pour optimiser le levier de dette d\\u0027un LBO contient un biais ou une erreur de modélisation non détectée, le risque de faillite de la cible achetée augmente drastiquement."
+        "correct_answer":  "Un cadre de gouvernance visant à auditer, valider de façon indépendante et surveiller les risques d'erreurs logiques ou mathématiques au sein des modèles IA décisionnels",
+        "explanation":  "Le MRM est une discipline cruciale : si l'IA utilisée pour optimiser le levier de dette d'un LBO contient un biais ou une erreur de modélisation non détectée, le risque de faillite de la cible achetée augmente drastiquement."
     },
     {
         "id":  65,
         "difficulty":  4,
         "difficulty_label":  "expert",
         "category":  "Capacités",
-        "question":  "Quel est l\\u0027intérêt d\\u0027utiliser des graphes de connaissances (Knowledge Graphs) couplés à l\\u0027IA lors d\\u0027un projet de \\u0027Carve-out\\u0027 (détourage d\\u0027activité) ?",
+        "question":  "Quel est l'intérêt d'utiliser des graphes de connaissances (Knowledge Graphs) couplés à l'IA lors d'un projet de 'Carve-out' (détourage d'activité) ?",
         "options":  [
-                        "Générer des graphiques d\\u0027organisation plus esthétiques sur PowerPoint",
-                        "Cartographier et chiffrer l\\u0027ensemble des interdépendances opérationnelles, applicatives et financières complexes entre la filiale à céder et la maison mère",
-                        "…?liminer instantanément tous les coûts fixes partagés",
-                        "Simuler l\\u0027introduction en bourse immédiate de la filiale"
+                        "Générer des graphiques d'organisation plus esthétiques sur PowerPoint",
+                        "Cartographier et chiffrer l'ensemble des interdépendances opérationnelles, applicatives et financières complexes entre la filiale à céder et la maison mère",
+                        "éliminer instantanément tous les coûts fixes partagés",
+                        "Simuler l'introduction en bourse immédiate de la filiale"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Cartographier et chiffrer l\\u0027ensemble des interdépendances opérationnelles, applicatives et financières complexes entre la filiale à céder et la maison mère",
-        "explanation":  "Lors d\\u0027un détourage, les flux croisés (systèmes IT partagés, management partagé) sont durs à isoler. L\\u0027IA sur graphes met en lumière ces liens pour éviter de sous-estimer les coûts résiduels (stranded costs)."
+        "correct_answer":  "Cartographier et chiffrer l'ensemble des interdépendances opérationnelles, applicatives et financières complexes entre la filiale à céder et la maison mère",
+        "explanation":  "Lors d'un détourage, les flux croisés (systèmes IT partagés, management partagé) sont durs à isoler. L'IA sur graphes met en lumière ces liens pour éviter de sous-estimer les coûts résiduels (stranded costs)."
     },
     {
         "id":  66,
         "difficulty":  4,
         "difficulty_label":  "expert",
         "category":  "Capacités",
-        "question":  "Comment l\\u0027apprentissage par renforcement (Reinforcement Learning) est-il appliqué à la structuration d\\u0027un plan de refinancement de dette complexe ?",
+        "question":  "Comment l'apprentissage par renforcement (Reinforcement Learning) est-il appliqué à la structuration d'un plan de refinancement de dette complexe ?",
         "options":  [
                         "En récompensant financièrement les consultants les plus rapides du projet",
-                        "En laissant un agent algorithmique tester des millions de combinaisons de tranches de dette, de taux et de maturités pour maximiser la survie financière de l\\u0027entreprise sous stress théorique",
-                        "En automatisant la signature des contrats d\\u0027émission d\\u0027obligations auprès des marchés",
-                        "En bloquant l\\u0027accès aux financements à taux variable jugés trop risqués"
+                        "En laissant un agent algorithmique tester des millions de combinaisons de tranches de dette, de taux et de maturités pour maximiser la survie financière de l'entreprise sous stress théorique",
+                        "En automatisant la signature des contrats d'émission d'obligations auprès des marchés",
+                        "En bloquant l'accès aux financements à taux variable jugés trop risqués"
                     ],
         "correct_index":  1,
-        "correct_answer":  "En laissant un agent algorithmique tester des millions de combinaisons de tranches de dette, de taux et de maturités pour maximiser la survie financière de l\\u0027entreprise sous stress théorique",
-        "explanation":  "L\\u0027apprentissage par renforcement permet d\\u0027explorer des espaces de décision complexes en optimisant une fonction de récompense (ex: coût du capital minimal sous contrainte de solvabilité stricte)."
+        "correct_answer":  "En laissant un agent algorithmique tester des millions de combinaisons de tranches de dette, de taux et de maturités pour maximiser la survie financière de l'entreprise sous stress théorique",
+        "explanation":  "L'apprentissage par renforcement permet d'explorer des espaces de décision complexes en optimisant une fonction de récompense (ex: coût du capital minimal sous contrainte de solvabilité stricte)."
     },
     {
         "id":  67,
         "difficulty":  4,
         "difficulty_label":  "expert",
-        "category":  "…?thique \\u0026 société",
-        "question":  "Dans le cadre de l\\u0027AI Act européen, sous quelle classification tombe une IA d\\u0027aide à la décision utilisée pour rejeter un dossier de restructuration d\\u0027entreprise ?",
+        "category":  "éthique & société",
+        "question":  "Dans le cadre de l'AI Act européen, sous quelle classification tombe une IA d'aide à la décision utilisée pour rejeter un dossier de restructuration d'entreprise ?",
         "options":  [
                         "Système à risque inacceptable (interdiction totale)",
                         "Système à haut risque exigeant des audits de conformité lourds, une documentation technique sans faille et une supervision humaine qualifiée",
                         "Système à risque minime sans aucune obligation réglementaire",
-                        "Système d\\u0027utilité publique exempté de contrôles administratifs"
+                        "Système d'utilité publique exempté de contrôles administratifs"
                     ],
         "correct_index":  1,
         "correct_answer":  "Système à haut risque exigeant des audits de conformité lourds, une documentation technique sans faille et une supervision humaine qualifiée",
-        "explanation":  "Les outils d\\u0027IA qui influent de manière déterminante sur l\\u0027accès au crédit, la solvabilité ou le devenir économique majeur des structures juridiques et des emplois sont classés à haut risque par le législateur européen."
+        "explanation":  "Les outils d'IA qui influent de manière déterminante sur l'accès au crédit, la solvabilité ou le devenir économique majeur des structures juridiques et des emplois sont classés à haut risque par le législateur européen."
     },
     {
         "id":  68,
         "difficulty":  4,
         "difficulty_label":  "expert",
         "category":  "Limites",
-        "question":  "Pourquoi les techniques classiques de réduction de dimensionnalité (ex: PCA) au sein d\\u0027une IA financière peuvent-elles masquer un risque systémique ?",
+        "question":  "Pourquoi les techniques classiques de réduction de dimensionnalité (ex: PCA) au sein d'une IA financière peuvent-elles masquer un risque systémique ?",
         "options":  [
-                        "Parce qu\\u0027elles ralentissent le temps de traitement des serveurs informatiques",
-                        "Parce qu\\u0027en éliminant les variables jugées statistiquement négligeables pour simplifier le modèle, elles peuvent supprimer les signaux faibles annonciateurs d\\u0027une crise majeure",
-                        "Parce qu\\u0027elles suppriment automatiquement la ligne du chiffre d\\u0027affaires des bilans",
-                        "Parce qu\\u0027elles sont incompatibles avec les normes comptables internationales IFRS"
+                        "Parce qu'elles ralentissent le temps de traitement des serveurs informatiques",
+                        "Parce qu'en éliminant les variables jugées statistiquement négligeables pour simplifier le modèle, elles peuvent supprimer les signaux faibles annonciateurs d'une crise majeure",
+                        "Parce qu'elles suppriment automatiquement la ligne du chiffre d'affaires des bilans",
+                        "Parce qu'elles sont incompatibles avec les normes comptables internationales IFRS"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Parce qu\\u0027en éliminant les variables jugées statistiquement négligeables pour simplifier le modèle, elles peuvent supprimer les signaux faibles annonciateurs d\\u0027une crise majeure",
-        "explanation":  "L\\u0027analyse en composantes principales (PCA) cherche à condenser l\\u0027information. En finance stratégique, le danger est de lisser les anomalies extrêmes (tail risks) qui, bien que rares, portent en elles le risque de ruine de la cible."
+        "correct_answer":  "Parce qu'en éliminant les variables jugées statistiquement négligeables pour simplifier le modèle, elles peuvent supprimer les signaux faibles annonciateurs d'une crise majeure",
+        "explanation":  "L'analyse en composantes principales (PCA) cherche à condenser l'information. En finance stratégique, le danger est de lisser les anomalies extrêmes (tail risks) qui, bien que rares, portent en elles le risque de ruine de la cible."
     },
     {
         "id":  69,
         "difficulty":  4,
         "difficulty_label":  "expert",
         "category":  "Dangers",
-        "question":  "Qu\\u0027est-ce qu\\u0027un risque d\\u0027adversarial attack (attaque contradictoire) sur un modèle de machine learning d\\u0027évaluation des actifs de Private Equity ?",
+        "question":  "Qu'est-ce qu'un risque d'adversarial attack (attaque contradictoire) sur un modèle de machine learning d'évaluation des actifs de Private Equity ?",
         "options":  [
                         "Le rachat agressif des parts du fonds par un concurrent sur les marchés",
-                        "L\\u0027introduction de perturbations infimes et invisibles pour l\\u0027humain dans les fichiers comptables d\\u0027une cible, provoquant une erreur massive d\\u0027évaluation par l\\u0027IA",
-                        "Le chantage exercé par un groupe de hackers pour bloquer l\\u0027accès à la Data Room",
+                        "L'introduction de perturbations infimes et invisibles pour l'humain dans les fichiers comptables d'une cible, provoquant une erreur massive d'évaluation par l'IA",
+                        "Le chantage exercé par un groupe de hackers pour bloquer l'accès à la Data Room",
                         "La modification des formules de calcul au sein du logiciel Microsoft Excel"
                     ],
         "correct_index":  1,
-        "correct_answer":  "L\\u0027introduction de perturbations infimes et invisibles pour l\\u0027humain dans les fichiers comptables d\\u0027une cible, provoquant une erreur massive d\\u0027évaluation par l\\u0027IA",
-        "explanation":  "Les attaques par perturbation adversariale exploitent la sensibilité mathématique des modèles de deep learning. Un attaquant peut subtilement modifier des lignes de texte ou de chiffres pour forcer l\\u0027IA à surévaluer un actif."
+        "correct_answer":  "L'introduction de perturbations infimes et invisibles pour l'humain dans les fichiers comptables d'une cible, provoquant une erreur massive d'évaluation par l'IA",
+        "explanation":  "Les attaques par perturbation adversariale exploitent la sensibilité mathématique des modèles de deep learning. Un attaquant peut subtilement modifier des lignes de texte ou de chiffres pour forcer l'IA à surévaluer un actif."
     },
     {
         "id":  70,
         "difficulty":  4,
         "difficulty_label":  "expert",
         "category":  "Capacités",
-        "question":  "Comment l\\u0027usage du Traitement Automatique du Langage (NLP) avancé permet-il de détecter les risques de litiges futurs (Litigation Risk) d\\u0027une cible M\\u0026A ?",
+        "question":  "Comment l'usage du Traitement Automatique du Langage (NLP) avancé permet-il de détecter les risques de litiges futurs (Litigation Risk) d'une cible M&A ?",
         "options":  [
                         "En contactant anonymement les avocats des parties adverses",
-                        "En scannant l\\u0027ensemble de la jurisprudence historique mondiale et en analysant la sémantique des plaintes mineures passées reçues par le service client de la cible",
-                        "En prédisant le verdict exact d\\u0027un juge grâce à des algorithmes de deep learning",
+                        "En scannant l'ensemble de la jurisprudence historique mondiale et en analysant la sémantique des plaintes mineures passées reçues par le service client de la cible",
+                        "En prédisant le verdict exact d'un juge grâce à des algorithmes de deep learning",
                         "En forçant la suppression légale des dossiers de plaintes en cours"
                     ],
         "correct_index":  1,
-        "correct_answer":  "En scannant l\\u0027ensemble de la jurisprudence historique mondiale et en analysant la sémantique des plaintes mineures passées reçues par le service client de la cible",
-        "explanation":  "Le NLP permet d\\u0027effectuer une analyse de risques textuelle croisée à grande échelle, identifiant des motifs d\\u0027insatisfaction ou des violations de brevets récurrentes qui préfigurent de futurs procès de masse."
+        "correct_answer":  "En scannant l'ensemble de la jurisprudence historique mondiale et en analysant la sémantique des plaintes mineures passées reçues par le service client de la cible",
+        "explanation":  "Le NLP permet d'effectuer une analyse de risques textuelle croisée à grande échelle, identifiant des motifs d'insatisfaction ou des violations de brevets récurrentes qui préfigurent de futurs procès de masse."
     },
     {
         "id":  71,
         "difficulty":  4,
         "difficulty_label":  "expert",
         "category":  "Capacités",
-        "question":  "Comment les modèles d\\u0027IA générative de type RAG (Retrieval-Augmented Generation) sécurisent-ils l\\u0027audit des contrats de prêts bancaires complexes (Covenants) ?",
+        "question":  "Comment les modèles d'IA générative de type RAG (Retrieval-Augmented Generation) sécurisent-ils l'audit des contrats de prêts bancaires complexes (Covenants) ?",
         "options":  [
                         "En réécrivant les contrats pour annuler les clauses restrictives",
-                        "En forçant le LLM à ancrer ses réponses uniquement sur la base documentaire certifiée de la Data Room, éliminant ainsi les risques d\\u0027hallucinations chiffrées",
+                        "En forçant le LLM à ancrer ses réponses uniquement sur la base documentaire certifiée de la Data Room, éliminant ainsi les risques d'hallucinations chiffrées",
                         "En signant les avenants contractuels de façon autonome par signature électronique",
-                        "En empêchant la banque d\\u0027avoir accès aux rapports de performance de l\\u0027entreprise"
+                        "En empêchant la banque d'avoir accès aux rapports de performance de l'entreprise"
                     ],
         "correct_index":  1,
-        "correct_answer":  "En forçant le LLM à ancrer ses réponses uniquement sur la base documentaire certifiée de la Data Room, éliminant ainsi les risques d\\u0027hallucinations chiffrées",
-        "explanation":  "L\\u0027architecture RAG connecte le modèle de langage à une base de connaissances fermée (les contrats du deal). L\\u0027IA ne cherche pas dans ses connaissances générales du web mais extrait rigoureusement les clauses réelles présentes."
+        "correct_answer":  "En forçant le LLM à ancrer ses réponses uniquement sur la base documentaire certifiée de la Data Room, éliminant ainsi les risques d'hallucinations chiffrées",
+        "explanation":  "L'architecture RAG connecte le modèle de langage à une base de connaissances fermée (les contrats du deal). L'IA ne cherche pas dans ses connaissances générales du web mais extrait rigoureusement les clauses réelles présentes."
     },
     {
         "id":  72,
         "difficulty":  4,
         "difficulty_label":  "expert",
-        "category":  "…?thique \\u0026 société",
-        "question":  "Quel problème éthique pose le recours à l\\u0027IA pour profiler la personnalité et la résistance psychologique des dirigeants cibles lors d\\u0027une négociation M\\u0026A hostile ?",
+        "category":  "éthique & société",
+        "question":  "Quel problème éthique pose le recours à l'IA pour profiler la personnalité et la résistance psychologique des dirigeants cibles lors d'une négociation M&A hostile ?",
         "options":  [
-                        "L\\u0027IA se trompe systématiquement sur les profils de type psychologique",
-                        "Une violation potentielle de la vie privée et des principes d\\u0027équité si des données personnelles non consenties sont siphonnées du web pour instrumentaliser leurs faiblesses émotionnelles",
+                        "L'IA se trompe systématiquement sur les profils de type psychologique",
+                        "Une violation potentielle de la vie privée et des principes d'équité si des données personnelles non consenties sont siphonnées du web pour instrumentaliser leurs faiblesses émotionnelles",
                         "Le risque de voir le dirigeant profilé porter plainte contre le logiciel lui-même",
-                        "L\\u0027obligation d\\u0027inclure le rapport psychologique dans les annexes comptables officielles"
+                        "L'obligation d'inclure le rapport psychologique dans les annexes comptables officielles"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Une violation potentielle de la vie privée et des principes d\\u0027équité si des données personnelles non consenties sont siphonnées du web pour instrumentaliser leurs faiblesses émotionnelles",
-        "explanation":  "Le \\u0027psychometric profiling\\u0027 par IA sans consentement franchit une ligne rouge éthique et légale (RGPD), posant la question de la loyauté des méthodes de guerre économique en haute transaction."
+        "correct_answer":  "Une violation potentielle de la vie privée et des principes d'équité si des données personnelles non consenties sont siphonnées du web pour instrumentaliser leurs faiblesses émotionnelles",
+        "explanation":  "Le 'psychometric profiling' par IA sans consentement franchit une ligne rouge éthique et légale (RGPD), posant la question de la loyauté des méthodes de guerre économique en haute transaction."
     },
     {
         "id":  73,
         "difficulty":  4,
         "difficulty_label":  "expert",
         "category":  "Limites",
-        "question":  "Pourquoi la théorie des jeux combinée à l\\u0027IA peine-t-elle à modéliser parfaitement les enchères de grands dossiers de privatisation d\\u0027infrastructures publiques ?",
+        "question":  "Pourquoi la théorie des jeux combinée à l'IA peine-t-elle à modéliser parfaitement les enchères de grands dossiers de privatisation d'infrastructures publiques ?",
         "options":  [
-                        "Parce que les infrastructures publiques n\\u0027ont pas de valeur financière quantifiable",
-                        "Parce que les décisions des gouvernements intègrent des critères d\\u0027utilité politique, de souveraineté nationale et d\\u0027opinion publique non réductibles à des fonctions de gains purement rationnelles",
+                        "Parce que les infrastructures publiques n'ont pas de valeur financière quantifiable",
+                        "Parce que les décisions des gouvernements intègrent des critères d'utilité politique, de souveraineté nationale et d'opinion publique non réductibles à des fonctions de gains purement rationnelles",
                         "Parce que les règles des enchères publiques sont interdites de modélisation par le droit européen",
                         "Parce que les volumes de données historiques de privatisation sont trop élevés pour être traités"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Parce que les décisions des gouvernements intègrent des critères d\\u0027utilité politique, de souveraineté nationale et d\\u0027opinion publique non réductibles à des fonctions de gains purement rationnelles",
-        "explanation":  "L\\u0027IA excelle dans les environnements de jeux aux règles strictes et rationnelles. Une décision politique d\\u0027attribution d\\u0027actif souverain obéit à des logiques d\\u0027influence et d\\u0027émotions collectives hors équation."
+        "correct_answer":  "Parce que les décisions des gouvernements intègrent des critères d'utilité politique, de souveraineté nationale et d'opinion publique non réductibles à des fonctions de gains purement rationnelles",
+        "explanation":  "L'IA excelle dans les environnements de jeux aux règles strictes et rationnelles. Une décision politique d'attribution d'actif souverain obéit à des logiques d'influence et d'émotions collectives hors équation."
     },
     {
         "id":  74,
         "difficulty":  4,
         "difficulty_label":  "expert",
         "category":  "Dangers",
-        "question":  "En quoi consiste le risque de \\u0027Model Churning\\u0027 lors de l\\u0027optimisation algorithmique continue des portefeuilles de Private Equity ?",
+        "question":  "En quoi consiste le risque de 'Model Churning' lors de l'optimisation algorithmique continue des portefeuilles de Private Equity ?",
         "options":  [
-                        "Le piratage des données d\\u0027évaluation par un utilisateur externe",
-                        "La multiplication excessive et injustifiée de micro-arbitrages ou de restructurations internes poussés par l\\u0027algorithme pour maximiser des gains marginaux, détruisant la valeur opérationnelle globale",
+                        "Le piratage des données d'évaluation par un utilisateur externe",
+                        "La multiplication excessive et injustifiée de micro-arbitrages ou de restructurations internes poussés par l'algorithme pour maximiser des gains marginaux, détruisant la valeur opérationnelle globale",
                         "La démission collective des consultants en charge du développement des modèles",
                         "Le plantage du serveur central suite à une surcharge de requêtes simultanées"
                     ],
         "correct_index":  1,
-        "correct_answer":  "La multiplication excessive et injustifiée de micro-arbitrages ou de restructurations internes poussés par l\\u0027algorithme pour maximiser des gains marginaux, détruisant la valeur opérationnelle globale",
-        "explanation":  "…? l\\u0027instar du \\u0027churning\\u0027 en trading (sur-activité de courtage), une IA de gestion de portefeuille trop nerveuse peut inciter à modifier en permanence les structures ou politiques de coûts, fatiguant les équipes et désorganisant les filiales pour des gains théoriques infimes."
+        "correct_answer":  "La multiplication excessive et injustifiée de micro-arbitrages ou de restructurations internes poussés par l'algorithme pour maximiser des gains marginaux, détruisant la valeur opérationnelle globale",
+        "explanation":  "é l'instar du 'churning' en trading (sur-activité de courtage), une IA de gestion de portefeuille trop nerveuse peut inciter à modifier en permanence les structures ou politiques de coûts, fatiguant les équipes et désorganisant les filiales pour des gains théoriques infimes."
     },
     {
         "id":  75,
         "difficulty":  4,
         "difficulty_label":  "expert",
         "category":  "Capacités",
-        "question":  "Comment l\\u0027IA peut-elle aider à détecter les mécanismes sophistiqués de fraude de type \\u0027Ponzi\\u0027 au sein d\\u0027une société de gestion cible ?",
+        "question":  "Comment l'IA peut-elle aider à détecter les mécanismes sophistiqués de fraude de type 'Ponzi' au sein d'une société de gestion cible ?",
         "options":  [
                         "En contactant directement les anciens clients mécontents pour obtenir des preuves",
                         "En analysant la topologie des réseaux de transferts de fonds pour repérer si les rendements versés aux investisseurs proviennent exclusivement de flux de capitaux de nouveaux entrants",
@@ -1197,70 +1197,70 @@
                     ],
         "correct_index":  1,
         "correct_answer":  "En analysant la topologie des réseaux de transferts de fonds pour repérer si les rendements versés aux investisseurs proviennent exclusivement de flux de capitaux de nouveaux entrants",
-        "explanation":  "Les modèles de détection d\\u0027anomalies de graphes financiers excellent à isoler la circularité et la provenance réelle des flux de cash, permettant de lever des alertes de fraude pyramidale complexes impossibles à voir sur de simples états financiers agrégés."
+        "explanation":  "Les modèles de détection d'anomalies de graphes financiers excellent à isoler la circularité et la provenance réelle des flux de cash, permettant de lever des alertes de fraude pyramidale complexes impossibles à voir sur de simples états financiers agrégés."
     },
     {
         "id":  76,
         "difficulty":  5,
         "difficulty_label":  "expert",
-        "category":  "…?thique \\u0026 société",
-        "question":  "Comment s\\u0027assure-t-on de la \\u0027Fairness\\u0027 (l\\u0027équité) d\\u0027un algorithme d\\u0027IA sélectionnant des plans de restructuration ou des fermetures de sites industriels ?",
+        "category":  "éthique & société",
+        "question":  "Comment s'assure-t-on de la 'Fairness' (l'équité) d'un algorithme d'IA sélectionnant des plans de restructuration ou des fermetures de sites industriels ?",
         "options":  [
                         "En vérifiant que le retour sur investissement (IRR) final dépasse 25%",
-                        "En appliquant des métriques mathématiques de non-discrimination pour s\\u0027assurer que le modèle ne pénalise pas un bassin d\\u0027emploi sur la base de critères biaisés ou illégaux",
-                        "En demandant à l\\u0027IA de signer électroniquement une charte éthique",
-                        "En masquant toutes les variables sociales pour ne regarder que l\\u0027EBITDA"
+                        "En appliquant des métriques mathématiques de non-discrimination pour s'assurer que le modèle ne pénalise pas un bassin d'emploi sur la base de critères biaisés ou illégaux",
+                        "En demandant à l'IA de signer électroniquement une charte éthique",
+                        "En masquant toutes les variables sociales pour ne regarder que l'EBITDA"
                     ],
         "correct_index":  1,
-        "correct_answer":  "En appliquant des métriques mathématiques de non-discrimination pour s\\u0027assurer que le modèle ne pénalise pas un bassin d\\u0027emploi sur la base de critères biaisés ou illégaux",
-        "explanation":  "L\\u0027audit des biais algorithmiques est de la responsabilité de l\\u0027expert. Des critères financiers mal configurés peuvent masquer des discriminations géographiques ou démographiques indirectes, générant de lourds risques de réputation."
+        "correct_answer":  "En appliquant des métriques mathématiques de non-discrimination pour s'assurer que le modèle ne pénalise pas un bassin d'emploi sur la base de critères biaisés ou illégaux",
+        "explanation":  "L'audit des biais algorithmiques est de la responsabilité de l'expert. Des critères financiers mal configurés peuvent masquer des discriminations géographiques ou démographiques indirectes, générant de lourds risques de réputation."
     },
     {
         "id":  77,
         "difficulty":  5,
         "difficulty_label":  "expert",
         "category":  "Dangers",
-        "question":  "Pourquoi les stratégies de \\u0027M\\u0026A Quantitatif\\u0027 basées sur l\\u0027apprentissage par renforcement de bout en bout représentent-elles un risque de marché ?",
+        "question":  "Pourquoi les stratégies de 'M&A Quantitatif' basées sur l'apprentissage par renforcement de bout en bout représentent-elles un risque de marché ?",
         "options":  [
-                        "Parce que les serveurs consomment trop d\\u0027énergie au détriment de l\\u0027environnement",
+                        "Parce que les serveurs consomment trop d'énergie au détriment de l'environnement",
                         "Parce que la convergence de modèles IA similaires sur les mêmes signaux de marché peut déclencher des vagues de sur-enchères mimétiques ou des krachs sectoriels soudains",
-                        "Parce que ces modèles refusent par nature d\\u0027investir dans les entreprises de l\\u0027économie réelle",
-                        "Parce que la réglementation financière interdit l\\u0027usage du machine learning"
+                        "Parce que ces modèles refusent par nature d'investir dans les entreprises de l'économie réelle",
+                        "Parce que la réglementation financière interdit l'usage du machine learning"
                     ],
         "correct_index":  1,
         "correct_answer":  "Parce que la convergence de modèles IA similaires sur les mêmes signaux de marché peut déclencher des vagues de sur-enchères mimétiques ou des krachs sectoriels soudains",
-        "explanation":  "Le mimétisme algorithmique est un danger systémique. Si plusieurs grands acteurs du conseil et fonds utilisent des IA optimisées de la même façon, les décisions d\\u0027achat/vente massives et simultanées déstabilisent la valorisation réelle des secteurs actifs."
+        "explanation":  "Le mimétisme algorithmique est un danger systémique. Si plusieurs grands acteurs du conseil et fonds utilisent des IA optimisées de la même façon, les décisions d'achat/vente massives et simultanées déstabilisent la valorisation réelle des secteurs actifs."
     },
     {
         "id":  78,
         "difficulty":  5,
         "difficulty_label":  "expert",
         "category":  "Capacités",
-        "question":  "Quelle est la limite indépassable des modèles d\\u0027IA prédictifs actuels face à un montage financier ultra-complexe de type \\u0027Dual-Track\\u0027 ?",
+        "question":  "Quelle est la limite indépassable des modèles d'IA prédictifs actuels face à un montage financier ultra-complexe de type 'Dual-Track' ?",
         "options":  [
-                        "L\\u0027incapacité technique à modéliser trois scénarios financiers en parallèle",
-                        "L\\u0027incapacité à appréhender l\\u0027irrationalité des fondateurs, les pressions géopolitiques informelles et le jeu d\\u0027influence psychologique des négociateurs",
+                        "L'incapacité technique à modéliser trois scénarios financiers en parallèle",
+                        "L'incapacité à appréhender l'irrationalité des fondateurs, les pressions géopolitiques informelles et le jeu d'influence psychologique des négociateurs",
                         "Le fait que les IA ne connaissent pas les règles fiscales internationales",
-                        "Le coût de calcul de l\\u0027infrastructure qui dépasse la valeur des honoraires de conseil"
+                        "Le coût de calcul de l'infrastructure qui dépasse la valeur des honoraires de conseil"
                     ],
         "correct_index":  1,
-        "correct_answer":  "L\\u0027incapacité à appréhender l\\u0027irrationalité des fondateurs, les pressions géopolitiques informelles et le jeu d\\u0027influence psychologique des négociateurs",
-        "explanation":  "La très haute stratégie financière reste un art de la relation humaine, de la politique et de l\\u0027intuition. L\\u0027IA est un outil analytique d\\u0027une puissance infinie, mais le \\u0027closing\\u0027 final relève toujours de variables psychologiques impossibles à mettre en équation."
+        "correct_answer":  "L'incapacité à appréhender l'irrationalité des fondateurs, les pressions géopolitiques informelles et le jeu d'influence psychologique des négociateurs",
+        "explanation":  "La très haute stratégie financière reste un art de la relation humaine, de la politique et de l'intuition. L'IA est un outil analytique d'une puissance infinie, mais le 'closing' final relève toujours de variables psychologiques impossibles à mettre en équation."
     },
     {
         "id":  79,
         "difficulty":  5,
         "difficulty_label":  "expert",
-        "category":  "…?thique \\u0026 société",
-        "question":  "Comment auditer et quantifier le niveau de \\u0027bruit\\u0027 (au sens de Daniel Kahneman) introduit par un système d\\u0027IA décisionnelle en finance par rapport aux experts humains ?",
+        "category":  "éthique & société",
+        "question":  "Comment auditer et quantifier le niveau de 'bruit' (au sens de Daniel Kahneman) introduit par un système d'IA décisionnelle en finance par rapport aux experts humains ?",
         "options":  [
-                        "En mesurant la vitesse de réponse de l\\u0027algorithme face à une requête complexe",
-                        "En soumettant des dossiers financiers strictement identiques à l\\u0027IA à des moments différents et sous des configurations de données variées pour mesurer la variance de ses outputs",
-                        "En comparant le coût d\\u0027achat de la licence d\\u0027IA avec le salaire moyen d\\u0027un associé",
-                        "En s\\u0027assurant que le modèle produit toujours la même réponse que le Directeur Financier"
+                        "En mesurant la vitesse de réponse de l'algorithme face à une requête complexe",
+                        "En soumettant des dossiers financiers strictement identiques à l'IA à des moments différents et sous des configurations de données variées pour mesurer la variance de ses outputs",
+                        "En comparant le coût d'achat de la licence d'IA avec le salaire moyen d'un associé",
+                        "En s'assurant que le modèle produit toujours la même réponse que le Directeur Financier"
                     ],
         "correct_index":  1,
-        "correct_answer":  "En soumettant des dossiers financiers strictement identiques à l\\u0027IA à des moments différents et sous des configurations de données variées pour mesurer la variance de ses outputs",
+        "correct_answer":  "En soumettant des dossiers financiers strictement identiques à l'IA à des moments différents et sous des configurations de données variées pour mesurer la variance de ses outputs",
         "explanation":  "Le bruit désigne la variabilité non désirée des jugements pour des problèmes identiques. Contrairement aux humains sujets à la fatigue ou à la météo, une IA bien configurée réduit le bruit (variance), mais peut conserver un biais systématique fort."
     },
     {
@@ -1268,25 +1268,25 @@
         "difficulty":  5,
         "difficulty_label":  "expert",
         "category":  "Dangers",
-        "question":  "En ingénierie de modélisation de LBO, pourquoi l\\u0027optimisation des structures de capital par des algorithmes de deep learning non linéaires pose-t-elle un risque fiduciaire ?",
+        "question":  "En ingénierie de modélisation de LBO, pourquoi l'optimisation des structures de capital par des algorithmes de deep learning non linéaires pose-t-elle un risque fiduciaire ?",
         "options":  [
-                        "Parce que ces modèles refusent d\\u0027utiliser l\\u0027effet de levier bancaire classique",
-                        "Parce que les solutions optimales trouvées par l\\u0027IA peuvent se situer sur des frontières d\\u0027instabilité mathématique extrême, où une variation de 0,01% des taux d\\u0027intérêt déclenche la faillite",
-                        "Parce que la loi interdit l\\u0027usage d\\u0027algorithmes non linéaires pour rédiger des contrats de dette",
-                        "Parce que les banques d\\u0027affaires refusent d\\u0027examiner les business plans qui ne sont pas construits sur Excel"
+                        "Parce que ces modèles refusent d'utiliser l'effet de levier bancaire classique",
+                        "Parce que les solutions optimales trouvées par l'IA peuvent se situer sur des frontières d'instabilité mathématique extrême, où une variation de 0,01% des taux d'intérêt déclenche la faillite",
+                        "Parce que la loi interdit l'usage d'algorithmes non linéaires pour rédiger des contrats de dette",
+                        "Parce que les banques d'affaires refusent d'examiner les business plans qui ne sont pas construits sur Excel"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Parce que les solutions optimales trouvées par l\\u0027IA peuvent se situer sur des frontières d\\u0027instabilité mathématique extrême, où une variation de 0,01% des taux d\\u0027intérêt déclenche la faillite",
-        "explanation":  "Le deep learning cherche l\\u0027optimisation absolue. Sans contraintes de lissage ou de marges de sécurité imposées par l\\u0027humain, la machine peut proposer une structure financière ultra-performante sur le papier mais hyper-sensible au moindre choc réel."
+        "correct_answer":  "Parce que les solutions optimales trouvées par l'IA peuvent se situer sur des frontières d'instabilité mathématique extrême, où une variation de 0,01% des taux d'intérêt déclenche la faillite",
+        "explanation":  "Le deep learning cherche l'optimisation absolue. Sans contraintes de lissage ou de marges de sécurité imposées par l'humain, la machine peut proposer une structure financière ultra-performante sur le papier mais hyper-sensible au moindre choc réel."
     },
     {
         "id":  81,
         "difficulty":  5,
         "difficulty_label":  "expert",
         "category":  "Capacités",
-        "question":  "Quelle architecture de réseau de neurones est la plus adaptée pour modéliser la dynamique de contagion financière entre les filiales d\\u0027un conglomérat en crise ?",
+        "question":  "Quelle architecture de réseau de neurones est la plus adaptée pour modéliser la dynamique de contagion financière entre les filiales d'un conglomérat en crise ?",
         "options":  [
-                        "Un réseau de neurones convolutif (CNN) spécialisé dans le traitement d\\u0027images",
+                        "Un réseau de neurones convolutif (CNN) spécialisé dans le traitement d'images",
                         "Un réseau de neurones de graphes (GNN - Graph Neural Networks) capable de capturer les relations complexes et les flux financiers non linéaires inter-entités",
                         "Un modèle de langage de type Transformer standard non fine-tuné",
                         "Un algorithme de régression linéaire multiple sur tableur"
@@ -1299,24 +1299,24 @@
         "id":  82,
         "difficulty":  5,
         "difficulty_label":  "expert",
-        "category":  "…?thique \\u0026 société",
-        "question":  "Quel cadre mathématique rigoureux permet de s\\u0027assurer qu\\u0027un modèle IA d\\u0027allocation de capital ne viole pas le principe d\\u0027équité de traitement entre plusieurs filiales ?",
+        "category":  "éthique & société",
+        "question":  "Quel cadre mathématique rigoureux permet de s'assurer qu'un modèle IA d'allocation de capital ne viole pas le principe d'équité de traitement entre plusieurs filiales ?",
         "options":  [
-                        "L\\u0027application stricte des critères d\\u0027équité de Shapley ou d\\u0027optimisation de Pareto sous contraintes de parité démographique algorithmique",
-                        "La validation du modèle par un vote à la majorité absolue du Conseil d\\u0027Administration",
-                        "L\\u0027assurance que le coefficient de corrélation R² du modèle est égal à 1,00",
-                        "Le masquage des noms des filiales lors de l\\u0027exécution du script de programmation"
+                        "L'application stricte des critères d'équité de Shapley ou d'optimisation de Pareto sous contraintes de parité démographique algorithmique",
+                        "La validation du modèle par un vote à la majorité absolue du Conseil d'Administration",
+                        "L'assurance que le coefficient de corrélation R² du modèle est égal à 1,00",
+                        "Le masquage des noms des filiales lors de l'exécution du script de programmation"
                     ],
         "correct_index":  0,
-        "correct_answer":  "L\\u0027application stricte des critères d\\u0027équité de Shapley ou d\\u0027optimisation de Pareto sous contraintes de parité démographique algorithmique",
-        "explanation":  "Pour garantir scientifiquement l\\u0027équité distributive (Fairness) d\\u0027un modèle IA financier de haut niveau, il faut injecter des contraintes mathématiques d\\u0027équité directement au sein de la fonction de perte (Loss Function) de l\\u0027algorithme."
+        "correct_answer":  "L'application stricte des critères d'équité de Shapley ou d'optimisation de Pareto sous contraintes de parité démographique algorithmique",
+        "explanation":  "Pour garantir scientifiquement l'équité distributive (Fairness) d'un modèle IA financier de haut niveau, il faut injecter des contraintes mathématiques d'équité directement au sein de la fonction de perte (Loss Function) de l'algorithme."
     },
     {
         "id":  83,
         "difficulty":  5,
         "difficulty_label":  "expert",
         "category":  "Dangers",
-        "question":  "Pourquoi la création d\\u0027agents IA capables de concevoir de manière autonome des produits dérivés financiers (Ingénierie Structurée) présente-t-elle un risque de ruine ?",
+        "question":  "Pourquoi la création d'agents IA capables de concevoir de manière autonome des produits dérivés financiers (Ingénierie Structurée) présente-t-elle un risque de ruine ?",
         "options":  [
                         "Parce que les serveurs cloud ne disposent pas de la mémoire nécessaire pour stocker ces formules",
                         "Parce que les agents peuvent exploiter des failles ou des angles morts réglementaires mathématiques complexes, créant des produits hyper-toxiques indétectables par les régulateurs humains",
@@ -1325,22 +1325,22 @@
                     ],
         "correct_index":  1,
         "correct_answer":  "Parce que les agents peuvent exploiter des failles ou des angles morts réglementaires mathématiques complexes, créant des produits hyper-toxiques indétectables par les régulateurs humains",
-        "explanation":  "C\\u0027est le danger de l\\u0027optimisation perverse (perverse optimization). Un agent IA cherchant à maximiser le rendement sous contrainte légale stricte peut assembler un produit financier mathématiquement conforme mais d\\u0027une instabilité systémique redoutable en cas de crise de liquidité."
+        "explanation":  "C'est le danger de l'optimisation perverse (perverse optimization). Un agent IA cherchant à maximiser le rendement sous contrainte légale stricte peut assembler un produit financier mathématiquement conforme mais d'une instabilité systémique redoutable en cas de crise de liquidité."
     },
     {
         "id":  84,
         "difficulty":  5,
         "difficulty_label":  "expert",
         "category":  "Capacités",
-        "question":  "En Restructuring complexe de dette souveraine, quel est l\\u0027apport des modèles d\\u0027IA fondés sur la théorie des jeux évolutionnaires (Evolutionary Game Theory) ?",
+        "question":  "En Restructuring complexe de dette souveraine, quel est l'apport des modèles d'IA fondés sur la théorie des jeux évolutionnaires (Evolutionary Game Theory) ?",
         "options":  [
-                        "Prédire avec certitude la date exacte du défaut de paiement d\\u0027un …?tat",
-                        "Simuler la dynamique d\\u0027ajustement et les stratégies de compromis à long terme de milliers de créanciers hétérogènes soumis à des pressions politiques changeantes",
+                        "Prédire avec certitude la date exacte du défaut de paiement d'un état",
+                        "Simuler la dynamique d'ajustement et les stratégies de compromis à long terme de milliers de créanciers hétérogènes soumis à des pressions politiques changeantes",
                         "Remplacer les négociateurs du Fonds Monétaire International (FMI)",
                         "Annuler unilatéralement la dette des pays les plus pauvres via un arbitrage informatique"
                     ],
         "correct_index":  1,
-        "correct_answer":  "Simuler la dynamique d\\u0027ajustement et les stratégies de compromis à long terme de milliers de créanciers hétérogènes soumis à des pressions politiques changeantes",
-        "explanation":  "Les théories évolutionnaires couplées aux simulations multi-agents par IA permettent de comprendre comment les coalitions de créanciers se forment, se brisent et évoluent face aux propositions de décote (haircut) d\\u0027un …?tat en crise."
+        "correct_answer":  "Simuler la dynamique d'ajustement et les stratégies de compromis à long terme de milliers de créanciers hétérogènes soumis à des pressions politiques changeantes",
+        "explanation":  "Les théories évolutionnaires couplées aux simulations multi-agents par IA permettent de comprendre comment les coalitions de créanciers se forment, se brisent et évoluent face aux propositions de décote (haircut) d'un état en crise."
     }
 ]
