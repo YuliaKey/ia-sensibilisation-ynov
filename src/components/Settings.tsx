@@ -428,18 +428,7 @@ function Settings({ onBack, onShowPrivacy, onNavigate }: Props) {
   if (subPage === 'cgu')              return <CGUPage             onBack={() => setSubPage(null)} />
 
   return (
-    <div className="settings">
-
-      <div className="settings__header">
-        <button className="settings__back" onClick={onBack}>
-          <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
-            <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6z" />
-          </svg>
-          Retour
-        </button>
-        <Logo variant="text" />
-        <div style={{ width: 70 }} />
-      </div>
+    <div className="settings settings--main">
 
       <h1 className="settings__title">Réglages</h1>
 

@@ -1,0 +1,1442 @@
+[
+    {
+        "id":  1,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce qu\\u0027une IA générative peut produire pour une équipe de communication en entreprise ?",
+        "options":  [
+                        "Des publications pour les réseaux sociaux, des articles de blog et des newsletters",
+                        "Des vidéos filmées en direct sur le terrain",
+                        "Des sondages papier distribués aux clients",
+                        "Des affiches publicitaires imprimées en grande quantité"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Des publications pour les réseaux sociaux, des articles de blog et des newsletters",
+        "explanation":  "Les outils d\\u0027IA générative comme ChatGPT ou Claude peuvent rédiger des posts, des articles, des e-mails marketing ou des scripts vidéo en quelques secondes, accélérant considérablement la production de contenu."
+    },
+    {
+        "id":  2,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce que l\\u0027analyse de sentiment par l\\u0027IA permet à une équipe marketing ?",
+        "options":  [
+                        "De détecter les émotions des employés lors des réunions internes",
+                        "De comprendre si les avis et commentaires clients sur une marque sont positifs, négatifs ou neutres",
+                        "De mesurer le moral des équipes à partir de leurs e-mails professionnels",
+                        "De calculer le Net Promoter Score (NPS) sans enquête client"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "De comprendre si les avis et commentaires clients sur une marque sont positifs, négatifs ou neutres",
+        "explanation":  "L\\u0027analyse de sentiment est une technique d\\u0027IA qui classe automatiquement les textes (avis Google, commentaires réseaux sociaux, e-mails clients) selon leur tonalité émotionnelle, permettant de piloter la réputation en temps réel."
+    },
+    {
+        "id":  3,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Quel problème majeur peut survenir si l\\u0027on publie du contenu rédigé par une IA sans relecture humaine ?",
+        "options":  [
+                        "Le contenu sera systématiquement trop court",
+                        "Des erreurs factuelles, des formulations maladroites ou des incohérences avec l\\u0027identité de marque peuvent passer inaperçues",
+                        "L\\u0027algorithme des réseaux sociaux pénalisera automatiquement le contenu généré par IA",
+                        "Le contenu sera bloqué par les filtres anti-spam"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Des erreurs factuelles, des formulations maladroites ou des incohérences avec l\\u0027identité de marque peuvent passer inaperçues",
+        "explanation":  "L\\u0027IA peut halluciner des faits, employer un ton inadapté ou produire du contenu générique. Une relecture humaine est indispensable pour garantir la qualité, la véracité et l\\u0027alignement avec la charte de marque."
+    },
+    {
+        "id":  4,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Qu\\u0027est-ce qu\\u0027un deepfake dans le contexte de la communication d\\u0027entreprise ?",
+        "options":  [
+                        "Une vidéo ultra-courte (moins de 3 secondes) destinée aux réseaux sociaux",
+                        "Une fausse vidéo ou audio générée par IA faisant dire ou faire quelque chose à une personne réelle",
+                        "Un faux profil de client mystère sur les sites d\\u0027avis",
+                        "Un filtre Instagram qui modifie l\\u0027apparence du présentateur"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une fausse vidéo ou audio générée par IA faisant dire ou faire quelque chose à une personne réelle",
+        "explanation":  "Les deepfakes utilisent l\\u0027IA pour créer des vidéos ou audios hyperréalistes où une personne semble dire ou faire des choses qu\\u0027elle n\\u0027a jamais faites. En communication d\\u0027entreprise, ils peuvent être utilisés pour usurper l\\u0027image d\\u0027un dirigeant ou répandre de fausses informations."
+    },
+    {
+        "id":  5,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle aider à personnaliser les campagnes marketing par e-mail ?",
+        "options":  [
+                        "En envoyant le même message à tous les clients mais avec un prénom différent",
+                        "En adaptant le contenu, les offres et le moment d\\u0027envoi en fonction des comportements et préférences de chaque contact",
+                        "En remplaçant la base de données clients par une liste générée aléatoirement",
+                        "En supprimant automatiquement les clients inactifs depuis plus d\\u0027un mois"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En adaptant le contenu, les offres et le moment d\\u0027envoi en fonction des comportements et préférences de chaque contact",
+        "explanation":  "L\\u0027IA analyse l\\u0027historique d\\u0027achat, les clics et les comportements pour envoyer le bon message, à la bonne personne, au bon moment …?"
+    },
+    {
+        "id":  6,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Quand une entreprise utilise des images générées par IA dans ses publicités, quelle bonne pratique est recommandée ?",
+        "options":  [
+                        "Ne rien indiquer, le public ne peut pas faire la différence",
+                        "Mentionner explicitement que les visuels ont été créés ou modifiés par IA",
+                        "Utiliser uniquement des images IA pour les réseaux sociaux, jamais pour la presse",
+                        "Faire valider les images par un avocat avant publication"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Mentionner explicitement que les visuels ont été créés ou modifiés par IA",
+        "explanation":  "La transparence envers le public sur l\\u0027utilisation de l\\u0027IA dans les contenus est une pratique éthique recommandée et de plus en plus encadrée (AI Act, codes déontologiques professionnels). Elle renforce la confiance des consommateurs."
+    },
+    {
+        "id":  7,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qui détient les droits d\\u0027auteur d\\u0027un texte publicitaire entièrement rédigé par une IA ?",
+        "options":  [
+                        "L\\u0027IA elle-même, en tant qu\\u0027auteur",
+                        "La question des droits d\\u0027auteur est complexe et débattue : en France, seule une création humaine est protégée par le droit d\\u0027auteur",
+                        "Automatiquement l\\u0027entreprise éditrice du logiciel IA",
+                        "L\\u0027entreprise qui a commandé le texte, automatiquement et sans condition"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La question des droits d\\u0027auteur est complexe et débattue : en France, seule une création humaine est protégée par le droit d\\u0027auteur",
+        "explanation":  "En droit français, le droit d\\u0027auteur protège les créations de l\\u0027esprit humain. Un texte entièrement généré par une IA ne bénéficie pas de cette protection. La situation évolue avec la jurisprudence et les régulations émergentes."
+    },
+    {
+        "id":  8,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "L\\u0027IA peut-elle remplacer entièrement un community manager dans la gestion des réseaux sociaux d\\u0027une entreprise ?",
+        "options":  [
+                        "Oui, elle est disponible 24h/24 et ne fait jamais d\\u0027erreurs",
+                        "Non, la gestion de crises, l\\u0027empathie et la créativité contextuelle requièrent un humain",
+                        "Oui, à condition d\\u0027utiliser au moins 3 outils IA différents en parallèle",
+                        "Non, car l\\u0027IA n\\u0027a pas accès aux plateformes de réseaux sociaux"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Non, la gestion de crises, l\\u0027empathie et la créativité contextuelle requièrent un humain",
+        "explanation":  "Si l\\u0027IA peut planifier et générer des contenus standards, la gestion d\\u0027un bad buzz, la réponse empathique à un client mécontent ou la créativité adaptée à l\\u0027actualité nécessitent le jugement humain d\\u0027un community manager."
+    },
+    {
+        "id":  9,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce que le SEO assisté par IA permet de faire pour améliorer la visibilité en ligne d\\u0027une entreprise ?",
+        "options":  [
+                        "Acheter automatiquement des liens sponsors sur Google sans intervention humaine",
+                        "Analyser les mots-clés, optimiser les textes et suggérer des améliorations pour mieux se positionner sur les moteurs de recherche",
+                        "Bloquer les publicités des concurrents sur les résultats de recherche",
+                        "Garantir la première place sur Google en 24 heures"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Analyser les mots-clés, optimiser les textes et suggérer des améliorations pour mieux se positionner sur les moteurs de recherche",
+        "explanation":  "Les outils IA de SEO analysent les tendances de recherche, identifient les opportunités de mots-clés, évaluent la concurrence et suggèrent des optimisations de contenu pour améliorer le référencement naturel."
+    },
+    {
+        "id":  10,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel risque l\\u0027utilisation massive de contenu généré par IA fait-elle peser sur la communication d\\u0027une marque ?",
+        "options":  [
+                        "Un risque de surproduction de contenus trop originaux",
+                        "Un risque de banalisation et de perte d\\u0027authenticité si tous les acteurs produisent des contenus similaires",
+                        "Un risque de coûts trop élevés dû aux licences des outils IA",
+                        "Un risque de blocage par les plateformes sociales qui détectent l\\u0027IA"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un risque de banalisation et de perte d\\u0027authenticité si tous les acteurs produisent des contenus similaires",
+        "explanation":  "Quand tous les concurrents utilisent les mêmes outils IA avec les mêmes prompts, les contenus produits se ressemblent et perdent en singularité. L\\u0027authenticité de la voix de marque et la différenciation deviennent des enjeux stratégiques."
+    },
+    {
+        "id":  11,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "…? quoi sert un briefing créatif assisté par IA dans un cabinet de conseil en stratégie de marque ?",
+        "options":  [
+                        "…? remplacer le client dans la définition de ses objectifs",
+                        "…? structurer et enrichir le brief avec des éléments de marché, cibles et positions concurrentielles",
+                        "…? imprimer les supports de présentation pour le client",
+                        "…? négocier les honoraires avec le client"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "…? structurer et enrichir le brief avec des éléments de marché, cibles et positions concurrentielles",
+        "explanation":  "L\\u0027IA aide à organiser les informations clés, à rappeler les benchmarks et à proposer des pistes de positionnement pour enrichir le brief créatif."
+    },
+    {
+        "id":  12,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Quel apport peut avoir l\\u0027IA pour préparer une présentation de recommandations stratégiques à un client ?",
+        "options":  [
+                        "Remplacer le consultant pendant la réunion client",
+                        "Aider à structurer le récit, à générer des slides et à synthétiser les données clés",
+                        "Signer les contrats avec le client",
+                        "Fixer le prix de la mission sans validation"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Aider à structurer le récit, à générer des slides et à synthétiser les données clés",
+        "explanation":  "Les outils IA peuvent suggérer une structure narrative, produire des ébauches de slides et résumer des données, tout en laissant la validation stratégique aux consultants seniors."
+    },
+    {
+        "id":  13,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle aider à analyser une identité de marque existante ?",
+        "options":  [
+                        "En supprimant le logo de la marque",
+                        "En comparant les éléments de la marque (ton, visuels, promesses) avec des références du secteur et en identifiant des incohérences",
+                        "En remplaçant la direction marketing du client",
+                        "En décidant seule du nouveau positionnement"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En comparant les éléments de la marque (ton, visuels, promesses) avec des références du secteur et en identifiant des incohérences",
+        "explanation":  "L\\u0027IA peut analyser les communications passées et les une référence concurrentielle pour repérer des incohérences et des axes d\\u0027amélioration du positionnement."
+    },
+    {
+        "id":  14,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi une recommandation de positionnement de marque générée par IA doit-elle être validée par un humain ?",
+        "options":  [
+                        "Parce que l\\u0027IA ne connaît pas le nom du client",
+                        "Parce qu\\u0027elle peut manquer de profondeur stratégique, de contexte politique et de connaissance fine de la culture d\\u0027entreprise",
+                        "Parce que l\\u0027IA refuse de travailler sur les marques internationales",
+                        "Parce que les clients ne veulent pas voir de l\\u0027IA dans les propositions"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu\\u0027elle peut manquer de profondeur stratégique, de contexte politique et de connaissance fine de la culture d\\u0027entreprise",
+        "explanation":  "Le positionnement repose sur des choix stratégiques, des enjeux relationnels et une culture d\\u0027entreprise que l\\u0027IA ne peut pas totalement appréhender seule."
+    },
+    {
+        "id":  15,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi l\\u0027IA ne peut-elle pas remplacer entièrement un consultant en stratégie de communication ?",
+        "options":  [
+                        "Parce qu\\u0027elle ne sait pas écrire de texte",
+                        "Parce qu\\u0027elle ne peut pas comprendre les enjeux politiques internes, les non-dits et la relation de confiance avec le client",
+                        "Parce qu\\u0027elle fonctionne uniquement en anglais",
+                        "Parce qu\\u0027elle ne peut pas lire les PDF"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu\\u0027elle ne peut pas comprendre les enjeux politiques internes, les non-dits et la relation de confiance avec le client",
+        "explanation":  "La stratégie de communication repose sur une lecture fine des enjeux internes, des rapports de force et d\\u0027une relation de confiance construite dans la durée."
+    },
+    {
+        "id":  16,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel risque existe si un cabinet de conseil utilise des données clients sensibles dans un outil IA public sans contrôle ?",
+        "options":  [
+                        "Les données peuvent être exposées ou réutilisées selon les conditions d\\u0027usage du fournisseur",
+                        "Le client recevra automatiquement une meilleure offre",
+                        "L\\u0027outil deviendra plus rapide et plus précis",
+                        "Le CRM se synchronisera automatiquement"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Les données peuvent être exposées ou réutilisées selon les conditions d\\u0027usage du fournisseur",
+        "explanation":  "Les outils publics peuvent exposer les données saisies ou les utiliser pour entraîner leurs modèles, ce qui pose des risques de confidentialité et de conformité."
+    },
+    {
+        "id":  17,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel est le danger d\\u0027un biais dans un modèle utilisé pour segmenter les cibles d\\u0027une campagne de communication ?",
+        "options":  [
+                        "Une hausse automatique des ventes",
+                        "Une sous-représentation ou discrimination de certains segments (régions, tranches d\\u0027âge, cultures)",
+                        "Une baisse des coûts de production",
+                        "Une amélioration de la réputation de la marque"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une sous-représentation ou discrimination de certains segments (régions, tranches d\\u0027âge, cultures)",
+        "explanation":  "Un modèle biaisé peut exclure ou sous-servir certains groupes, ce qui peut être contre-productif et poser des problèmes éthiques et légaux."
+    },
+    {
+        "id":  18,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Quand un cabinet utilise l\\u0027IA pour produire des contenus pour le compte d\\u0027un client, quelle transparence est recommandée ?",
+        "options":  [
+                        "Ne rien dire car le client ne peut pas faire la différence",
+                        "Informer le client de l\\u0027usage de l\\u0027IA et des limites associées",
+                        "Cacher l\\u0027usage de l\\u0027IA pour paraître plus innovant",
+                        "Présenter les contenus IA comme entièrement humains"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Informer le client de l\\u0027usage de l\\u0027IA et des limites associées",
+        "explanation":  "La transparence envers le client sur l\\u0027usage de l\\u0027IA renforce la confiance et permet de cadrer les responsabilités et les limites du travail produit."
+    },
+    {
+        "id":  19,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Pourquoi est-il important de garder une intervention humaine dans la validation d\\u0027une stratégie de marque ?",
+        "options":  [
+                        "Pour ralentir le processus",
+                        "Pour intégrer le contexte, les enjeux de pouvoir et la vision long terme du client",
+                        "Pour supprimer les outils IA",
+                        "Pour éviter les données"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour intégrer le contexte, les enjeux de pouvoir et la vision long terme du client",
+        "explanation":  "L\\u0027humain peut intégrer le contexte organisationnel, les biais politiques et la vision stratégique que l\\u0027IA ne peut pas pleinement appréhender."
+    },
+    {
+        "id":  20,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Que doit faire un cabinet avant de déployer un outil IA pour analyser les commentaires clients d\\u0027un grand compte ?",
+        "options":  [
+                        "Le déployer sans test préalable",
+                        "Tester l\\u0027outil, documenter ses critères et vérifier d\\u0027éventuels biais",
+                        "Le réserver uniquement aux stagiaires",
+                        "Le cacher à l\\u0027équipe marketing du client"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Tester l\\u0027outil, documenter ses critères et vérifier d\\u0027éventuels biais",
+        "explanation":  "Un test préalable permet de valider la pertinence du modèle, de documenter ses critères et de repérer d\\u0027éventuels biais avant usage en production."
+    },
+    {
+        "id":  21,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "…? quoi sert un résumé exécutif dans une proposition de conseil en stratégie de communication ?",
+        "options":  [
+                        "…? remplacer tout le reste de la proposition",
+                        "…? présenter clairement le problème client, la solution proposée et les bénéfices attendus en quelques paragraphes",
+                        "…? lister tous les CVs de l\\u0027équipe",
+                        "…? détailler les conditions légales"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "…? présenter clairement le problème client, la solution proposée et les bénéfices attendus en quelques paragraphes",
+        "explanation":  "Le résumé exécutif résume le pain point, la solution à haut niveau et pourquoi le cabinet est bien placé, pour rozhodování rapide des décideurs."
+    },
+    {
+        "id":  22,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Quel élément doit figurer dans une proposition de conseil pour bien définir le périmètre d\\u0027une mission ?",
+        "options":  [
+                        "Une liste de tous les logiciels utilisés",
+                        "Une section objective et scope avec ce qui est in scope et out of scope",
+                        "Le historique complet du cabinet",
+                        "Le planning de vacances de l\\u0027équipe"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une section objective et scope avec ce qui est in scope et out of scope",
+        "explanation":  "Définir clairement ce qui est inclus et exclu évite les malentendus sur les livrables et le périmètre de la mission."
+    },
+    {
+        "id":  23,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle aider à rédiger un executive summary de proposition de conseil ?",
+        "options":  [
+                        "En remplaçant le consultant",
+                        "En générant un premier jet structuré à partir des éléments clés du brief et du diagnostic",
+                        "En signant le contrat à la place du client",
+                        "En supprimant les pages de la proposition"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En générant un premier jet structuré à partir des éléments clés du brief et du diagnostic",
+        "explanation":  "L\\u0027IA peut produire un premier jet cohérent à partir des informations du brief, mais la validation et l\\u0027ajustement restent humains."
+    },
+    {
+        "id":  24,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi une proposition de conseil générée par IA doit-elle être relue par un senior ?",
+        "options":  [
+                        "Parce que l\\u0027IA n\\u0027écrit pas correctement",
+                        "Parce qu\\u0027elle peut manquer d\\u0027alignement stratégique, juridique ou commercial avec le cabinet",
+                        "Parce que l\\u0027IA refuse les PDF",
+                        "Parce que les clients ne lisent jamais les propositions"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu\\u0027elle peut manquer d\\u0027alignement stratégique, juridique ou commercial avec le cabinet",
+        "explanation":  "Une proposition peut être bien rédigée mais inexacte, mal positionnée, ou trop générique sans validation senior."
+    },
+    {
+        "id":  25,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi l\\u0027IA ne peut-elle pas seule décider d\\u0027un go/no-go sur une opportunité de mission de conseil ?",
+        "options":  [
+                        "Parce qu\\u0027elle ne sait pas compter",
+                        "Parce que le go/no-go dépend de la stratégie, de la relation, des marges et de signaux contextuels qu\\u0027un humain doit arbitrer",
+                        "Parce qu\\u0027elle ne lit pas les emails",
+                        "Parce qu\\u0027elle n\\u0027aime pas les dossiers complexes"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que le go/no-go dépend de la stratégie, de la relation, des marges et de signaux contextuels qu\\u0027un humain doit arbitrer",
+        "explanation":  "Le go/no-go implique des arbitrages stratégiques et relationnels qu\\u0027un humain doit prendre en compte."
+    },
+    {
+        "id":  26,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel risque existe si une proposition de conseil contient des informations confidentielles d\\u0027un autre client ?",
+        "options":  [
+                        "Un risque d\\u0027amélioration automatique de la relation",
+                        "Un risque de fuite d\\u0027informations sensibles et de rupture de confidentialité",
+                        "Un risque de réduction des coûts",
+                        "Un risque de hausse de productivité"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un risque de fuite d\\u0027informations sensibles et de rupture de confidentialité",
+        "explanation":  "La confusion entre données clients peut entraîner des fuites d\\u0027informations confidentielles et des problèmes légaux."
+    },
+    {
+        "id":  27,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel danger existe si un cabinet utilise des données clients pour entraîner un modèle IA sans accord ?",
+        "options":  [
+                        "Une amélioration automatique de la relation",
+                        "Une violation de confidentialité et de conformité RGPD",
+                        "Une réduction des coûts à 0",
+                        "Une hausse de la productivité"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une violation de confidentialité et de conformité RGPD",
+        "explanation":  "Utiliser des données clients sans accord clair peut violer la confidentialité et le RGPD, exposant le cabinet à des sanctions."
+    },
+    {
+        "id":  28,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Pourquoi faut-il informer un client de l\\u0027usage de l\\u0027IA dans la production des livrables d\\u0027une mission ?",
+        "options":  [
+                        "Pour montrer que le cabinet automatise tout",
+                        "Pour assurer la transparence et éviter toute ambiguïté sur la nature du travail",
+                        "Pour éviter les échanges",
+                        "Pour réduire les prix sans expliquer"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour assurer la transparence et éviter toute ambiguïté sur la nature du travail",
+        "explanation":  "La transparence renforce la confiance et permet de clarifier les responsabilités et limites associées aux contenus IA."
+    },
+    {
+        "id":  29,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Quel principe du RGPD impose de ne collecter que les données strictement nécessaires à une mission ?",
+        "options":  [
+                        "La conservation éternelle",
+                        "La minimisation des données",
+                        "La publication des données",
+                        "La collecte illimitée"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La minimisation des données",
+        "explanation":  "Le principe de minimisation impose de ne collecter et traiter que les données nécessaires à la finalité définie."
+    },
+    {
+        "id":  30,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Pourquoi faut-il documenter les critères d\\u0027un modèle IA utilisé pour analyser des données clients ?",
+        "options":  [
+                        "Pour rendre le modèle plus opaque",
+                        "Pour permettre une gouvernance claire, vérifier les biais et assurer la non-discrimination",
+                        "Pour supprimer les analyses",
+                        "Pour éviter les validations"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour permettre une gouvernance claire, vérifier les biais et assurer la non-discrimination",
+        "explanation":  "Documenter les critères permet de comprendre le modèle, d\\u0027auditer ses résultats et de prévenir les discriminations."
+    },
+    {
+        "id":  31,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce que la personnalisation dynamique du contenu web permise par l\\u0027IA apporte à la stratégie marketing ?",
+        "options":  [
+                        "Elle change automatiquement les couleurs du site selon la météo locale du visiteur",
+                        "Elle adapte les messages, offres et visuels affichés en temps réel selon le profil et le comportement de chaque visiteur",
+                        "Elle ralentit le site pour créer un effet de suspense avant l\\u0027affichage des promotions",
+                        "Elle traduit automatiquement le site dans la langue du navigateur de l\\u0027utilisateur"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Elle adapte les messages, offres et visuels affichés en temps réel selon le profil et le comportement de chaque visiteur",
+        "explanation":  "La personnalisation dynamique utilise l\\u0027IA pour afficher à chaque visiteur le contenu le plus pertinent selon son historique, sa localisation et son comportement, augmentant les taux de conversion et l\\u0027expérience utilisateur."
+    },
+    {
+        "id":  32,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Utiliser l\\u0027IA pour générer des avis clients positifs fictifs sur des plateformes comme Google ou TripAdvisor constitue-t-il une pratique acceptable ?",
+        "options":  [
+                        "Oui, si les avis restent réalistes et vraisemblables",
+                        "Non, c\\u0027est une pratique trompeuse illégale (avis frauduleux) sanctionnée par la loi",
+                        "Oui, à condition de limiter à un avis par semaine pour rester discret",
+                        "Non, mais uniquement si la marque a moins de 100 avis authentiques"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Non, c\\u0027est une pratique trompeuse illégale (avis frauduleux) sanctionnée par la loi",
+        "explanation":  "La génération de faux avis est une pratique commerciale trompeuse interdite en France et en Europe. Elle peut entraîner des sanctions pénales et financières importantes, ainsi qu\\u0027une destruction de la réputation de marque en cas de révélation."
+    },
+    {
+        "id":  33,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Comment des deepfakes vidéo peuvent-ils être utilisés comme outil de désinformation contre une entreprise ?",
+        "options":  [
+                        "En ralentissant le site internet de l\\u0027entreprise lors d\\u0027une campagne publicitaire",
+                        "En fabriquant de fausses déclarations d\\u0027un dirigeant pour provoquer une crise boursière ou réputationnelle",
+                        "En copiant le logo de l\\u0027entreprise pour créer des publicités concurrentes",
+                        "En inondant les boîtes mail des clients avec de faux e-mails promotionnels"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En fabriquant de fausses déclarations d\\u0027un dirigeant pour provoquer une crise boursière ou réputationnelle",
+        "explanation":  "Des deepfakes audio ou vidéo d\\u0027un PDG annonçant de faux résultats, une démission ou un scandale peuvent se propager viralement et causer des dommages réputationnels ou financiers massifs avant même d\\u0027être démentis."
+    },
+    {
+        "id":  34,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi l\\u0027analyse de sentiment par IA peut-elle donner des résultats erronés sur les commentaires clients en français ?",
+        "options":  [
+                        "Parce que l\\u0027IA ne comprend pas la langue française",
+                        "Parce que les modèles sont souvent entraînés majoritairement sur des données en anglais et peinent avec l\\u0027ironie, les nuances et l\\u0027argot",
+                        "Parce que les commentaires clients français sont trop courts pour être analysés",
+                        "Parce que le RGPD interdit l\\u0027analyse des commentaires publics en France"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que les modèles sont souvent entraînés majoritairement sur des données en anglais et peinent avec l\\u0027ironie, les nuances et l\\u0027argot",
+        "explanation":  "Beaucoup de modèles d\\u0027analyse de sentiment sont optimisés pour l\\u0027anglais. En français, les performances se dégradent face à l\\u0027ironie (\\"
+    },
+    {
+        "id":  35,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce que le ciblage publicitaire assisté par IA permet d\\u0027améliorer par rapport au ciblage traditionnel ?",
+        "options":  [
+                        "Il garantit que chaque publicité est vue par 100 % de la cible potentielle",
+                        "Il identifie des audiences similaires (lookalike) et optimise les enchères en temps réel pour maximiser le ROI",
+                        "Il supprime automatiquement les publicités non performantes après 24h",
+                        "Il permet d\\u0027afficher des publicités uniquement aux utilisateurs qui ont déjà acheté le produit"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Il identifie des audiences similaires (lookalike) et optimise les enchères en temps réel pour maximiser le ROI",
+        "explanation":  "Les algorithmes publicitaires IA analysent des milliers de signaux (comportement, centres d\\u0027intérêt, contexte) pour cibler les profils les plus susceptibles de convertir, ajustant les enchères en millisecondes pour optimiser le budget."
+    },
+    {
+        "id":  36,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Lorsqu\\u0027une IA génère une image publicitaire à partir d\\u0027une demande, quel risque juridique lié aux droits d\\u0027auteur peut se poser ?",
+        "options":  [
+                        "Le risque que l\\u0027image soit trop belle et donc protégée automatiquement",
+                        "Le risque que l\\u0027image générée soit similaire à une oeuvre protégée intégrée dans les données d\\u0027entraînement du modèle",
+                        "Le risque que l\\u0027image dépasse la limite de taille autorisée par les plateformes sociales",
+                        "Le risque que l\\u0027image soit revendiquée par l\\u0027IA elle-même comme créatrice"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le risque que l\\u0027image générée soit similaire à une oeuvre protégée intégrée dans les données d\\u0027entraînement du modèle",
+        "explanation":  "Les modèles de génération d\\u0027images sont entraînés sur des millions d\\u0027oeuvres dont certaines sont protégées. L\\u0027image produite peut reproduire des éléments d\\u0027une oeuvre existante, exposant l\\u0027entreprise à des poursuites pour contrefaçon."
+    },
+    {
+        "id":  37,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle aider à construire un plan média pour une campagne de communication ?",
+        "options":  [
+                        "En remplaçant les médias par des contenus générés automatiquement",
+                        "En analysant les performances passées et en suggérant un mix de canaux et un budget optimisé",
+                        "En supprimant les canaux traditionnels",
+                        "En fixant le prix des espaces publicitaires sans négociation"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En analysant les performances passées et en suggérant un mix de canaux et un budget optimisé",
+        "explanation":  "L\\u0027IA peut analyser les performances historiques par canal et suggérer un mix optimal, tout en laissant au consultant la décision finale du plan média."
+    },
+    {
+        "id":  38,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce que l\\u0027IA peut apporter dans la définition d\\u0027une charte graphique de marque ?",
+        "options":  [
+                        "Remplacer complètement le designer",
+                        "Proposer des palettes de couleurs, des typographies et des lignes directrices cohérentes à partir d\\u0027exemples existants",
+                        "Imprimer les documents pour le client",
+                        "Signer les contrats avec les imprimeurs"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Proposer des palettes de couleurs, des typographies et des lignes directrices cohérentes à partir d\\u0027exemples existants",
+        "explanation":  "L\\u0027IA peut générer des propositions de charte graphique basées sur des références et des bonnes pratiques, àItérer avec un designer humain."
+    },
+    {
+        "id":  39,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle aider à analyser la perception d\\u0027une marque sur les réseaux sociaux ?",
+        "options":  [
+                        "En supprimant tous les commentaires négatifs",
+                        "En analysant les mentions, les sentiments et les thématiques récurrentes pour identifier des tendances",
+                        "En bloquant les concurrents",
+                        "En remplaçant l\\u0027équipe community management"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En analysant les mentions, les sentiments et les thématiques récurrentes pour identifier des tendances",
+        "explanation":  "L\\u0027IA peut agréger les mentions, analyser le sentiment et repérer des thématiques clés pour éclairer une stratégie de marque."
+    },
+    {
+        "id":  40,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi un modèle prédictif de performance de campagne peut-il être moins fiable sur un marché nouveau ?",
+        "options":  [
+                        "Parce qu\\u0027il ne supporte pas les nouveaux logos",
+                        "Parce qu\\u0027il manque d\\u0027exemples comparables et de données historiques pertinentes",
+                        "Parce qu\\u0027il refuse les nouveaux pays",
+                        "Parce qu\\u0027il ne peut pas lire les langues étrangères"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu\\u0027il manque d\\u0027exemples comparables et de données historiques pertinentes",
+        "explanation":  "Sans données représentatives du nouveau marché, le modèle généralise mal et les prédictions deviennent moins fiables."
+    },
+    {
+        "id":  41,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi l\\u0027IA ne suffit-elle pas à elle seule pour piloter une crisis communication ?",
+        "options":  [
+                        "Parce qu\\u0027elle ne peut pas rédiger de texte",
+                        "Parce que la gestion de crise nécessite du jugement, de l\\u0027empathie et une compréhension fine des enjeux politiques",
+                        "Parce qu\\u0027elle ne connaît pas le nom du client",
+                        "Parce qu\\u0027elle refuse de travailler le week-end"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que la gestion de crise nécessite du jugement, de l\\u0027empathie et une compréhension fine des enjeux politiques",
+        "explanation":  "En crise, les décisions doivent intégrer des enjeux humains, politiques et réputationnels que l\\u0027IA ne peut pas pleinement appréhender."
+    },
+    {
+        "id":  42,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel risque existe si un cabinet utilise un modèle IA pour générer des messages de crise sans validation humaine ?",
+        "options":  [
+                        "Un risque de ton inadapté, d\\u0027erreurs factuelles ou d\\u0027aggravation de la crise",
+                        "Un risque de sur-consommation d\\u0027énergie",
+                        "Un risque de coût trop élevé pour le client",
+                        "Un risque de ralentissement du serveur"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Un risque de ton inadapté, d\\u0027erreurs factuelles ou d\\u0027aggravation de la crise",
+        "explanation":  "Un message de crise mal calibré peut aggraver la situation, en particulier si le ton, les faits ou les promesses sont inappropriés."
+    },
+    {
+        "id":  43,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel danger représente la diffusion d\\u0027un deepfake d\\u0027un dirigeant dans le cadre d\\u0027une attaque contre une entreprise ?",
+        "options":  [
+                        "Une amélioration automatique de la réputation",
+                        "Une crise de confiance et une dégradation de la réputation avant même qu\\u0027un démenti soit possible",
+                        "Une hausse des ventes grâce au buzz",
+                        "Une réduction des coûts de communication"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une crise de confiance et une dégradation de la réputation avant même qu\\u0027un démenti soit possible",
+        "explanation":  "Un deepfake crédible peut se propager rapidement et causer des dommages réputationnels importants avant qu\\u0027une réfutation ne soit possible."
+    },
+    {
+        "id":  44,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Pourquoi faut-il documenter les critères utilisés par un modèle IA pour segmenter des cibles marketing ?",
+        "options":  [
+                        "Pour rendre le modèle plus opaque",
+                        "Pour permettre une gouvernance claire, vérifier les biais et assurer la non-discrimination",
+                        "Pour supprimer les analyses",
+                        "Pour éviter les validations"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour permettre une gouvernance claire, vérifier les biais et assurer la non-discrimination",
+        "explanation":  "Documenter les critères permet de comprendre le modèle, d\\u0027auditer ses résultats et de prévenir les discriminations."
+    },
+    {
+        "id":  45,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Quel principe du RGPD est particulièrement important lorsqu\\u0027on utilise l\\u0027IA pour analyser des données clients marketing ?",
+        "options":  [
+                        "La conservation éternelle des données",
+                        "La minimisation des données : ne collecter et n\\u0027utiliser que ce qui est nécessaire",
+                        "La publication des données sur internet",
+                        "La collecte illimitée de données"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La minimisation des données : ne collecter et n\\u0027utiliser que ce qui est nécessaire",
+        "explanation":  "Le RGPD impose de ne collecter et traiter que les données strictement nécessaires à la finalité définie."
+    },
+    {
+        "id":  46,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Pourquoi les équipes de conseil en communication doivent-elles être formées à l\\u0027usage de l\\u0027IA ?",
+        "options":  [
+                        "Pour supprimer les compétences humaines",
+                        "Pour comprendre les limites, éviter les mauvais usages et respecter les règles de conformité",
+                        "Pour automatiser toutes les décisions",
+                        "Pour contourner les règles RGPD"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour comprendre les limites, éviter les mauvais usages et respecter les règles de conformité",
+        "explanation":  "La formation permet d\\u0027utiliser l\\u0027IA avec discernement, de comprendre ses limites et de respecter les règles légitimes et éthiques."
+    },
+    {
+        "id":  47,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce que le content scoring assisté par IA apporte à une stratégie de contenu marketing ?",
+        "options":  [
+                        "Il attribue une note esthétique aux visuels de la marque",
+                        "Il prédit la performance probable d\\u0027un contenu avant publication (engagement, portée, conversion) en le comparant aux données historiques",
+                        "Il calcule le coût de production de chaque contenu pour optimiser le budget",
+                        "Il vérifie automatiquement la conformité légale des messages publicitaires"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Il prédit la performance probable d\\u0027un contenu avant publication (engagement, portée, conversion) en le comparant aux données historiques",
+        "explanation":  "Le content scoring IA analyse les caractéristiques d\\u0027un contenu (longueur, ton, mots-clés, format) et le compare aux publications passées les plus performantes pour prédire son impact avant même sa diffusion."
+    },
+    {
+        "id":  48,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Qu\\u0027est-ce que le phénomène de \\",
+        "options":  [
+                        "Les contenus de la marque seront bloqués par des filtres anti-publicité",
+                        "Les messages de la marque n\\u0027atteindront que des audiences déjà convaincues, réduisant la capacité à toucher de nouvelles cibles",
+                        "Les algorithmes favorisent automatiquement les contenus des grandes marques au détriment des PME",
+                        "Les filtres IA supprimeront les contenus jugés trop commerciaux"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Les messages de la marque n\\u0027atteindront que des audiences déjà convaincues, réduisant la capacité à toucher de nouvelles cibles",
+        "explanation":  "Les algorithmes de recommandation créent des chambres d\\u0027écho en montrant prioritairement du contenu similaire à ce que l\\u0027utilisateur a déjà consommé, limitant la capacité des marques à atteindre des audiences nouvelles et diversifiées."
+    },
+    {
+        "id":  49,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi l\\u0027IA générative ne peut-elle pas créer une vraie stratégie de marque, même si elle peut produire du contenu ?",
+        "options":  [
+                        "Parce qu\\u0027elle manque de puissance de calcul pour traiter les enjeux stratégiques",
+                        "Parce qu\\u0027une stratégie de marque nécessite une compréhension de la culture d\\u0027entreprise, du marché et des objectifs long terme qu\\u0027elle ne peut qu\\u0027effleurer sans la vision humaine",
+                        "Parce qu\\u0027elle n\\u0027a pas accès aux données financières de l\\u0027entreprise",
+                        "Parce que les agences de communication ont obtenu l\\u0027interdiction légale de ce type d\\u0027usage"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu\\u0027une stratégie de marque nécessite une compréhension de la culture d\\u0027entreprise, du marché et des objectifs long terme qu\\u0027elle ne peut qu\\u0027effleurer sans la vision humaine",
+        "explanation":  "L\\u0027IA peut produire du contenu cohérent, mais la stratégie de marque repose sur des choix de positionnement, une compréhension des parties prenantes et une vision long terme qui nécessitent le jugement et l\\u0027expertise humains."
+    },
+    {
+        "id":  50,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qu\\u0027est-ce que le règlement européen sur les services numériques (DSA) impose aux grandes plateformes en matière de ciblage publicitaire par IA ?",
+        "options":  [
+                        "L\\u0027interdiction totale de la publicité ciblée sur les plateformes européennes",
+                        "L\\u0027obligation de proposer une option de publicité sans profilage comportemental et d\\u0027interdire le ciblage basé sur des données sensibles",
+                        "L\\u0027obligation d\\u0027afficher le prix de chaque publicité ciblée aux internautes",
+                        "L\\u0027obligation de soumettre chaque campagne publicitaire à l\\u0027approbation de la Commission européenne"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L\\u0027obligation de proposer une option de publicité sans profilage comportemental et d\\u0027interdire le ciblage basé sur des données sensibles",
+        "explanation":  "Le DSA encadre les pratiques publicitaires des grandes plateformes : interdiction du ciblage basé sur des données sensibles (santé, religion, orientation sexuelle), obligation de transparence sur les critères de ciblage et option de publicité non ciblée."
+    },
+    {
+        "id":  51,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce que la génération augmentée de contenu (contenu IA + expertise humaine) apporte par rapport à la génération IA pure ?",
+        "options":  [
+                        "Une vitesse de production multipliée par 10 sans intervention humaine",
+                        "Un contenu plus authentique, précis et aligné avec la stratégie de marque grâce à la contribution humaine",
+                        "Un contenu automatiquement protégé par le droit d\\u0027auteur",
+                        "Une réduction des coûts d\\u0027agence de 100 %"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un contenu plus authentique, précis et aligné avec la stratégie de marque grâce à la contribution humaine",
+        "explanation":  "L\\u0027IA fournit un premier jet rapide et structuré ; l\\u0027expert humain apporte la nuance, l\\u0027authenticité, les informations propriétaires et l\\u0027alignement stratégique. Cette collaboration produit du contenu de meilleure qualité que chacun seul."
+    },
+    {
+        "id":  52,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Comment la désinformation assistée par IA peut-elle affecter une marque lors d\\u0027une campagne électorale ou d\\u0027un événement sensible ?",
+        "options":  [
+                        "En améliorant la visibilité de la marque grâce aux discussions générées",
+                        "En associant la marque à de faux scandales diffusés massivement via des contenus IA avant qu\\u0027un démenti soit possible",
+                        "En augmentant temporairement les ventes grâce au buzz négatif",
+                        "En forçant la marque à investir davantage en publicité pour contrer les fausses informations"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En associant la marque à de faux scandales diffusés massivement via des contenus IA avant qu\\u0027un démenti soit possible",
+        "explanation":  "L\\u0027IA permet de produire et diffuser massivement des contenus trompeurs associant une marque à un scandale fictif. La rapidité de propagation dépasse souvent la capacité de réaction des équipes de communication, causant des dommages durables."
+    },
+    {
+        "id":  53,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Quel apport l\\u0027IA peut-elle avoir dans l\\u0027analyse concurrentielle pour une stratégie de marque ?",
+        "options":  [
+                        "Remplacer les études de marché",
+                        "Suivre les offres publiques, les communications et les positions stratégiques des concurrents à grande échelle",
+                        "Supprimer les concurrents du marché",
+                        "Fixer les prix des concurrents"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Suivre les offres publiques, les communications et les positions stratégiques des concurrents à grande échelle",
+        "explanation":  "L\\u0027IA peut agréger et analyser les communications publiques des concurrents pour identifier des tendances et des opportunités de différenciation."
+    },
+    {
+        "id":  54,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle aider à personnaliser une stratégie de contenu pour différents segments de clientèle ?",
+        "options":  [
+                        "En envoyant le même contenu à tous",
+                        "En adaptant les messages, canaux et formats selon les comportements et préférences de chaque segment",
+                        "En supprimant les segments non rentables",
+                        "En remplaçant le contenu humain par du contenu IA pur"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En adaptant les messages, canaux et formats selon les comportements et préférences de chaque segment",
+        "explanation":  "L\\u0027IA permet de segmenter finement et d\\u0027adapter les contenus pour chaque segment, améliorant la pertinence et la performance."
+    },
+    {
+        "id":  55,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce que l\\u0027IA peut apporter dans la construction d\\u0027un narrative de marque ?",
+        "options":  [
+                        "Remplacer l\\u0027histoire de la marque par un récit générique",
+                        "Aider à structurer un récit cohérent à partir des valeurs, de l\\u0027histoire et des ambitions de la marque",
+                        "Supprimer l\\u0027histoire de la marque",
+                        "Imposer un récit unique à tous les marchés"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Aider à structurer un récit cohérent à partir des valeurs, de l\\u0027histoire et des ambitions de la marque",
+        "explanation":  "L\\u0027IA peut aider à organiser les éléments clés en un récit cohérent, tout en laissant aux experts humains la validation stratégique et émotionnelle."
+    },
+    {
+        "id":  56,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi un modèle de prédiction de performance de marque peut-il être moins fiable lors d\\u0027une rupture de marché ?",
+        "options":  [
+                        "Parce qu\\u0027il consomme plus d\\u0027énergie",
+                        "Parce qu\\u0027il extrapolera des patterns historiques qui ne reflètent plus la nouvelle réalité",
+                        "Parce qu\\u0027il refuse les nouvelles données",
+                        "Parce qu\\u0027il ne lit pas les images"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu\\u0027il extrapolera des patterns historiques qui ne reflètent plus la nouvelle réalité",
+        "explanation":  "En cas de rupture (crise, innovation disruptive), les comportements changent et les données historiques deviennent un mauvais prédicteur."
+    },
+    {
+        "id":  57,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi l\\u0027IA ne peut-elle pas créer seule une stratégie d\\u0027influence pour une marque ?",
+        "options":  [
+                        "Parce qu\\u0027elle ne connaît pas les réseaux sociaux",
+                        "Parce qu\\u0027une stratégie d\\u0027influence repose sur la relation, la confiance et la compréhension des contextes culturels",
+                        "Parce qu\\u0027elle ne peut pas écrire de texte",
+                        "Parce qu\\u0027elle refuse de travailler avec des influenceurs"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu\\u0027une stratégie d\\u0027influence repose sur la relation, la confiance et la compréhension des contextes culturels",
+        "explanation":  "La stratégie d\\u0027influence dépend de la construction de relations humaines et d\\u0027une compréhension fine des contextes culturels et communautaires."
+    },
+    {
+        "id":  58,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel risque existe si un cabinet utilise l\\u0027IA pour analyser des données d\\u0027influenceurs sans vérifier leur authenticité ?",
+        "options":  [
+                        "Un risque de surperformance garantie",
+                        "Un risque de collaborer avec des influenceurs fictifs ou des audiences achetées, dégradant la performance et la réputation",
+                        "Un risque de réduction des coûts à 0",
+                        "Un risque de blocage automatique par les réseaux sociaux"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un risque de collaborer avec des influenceurs fictifs ou des audiences achetées, dégradant la performance et la réputation",
+        "explanation":  "L\\u0027IA peut mal évaluer l\\u0027authenticité d\\u0027un influenceur si les données sont manipulées, menant à des collaborations contre-productives."
+    },
+    {
+        "id":  59,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel danger représente l\\u0027utilisation de faux avis générés par IA pour une marque ?",
+        "options":  [
+                        "Une amélioration automatique de la confiance",
+                        "Une pratique trompeuse illégale pouvant entraîner des sanctions et une destruction de réputation",
+                        "Une réduction des coûts de communication",
+                        "Une hausse de la productivité"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une pratique trompeuse illégale pouvant entraîner des sanctions et une destruction de réputation",
+        "explanation":  "La génération de faux avis est une pratique commerciale trompeuse interdite, expose à des sanctions et peut détruire la confiance des consommateurs."
+    },
+    {
+        "id":  60,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Pourquoi faut-il expliciter l\\u0027usage de l\\u0027IA dans une proposition de stratégie de marque pour un client ?",
+        "options":  [
+                        "Pour montrer que le cabinet automatise tout",
+                        "Pour assurer la transparence et éviter toute ambiguïté sur la nature du travail",
+                        "Pour éviter les échanges avec le client",
+                        "Pour réduire les prix sans expliquer"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour assurer la transparence et éviter toute ambiguïté sur la nature du travail",
+        "explanation":  "La transparence sur les outils utilisés renforce la confiance et permet de clarifier les responsabilités et limites du travail produit."
+    },
+    {
+        "id":  61,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Dans le domaine du marketing digital, que désigne le terme \\",
+        "options":  [
+                        "Un modèle qui attribue 100 % du crédit de conversion au dernier canal contacté",
+                        "Un modèle qui répartit le crédit d\\u0027une conversion entre tous les points de contact du parcours client selon leur contribution réelle estimée par l\\u0027IA",
+                        "Un modèle qui mesure uniquement les conversions issues des publicités payantes",
+                        "Un modèle qui attribue les ventes aux commerciaux en fonction de leur activité sur les réseaux sociaux"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un modèle qui répartit le crédit d\\u0027une conversion entre tous les points de contact du parcours client selon leur contribution réelle estimée par l\\u0027IA",
+        "explanation":  "L\\u0027attribution multi-touch IA analyse l\\u0027ensemble du parcours d\\u0027achat (publicité vue, e-mail ouvert, visite site, recherche organique) pour attribuer à chaque canal sa contribution réelle à la conversion, permettant une allocation budgétaire optimisée."
+    },
+    {
+        "id":  62,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qu\\u0027est-ce que la directive européenne sur les pratiques commerciales trompeuses implique pour les contenus publicitaires générés par IA ?",
+        "options":  [
+                        "Les contenus IA sont exemptés des règles sur les pratiques commerciales car ils ne sont pas rédigés par un humain",
+                        "L\\u0027entreprise reste responsable de la véracité et de la non-tromperie des contenus IA diffusés en son nom, comme pour tout contenu publicitaire",
+                        "Seuls les contenus IA visibles par plus d\\u0027un million de personnes sont soumis à cette directive",
+                        "La directive s\\u0027applique uniquement aux contenus textuels, pas aux visuels générés par IA"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L\\u0027entreprise reste responsable de la véracité et de la non-tromperie des contenus IA diffusés en son nom, comme pour tout contenu publicitaire",
+        "explanation":  "Le recours à l\\u0027IA pour générer des contenus publicitaires ne dispense pas l\\u0027entreprise de ses obligations légales. Elle reste entièrement responsable de s\\u0027assurer que les messages diffusés sont véridiques, non trompeurs et conformes à la réglementation."
+    },
+    {
+        "id":  63,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Qu\\u0027est-ce que le clonage vocal par IA utilisé dans du contenu publicitaire sans accord de la personne concernée risque d\\u0027engager ?",
+        "options":  [
+                        "Uniquement une plainte auprès de l\\u0027ARPP (Autorité de Régulation Professionnelle de la Publicité)",
+                        "La responsabilité civile et pénale de l\\u0027entreprise pour atteinte au droit à l\\u0027image, à la voix et à la vie privée",
+                        "Un simple avertissement de la plateforme de diffusion",
+                        "Une obligation de reverser 10 % des revenus publicitaires à la personne concernée"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La responsabilité civile et pénale de l\\u0027entreprise pour atteinte au droit à l\\u0027image, à la voix et à la vie privée",
+        "explanation":  "La voix est un attribut de la personnalité protégé par le droit français. Son utilisation non consentie, notamment via le clonage IA, constitue une atteinte à la vie privée et peut engager la responsabilité pénale de l\\u0027entreprise (usurpation d\\u0027identité, violation du droit à l\\u0027image)."
+    },
+    {
+        "id":  64,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Pourquoi les modèles de génération de contenu IA tendent-ils à produire des biais culturels dans les campagnes de communication internationales ?",
+        "options":  [
+                        "Parce qu\\u0027ils ne peuvent traiter que des textes en langues latines",
+                        "Parce qu\\u0027ils sont entraînés sur des corpus surreprésentant certaines cultures (occidentales, anglophones) et sous-représentant d\\u0027autres",
+                        "Parce qu\\u0027ils refusent de traiter des contenus portant sur des cultures minoritaires",
+                        "Parce que les règles de traduction automatique introduisent systématiquement des fautes"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu\\u0027ils sont entraînés sur des corpus surreprésentant certaines cultures (occidentales, anglophones) et sous-représentant d\\u0027autres",
+        "explanation":  "Les LLM apprennent à partir de données web fortement biaisées vers les cultures dominantes. Pour des campagnes internationales, les contenus générés peuvent être inadaptés, stéréotypés ou culturellement maladroits pour certains marchés."
+    },
+    {
+        "id":  65,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Dans une stratégie de marque, que désigne le \\",
+        "options":  [
+                        "La valeur financière des actifs physiques de la marque",
+                        "La valeur perçue de la marque par les consommateurs ; l\\u0027IA peut analyser les mentions, sentiments et associations à grande échelle",
+                        "Le nombre de produits vendus",
+                        "Le nombre d\\u0027employés de l\\u0027entreprise"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La valeur perçue de la marque par les consommateurs ; l\\u0027IA peut analyser les mentions, sentiments et associations à grande échelle",
+        "explanation":  "Le brand equity est la valeur perçue de la marque ; l\\u0027IA peut l\\u0027estimer en analysant les mentions, sentiments et associations sur de grandes quantités de données."
+    },
+    {
+        "id":  66,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce qu\\u0027un modèle d\\u0027attribution multi-touch assisté par IA dans une campagne de communication ?",
+        "options":  [
+                        "Un modèle qui attribue 100 % du crédit au dernier canal",
+                        "Un modèle qui répartit le crédit de conversion entre tous les points de contact selon leur contribution estimée par l\\u0027IA",
+                        "Un modèle qui mesure uniquement les publicités payantes",
+                        "Un modèle qui attribue les ventes aux commerciaux"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un modèle qui répartit le crédit de conversion entre tous les points de contact selon leur contribution estimée par l\\u0027IA",
+        "explanation":  "L\\u0027attribution multi-touch IA analyse l\\u0027ensemble du parcours pour attribuer à chaque canal sa contribution réelle, permettant une allocation budgétaire optimisée."
+    },
+    {
+        "id":  67,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Pourquoi les modèles de génération de contenu IA tendent-ils à produire des biais culturels dans les campagnes internationales ?",
+        "options":  [
+                        "Parce qu\\u0027ils ne peuvent traiter que des textes en langues latines",
+                        "Parce qu\\u0027ils sont entraînés sur des corpus surreprésentant certaines cultures (occidentales, anglophones) et sous-représentant d\\u0027autres",
+                        "Parce qu\\u0027ils refusent de traiter des contenus portant sur des cultures minoritaires",
+                        "Parce que les règles de traduction automatique introduisent systématiquement des fautes"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu\\u0027ils sont entraînés sur des corpus surreprésentant certaines cultures (occidentales, anglophones) et sous-représentant d\\u0027autres",
+        "explanation":  "Les LLM apprennent à partir de données web fortement biaisées vers les cultures dominantes, ce qui peut rendre les contenus inadaptés pour certains marchés."
+    },
+    {
+        "id":  68,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Quel risque juridique existe si une image publicitaire générée par IA reproduit des éléments d\\u0027une oeuvre protégée ?",
+        "options":  [
+                        "Uniquement une plainte auprès de l\\u0027ARPP",
+                        "Un risque de contrefaçon et de poursuites pour violation de droits d\\u0027auteur",
+                        "Un simple avertissement de la plateforme",
+                        "Une obligation de reverser 10 % des revenus"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un risque de contrefaçon et de poursuites pour violation de droits d\\u0027auteur",
+        "explanation":  "Si l\\u0027image générée reproduit des éléments d\\u0027une oeuvre protégée, l\\u0027entreprise peut être poursuivie pour contrefaçon."
+    },
+    {
+        "id":  69,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Comment une attaque par data poisoning pourrait-elle affecter un modèle IA utilisé pour le ciblage publicitaire ?",
+        "options":  [
+                        "Elle surchargerait les serveurs",
+                        "Elle introduirait délibérément de fausses données pour biaiser le ciblage, gaspiller le budget ou viser de mauvaises audiences",
+                        "Elle copierait les données clients",
+                        "Elle bloquerait l\\u0027accès aux plateformes"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Elle introduirait délibérément de fausses données pour biaiser le ciblage, gaspiller le budget ou viser de mauvaises audiences",
+        "explanation":  "Le data poisoning corrompt les données d\\u0027entraînement ou de signal, ce qui peut orienter le budget vers des audiences non pertinentes."
+    },
+    {
+        "id":  70,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qu\\u0027implique l\\u0027AI Act pour les contenus synthétiques publicitaires concernant le watermarking ?",
+        "options":  [
+                        "L\\u0027obligation d\\u0027imprimer un filigrane visible sur tous les visuels",
+                        "L\\u0027obligation pour les générateurs d\\u0027IA d\\u0027intégrer des marqueurs invisibles permettant d\\u0027identifier les contenus comme issus de l\\u0027IA",
+                        "L\\u0027interdiction d\\u0027utiliser des fonds de couleur unie",
+                        "L\\u0027obligation de déposer chaque contenu auprès d\\u0027un registre national"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L\\u0027obligation pour les générateurs d\\u0027IA d\\u0027intégrer des marqueurs invisibles permettant d\\u0027identifier les contenus comme issus de l\\u0027IA",
+        "explanation":  "L\\u0027AI Act et des initiatives comme la C2PA poussent vers un watermarking technique des contenus IA, les rendant traçables et identifiables."
+    },
+    {
+        "id":  71,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qu\\u0027est-ce que la directive européenne sur les pratiques commerciales trompeuses implique pour les contenus publicitaires générés par IA ?",
+        "options":  [
+                        "Les contenus IA sont exemptés des règles",
+                        "L\\u0027entreprise reste responsable de la véracité et de la non-tromperie des contenus IA diffusés en son nom",
+                        "Seuls les contenus visibles par plus d\\u0027un million de personnes sont soumis",
+                        "La directive s\\u0027applique uniquement aux textes"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L\\u0027entreprise reste responsable de la véracité et de la non-tromperie des contenus IA diffusés en son nom",
+        "explanation":  "Le recours à l\\u0027IA ne dispense pas l\\u0027entreprise de ses obligations légales ; elle reste responsable de la véracité et de la non-tromperie."
+    },
+    {
+        "id":  72,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Pourquoi les modèles prédictifs de comportement consommateur deviennent-ils moins fiables lors de ruptures de tendances ?",
+        "options":  [
+                        "Parce qu\\u0027ils consomment plus d\\u0027énergie",
+                        "Parce qu\\u0027ils extrapolent des patterns historiques qui ne reflètent plus le présent lors de changements structurels inédits",
+                        "Parce qu\\u0027ils ne peuvent pas traiter des données de moins de 6 mois",
+                        "Parce que les consommateurs modifient leur comportement pour tromper les algorithmes"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu\\u0027ils extrapolent des patterns historiques qui ne reflètent plus le présent lors de changements structurels inédits",
+        "explanation":  "Les modèles apprennent du passé ; lors d\\u0027une rupture, les comportements changent radicalement et les données historiques deviennent un mauvais prédicteur."
+    },
+    {
+        "id":  73,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Dans une stratégie de marque, que désigne le \\",
+        "options":  [
+                        "Une technique d\\u0027achat de domaines expirés",
+                        "Une approche qui optimise le contenu autour de thématiques sémantiques complètes ; l\\u0027IA analyse les co-occurrences et l\\u0027intention de recherche à grande échelle",
+                        "Une méthode utilisant des balises HTML cachées",
+                        "Une technique réservée aux sites e-commerce"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une approche qui optimise le contenu autour de thématiques sémantiques complètes ; l\\u0027IA analyse les co-occurrences et l\\u0027intention de recherche à grande échelle",
+        "explanation":  "Le semantic SEO répond à l\\u0027évolution des algorithmes vers la compréhension du sens ; l\\u0027IA permet d\\u0027analyser des millions de requêtes pour cartographier les champs sémantiques."
+    },
+    {
+        "id":  74,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Pourquoi l\\u0027IA ne peut-elle pas créer seule une stratégie de marque globale ?",
+        "options":  [
+                        "Parce qu\\u0027elle manque de puissance de calcul",
+                        "Parce qu\\u0027une stratégie de marque nécessite une compréhension de la culture d\\u0027entreprise, du marché et des objectifs long terme qu\\u0027elle ne peut qu\\u0027effleurer",
+                        "Parce qu\\u0027elle n\\u0027a pas accès aux données financières",
+                        "Parce que les agences ont obtenu l\\u0027interdiction légale"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu\\u0027une stratégie de marque nécessite une compréhension de la culture d\\u0027entreprise, du marché et des objectifs long terme qu\\u0027elle ne peut qu\\u0027effleurer",
+        "explanation":  "La stratégie de marque repose sur des choix de positionnement, une compréhension des parties prenantes et une vision long terme qui nécessitent le jugement humain."
+    },
+    {
+        "id":  75,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Dans une stratégie de contenu marketing, que désigne la technique du \\",
+        "options":  [
+                        "Une technique qui consiste à acheter des domaines expirés contenant des mots-clés stratégiques",
+                        "Une approche qui optimise le contenu autour de thématiques sémantiques complètes plutôt que des mots-clés isolés ; l\\u0027IA analyse les co-occurrences et l\\u0027intention de recherche à grande échelle",
+                        "Une méthode qui utilise des balises HTML cachées pour améliorer le référencement",
+                        "Une technique exclusivement réservée aux sites e-commerce pour optimiser les fiches produits"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une approche qui optimise le contenu autour de thématiques sémantiques complètes plutôt que des mots-clés isolés ; l\\u0027IA analyse les co-occurrences et l\\u0027intention de recherche à grande échelle",
+        "explanation":  "Le semantic SEO répond à l\\u0027évolution des algorithmes (BERT, MUM de Google) vers la compréhension du sens. L\\u0027IA permet d\\u0027analyser des millions de requêtes pour cartographier les champs sémantiques et créer du contenu répondant exhaustivement à une intention."
+    },
+    {
+        "id":  76,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qu\\u0027implique le cadre légal émergent sur les contenus synthétiques (watermarking IA) pour les équipes de communication ?",
+        "options":  [
+                        "L\\u0027obligation d\\u0027imprimer un filigrane visible sur tous les visuels produits par une équipe de création",
+                        "L\\u0027obligation pour les générateurs d\\u0027IA d\\u0027intégrer des marqueurs invisibles dans les contenus produits, permettant leur identification comme issus de l\\u0027IA",
+                        "L\\u0027interdiction d\\u0027utiliser des fonds de couleur unie dans les visuels générés par IA",
+                        "L\\u0027obligation de déposer chaque contenu IA auprès d\\u0027un registre national avant publication"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L\\u0027obligation pour les générateurs d\\u0027IA d\\u0027intégrer des marqueurs invisibles dans les contenus produits, permettant leur identification comme issus de l\\u0027IA",
+        "explanation":  "L\\u0027AI Act et des initiatives comme la Coalition for Content Provenance (C2PA) poussent vers un watermarking technique des contenus IA. Pour les équipes communication, cela signifie que les contenus IA seront traçables et identifiables, imposant une nouvelle forme de transparence."
+    },
+    {
+        "id":  77,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Comment une attaque par \\",
+        "options":  [
+                        "Elle surchargerait les serveurs jusqu\\u0027à bloquer les campagnes",
+                        "Elle introduirait délibérément de fausses données dans le système pour biaiser le ciblage, gaspiller le budget ou diffuser des publicités auprès de mauvaises audiences",
+                        "Elle copierait les données clients de l\\u0027entreprise pour les revendre à des concurrents",
+                        "Elle bloquerait l\\u0027accès aux plateformes publicitaires pendant la durée de l\\u0027attaque"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Elle introduirait délibérément de fausses données dans le système pour biaiser le ciblage, gaspiller le budget ou diffuser des publicités auprès de mauvaises audiences",
+        "explanation":  "Le data poisoning consiste à corrompre les données d\\u0027entraînement ou les données de signal d\\u0027un modèle IA. Pour un système de ciblage publicitaire, cela peut orienter le budget vers des audiences non pertinentes, nuire aux performances et compromettre les décisions marketing."
+    },
+    {
+        "id":  78,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Pourquoi les modèles de prédiction du comportement consommateur par IA deviennent-ils moins fiables lors de ruptures de tendances (crise, innovation disruptive) ?",
+        "options":  [
+                        "Parce qu\\u0027ils consomment plus d\\u0027énergie lors des périodes d\\u0027instabilité économique",
+                        "Parce qu\\u0027ils extrapolent des patterns historiques qui ne reflètent plus le présent lors de changements structurels inédits",
+                        "Parce qu\\u0027ils ne peuvent pas traiter des données de moins de 6 mois d\\u0027ancienneté",
+                        "Parce que les consommateurs modifient leur comportement en ligne pour tromper les algorithmes"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu\\u0027ils extrapolent des patterns historiques qui ne reflètent plus le présent lors de changements structurels inédits",
+        "explanation":  "Les modèles prédictifs apprennent du passé. Lors d\\u0027une rupture (pandémie, disruption technologique, crise géopolitique), les comportements changent radicalement et les données historiques deviennent un mauvais prédicteur, rendant les modèles moins fiables jusqu\\u0027à leur réentraînement."
+    },
+    {
+        "id":  79,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Dans une stratégie de contenu marketing, que désigne la technique du \\",
+        "options":  [
+                        "Une note esthétique aux visuels",
+                        "La prédiction de la performance probable d\\u0027un contenu avant publication (engagement, portée, conversion) en le comparant aux données historiques",
+                        "Le calcul du coût de production",
+                        "La vérification automatique de la conformité légale"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La prédiction de la performance probable d\\u0027un contenu avant publication (engagement, portée, conversion) en le comparant aux données historiques",
+        "explanation":  "Le content scoring IA analyse les caractéristiques d\\u0027un contenu et le compare aux publications passées les plus performantes pour prédire son impact avant diffusion."
+    },
+    {
+        "id":  80,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Comment la désinformation assistée par IA peut-elle affecter une marque lors d\\u0027un événement sensible ?",
+        "options":  [
+                        "En améliorant la visibilité de la marque",
+                        "En associant la marque à de faux scandales diffusés massivement via des contenus IA avant qu\\u0027un démenti soit possible",
+                        "En augmentant temporairement les ventes",
+                        "En forçant la marque à investir davantage"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En associant la marque à de faux scandales diffusés massivement via des contenus IA avant qu\\u0027un démenti soit possible",
+        "explanation":  "L\\u0027IA permet de produire et diffuser massivement des contenus trompeurs associant une marque à un scandale fictif, causant des dommages durables."
+    },
+    {
+        "id":  81,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Quel risque représente le clonage vocal par IA dans du contenu publicitaire sans accord ?",
+        "options":  [
+                        "Uniquement une plainte auprès de l\\u0027ARPP",
+                        "La responsabilité civile et pénale pour atteinte au droit à l\\u0027image, à la voix et à la vie privée",
+                        "Un simple avertissement de la plateforme",
+                        "Une obligation de reverser 10 % des revenus"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La responsabilité civile et pénale pour atteinte au droit à l\\u0027image, à la voix et à la vie privée",
+        "explanation":  "La voix est un attribut de la personnalité protégé ; son utilisation non consentie via clonage IA constitue une atteinte à la vie privée et peut engager la responsabilité pénale."
+    },
+    {
+        "id":  82,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qu\\u0027est-ce que le cadre légal émergent sur les contenus synthétiques (watermarking IA) implique pour les équipes de communication ?",
+        "options":  [
+                        "L\\u0027obligation d\\u0027imprimer un filigrane visible",
+                        "L\\u0027obligation pour les générateurs d\\u0027IA d\\u0027intégrer des marqueurs invisibles permettant leur identification comme issus de l\\u0027IA",
+                        "L\\u0027interdiction d\\u0027utiliser des fonds de couleur unie",
+                        "L\\u0027obligation de déposer chaque contenu auprès d\\u0027un registre national"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L\\u0027obligation pour les générateurs d\\u0027IA d\\u0027intégrer des marqueurs invisibles permettant leur identification comme issus de l\\u0027IA",
+        "explanation":  "L\\u0027AI Act et la C2PA poussent vers un watermarking technique des contenus IA, les rendant traçables et identifiables, imposant une nouvelle forme de transparence."
+    },
+    {
+        "id":  83,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qu\\u0027est-ce que le règlement européen DSA impose aux grandes plateformes en matière de ciblage publicitaire par IA ?",
+        "options":  [
+                        "L\\u0027interdiction totale de la publicité ciblée",
+                        "L\\u0027obligation de proposer une option de publicité sans profilage comportemental et d\\u0027interdire le ciblage basé sur des données sensibles",
+                        "L\\u0027obligation d\\u0027afficher le prix de chaque publicité",
+                        "L\\u0027obligation de soumettre chaque campagne à la Commission européenne"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L\\u0027obligation de proposer une option de publicité sans profilage comportemental et d\\u0027interdire le ciblage basé sur des données sensibles",
+        "explanation":  "Le DSA interdit le ciblage basé sur des données sensibles (santé, religion, orientation sexuelle), impose la transparence et une option de publicité non ciblée."
+    },
+    {
+        "id":  84,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Dans une stratégie de marque, qu\\u0027apporte la génération augmentée de contenu (IA + expertise humaine) par rapport à l\\u0027IA pure ?",
+        "options":  [
+                        "Une vitesse de production multipliée par 10 sans intervention humaine",
+                        "Un contenu plus authentique, précis et aligné avec la stratégie de marque grâce à la contribution humaine",
+                        "Un contenu automatiquement protégé par le droit d\\u0027auteur",
+                        "Une réduction des coûts d\\u0027agence de 100 %"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un contenu plus authentique, précis et aligné avec la stratégie de marque grâce à la contribution humaine",
+        "explanation":  "L\\u0027IA fournit un premier jet rapide ; l\\u0027expert humain apporte la nuance, l\\u0027authenticité, les informations propriétaires et l\\u0027alignement stratégique."
+    },
+    {
+        "id":  85,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Pourquoi les modèles prédictifs de comportement consommateur deviennent-ils moins fiables lors de ruptures de tendances (crise, innovation disruptive) ?",
+        "options":  [
+                        "Parce qu\\u0027ils consomment plus d\\u0027énergie",
+                        "Parce qu\\u0027ils extrapolent des patterns historiques qui ne reflètent plus le présent lors de changements structurels inédits",
+                        "Parce qu\\u0027ils ne peuvent pas traiter des données de moins de 6 mois",
+                        "Parce que les consommateurs modifient leur comportement pour tromper les algorithmes"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu\\u0027ils extrapolent des patterns historiques qui ne reflètent plus le présent lors de changements structurels inédits",
+        "explanation":  "Les modèles apprennent du passé ; lors d\\u0027une rupture, les comportements changent radicalement et les données historiques deviennent un mauvais prédicteur."
+    },
+    {
+        "id":  86,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Dans une stratégie de marque internationale, que peut apporter l\\u0027IA pour l\\u0027adaptation culturelle des contenus ?",
+        "options":  [
+                        "Remplacer les experts locaux",
+                        "Suggérer des adaptations de ton, de références et de messages en fonction des contextes culturels, à valider par des experts locaux",
+                        "Imposer un message unique à tous les marchés",
+                        "Supprimer les contenus locaux"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Suggérer des adaptations de ton, de références et de messages en fonction des contextes culturels, à valider par des experts locaux",
+        "explanation":  "L\\u0027IA peut suggérer des adaptations culturelles, mais la validation par des experts locaux reste indispensable pour éviter les erreurs culturelles."
+    },
+    {
+        "id":  87,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Quel risque existe si un cabinet utilise l\\u0027IA pour analyser des données de marque sans vérifier leur provenance et leur qualité ?",
+        "options":  [
+                        "Un risque de surperformance garantie",
+                        "Un risque de recommandations erronées dues à des données non fiables, biaisées ou incomplètes",
+                        "Un risque de réduction des coûts à 0",
+                        "Un risque de blocage automatique"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un risque de recommandations erronées dues à des données non fiables, biaisées ou incomplètes",
+        "explanation":  "Des données non fiables, biaisées ou incomplètes dégradent la qualité des prédictions et des recommandations."
+    },
+    {
+        "id":  88,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Pourquoi est-il important de garder un contrôle humain sur les décisions stratégiques de marque assistées par IA ?",
+        "options":  [
+                        "Pour supprimer les délais",
+                        "Pour corriger les erreurs, les biais et les imprécisions, et garantir l\\u0027alignement avec la vision long terme",
+                        "Pour éviter les clients",
+                        "Pour accélérer le marché"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour corriger les erreurs, les biais et les imprécisions, et garantir l\\u0027alignement avec la vision long terme",
+        "explanation":  "Le contrôle humain garantit la qualité, la conformité, la véracité et l\\u0027alignement stratégique avec la vision long terme de la marque."
+    },
+    {
+        "id":  89,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Dans une stratégie de marque, qu\\u0027est-ce que l\\u0027IA peut apporter dans la définition d\\u0027une proposition de valeur ?",
+        "options":  [
+                        "Remplacer le travail de l\\u0027équipe stratégie",
+                        "Aider à synthétiser les bénéfices clés, les preuves et les différenciateurs à partir de données de marché et de retours clients",
+                        "Supprimer la proposition de valeur existante",
+                        "Imposer une proposition unique à tous les marchés"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Aider à synthétiser les bénéfices clés, les preuves et les différenciateurs à partir de données de marché et de retours clients",
+        "explanation":  "L\\u0027IA peut synthétiser les bénéfices, preuves et différenciateurs à partir de données, mais la validation stratégique reste humaine."
+    },
+    {
+        "id":  90,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Pourquoi l\\u0027IA ne peut-elle pas créer seule une stratégie de crise de communication ?",
+        "options":  [
+                        "Parce qu\\u0027elle ne connaît pas les réseaux sociaux",
+                        "Parce qu\\u0027une stratégie de crise nécessite une compréhension fine des enjeux humains, politiques et réputationnels",
+                        "Parce qu\\u0027elle ne peut pas écrire de texte",
+                        "Parce qu\\u0027elle refuse de travailler le week-end"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu\\u0027une stratégie de crise nécessite une compréhension fine des enjeux humains, politiques et réputationnels",
+        "explanation":  "La stratégie de crise repose sur une compréhension fine des enjeux humains, politiques et réputationnels, difficiles à modéliser entièrement."
+    }
+]

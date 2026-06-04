@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "difficulty": 1,
+    "difficulty_label": "beginner",
+    "category": "Capacités",
+    "question": "Parmi les tâches suivantes, laquelle l'IA générative peut-elle accomplir dans un service Communication & Marketing ?",
+    "options": [
+      "Rédiger automatiquement des textes publicitaires",
+      "Imprimer des affiches sans intervention humaine",
+      "Envoyer des courriers postaux en autonomie",
+      "Négocier des contrats avec des prestataires"
+    ],
+    "correct_index": 0,
+    "correct_answer": "Rédiger automatiquement des textes publicitaires",
+    "explanation": "L'IA générative (comme ChatGPT ou Jasper) est capable de produire des textes publicitaires, des slogans ou des descriptions produits en quelques secondes à partir d'une consigne. Elle ne peut pas interagir avec le monde physique comme imprimer ou envoyer du courrier."
+  },
+  {
+    "id": 2,
+    "difficulty": 1,
+    "difficulty_label": "beginner",
+    "category": "Capacités",
+    "question": "Qu'est-ce qu'un chatbot de service client basé sur l'IA ?",
+    "options": [
+      "Un employé qui répond aux emails la nuit",
+      "Un programme automatique qui répond aux questions des clients en langage naturel",
+      "Un formulaire de contact en ligne",
+      "Une hotline téléphonique externalisée"
+    ],
+    "correct_index": 1,
+    "correct_answer": "Un programme automatique qui répond aux questions des clients en langage naturel",
+    "explanation": "Un chatbot IA utilise le traitement du langage naturel (NLP) pour comprendre les questions des clients et y répondre automatiquement, 24h/24, sans intervention humaine pour les requêtes courantes."
+  },
+  {
+    "id": 3,
+    "difficulty": 1,
+    "difficulty_label": "beginner",
+    "category": "Capacités",
+    "question": "Quel outil IA est principalement utilisé pour générer des images à partir de descriptions textuelles dans le marketing visuel ?",
+    "options": [
+      "Google Analytics",
+      "Midjourney ou DALL-E",
+      "Mailchimp",
+      "WordPress"
+    ],
+    "correct_index": 1,
+    "correct_answer": "Midjourney ou DALL-E",
+    "explanation": "Midjourney, DALL-E (OpenAI) ou Stable Diffusion sont des outils d'IA générative qui créent des images originales à partir d'une description textuelle (prompt). Ils sont de plus en plus utilisés pour produire des visuels marketing rapidement."
+  },
+  {
+    "id": 4,
+    "difficulty": 1,
+    "difficulty_label": "beginner",
+    "category": "Limites",
+    "question": "Quelle est une limite importante des outils d'IA pour la rédaction de contenu marketing ?",
+    "options": [
+      "Ils écrivent trop lentement",
+      "Ils ne peuvent pas écrire en français",
+      "Ils peuvent produire des informations fausses ou inexactes",
+      "Ils nécessitent une connexion Bluetooth"
+    ],
+    "correct_index": 2,
+    "correct_answer": "Ils peuvent produire des informations fausses ou inexactes",
+    "explanation": "Les modèles de langage peuvent « halluciner » : ils inventent des faits, des chiffres ou des sources qui semblent crédibles mais sont incorrects. Il est donc indispensable de vérifier systématiquement le contenu généré avant publication."
+  },
+  {
+    "id": 5,
+    "difficulty": 1,
+    "difficulty_label": "beginner",
+    "category": "Éthique & société",
+    "question": "Qu'est-ce que le RGPD impose aux entreprises qui collectent des données pour des campagnes marketing personnalisées ?",
+    "options": [
+      "D'envoyer un cadeau à chaque client",
+      "D'obtenir le consentement explicite des personnes concernées",
+      "De partager les données avec tous leurs partenaires",
+      "De stocker les données à l'étranger obligatoirement"
+    ],
+    "correct_index": 1,
+    "correct_answer": "D'obtenir le consentement explicite des personnes concernées",
+    "explanation": "Le Règlement Général sur la Protection des Données (RGPD) oblige les entreprises à recueillir le consentement clair et éclairé des utilisateurs avant de collecter et traiter leurs données personnelles à des fins marketing."
+  },
+  {
+    "id": 6,
+    "difficulty": 1,
+    "difficulty_label": "beginner",
+    "category": "Dangers",
+    "question": "Qu'est-ce qu'un deepfake dans le contexte de la communication ?",
+    "options": [
+      "Une technique de référencement naturel avancée",
+      "Un contenu vidéo ou audio falsifié grâce à l'IA pour faire dire ou faire quelque chose à quelqu'un",
+      "Un type de publicité display très efficace",
+      "Un logiciel de montage vidéo professionnel"
+    ],
+    "correct_index": 1,
+    "correct_answer": "Un contenu vidéo ou audio falsifié grâce à l'IA pour faire dire ou faire quelque chose à quelqu'un",
+    "explanation": "Les deepfakes utilisent l'IA (notamment les GAN - réseaux antagonistes génératifs) pour synthétiser de fausses vidéos ou audios très réalistes. Dans la communication, ils peuvent être utilisés pour usurper l'identité d'une marque ou d'un dirigeant."
+  },
+  {
+    "id": 7,
+    "difficulty": 1,
+    "difficulty_label": "beginner",
+    "category": "Capacités",
+    "question": "Comment l'IA peut-elle aider à améliorer le référencement naturel (SEO) d'un site web ?",
+    "options": [
+      "En achetant automatiquement des liens sponsorisés",
+      "En suggérant des mots-clés pertinents et en optimisant le contenu rédactionnel",
+      "En changeant la couleur du site web",
+      "En supprimant les pages mal classées"
+    ],
+    "correct_index": 1,
+    "correct_answer": "En suggérant des mots-clés pertinents et en optimisant le contenu rédactionnel",
+    "explanation": "Des outils IA comme Surfer SEO, Semrush ou les fonctions SEO de ChatGPT analysent les tendances de recherche, suggèrent des mots-clés stratégiques et aident à structurer le contenu pour améliorer le classement dans les moteurs de recherche."
+  },
+  {
+    "id": 8,
+    "difficulty": 1,
+    "difficulty_label": "beginner",
+    "category": "Éthique & société",
+    "question": "Lorsqu'une publicité est générée ou ciblée par une IA, que recommande la réglementation européenne concernant la transparence ?",
+    "options": [
+      "La masquer pour ne pas inquiéter les consommateurs",
+      "L'indiquer clairement comme publicité personnalisée",
+      "La diffuser uniquement la nuit",
+      "L'envoyer uniquement par courrier postal"
+    ],
+    "correct_index": 1,
+    "correct_answer": "L'indiquer clairement comme publicité personnalisée",
+    "explanation": "La réglementation européenne (DSA - Digital Services Act, RGPD) impose aux plateformes et annonceurs d'indiquer clairement quand une publicité est personnalisée et de donner aux utilisateurs accès aux critères de ciblage utilisés."
+  },
+  {
+    "id": 9,
+    "difficulty": 1,
+    "difficulty_label": "beginner",
+    "category": "Limites",
+    "question": "Pourquoi une IA ne peut-elle pas remplacer totalement un directeur artistique dans une agence de communication ?",
+    "options": [
+      "Parce qu'elle est trop coûteuse",
+      "Parce qu'elle manque de créativité stratégique, de sens culturel et de vision de marque",
+      "Parce qu'elle ne connaît pas Photoshop",
+      "Parce qu'elle travaille uniquement en anglais"
+    ],
+    "correct_index": 1,
+    "correct_answer": "Parce qu'elle manque de créativité stratégique, de sens culturel et de vision de marque",
+    "explanation": "Si l'IA peut générer des visuels, elle ne comprend pas les enjeux stratégiques d'une marque, les nuances culturelles, les émotions profondes ou la cohérence d'une identité visuelle sur le long terme. Le jugement humain reste indispensable."
+  },
+  {
+    "id": 10,
+    "difficulty": 1,
+    "difficulty_label": "beginner",
+    "category": "Dangers",
+    "question": "Quel risque majeur représente la désinformation générée par IA pour une marque ?",
+    "options": [
+      "Une augmentation du trafic sur le site web",
+      "Une atteinte à la réputation et une perte de confiance des consommateurs",
+      "Une amélioration du référencement naturel",
+      "Une réduction des coûts publicitaires"
+    ],
+    "correct_index": 1,
+    "correct_answer": "Une atteinte à la réputation et une perte de confiance des consommateurs",
+    "explanation": "Des fausses informations ou des deepfakes impliquant une marque peuvent se propager viralement sur les réseaux sociaux, causant des dommages réputationnels importants et difficiles à corriger, même après un démenti officiel."
+  },
+  {
+    "id": 11,
+    "difficulty": 2,
+    "difficulty_label": "curious",
+    "category": "Capacités",
+    "question": "Dans une campagne d'email marketing, comment l'IA permet-elle la personnalisation à grande échelle ?",
+    "options": [
+      "En envoyant le même email à tous les abonnés",
+      "En adaptant dynamiquement le contenu, l'objet et l'heure d'envoi selon le profil et le comportement de chaque destinataire",
+      "En demandant à chaque client de remplir ses préférences manuellement",
+      "En utilisant uniquement le prénom du destinataire"
+    ],
+    "correct_index": 1,
+    "correct_answer": "En adaptant dynamiquement le contenu, l'objet et l'heure d'envoi selon le profil et le comportement de chaque destinataire",
+    "explanation": "Les plateformes comme Salesforce Marketing Cloud ou HubSpot utilisent l'IA pour analyser l'historique d'achat, le comportement de navigation et les préférences de chaque contact afin de personnaliser automatiquement chaque email envoyé."
+  },
+  {
+    "id": 12,
+    "difficulty": 2,
+    "difficulty_label": "curious",
+    "category": "Capacités",
+    "question": "Qu'est-ce que l'analyse de sentiment appliquée aux réseaux sociaux dans un contexte marketing ?",
+    "options": [
+      "Une technique pour mesurer la température des serveurs informatiques",
+      "L'utilisation de l'IA pour classer automatiquement les mentions d'une marque en positif, négatif ou neutre",
+      "Un sondage envoyé manuellement aux abonnés",
+      "Une méthode pour compter le nombre de followers"
+    ],
+    "correct_index": 1,
+    "correct_answer": "L'utilisation de l'IA pour classer automatiquement les mentions d'une marque en positif, négatif ou neutre",
+    "explanation": "L'analyse de sentiment (ou opinion mining) utilise le traitement du langage naturel pour évaluer en temps réel la tonalité des commentaires, avis et mentions sur les réseaux sociaux, permettant aux équipes marketing de réagir rapidement."
+  },
+  {
+    "id": 13,
+    "difficulty": 2,
+    "difficulty_label": "curious",
+    "category": "Capacités",
+    "question": "Qu'est-ce que le ciblage publicitaire programmatique assisté par IA ?",
+    "options": [
+      "L'achat manuel d'espaces publicitaires dans les journaux",
+      "L'automatisation de l'achat et de la diffusion de publicités en temps réel selon le profil des internautes",
+      "La programmation d'émissions télévisées par une IA",
+      "La création manuelle de bannières publicitaires"
+    ],
+    "correct_index": 1,
+    "correct_answer": "L'automatisation de l'achat et de la diffusion de publicités en temps réel selon le profil des internautes",
+    "explanation": "La publicité programmatique utilise des algorithmes pour acheter automatiquement des espaces publicitaires via des enchères en temps réel (RTB), en ciblant précisément les internautes selon leur comportement, localisation et intérêts."
+  },
+  {
+    "id": 14,
+    "difficulty": 2,
+    "difficulty_label": "curious",
+    "category": "Limites",
+    "question": "Pourquoi l'A/B testing automatisé par IA peut-il parfois donner des résultats trompeurs ?",
+    "options": [
+      "Parce que l'IA ne sait pas lire les statistiques",
+      "Parce que les tests peuvent être biaisés si les segments testés ne sont pas représentatifs ou si la durée du test est trop courte",
+      "Parce que l'IA préfère toujours la version B",
+      "Parce que les résultats sont toujours aléatoires"
+    ],
+    "correct_index": 1,
+    "correct_answer": "Parce que les tests peuvent être biaisés si les segments testés ne sont pas représentatifs ou si la durée du test est trop courte",
+    "explanation": "L'A/B testing automatisé optimise rapidement mais peut conclure prématurément ou sur des segments non représentatifs. Un biais dans les données d'entrée (biais de sélection, saisonnalité) fausse les recommandations de l'algorithme."
+  },
+  {
+    "id": 15,
+    "difficulty": 2,
+    "difficulty_label": "curious",
+    "category": "Éthique & société",
+    "question": "Quelle pratique est considérée comme contraire à l'éthique lorsqu'une entreprise utilise l'IA pour personnaliser ses publicités ?",
+    "options": [
+      "Proposer des offres adaptées aux préférences déclarées des clients",
+      "Exploiter des données sensibles (santé, orientation politique) pour cibler des publicités sans consentement",
+      "Envoyer une newsletter mensuelle",
+      "Afficher des publicités contextuelles liées au contenu d'une page web"
+    ],
+    "correct_index": 1,
+    "correct_answer": "Exploiter des données sensibles (santé, orientation politique) pour cibler des publicités sans consentement",
+    "explanation": "Le RGPD interdit l'utilisation de données dites « sensibles » (santé, religion, orientation sexuelle, opinions politiques) à des fins de profilage publicitaire sans consentement explicite. Cette pratique constitue une violation grave de la vie privée."
+  },
+  {
+    "id": 16,
+    "difficulty": 2,
+    "difficulty_label": "curious",
+    "category": "Dangers",
+    "question": "Qu'est-ce que le « brand safety » dans le contexte de la publicité programmatique IA ?",
+    "options": [
+      "La protection physique des locaux de l'agence",
+      "S'assurer que les publicités d'une marque n'apparaissent pas aux côtés de contenus inappropriés ou nuisibles",
+      "La sauvegarde informatique des fichiers graphiques",
+      "Le dépôt légal du logo d'une marque"
+    ],
+    "correct_index": 1,
+    "correct_answer": "S'assurer que les publicités d'une marque n'apparaissent pas aux côtés de contenus inappropriés ou nuisibles",
+    "explanation": "Les algorithmes programmatiques peuvent placer automatiquement des publicités sur des contenus extrémistes, violents ou trompeurs. Le brand safety désigne les mesures (listes noires, IA de classification) prises pour éviter ces associations néfastes pour l'image de marque."
+  },
+  {
+    "id": 17,
+    "difficulty": 2,
+    "difficulty_label": "curious",
+    "category": "Capacités",
+    "question": "Comment l'IA peut-elle assister la création de contenu vidéo pour les réseaux sociaux ?",
+    "options": [
+      "En filmant automatiquement des événements en extérieur",
+      "En générant des scripts, sous-titres automatiques, montages et même des avatars virtuels",
+      "En publiant les vidéos sur les chaînes concurrentes",
+      "En remplaçant les caméramans lors des tournages"
+    ],
+    "correct_index": 1,
+    "correct_answer": "En générant des scripts, sous-titres automatiques, montages et même des avatars virtuels",
+    "explanation": "Des outils comme Synthesia (avatars IA), Descript (transcription et montage), ou RunwayML (effets vidéo) permettent de créer et d'optimiser du contenu vidéo rapidement, de la conception du script jusqu'au sous-titrage automatique."
+  },
+  {
+    "id": 18,
+    "difficulty": 3,
+    "difficulty_label": "curious",
+    "category": "Limites",
+    "question": "Quel phénomène désigne la tendance des algorithmes de recommandation des réseaux sociaux à enfermer les utilisateurs dans leurs opinions existantes ?",
+    "options": [
+      "Le marketing viral",
+      "La chambre d'écho ou bulle de filtre",
+      "Le référencement naturel",
+      "L'inbound marketing"
+    ],
+    "correct_index": 1,
+    "correct_answer": "La chambre d'écho ou bulle de filtre",
+    "explanation": "Les algorithmes IA des réseaux sociaux maximisent l'engagement en montrant prioritairement des contenus qui confortent les opinions existantes, créant des « bulles de filtre » (Eli Pariser, 2011). Pour les communicants, cela limite la portée organique auprès d'audiences nouvelles."
+  },
+  {
+    "id": 19,
+    "difficulty": 3,
+    "difficulty_label": "curious",
+    "category": "Éthique & société",
+    "question": "Dans le cadre du RGPD, qu'est-ce que le « droit à l'explication » lié aux décisions automatisées ?",
+    "options": [
+      "Le droit d'un employé de marketing d'expliquer sa stratégie à sa hiérarchie",
+      "Le droit d'une personne de comprendre la logique d'une décision automatisée qui la concerne significativement",
+      "L'obligation pour les entreprises d'expliquer leur modèle économique",
+      "Le droit des journalistes d'accéder aux données des entreprises"
+    ],
+    "correct_index": 1,
+    "correct_answer": "Le droit d'une personne de comprendre la logique d'une décision automatisée qui la concerne significativement",
+    "explanation": "L'article 22 du RGPD garantit aux individus le droit de ne pas être soumis à une décision automatisée ayant des effets significatifs sans pouvoir obtenir une explication humaine. Cela s'applique aux scores de crédit, au ciblage publicitaire discriminant, etc."
+  },
+  {
+    "id": 20,
+    "difficulty": 3,
+    "difficulty_label": "curious",
+    "category": "Dangers",
+    "question": "Qu'est-ce que le « greenwashing assisté par IA » dans la communication de marque ?",
+    "options": [
+      "L'utilisation de l'IA pour optimiser réellement la consommation énergétique d'une entreprise",
+      "L'usage de l'IA pour générer massivement des contenus trompeurs sur les engagements écologiques d'une marque",
+      "Un logiciel IA spécialisé dans la communication environnementale",
+      "La certification écologique d'un outil d'intelligence artificielle"
+    ],
+    "correct_index": 1,
+    "correct_answer": "L'usage de l'IA pour générer massivement des contenus trompeurs sur les engagements écologiques d'une marque",
+    "explanation": "L'IA permet de produire à faible coût des rapports RSE, posts et campagnes surévaluant les engagements environnementaux d'une marque. Cette pratique est sanctionnée par la directive européenne sur les allégations environnementales (Green Claims Directive)."
+  },
+  {
+    "id": 21,
+    "difficulty": 3,
+    "difficulty_label": "curious",
+    "category": "Capacités",
+    "question": "Quelle technique d'IA permet d'identifier automatiquement les influenceurs les plus pertinents pour une campagne marketing ?",
+    "options": [
+      "Le web scraping manuel",
+      "L'analyse prédictive combinant scoring d'audience, taux d'engagement et détection de faux abonnés",
+      "La recherche Google classique",
+      "L'envoi de questionnaires par email"
+    ],
+    "correct_index": 1,
+    "correct_answer": "L'analyse prédictive combinant scoring d'audience, taux d'engagement et détection de faux abonnés",
+    "explanation": "Des plateformes comme HypeAuditor ou Traackr utilisent l'IA pour analyser des milliers de profils d'influenceurs, détecter les faux abonnés, évaluer la qualité de l'engagement réel et prédire le ROI potentiel d'un partenariat."
+  },
+  {
+    "id": 22,
+    "difficulty": 3,
+    "difficulty_label": "curious",
+    "category": "Éthique & société",
+    "question": "Qu'implique le principe de « privacy by design » dans le développement d'outils marketing IA ?",
+    "options": [
+      "Concevoir des interfaces visuellement discrètes",
+      "Intégrer la protection des données personnelles dès la conception de l'outil, et non après coup",
+      "Cacher les données marketing à l'équipe commerciale",
+      "Utiliser uniquement des données anonymes pour les campagnes"
+    ],
+    "correct_index": 1,
+    "correct_answer": "Intégrer la protection des données personnelles dès la conception de l'outil, et non après coup",
+    "explanation": "Le privacy by design (article 25 du RGPD) exige que la protection des données soit intégrée nativement dans la conception des outils et processus, pas ajoutée en correctif. Pour le marketing IA, cela signifie minimiser la collecte et sécuriser les données dès le départ."
+  },
+  {
+    "id": 23,
+    "difficulty": 3,
+    "difficulty_label": "curious",
+    "category": "Limites",
+    "question": "Pourquoi les modèles IA de génération de contenu peuvent-ils reproduire et amplifier des stéréotypes dans les campagnes publicitaires ?",
+    "options": [
+      "Parce qu'ils sont programmés pour être provocateurs",
+      "Parce qu'ils sont entraînés sur des données historiques qui contiennent des biais culturels et sociaux",
+      "Parce que leurs créateurs ont des opinions politiques partisanes",
+      "Parce qu'ils ne comprennent pas les langues étrangères"
+    ],
+    "correct_index": 1,
+    "correct_answer": "Parce qu'ils sont entraînés sur des données historiques qui contiennent des biais culturels et sociaux",
+    "explanation": "Les modèles d'IA apprennent à partir de corpus de textes et d'images issus d'internet, qui reflètent des représentations historiquement biaisées (genre, ethnicité, âge). Sans vigilance humaine, les campagnes générées par IA peuvent reproduire et amplifier ces stéréotypes."
+  },
+  {
+    "id": 24,
+    "difficulty": 4,
+    "difficulty_label": "expert",
+    "category": "Éthique & société",
+    "question": "Dans le cadre de l'AI Act européen, dans quelle catégorie de risque sont classés les systèmes IA utilisés pour le ciblage publicitaire manipulateur ou la désinformation ?",
+    "options": [
+      "Risque minimal, aucune obligation spécifique",
+      "Risque limité, obligation de transparence uniquement",
+      "Risque inacceptable, pratiques interdites",
+      "Risque élevé, nécessitant une certification préalable"
+    ],
+    "correct_index": 2,
+    "correct_answer": "Risque inacceptable, pratiques interdites",
+    "explanation": "L'AI Act (adopté en 2024) interdit les systèmes IA qui utilisent des techniques subliminales ou manipulatrices pour influencer le comportement des personnes à leur insu, ou qui exploitent leurs vulnérabilités. Ces usages sont classés en risque inacceptable et strictement prohibés."
+  },
+  {
+    "id": 25,
+    "difficulty": 4,
+    "difficulty_label": "expert",
+    "category": "Dangers",
+    "question": "Qu'est-ce qu'une attaque par « prompt injection » dans le contexte d'un chatbot marketing IA ?",
+    "options": [
+      "Une technique de rédaction pour améliorer les prompts envoyés à l'IA",
+      "Une injection de code SQL dans une base de données marketing",
+      "Une manipulation malveillante où un utilisateur insère des instructions cachées pour détourner le comportement du chatbot",
+      "Un bug technique lié à la surcharge des serveurs d'IA"
+    ],
+    "correct_index": 2,
+    "correct_answer": "Une manipulation malveillante où un utilisateur insère des instructions cachées pour détourner le comportement du chatbot",
+    "explanation": "La prompt injection consiste à injecter des instructions malveillantes dans les entrées d'un LLM pour le faire dévier de son rôle (exfiltrer des données clients, tenir des propos inappropriés). C'est une menace sécuritaire réelle pour les chatbots de service client déployés par les marques."
+  },
+  {
+    "id": 26,
+    "difficulty": 4,
+    "difficulty_label": "expert",
+    "category": "Éthique & société",
+    "question": "Concernant les droits d'auteur du contenu généré par IA, quelle est la position actuelle de la jurisprudence dans la plupart des pays européens ?",
+    "options": [
+      "L'IA détient automatiquement les droits d'auteur sur ses créations",
+      "L'entreprise propriétaire de l'outil détient systématiquement tous les droits",
+      "Le contenu généré par IA seul sans contribution humaine créative significative n'est pas protégeable par le droit d'auteur",
+      "Les droits appartiennent à l'État car l'IA est un bien commun"
+    ],
+    "correct_index": 2,
+    "correct_answer": "Le contenu généré par IA seul sans contribution humaine créative significative n'est pas protégeable par le droit d'auteur",
+    "explanation": "En Europe, le droit d'auteur exige une « empreinte de la personnalité » humaine. Un contenu produit entièrement par IA sans apport créatif humain substantiel tombe dans le domaine public. La question de la contribution humaine minimale requise fait encore débat juridiquement."
+  },
+  {
+    "id": 27,
+    "difficulty": 4,
+    "difficulty_label": "expert",
+    "category": "Limites",
+    "question": "Qu'est-ce que le problème du « concept drift » dans les modèles IA de prédiction du comportement consommateur ?",
+    "options": [
+      "La tendance des modèles IA à générer des images floues avec le temps",
+      "La dégradation des performances d'un modèle lorsque la distribution des données réelles s'éloigne des données d'entraînement",
+      "Le fait que les modèles IA ne comprennent pas les tendances culturelles",
+      "L'incapacité des algorithmes à traiter des données en temps réel"
+    ],
+    "correct_index": 1,
+    "correct_answer": "La dégradation des performances d'un modèle lorsque la distribution des données réelles s'éloigne des données d'entraînement",
+    "explanation": "Le concept drift survient quand les comportements des consommateurs évoluent (crise économique, nouveaux usages) et que le modèle, entraîné sur des données anciennes, perd en précision. Cela nécessite un réentraînement régulier et une surveillance continue des KPIs du modèle."
+  },
+  {
+    "id": 28,
+    "difficulty": 4,
+    "difficulty_label": "expert",
+    "category": "Capacités",
+    "question": "Qu'est-ce que le « Retrieval-Augmented Generation » (RAG) et quel avantage apporte-t-il pour les chatbots de service client d'une marque ?",
+    "options": [
+      "Une technique de compression d'images pour les campagnes display",
+      "Un protocole de sécurité pour les transactions e-commerce",
+      "Une architecture qui connecte un LLM à une base de connaissances interne pour générer des réponses factuelles et à jour",
+      "Un algorithme d'optimisation des enchères publicitaires"
+    ],
+    "correct_index": 2,
+    "correct_answer": "Une architecture qui connecte un LLM à une base de connaissances interne pour générer des réponses factuelles et à jour",
+    "explanation": "Le RAG permet à un LLM de rechercher en temps réel dans une base documentaire (FAQ, catalogue produits, CGV) avant de générer sa réponse. Pour un chatbot service client, cela réduit drastiquement les hallucinations et permet de répondre avec des informations actualisées propres à la marque."
+  },
+  {
+    "id": 29,
+    "difficulty": 5,
+    "difficulty_label": "expert",
+    "category": "Dangers",
+    "question": "Comment le phénomène d'« astroturfing » est-il amplifié par les outils IA génératifs dans le contexte du marketing digital ?",
+    "options": [
+      "En améliorant l'authenticité des avis clients sur les plateformes",
+      "En permettant la création massive et automatisée de faux profils, avis et commentaires simulant une opinion publique spontanée",
+      "En détectant et supprimant automatiquement les faux avis",
+      "En certifiant l'origine des contenus publiés sur les réseaux sociaux"
+    ],
+    "correct_index": 1,
+    "correct_answer": "En permettant la création massive et automatisée de faux profils, avis et commentaires simulant une opinion publique spontanée",
+    "explanation": "L'astroturfing (simulation d'un mouvement populaire spontané) existait avant l'IA, mais les LLM permettent désormais de générer des milliers de faux avis cohérents, diversifiés et difficiles à détecter. Ces pratiques sont illégales sous le Digital Services Act et la directive Omnibus en Europe."
+  },
+  {
+    "id": 30,
+    "difficulty": 5,
+    "difficulty_label": "expert",
+    "category": "Limites",
+    "question": "Dans une stratégie de contenu SEO assistée par IA, quel risque spécifique Google a-t-il explicitement sanctionné depuis ses mises à jour HCU (Helpful Content Update) ?",
+    "options": [
+      "L'utilisation de métadonnées trop longues",
+      "La publication de contenu en plusieurs langues simultanément",
+      "La surproduction de contenu IA générique optimisé pour les moteurs de recherche mais sans valeur ajoutée réelle pour l'utilisateur",
+      "L'intégration de vidéos hébergées sur YouTube dans les articles"
+    ],
+    "correct_index": 2,
+    "correct_answer": "La surproduction de contenu IA générique optimisé pour les moteurs de recherche mais sans valeur ajoutée réelle pour l'utilisateur",
+    "explanation": "Les Helpful Content Updates de Google (2022-2024) ciblent spécifiquement le contenu généré à grande échelle par IA, pauvre en expertise et en valeur humaine, conçu principalement pour ranker plutôt que pour informer. Ces sites voient leur visibilité organique fortement dégradée."
+  }
+]

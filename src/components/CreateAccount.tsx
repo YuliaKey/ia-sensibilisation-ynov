@@ -8,8 +8,7 @@ type Service = { id: string; name: string }
 type Props   = { onLogin: () => void; onBack: () => void }
 
 const LEVELS = [
-  { value: 'beginner' as SkillLevel, name: 'Novice',        emoji: '🌿', desc: "Je n'ai jamais utilisé l'IA." },
-  { value: 'beginner' as SkillLevel, name: 'Curieux',       emoji: '👀', desc: "J'ai testé quelques fois." },
+  { value: 'beginner' as SkillLevel, name: 'Novice',        emoji: '🌿', desc: "Je n'ai jamais/très peu utilisé l'IA." },
   { value: 'curious'  as SkillLevel, name: 'Intermédiaire', emoji: '🚀', desc: "Je l'utilise régulièrement." },
   { value: 'expert'   as SkillLevel, name: 'Avancé',        emoji: '🧠', desc: "Je prompt, j'automatise, je connais les limites." },
 ]
@@ -254,10 +253,8 @@ function CreateAccount({ onLogin, onBack }: Props) {
       <div className="create-account__footer">
         {step === 1 && (
           <div className="create-account__login-prompt">
-            <p>Déjà un compte ? <strong>Connectez-vous !</strong></p>
-            <button className="create-account__login-cta" onClick={onLogin}>
-              Se connecter
-            </button>
+            <p>Déjà un compte ? <strong onClick={onLogin}>Connectez-vous !</strong></p>
+            
           </div>
         )}
         <div className="create-account__footer-row">

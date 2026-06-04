@@ -17,6 +17,8 @@ type ProfileData = {
 type AuthContextType = {
   session: Session | null
   profile: UserProfile | null
+  /** Nom du service de l'utilisateur, récupéré par jointure (null si pas de service) */
+  serviceName: string | null
   loading: boolean
   signIn: (email: string, password: string) => Promise<{ error: string | null }>
   signUp: (email: string, password: string) => Promise<{ error: string | null }>
@@ -28,32 +30,45 @@ type AuthContextType = {
 const AuthContext = createContext<AuthContextType | null>(null)
 
 export function AuthProvider({ children }: { children: ReactNode }) {
-  const [session, setSession] = useState<Session | null>(null)
-  const [profile, setProfile] = useState<UserProfile | null>(null)
-  const [loading, setLoading] = useState(true)
+  const [session,     setSession]     = useState<Session | null>(null)
+  const [profile,     setProfile]     = useState<UserProfile | null>(null)
+  const [serviceName, setServiceName] = useState<string | null>(null)
+  const [loading,     setLoading]     = useState(true)
 
   const fetchProfile = async (userId: string) => {
-    const { data } = await supabase
+    // 1. Récupérer le profil utilisateur
+    const { data: userData } = await supabase
       .from('users')
       .select('*')
       .eq('id', userId)
       .single()
-    setProfile(data)
+
+    setProfile(userData ?? null)
+
+    // 2. Récupérer le nom du service via une requête séparée (plus robuste que la jointure)
+    if (userData?.service_id) {
+      const { data: serviceData } = await supabase
+        .from('services')
+        .select('name')
+        .eq('id', userData.service_id)
+        .single()
+      setServiceName(serviceData?.name ?? null)
+    } else {
+      setServiceName(null)
+    }
   }
 
   useEffect(() => {
-    // Récupère la session existante au chargement
     supabase.auth.getSession().then(({ data: { session } }) => {
       setSession(session)
       if (session) fetchProfile(session.user.id).finally(() => setLoading(false))
       else setLoading(false)
     })
-    
-    // Écoute les changements de session (login, logout, refresh token)
+
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
       setSession(session)
       if (session) fetchProfile(session.user.id)
-      else setProfile(null)
+      else { setProfile(null); setServiceName(null) }
     })
 
     return () => subscription.unsubscribe()
@@ -84,8 +99,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const { error } = await supabase.from('users').insert({
       id: session.user.id,
       ...data,
-      service_id: data.service_id ?? null, // service optionnel
-      current_level: data.declared_level, // niveau initial = niveau déclaré
+      service_id:    data.service_id ?? null,
+      current_level: data.declared_level,
     })
 
     if (!error) await fetchProfile(session.user.id)
@@ -93,7 +108,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }
 
   return (
-    <AuthContext.Provider value={{ session, profile, loading, signIn, signUp, signOut, createProfile, refreshProfile }}>
+    <AuthContext.Provider value={{
+      session, profile, serviceName, loading,
+      signIn, signUp, signOut, createProfile, refreshProfile,
+    }}>
       {children}
     </AuthContext.Provider>
   )

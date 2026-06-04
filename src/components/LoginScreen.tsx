@@ -28,6 +28,7 @@ function LoginScreen({ onBack, onForgotPassword }: Props) {
   const filled = !!email && !!password
 
   return (
+    <div className="auth-desktop-bg">
     <div style={{ minHeight: '100vh', background: '#F7F4EE', display: 'flex', flexDirection: 'column', fontFamily: 'var(--sans)' }}>
 
       {/* Header */}
@@ -107,6 +108,7 @@ function LoginScreen({ onBack, onForgotPassword }: Props) {
         </button>
       </div>
 
+    </div>
     </div>
   )
 }

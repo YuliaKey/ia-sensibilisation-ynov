@@ -25,6 +25,7 @@ function ForgotPassword({ onBack }: Props) {
   const filled = !!email
 
   return (
+    <div className="auth-desktop-bg">
     <div style={{ minHeight: '100vh', background: '#F7F4EE', display: 'flex', flexDirection: 'column', fontFamily: 'var(--sans)' }}>
 
       {/* Header */}
@@ -98,6 +99,7 @@ function ForgotPassword({ onBack }: Props) {
         )}
       </div>
 
+    </div>
     </div>
   )
 }

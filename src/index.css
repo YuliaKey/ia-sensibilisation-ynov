@@ -62,6 +62,37 @@ body {
   margin: 0;
 }
 
+/* ── auth-desktop-bg : wrapper partagé LoginScreen + ForgotPassword ──────── */
+/* Mobile : display:contents = wrapper transparent, aucun effet sur le layout */
+.auth-desktop-bg {
+  display: contents;
+}
+
+@media (min-width: 900px) {
+  /* Desktop : conteneur plein écran avec dégradé */
+  .auth-desktop-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 48px 24px;
+    background: linear-gradient(to bottom left, #efe7fb 0%, #fafbf7 48%, #e7f6e6 100%);
+    box-sizing: border-box;
+  }
+
+  /* Div intérieur = carte blanche */
+  .auth-desktop-bg > div {
+    min-height: 0 !important;
+    background: #ffffff !important;
+    border-radius: 28px;
+    box-shadow: 0 24px 70px rgba(80, 60, 120, 0.12);
+    max-width: 480px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+}
+
 h1,
 h2 {
   font-family: var(--heading);

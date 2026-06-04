@@ -1,0 +1,1362 @@
+[
+    {
+        "id":  1,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "…? quoi peut servir l\\u0027IA dans un processus de recrutement RH ?",
+        "options":  [
+                        "Uniquement à rédiger des offres d\\u0027emploi",
+                        "…? automatiser le tri des CV et à présélectionner les candidats",
+                        "…? remplacer complètement les entretiens humains",
+                        "…? interdire certains candidats de postuler"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "…? automatiser le tri des CV et à présélectionner les candidats",
+        "explanation":  "Les outils IA peuvent analyser des centaines de CV en quelques secondes, identifier les profils correspondant aux critères et présélectionner les candidats. Cela permet aux équipes RH de gagner du temps, mais le jugement humain reste indispensable."
+    },
+    {
+        "id":  2,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Que peut faire un outil IA dans le cadre de la formation des collaborateurs ?",
+        "options":  [
+                        "Imposer un programme de formation identique à tous les salariés",
+                        "Supprimer le besoin de formateurs humains",
+                        "Personnaliser les parcours de formation selon le profil et les lacunes de chaque salarié",
+                        "Enregistrer les formations pour les revendre"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Personnaliser les parcours de formation selon le profil et les lacunes de chaque salarié",
+        "explanation":  "L\\u0027IA permet de créer des parcours d\\u0027apprentissage adaptatifs : en analysant les résultats et le niveau de chaque salarié, elle propose des contenus ciblés et optimise le temps de formation."
+    },
+    {
+        "id":  3,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi ne faut-il pas se fier uniquement à un outil IA pour trier des CV ?",
+        "options":  [
+                        "Parce que l\\u0027IA est trop lente pour traiter les dossiers",
+                        "Parce que l\\u0027IA peut reproduire et amplifier les biais présents dans les données d\\u0027entraînement",
+                        "Parce que la loi interdit formellement tout tri automatisé de CV",
+                        "Parce que l\\u0027IA ne sait pas lire les fichiers PDF"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que l\\u0027IA peut reproduire et amplifier les biais présents dans les données d\\u0027entraînement",
+        "explanation":  "Si un modèle IA a été entraîné sur des données historiques biaisées (ex. : favoriser certains diplômes ou genres), il reproduira ces biais à grande échelle. Une supervision humaine est obligatoire pour garantir l\\u0027équité."
+    },
+    {
+        "id":  4,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Avant d\\u0027utiliser un outil IA qui analyse les données de vos salariés, quelle démarche est indispensable en France ?",
+        "options":  [
+                        "Obtenir l\\u0027accord du conseil d\\u0027administration uniquement",
+                        "Publier les résultats sur le site de l\\u0027entreprise",
+                        "Informer et, si nécessaire, consulter le CSE, et respecter le RGPD",
+                        "Demander l\\u0027avis de la DARES"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Informer et, si nécessaire, consulter le CSE, et respecter le RGPD",
+        "explanation":  "En France, le Comité Social et …?conomique (CSE) doit être informé et consulté sur l\\u0027introduction de tout outil de surveillance ou d\\u0027analyse des salariés. Le traitement des données personnelles doit aussi respecter le RGPD."
+    },
+    {
+        "id":  5,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel risque principal existe si une IA analyse les performances des salariés sans cadre éthique ?",
+        "options":  [
+                        "Une surcharge des serveurs informatiques",
+                        "Une diminution de la productivité globale",
+                        "Une surveillance excessive portant atteinte à la vie privée et à la dignité des salariés",
+                        "Un bug dans le logiciel de paie"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Une surveillance excessive portant atteinte à la vie privée et à la dignité des salariés",
+        "explanation":  "L\\u0027analyse automatisée des performances peut devenir du management algorithmique, génératrice de stress, de sentiment d\\u0027injustice et de violations de la vie privée. Les entreprises doivent définir des règles claires et transparentes."
+    },
+    {
+        "id":  6,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Quelle tâche administrative RH l\\u0027IA peut-elle faciliter au quotidien ?",
+        "options":  [
+                        "Signer des contrats à la place du DRH",
+                        "Gérer automatiquement les demandes de congés et les absences",
+                        "Décider seule des augmentations de salaire",
+                        "Licencier des salariés sans intervention humaine"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Gérer automatiquement les demandes de congés et les absences",
+        "explanation":  "Les SIRH intégrant l\\u0027IA peuvent traiter automatiquement les demandes de congés, vérifier les soldes, envoyer des confirmations et alerter les managers. Cela réduit la charge administrative des équipes RH."
+    },
+    {
+        "id":  7,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Qu\\u0027est-ce qu\\u0027une \\u0027hallucination\\u0027 d\\u0027une IA dans le contexte RH ?",
+        "options":  [
+                        "Un bogue visuel dans l\\u0027interface du logiciel",
+                        "Une information inventée présentée comme vraie par l\\u0027IA",
+                        "Un salarié qui utilise l\\u0027IA pendant ses heures de travail",
+                        "Une fonctionnalité cachée d\\u0027un outil RH"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une information inventée présentée comme vraie par l\\u0027IA",
+        "explanation":  "Les IA génératives peuvent inventer des informations fausses (jurisprudence inexistante, loi incorrecte, statistiques erronées) en les présentant avec assurance. En RH, cela peut avoir des conséquences juridiques graves si l\\u0027on s\\u0027y fie sans vérification."
+    },
+    {
+        "id":  8,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Un salarié a-t-il le droit de savoir qu\\u0027une décision le concernant a été prise par un algorithme ?",
+        "options":  [
+                        "Non, les algorithmes sont considérés comme des secrets industriels",
+                        "Seulement s\\u0027il le demande expressément à son manager",
+                        "Oui, le RGPD garantit un droit à l\\u0027information et à ne pas faire l\\u0027objet d\\u0027une décision entièrement automatisée",
+                        "Non, cela n\\u0027est pas encadré par la loi"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Oui, le RGPD garantit un droit à l\\u0027information et à ne pas faire l\\u0027objet d\\u0027une décision entièrement automatisée",
+        "explanation":  "L\\u0027article 22 du RGPD interdit les décisions entièrement automatisées ayant des effets significatifs sur une personne, sauf exceptions. Les salariés ont le droit d\\u0027être informés et de demander une révision humaine."
+    },
+    {
+        "id":  9,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel danger existe si une entreprise saisit des données personnelles de candidats dans un outil IA public (ex. ChatGPT) ?",
+        "options":  [
+                        "L\\u0027IA refusera de traiter les données",
+                        "Les données pourraient être utilisées pour entraîner le modèle et devenir accessibles à d\\u0027autres utilisateurs",
+                        "Le recruteur recevra une amende automatique",
+                        "Les candidats seront automatiquement recalés"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Les données pourraient être utilisées pour entraîner le modèle et devenir accessibles à d\\u0027autres utilisateurs",
+        "explanation":  "Saisir des données personnelles (CV, noms, évaluations) dans des outils IA publics constitue une violation potentielle du RGPD. Ces données peuvent être réutilisées pour entraîner les modèles ou fuiter. Il faut utiliser des outils conformes et sécurisés."
+    },
+    {
+        "id":  10,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle contribuer au bien-être des salariés en entreprise ?",
+        "options":  [
+                        "En remplaçant les managers par des robots",
+                        "En analysant les signaux d\\u0027alerte (absentéisme, feedback) pour détecter les risques de burn-out",
+                        "En interdisant les heures supplémentaires automatiquement",
+                        "En envoyant des primes sans validation RH"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En analysant les signaux d\\u0027alerte (absentéisme, feedback) pour détecter les risques de burn-out",
+        "explanation":  "Certains outils IA analysent des indicateurs RH (taux d\\u0027absentéisme, résultats d\\u0027enquêtes de satisfaction, turnover) pour détecter des signaux faibles de mal-être et permettre aux RH d\\u0027intervenir de manière préventive."
+    },
+    {
+        "id":  11,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce que l\\u0027onboarding automatisé par IA pour un nouveau salarié ?",
+        "options":  [
+                        "Un processus où le salarié est remplacé par un robot dès son arrivée",
+                        "Un parcours d\\u0027intégration guidé par des outils IA qui envoient automatiquement les documents, formations et tâches clés au bon moment",
+                        "Un système qui décide si le nouveau salarié doit rester ou partir après 30 jours",
+                        "Un logiciel qui rédige le contrat de travail sans intervention humaine"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un parcours d\\u0027intégration guidé par des outils IA qui envoient automatiquement les documents, formations et tâches clés au bon moment",
+        "explanation":  "L\\u0027onboarding automatisé utilise l\\u0027IA pour orchestrer le parcours d\\u0027intégration : envoi automatique des documents à signer, accès aux outils, modules de formation, rappels aux managers. Cela réduit les oublis et améliore l\\u0027expérience du nouveau collaborateur."
+    },
+    {
+        "id":  12,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce qu\\u0027un chatbot RH et à quoi sert-il principalement ?",
+        "options":  [
+                        "Un robot physique qui accueille les visiteurs à la réception de l\\u0027entreprise",
+                        "Un programme capable de répondre automatiquement aux questions fréquentes des salariés (congés, paie, droits)",
+                        "Un outil qui rédige les bulletins de salaire à la place du comptable",
+                        "Un logiciel de visioconférence pour les entretiens à distance"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un programme capable de répondre automatiquement aux questions fréquentes des salariés (congés, paie, droits)",
+        "explanation":  "Les chatbots RH agissent comme un helpdesk disponible 24h/24. Ils répondent aux questions récurrentes (solde de congés, procédure d\\u0027arrêt maladie, politique de remboursement) et libèrent du temps aux équipes RH pour des missions à plus forte valeur ajoutée."
+    },
+    {
+        "id":  13,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle aider à détecter un risque de burn-out chez un salarié ?",
+        "options":  [
+                        "En lisant les e-mails personnels du salarié à son insu",
+                        "En analysant des indicateurs comme l\\u0027absentéisme, les heures supplémentaires fréquentes et les résultats des enquêtes de bien-être",
+                        "En imposant des pauses obligatoires toutes les heures",
+                        "En remplaçant le médecin du travail pour poser un diagnostic médical"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En analysant des indicateurs comme l\\u0027absentéisme, les heures supplémentaires fréquentes et les résultats des enquêtes de bien-être",
+        "explanation":  "Des outils IA croisent des données RH anonymisées (absentéisme, heures de connexion tardives, résultats de pulse surveys) pour détecter des signaux faibles de surcharge ou de détresse. L\\u0027objectif est de permettre une intervention préventive du manager ou des RH."
+    },
+    {
+        "id":  14,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi un chatbot RH ne peut-il pas remplacer totalement un juriste en droit du travail ?",
+        "options":  [
+                        "Parce qu\\u0027il est trop coûteux à maintenir",
+                        "Parce qu\\u0027il ne peut traiter qu\\u0027une seule question à la fois",
+                        "Parce qu\\u0027il peut se tromper sur des points juridiques complexes ou spécifiques à une situation individuelle",
+                        "Parce qu\\u0027il n\\u0027est accessible que sur ordinateur de bureau"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Parce qu\\u0027il peut se tromper sur des points juridiques complexes ou spécifiques à une situation individuelle",
+        "explanation":  "Le droit du travail est très contextuel : convention collective, accord d\\u0027entreprise, ancienneté, jurisprudence récente. Un chatbot généraliste peut fournir une réponse incorrecte ou incomplète sur une situation particulière, avec des conséquences graves pour le salarié ou l\\u0027employeur."
+    },
+    {
+        "id":  15,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Est-il légal en France de surveiller en permanence les activités informatiques de ses salariés grâce à une IA ?",
+        "options":  [
+                        "Oui, l\\u0027employeur peut tout surveiller dès lors qu\\u0027il est propriétaire des équipements",
+                        "Non, une surveillance permanente et disproportionnée est illégale et doit être déclarée à la CNIL et au CSE",
+                        "Oui, à condition que les salariés travaillent en télétravail",
+                        "Non, toute surveillance est interdite depuis 2018"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Non, une surveillance permanente et disproportionnée est illégale et doit être déclarée à la CNIL et au CSE",
+        "explanation":  "En France, la surveillance des salariés doit être proportionnée, justifiée par l\\u0027intérêt de l\\u0027entreprise, déclarée à la CNIL et soumise à information/consultation du CSE. Une surveillance excessive porte atteinte à la vie privée et à la dignité du salarié (articles L.1121-1 et L.1222-4 du Code du travail)."
+    },
+    {
+        "id":  16,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Qu\\u0027est-ce qu\\u0027un biais algorithmique dans le contexte des Ressources Humaines ?",
+        "options":  [
+                        "Une erreur de calcul dans le logiciel de paie",
+                        "Un bug informatique qui ralentit le traitement des candidatures",
+                        "Une discrimination systématique produite par un algorithme à cause de données ou de critères biaisés",
+                        "Un problème de connexion entre le SIRH et les autres logiciels de l\\u0027entreprise"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Une discrimination systématique produite par un algorithme à cause de données ou de critères biaisés",
+        "explanation":  "Un biais algorithmique se produit lorsqu\\u0027un outil IA reproduit ou amplifie des inégalités présentes dans ses données d\\u0027entraînement. En RH, cela peut se traduire par une IA qui favorise systématiquement certains profils (genre, origine, âge) au détriment d\\u0027autres, de façon invisible et à grande échelle."
+    },
+    {
+        "id":  17,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce que la mobilité interne assistée par IA ?",
+        "options":  [
+                        "Un système de navettes autonomes pour déplacer les salariés entre les sites",
+                        "Un outil qui analyse les compétences des salariés et leur suggère des postes disponibles en interne correspondant à leur profil",
+                        "Un logiciel qui gère les notes de frais de déplacement",
+                        "Une application mobile pour consulter son planning"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un outil qui analyse les compétences des salariés et leur suggère des postes disponibles en interne correspondant à leur profil",
+        "explanation":  "Les plateformes de mobilité interne basées sur l\\u0027IA comparent le profil de compétences d\\u0027un salarié avec les postes ouverts dans l\\u0027entreprise et suggèrent des opportunités pertinentes. Cela favorise la rétention des talents et réduit les coûts de recrutement externe."
+    },
+    {
+        "id":  18,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Pourquoi les candidatures anonymes sont-elles parfois associées à l\\u0027IA en recrutement ?",
+        "options":  [
+                        "Pour que l\\u0027IA ne puisse pas lire les CV",
+                        "Pour réduire les discriminations liées au nom, à l\\u0027adresse ou au genre lors de la présélection automatisée",
+                        "Pour protéger les données de l\\u0027entreprise recruteuse",
+                        "Pour économiser du temps de lecture aux recruteurs"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour réduire les discriminations liées au nom, à l\\u0027adresse ou au genre lors de la présélection automatisée",
+        "explanation":  "L\\u0027anonymisation des CV vise à éliminer les informations pouvant induire des biais (nom à consonance étrangère, adresse en zone défavorisée, photo). Couplée à l\\u0027IA, elle peut contribuer à une présélection plus équitable, même si des biais résiduels peuvent subsister via d\\u0027autres variables."
+    },
+    {
+        "id":  19,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel est le principal risque éthique lié à la surveillance des salariés par IA en télétravail ?",
+        "options":  [
+                        "Un ralentissement des connexions internet",
+                        "Une augmentation des coûts informatiques",
+                        "Une atteinte à la vie privée et à la dignité du salarié, avec un effet négatif sur la confiance et l\\u0027engagement",
+                        "Un risque de piratage des données de l\\u0027entreprise"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Une atteinte à la vie privée et à la dignité du salarié, avec un effet négatif sur la confiance et l\\u0027engagement",
+        "explanation":  "Des outils de surveillance comme les keyloggers, captures d\\u0027écran automatiques ou le suivi des mouvements de souris peuvent créer un climat de méfiance, augmenter le stress et nuire à l\\u0027engagement. En France, ces pratiques doivent être proportionnées et déclarées au salarié."
+    },
+    {
+        "id":  20,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle contribuer au benchmark salarial au sein d\\u0027une entreprise ?",
+        "options":  [
+                        "En décidant automatiquement des augmentations sans consulter les managers",
+                        "En comparant les rémunérations internes avec les données du marché pour identifier les écarts et orienter la politique salariale",
+                        "En supprimant les primes pour uniformiser les salaires",
+                        "En publiant les salaires de tous les salariés sur l\\u0027intranet"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En comparant les rémunérations internes avec les données du marché pour identifier les écarts et orienter la politique salariale",
+        "explanation":  "Les outils IA de benchmark salarial agrègent des données de marché (enquêtes de rémunération, offres d\\u0027emploi, bases sectorielles) et les comparent aux grilles internes pour identifier les postes sous ou sur-payés, aider à la révision salariale et renforcer l\\u0027attractivité de l\\u0027entreprise."
+    },
+    {
+        "id":  21,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Quelle est une limite importante des outils IA utilisés pour l\\u0027onboarding automatisé ?",
+        "options":  [
+                        "Ils sont trop rapides et déstabilisent les nouveaux salariés",
+                        "Ils ne peuvent fonctionner qu\\u0027en anglais",
+                        "Ils ne peuvent pas remplacer la dimension humaine et relationnelle essentielle à une bonne intégration",
+                        "Ils sont interdits par le Code du travail français"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Ils ne peuvent pas remplacer la dimension humaine et relationnelle essentielle à une bonne intégration",
+        "explanation":  "L\\u0027onboarding automatisé gère efficacement la logistique administrative, mais l\\u0027intégration réussie d\\u0027un collaborateur repose sur des interactions humaines : rencontre avec l\\u0027équipe, relation avec le manager, compréhension de la culture d\\u0027entreprise. L\\u0027IA est un complément, pas un substitut."
+    },
+    {
+        "id":  22,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Quel est l\\u0027avantage principal d\\u0027un outil IA pour gérer les compétences des salariés par rapport à une approche manuelle ?",
+        "options":  [
+                        "Il est beaucoup moins cher qu\\u0027un logiciel SIRH classique",
+                        "Il peut identifier automatiquement les écarts de compétences à l\\u0027échelle de l\\u0027entreprise et suggérer des plans de développement ciblés",
+                        "Il remplace le manager dans la définition des objectifs annuels",
+                        "Il permet de certifier les compétences des salariés auprès de l\\u0027…?tat"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Il peut identifier automatiquement les écarts de compétences à l\\u0027échelle de l\\u0027entreprise et suggérer des plans de développement ciblés",
+        "explanation":  "Un outil IA de gestion des compétences analyse les profils de tous les salariés, les compare aux besoins actuels et futurs de l\\u0027entreprise, et génère des plans de développement personnalisés. Ce travail prendrait des semaines à une équipe RH humaine pour une grande organisation."
+    },
+    {
+        "id":  23,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qu\\u0027est-ce que le règlement européen AI Act et quel est son impact principal sur les RH ?",
+        "options":  [
+                        "C\\u0027est une norme ISO sur la sécurité des données ; elle impose des audits annuels",
+                        "C\\u0027est un règlement européen qui classe certains systèmes IA utilisés en RH comme \\u0027à haut risque\\u0027 et impose des obligations strictes de transparence et de contrôle",
+                        "C\\u0027est une directive sur la formation professionnelle ; elle oblige les entreprises à former leurs salariés à l\\u0027IA",
+                        "C\\u0027est un label volontaire pour les entreprises qui utilisent l\\u0027IA de manière responsable"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "C\\u0027est un règlement européen qui classe certains systèmes IA utilisés en RH comme \\u0027à haut risque\\u0027 et impose des obligations strictes de transparence et de contrôle",
+        "explanation":  "L\\u0027AI Act, adopté en 2024, est le premier règlement mondial sur l\\u0027IA. Il classe les outils IA utilisés pour le recrutement, l\\u0027évaluation et la gestion des salariés comme systèmes à haut risque, imposant des audits, une documentation technique, une supervision humaine et une transparence envers les personnes concernées."
+    },
+    {
+        "id":  24,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi l\\u0027IA seule ne peut-elle pas conduire un entretien de départ (exit interview) auprès d\\u0027un salarié démissionnaire ?",
+        "options":  [
+                        "Parce que les outils IA ne peuvent pas enregistrer des conversations audio",
+                        "Parce que l\\u0027entretien de départ nécessite une écoute empathique et une capacité d\\u0027adaptation à des émotions complexes que l\\u0027IA ne possède pas authentiquement",
+                        "Parce que la loi française interdit les entretiens automatisés lors d\\u0027une démission",
+                        "Parce que l\\u0027IA ne peut pas garder la confidentialité des informations partagées"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que l\\u0027entretien de départ nécessite une écoute empathique et une capacité d\\u0027adaptation à des émotions complexes que l\\u0027IA ne possède pas authentiquement",
+        "explanation":  "Un entretien de départ est une conversation sensible où un salarié exprime ses frustrations, déceptions ou espoirs. L\\u0027empathie authentique, la capacité à rebondir sur une confidence inattendue et à créer un cadre de confiance sont des compétences humaines. L\\u0027IA peut assister la collecte de données, mais ne peut pas conduire cet entretien seule."
+    },
+    {
+        "id":  25,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel est le risque principal lorsqu\\u0027une entreprise utilise un outil IA externe pour gérer les candidatures et transmet des données de candidats à cet outil ?",
+        "options":  [
+                        "Les candidats risquent de recevoir trop d\\u0027e-mails automatiques",
+                        "L\\u0027entreprise peut perdre le contrôle de ces données personnelles et violer le RGPD si le fournisseur ne respecte pas les règles de protection des données",
+                        "L\\u0027outil risque de recruter des candidats sans l\\u0027accord du manager",
+                        "Les candidats pourraient recevoir des offres concurrentes via cet outil"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L\\u0027entreprise peut perdre le contrôle de ces données personnelles et violer le RGPD si le fournisseur ne respecte pas les règles de protection des données",
+        "explanation":  "Lorsqu\\u0027une entreprise confie des données de candidats à un prestataire IA, elle reste responsable du traitement. Elle doit s\\u0027assurer que le contrat inclut des clauses DPA (Data Processing Agreement) conformes au RGPD, que les données sont hébergées en zone UE et que le sous-traitant offre des garanties suffisantes."
+    },
+    {
+        "id":  26,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce que le NLP (traitement automatique du langage naturel) et quelle application RH directe en découle ?",
+        "options":  [
+                        "Une technologie de reconnaissance d\\u0027image permettant de lire les photos de CV",
+                        "Une branche de l\\u0027IA qui permet aux ordinateurs de comprendre et traiter le langage humain, utilisée pour analyser des textes RH (CV, feedbacks, offres d\\u0027emploi)",
+                        "Un protocole réseau pour connecter les différents logiciels SIRH entre eux",
+                        "Une méthode de chiffrement des données personnelles des salariés"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une branche de l\\u0027IA qui permet aux ordinateurs de comprendre et traiter le langage humain, utilisée pour analyser des textes RH (CV, feedbacks, offres d\\u0027emploi)",
+        "explanation":  "Le NLP (Natural Language Processing) permet aux outils IA de lire, comprendre et analyser des textes en langage naturel. En RH, ses applications sont nombreuses : analyse de CV, détection de mots-clés dans les offres d\\u0027emploi, analyse de sentiment dans les enquêtes salariés, résumé d\\u0027entretiens annuels."
+    },
+    {
+        "id":  27,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qu\\u0027est-ce que la transparence algorithmique dans le contexte des outils IA RH ?",
+        "options":  [
+                        "Le fait que le code source des algorithmes soit publié en open source",
+                        "L\\u0027obligation pour l\\u0027entreprise d\\u0027informer les salariés et candidats qu\\u0027une IA est utilisée, des données traitées et de la logique générale de la décision",
+                        "Le fait que les salariés puissent modifier eux-mêmes les paramètres de l\\u0027algorithme",
+                        "L\\u0027obligation de publier les résultats des évaluations IA sur le site de l\\u0027entreprise"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L\\u0027obligation pour l\\u0027entreprise d\\u0027informer les salariés et candidats qu\\u0027une IA est utilisée, des données traitées et de la logique générale de la décision",
+        "explanation":  "La transparence algorithmique exige que les personnes concernées soient informées de l\\u0027utilisation d\\u0027une IA dans les décisions les concernant, des données utilisées et de la logique générale (sans nécessairement révéler le code source). C\\u0027est une obligation du RGPD et de l\\u0027AI Act pour les systèmes à haut risque."
+    },
+    {
+        "id":  28,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce que la GPEC et comment l\\u0027IA peut-elle y contribuer ?",
+        "options":  [
+                        "La GPEC est un outil de gestion de paie ; l\\u0027IA peut automatiser les bulletins de salaire",
+                        "La GPEC est la gestion prévisionnelle des emplois et compétences ; l\\u0027IA peut modéliser les besoins futurs en compétences",
+                        "La GPEC est un logiciel RH propriétaire ; l\\u0027IA l\\u0027alimente en données brutes",
+                        "La GPEC est une obligation légale de recrutement ; l\\u0027IA rédige les offres d\\u0027emploi correspondantes"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La GPEC est la gestion prévisionnelle des emplois et compétences ; l\\u0027IA peut modéliser les besoins futurs en compétences",
+        "explanation":  "La GPEC anticipe les évolutions des métiers et des compétences nécessaires. L\\u0027IA peut analyser les tendances du marché, les départs prévus, les nouvelles technologies pour projeter les besoins en recrutement et en formation."
+    },
+    {
+        "id":  29,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi les scores de \\u0027culture fit\\u0027 générés par une IA lors d\\u0027un recrutement sont-ils controversés ?",
+        "options":  [
+                        "Parce qu\\u0027ils sont trop coûteux à calculer",
+                        "Parce qu\\u0027ils nécessitent un accès aux réseaux sociaux du candidat",
+                        "Parce qu\\u0027ils peuvent discriminer des profils atypiques et favoriser l\\u0027homogénéité culturelle",
+                        "Parce qu\\u0027ils ne sont valables que pour les cadres dirigeants"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Parce qu\\u0027ils peuvent discriminer des profils atypiques et favoriser l\\u0027homogénéité culturelle",
+        "explanation":  "Les algorithmes de \\u0027culture fit\\u0027 peuvent pénaliser des candidats issus de milieux différents ou ayant des parcours atypiques, réduisant la diversité. Ils risquent de perpétuer les biais existants plutôt que d\\u0027apporter une perspective nouvelle."
+    },
+    {
+        "id":  30,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qu\\u0027est-ce que le \\u0027management algorithmique\\u0027 et quel en est le principal risque ?",
+        "options":  [
+                        "Un logiciel de gestion de projet ; son risque est d\\u0027être trop complexe à paramétrer",
+                        "L\\u0027utilisation d\\u0027algorithmes pour piloter et évaluer les salariés en temps réel ; son risque est une déshumanisation et une pression accrue",
+                        "Une méthode de recrutement par tests ; son risque est d\\u0027être trop sélective",
+                        "Un système de paie automatisé ; son risque est de faire des erreurs de calcul"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L\\u0027utilisation d\\u0027algorithmes pour piloter et évaluer les salariés en temps réel ; son risque est une déshumanisation et une pression accrue",
+        "explanation":  "Le management algorithmique consiste à mesurer et piloter les performances via des KPIs automatisés (comme chez les livreurs ou en call center). Il peut engendrer stress chronique, sentiment d\\u0027injustice et détérioration du climate social."
+    },
+    {
+        "id":  31,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Une IA de recrutement entraînée sur les embauches passées d\\u0027une entreprise a tendance à écarter les femmes pour des postes techniques. Que s\\u0027est-il passé ?",
+        "options":  [
+                        "L\\u0027IA a été mal programmée par ses développeurs",
+                        "L\\u0027IA a appris les biais historiques présents dans les données d\\u0027entraînement",
+                        "Les femmes ont délibérément mal rempli leurs candidatures",
+                        "L\\u0027IA manquait de puissance de calcul pour traiter tous les dossiers"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L\\u0027IA a appris les biais historiques présents dans les données d\\u0027entraînement",
+        "explanation":  "Amazon a connu ce problème réel : son IA de recrutement avait appris que les hommes étaient historiquement plus recrutés en tech et discriminait les CV féminins. Les données passées reflètent les inégalités passées, et l\\u0027IA les amplifie."
+    },
+    {
+        "id":  32,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment un outil d\\u0027analyse sémantique IA peut-il aider un DRH lors des entretiens annuels ?",
+        "options":  [
+                        "En remplaçant le manager pour mener l\\u0027entretien",
+                        "En analysant les verbatims des entretiens pour identifier des thèmes récurrents et des signaux faibles sur le climat social",
+                        "En notant automatiquement chaque salarié sur 20",
+                        "En supprimant les entretiens jugés inutiles"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En analysant les verbatims des entretiens pour identifier des thèmes récurrents et des signaux faibles sur le climat social",
+        "explanation":  "L\\u0027analyse sémantique peut traiter des centaines de comptes-rendus d\\u0027entretiens pour en extraire des tendances (manque de reconnaissance, problèmes d\\u0027organisation, souhaits de mobilité) que les RH n\\u0027auraient pas le temps d\\u0027analyser manuellement."
+    },
+    {
+        "id":  33,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Quelle est la principale limite des chatbots RH pour répondre aux questions des salariés sur leurs droits ?",
+        "options":  [
+                        "Ils ne peuvent répondre qu\\u0027en anglais",
+                        "Ils ne peuvent traiter que les questions relatives à la paie",
+                        "Ils peuvent fournir des réponses incorrectes sur des points juridiques complexes ou spécifiques à la convention collective",
+                        "Ils nécessitent une connexion internet très rapide"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Ils peuvent fournir des réponses incorrectes sur des points juridiques complexes ou spécifiques à la convention collective",
+        "explanation":  "Le droit du travail est complexe et dépend de la convention collective, de l\\u0027accord d\\u0027entreprise et de la situation individuelle. Un chatbot généraliste peut donner une réponse inexacte ou obsolète. Pour les sujets sensibles, un juriste RH reste indispensable."
+    },
+    {
+        "id":  34,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce que la GPEC prédictive et en quoi se distingue-t-elle de la GPEC traditionnelle ?",
+        "options":  [
+                        "La GPEC prédictive est identique à la GPEC traditionnelle mais réalisée plus rapidement",
+                        "La GPEC prédictive utilise des modèles IA pour anticiper les besoins en compétences à 3-5 ans selon les évolutions technologiques et économiques, là où la GPEC traditionnelle repose sur des projections manuelles",
+                        "La GPEC prédictive ne concerne que les grandes entreprises de plus de 5000 salariés",
+                        "La GPEC prédictive est une obligation légale introduite par la loi Pacte de 2019"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La GPEC prédictive utilise des modèles IA pour anticiper les besoins en compétences à 3-5 ans selon les évolutions technologiques et économiques, là où la GPEC traditionnelle repose sur des projections manuelles",
+        "explanation":  "La GPEC prédictive croise des données internes (pyramide des âges, plans de départs, évolutions de postes) avec des données externes (tendances sectorielles, automatisation, évolutions réglementaires) pour modéliser les besoins futurs en compétences avec une précision accrue."
+    },
+    {
+        "id":  35,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qu\\u0027impose l\\u0027AI Act européen concernant les systèmes IA utilisés pour le recrutement et la sélection professionnelle ?",
+        "options":  [
+                        "Ils sont interdits dans toute l\\u0027Union européenne",
+                        "Ils sont classés à haut risque et doivent respecter des exigences de transparence, de traçabilité, de robustesse et de supervision humaine",
+                        "Ils sont librement utilisables tant que le recruteur reste responsable de la décision finale",
+                        "Ils ne sont régulés que s\\u0027ils traitent plus de 500 candidatures par mois"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Ils sont classés à haut risque et doivent respecter des exigences de transparence, de traçabilité, de robustesse et de supervision humaine",
+        "explanation":  "L\\u0027annexe III de l\\u0027AI Act classe les systèmes IA utilisés dans l\\u0027emploi (recrutement, sélection, promotion, licenciement) comme systèmes à haut risque. Ils doivent faire l\\u0027objet d\\u0027une évaluation de conformité, d\\u0027une documentation technique et d\\u0027une supervision humaine effective avant mise sur le marché européen."
+    },
+    {
+        "id":  36,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Qu\\u0027est-ce que le \\u0027score de risque de turn-over\\u0027 calculé par une IA et quel danger éthique représente-t-il ?",
+        "options":  [
+                        "Un indicateur de la rotation des stocks ; il ne présente aucun risque éthique",
+                        "Une prédiction du risque qu\\u0027un salarié quitte l\\u0027entreprise ; il peut conduire à des décisions discriminatoires envers des salariés considérés \\u0027à risque\\u0027",
+                        "Une mesure de la satisfaction client ; il peut être faussé par des avis négatifs",
+                        "Un calcul du coût du remplacement d\\u0027un poste ; il peut être sous-estimé"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une prédiction du risque qu\\u0027un salarié quitte l\\u0027entreprise ; il peut conduire à des décisions discriminatoires envers des salariés considérés \\u0027à risque\\u0027",
+        "explanation":  "Un score de churn RH élevé peut amener un manager à exclure un salarié de projets stratégiques ou de formations, estimant l\\u0027investissement \\u0027inutile\\u0027. Cette réaction peut elle-même précipiter le départ (prophétie autoréalisatrice) et constitue une discrimination fondée sur une prédiction algorithmique."
+    },
+    {
+        "id":  37,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi l\\u0027analyse de sentiment par IA sur les feedbacks des salariés peut-elle donner des résultats trompeurs ?",
+        "options":  [
+                        "Parce que les salariés écrivent toujours de façon positive pour éviter des problèmes",
+                        "Parce que l\\u0027IA ne peut analyser que les textes de moins de 100 mots",
+                        "Parce que le langage humain est nuancé, ironique et contextuel, ce que les modèles de NLP peuvent mal interpréter",
+                        "Parce que l\\u0027analyse de sentiment ne fonctionne qu\\u0027en anglais"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Parce que le langage humain est nuancé, ironique et contextuel, ce que les modèles de NLP peuvent mal interpréter",
+        "explanation":  "L\\u0027analyse de sentiment via NLP peut mal interpréter l\\u0027ironie, le sarcasme, les euphémismes culturels ou les formules polies qui masquent une insatisfaction profonde. Une phrase comme \\u0027c\\u0027est intéressant\\u0027 peut être un compliment sincère ou une critique déguisée selon le contexte."
+    },
+    {
+        "id":  38,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle améliorer la planification des effectifs dans une entreprise saisonnière ?",
+        "options":  [
+                        "En recrutant automatiquement de nouveaux salariés sans validation RH",
+                        "En analysant les données historiques, les prévisions de charge et les variables externes pour anticiper les besoins en effectifs semaine par semaine",
+                        "En supprimant les contrats temporaires pour simplifier la gestion",
+                        "En imposant des horaires fixes identiques pour tous les salariés"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En analysant les données historiques, les prévisions de charge et les variables externes pour anticiper les besoins en effectifs semaine par semaine",
+        "explanation":  "Les outils IA de workforce planning croisent les données historiques d\\u0027activité (commandes, fréquentation, production), les congés prévus et des variables externes (météo, événements) pour proposer des plans d\\u0027effectifs optimaux, réduisant les sous-effectifs coûteux et les sureffectifs."
+    },
+    {
+        "id":  39,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qu\\u0027est-ce que le \\u0027droit à l\\u0027explication\\u0027 prévu par le RGPD dans le contexte d\\u0027une décision RH automatisée ?",
+        "options":  [
+                        "Le droit du RH d\\u0027expliquer à l\\u0027IA pourquoi il refuse une candidature",
+                        "L\\u0027obligation pour l\\u0027entreprise d\\u0027expliquer aux salariés comment fonctionne le SIRH",
+                        "Le droit d\\u0027un salarié ou candidat de recevoir une explication compréhensible sur les raisons d\\u0027une décision automatisée le concernant",
+                        "Le droit du fournisseur de l\\u0027outil IA de ne pas divulguer son algorithme"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Le droit d\\u0027un salarié ou candidat de recevoir une explication compréhensible sur les raisons d\\u0027une décision automatisée le concernant",
+        "explanation":  "L\\u0027article 22 du RGPD, complété par le considérant 71, prévoit qu\\u0027une personne soumise à une décision entièrement automatisée ayant des effets significatifs a le droit d\\u0027obtenir une explication sur la logique utilisée, ainsi que de contester cette décision et de demander une intervention humaine."
+    },
+    {
+        "id":  40,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel risque spécifique présente l\\u0027utilisation de l\\u0027IA pour analyser les micro-expressions faciales lors d\\u0027entretiens vidéo de recrutement ?",
+        "options":  [
+                        "Un risque de saturation du réseau informatique de l\\u0027entreprise",
+                        "Un risque de discrimination fondée sur des corrélations pseudo-scientifiques et des biais culturels dans l\\u0027interprétation des expressions",
+                        "Un risque que le candidat détecte l\\u0027analyse et se prépare à la tromper",
+                        "Un risque de violation des droits d\\u0027auteur sur les enregistrements vidéo"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un risque de discrimination fondée sur des corrélations pseudo-scientifiques et des biais culturels dans l\\u0027interprétation des expressions",
+        "explanation":  "Les outils d\\u0027analyse de micro-expressions (comme HireVue par le passé) reposent sur des corrélations non prouvées scientifiquement entre expressions et performances futures. De plus, les normes d\\u0027expression varient culturellement, créant des biais systématiques contre certains groupes."
+    },
+    {
+        "id":  41,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment un outil de gestion des compétences par IA peut-il aider un DRH à identifier les \\u0027compétences critiques\\u0027 de l\\u0027entreprise ?",
+        "options":  [
+                        "En listant automatiquement toutes les compétences mentionnées dans les fiches de poste",
+                        "En croisant les compétences rares détenues par peu de salariés avec celles essentielles à la stratégie de l\\u0027entreprise",
+                        "En attribuant une note à chaque salarié selon le nombre de formations suivies",
+                        "En comparant les fiches de poste françaises avec des standards américains"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En croisant les compétences rares détenues par peu de salariés avec celles essentielles à la stratégie de l\\u0027entreprise",
+        "explanation":  "Une plateforme IA de gestion des compétences peut identifier les \\u0027skill gaps\\u0027 critiques en croisant les compétences stratégiques (indispensables à la réalisation des objectifs) avec leur niveau de couverture dans l\\u0027entreprise, permettant de prioriser les plans de formation et de recrutement."
+    },
+    {
+        "id":  42,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi les modèles IA de prévision du turn-over sont-ils moins fiables en période de crise économique ou sanitaire ?",
+        "options":  [
+                        "Parce que les salariés mentent davantage dans les enquêtes de satisfaction en période difficile",
+                        "Parce que les comportements de mobilité changent radicalement, s\\u0027éloignant des patterns historiques sur lesquels le modèle a été entraîné",
+                        "Parce que les serveurs informatiques sont surchargés durant les crises",
+                        "Parce que la loi interdit les licenciements en période de crise, rendant le modèle inutile"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que les comportements de mobilité changent radicalement, s\\u0027éloignant des patterns historiques sur lesquels le modèle a été entraîné",
+        "explanation":  "En période de crise (COVID, récession), les salariés adoptent des comportements atypiques : gel des démissions par peur, départs massifs dès la reprise (\\u0027grande démission\\u0027). Ces ruptures de tendance invalident les modèles prédictifs entraînés sur des données de périodes normales (concept drift)."
+    },
+    {
+        "id":  43,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Dans quelle mesure la surveillance des e-mails professionnels par une IA est-elle légale en France ?",
+        "options":  [
+                        "Elle est totalement libre car les e-mails professionnels appartiennent à l\\u0027employeur",
+                        "Elle est interdite dans tous les cas par la CNIL",
+                        "Elle est possible sous conditions strictes : information préalable des salariés, proportionnalité et respect de la confidentialité des messages à caractère personnel",
+                        "Elle est autorisée uniquement pour les salariés en période d\\u0027essai"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Elle est possible sous conditions strictes : information préalable des salariés, proportionnalité et respect de la confidentialité des messages à caractère personnel",
+        "explanation":  "La jurisprudence française (Nikon, 2001) puis la CNIL ont établi que les salariés ont droit au respect de leur vie privée même au travail. La surveillance des e-mails doit être proportionnée, justifiée, déclarée et ne pas porter sur les messages à caractère personnel identifiés comme tels."
+    },
+    {
+        "id":  44,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment le NLP (traitement automatique du langage naturel) peut-il analyser les comptes-rendus d\\u0027entretiens annuels d\\u0027évaluation ?",
+        "options":  [
+                        "En les traduisant automatiquement en plusieurs langues pour les RH internationaux",
+                        "En extrayant automatiquement les thèmes récurrents, les émotions exprimées et les demandes de formation ou de mobilité",
+                        "En les archivant automatiquement dans le SIRH sans les lire",
+                        "En corrigeant l\\u0027orthographe et la grammaire des managers"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En extrayant automatiquement les thèmes récurrents, les émotions exprimées et les demandes de formation ou de mobilité",
+        "explanation":  "Le NLP appliqué aux entretiens annuels peut identifier automatiquement les sujets fréquents (charge de travail, relations avec le manager, perspectives d\\u0027évolution), les tonalités positives ou négatives, et les demandes explicites de formation ou de mobilité, offrant une vue agrégée du climat social."
+    },
+    {
+        "id":  45,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel risque présente l\\u0027utilisation d\\u0027une IA pour définir automatiquement les fourchettes de salaire à proposer lors d\\u0027un recrutement ?",
+        "options":  [
+                        "Un risque de surpayer systématiquement tous les candidats",
+                        "Un risque de perpétuer des écarts salariaux existants, notamment entre hommes et femmes, si les données de référence sont biaisées",
+                        "Un risque que les candidats négocient des salaires trop élevés",
+                        "Un risque de non-conformité avec les normes comptables françaises"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un risque de perpétuer des écarts salariaux existants, notamment entre hommes et femmes, si les données de référence sont biaisées",
+        "explanation":  "Si les données de marché utilisées par l\\u0027IA reflètent des inégalités historiques (ex. : les femmes étaient moins bien payées que les hommes pour des postes similaires), l\\u0027algorithme reproduira ces écarts dans ses recommandations salariales, institutionnalisant la discrimination."
+    },
+    {
+        "id":  46,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "La loi française encadrant l\\u0027IA en RH prévoit notamment que les salariés soient informés de l\\u0027utilisation d\\u0027outils algorithmiques. Quel organisme peut sanctionner une entreprise qui ne respecte pas ces règles ?",
+        "options":  [
+                        "Le Pôle Emploi",
+                        "La Cour de cassation uniquement",
+                        "La CNIL (Commission Nationale de l\\u0027Informatique et des Libertés)",
+                        "Le Ministère de l\\u0027…?ducation Nationale"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "La CNIL (Commission Nationale de l\\u0027Informatique et des Libertés)",
+        "explanation":  "La CNIL est l\\u0027autorité de contrôle française du RGPD. Elle peut mener des enquêtes, mettre en demeure et infliger des amendes pouvant aller jusqu\\u0027à 20 millions d\\u0027euros ou 4 % du chiffre d\\u0027affaires mondial en cas de violation du RGPD dans le traitement des données RH."
+    },
+    {
+        "id":  47,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Qu\\u0027est-ce que le \\u0027washing éthique\\u0027 (ethics washing) dans le domaine des outils IA RH ?",
+        "options":  [
+                        "Une technique pour nettoyer les bases de données RH des doublons",
+                        "La pratique consistant à afficher des engagements éthiques sur l\\u0027IA sans les mettre réellement en pratique",
+                        "Un processus de certification officielle des outils IA par l\\u0027…?tat",
+                        "Le fait de former les équipes RH à l\\u0027éthique de l\\u0027IA"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La pratique consistant à afficher des engagements éthiques sur l\\u0027IA sans les mettre réellement en pratique",
+        "explanation":  "L\\u0027ethics washing désigne les entreprises qui communiquent sur des chartes éthiques IA ou des comités de déontologie sans que cela se traduise par des pratiques concrètes. Les RH doivent exiger des preuves tangibles de conformité de leurs fournisseurs d\\u0027outils IA."
+    },
+    {
+        "id":  48,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment une IA prédictive peut-elle aider à réduire le turnover dans une entreprise ?",
+        "options":  [
+                        "En supprimant automatiquement les contrats des salariés à risque",
+                        "En augmentant systématiquement le salaire de tous les collaborateurs",
+                        "En analysant des signaux (satisfaction, ancienneté, historique de promotions) pour identifier les salariés susceptibles de quitter l\\u0027entreprise",
+                        "En bloquant les salariés détectés à risque sur le portail de dépôt de démission"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "En analysant des signaux (satisfaction, ancienneté, historique de promotions) pour identifier les salariés susceptibles de quitter l\\u0027entreprise",
+        "explanation":  "Les modèles prédictifs de rétention croisent de nombreuses variables pour calculer un score de risque de départ. Ils permettent aux RH d\\u0027intervenir proactivement (entretien de rétention, plan de carrière) avant que le salarié ne prenne sa décision."
+    },
+    {
+        "id":  49,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi le score de \\u0027risque de départ\\u0027 prédit par une IA peut-il devenir une prophétie autoréalisatrice ?",
+        "options":  [
+                        "Parce que l\\u0027IA bloque l\\u0027accès aux formations des salariés à risque",
+                        "Parce que si le manager traite différemment un salarié identifié à risque, cela peut provoquer effectivement son départ",
+                        "Parce que le salarié reçoit automatiquement une notification de son score",
+                        "Parce que l\\u0027algorithme force le salarié à partir après 6 mois"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que si le manager traite différemment un salarié identifié à risque, cela peut provoquer effectivement son départ",
+        "explanation":  "Si un manager sait qu\\u0027un salarié a un fort score de risque de départ, il pourrait inconsciemment (ou consciemment) le mettre à l\\u0027écart, réduire ses responsabilités ou ne plus l\\u0027inclure dans les projets, précipitant ainsi le départ que l\\u0027IA voulait prévenir."
+    },
+    {
+        "id":  50,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qu\\u0027implique le règlement européen sur l\\u0027IA (AI Act) pour les outils IA utilisés dans le recrutement ?",
+        "options":  [
+                        "Ils sont interdits sur le territoire européen",
+                        "Ils sont classés à haut risque et soumis à des exigences de transparence, de traçabilité et de supervision humaine",
+                        "Ils sont autorisés sans condition dès lors qu\\u0027ils respectent le RGPD",
+                        "Ils ne sont réglementés que s\\u0027ils analysent plus de 1 000 candidatures par an"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Ils sont classés à haut risque et soumis à des exigences de transparence, de traçabilité et de supervision humaine",
+        "explanation":  "L\\u0027AI Act européen classe les systèmes IA utilisés dans l\\u0027emploi (recrutement, évaluation, gestion RH) comme systèmes à haut risque. Ils doivent être transparents, auditables, surveiller des biais et garantir une supervision humaine effective."
+    },
+    {
+        "id":  51,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qu\\u0027est-ce que le \\u0027score d\\u0027employabilité\\u0027 calculé par une IA et quels problèmes éthiques pose-t-il ?",
+        "options":  [
+                        "Un indicateur de la rentabilité financière d\\u0027un salarié ; il pose des problèmes de confidentialité comptable",
+                        "Une note globale attribuée par l\\u0027IA à un salarié sur sa valeur sur le marché du travail ; il peut stigmatiser des salariés et orienter injustement des décisions de licenciement",
+                        "Un outil de motivation qui encourage les salariés à se former ; il pose uniquement des questions de coût",
+                        "Un certificat de compétences reconnu par l\\u0027…?tat ; il pose des problèmes de standardisation"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une note globale attribuée par l\\u0027IA à un salarié sur sa valeur sur le marché du travail ; il peut stigmatiser des salariés et orienter injustement des décisions de licenciement",
+        "explanation":  "Un score d\\u0027employabilité IA peut devenir un outil de sélection déguisé pour les plans de sauvegarde de l\\u0027emploi, en pointant les salariés jugés \\u0027facilement remplaçables\\u0027 par le marché. Cette pratique soulève des questions de dignité, de transparence et d\\u0027équité dans les décisions de PSE."
+    },
+    {
+        "id":  52,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment une IA peut-elle optimiser la planification des effectifs dans un centre d\\u0027appels ?",
+        "options":  [
+                        "En remplaçant tous les agents par des voicebots",
+                        "En prédisant les volumes d\\u0027appels entrants heure par heure et en optimisant les plannings pour minimiser les temps d\\u0027attente et les coûts de personnel",
+                        "En enregistrant toutes les conversations pour les analyser a posteriori",
+                        "En attribuant automatiquement les primes en fonction du nombre d\\u0027appels traités"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En prédisant les volumes d\\u0027appels entrants heure par heure et en optimisant les plannings pour minimiser les temps d\\u0027attente et les coûts de personnel",
+        "explanation":  "Les outils IA de WFM (Workforce Management) pour centres d\\u0027appels analysent les historiques d\\u0027appels, les saisonnalités, les événements promotionnels pour prédire les flux avec précision et construire des plannings optimisés, réduisant à la fois les coûts et améliorant la qualité de service."
+    },
+    {
+        "id":  53,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Quelle est la principale difficulté de détecter le burn-out par IA à partir de données comportementales au travail ?",
+        "options":  [
+                        "Les données comportementales sont trop volumineuses pour être traitées par les IA actuelles",
+                        "Il est impossible de distinguer les comportements liés au burn-out de ceux liés à d\\u0027autres facteurs (investissement fort, personnalité, projet ponctuel) sans risquer des faux positifs",
+                        "La loi française interdit formellement tout outil de détection du burn-out",
+                        "Les managers refusent systématiquement d\\u0027utiliser ces outils"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Il est impossible de distinguer les comportements liés au burn-out de ceux liés à d\\u0027autres facteurs (investissement fort, personnalité, projet ponctuel) sans risquer des faux positifs",
+        "explanation":  "Un salarié qui envoie beaucoup d\\u0027e-mails le soir peut être passionné par son projet, vivre dans un fuseau horaire différent, ou être en train de s\\u0027épuiser. Sans contexte, l\\u0027IA ne peut distinguer ces situations, générant des faux positifs (alarme inutile) ou des faux négatifs (burn-out non détecté)."
+    },
+    {
+        "id":  54,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Que risque une entreprise qui utilise un outil IA de recrutement sans réaliser d\\u0027analyse d\\u0027impact (DPIA) au préalable ?",
+        "options":  [
+                        "Une incompatibilité technique avec son SIRH actuel",
+                        "Une amende pouvant atteindre 10 millions d\\u0027euros ou 2 % du CA mondial pour non-respect du RGPD",
+                        "Un refus de ses candidats de postuler en ligne",
+                        "Une obligation de publier ses critères de recrutement sur son site internet"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une amende pouvant atteindre 10 millions d\\u0027euros ou 2 % du CA mondial pour non-respect du RGPD",
+        "explanation":  "Toute opération de traitement susceptible d\\u0027engendrer un risque élevé pour les droits des personnes (comme un outil de profilage des candidats) requiert une Analyse d\\u0027Impact relative à la Protection des Données (DPIA / PIA). Son absence expose l\\u0027entreprise à des sanctions significatives de la CNIL."
+    },
+    {
+        "id":  55,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "En quoi consiste l\\u0027analyse de sentiment (sentiment analysis) appliquée aux enquêtes de satisfaction des salariés ?",
+        "options":  [
+                        "Elle consiste à demander aux salariés de noter leurs sentiments sur une échelle de 1 à 10",
+                        "Elle consiste à analyser automatiquement le texte libre des réponses pour détecter des tonalités positives, négatives ou neutres et identifier des sujets d\\u0027insatisfaction",
+                        "Elle consiste à analyser les expressions faciales des salariés lors des réunions",
+                        "Elle consiste à comparer les résultats des enquêtes avec des benchmarks sectoriels"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Elle consiste à analyser automatiquement le texte libre des réponses pour détecter des tonalités positives, négatives ou neutres et identifier des sujets d\\u0027insatisfaction",
+        "explanation":  "L\\u0027analyse de sentiment par NLP traite les verbatims des enquêtes pour classer automatiquement les réponses selon leur polarité émotionnelle et regrouper les thèmes. Elle permet d\\u0027identifier rapidement les sujets qui génèrent de l\\u0027insatisfaction dans un large volume de réponses."
+    },
+    {
+        "id":  56,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qu\\u0027est-ce que le \\u0027droit à la déconnexion\\u0027 et en quoi une IA de surveillance peut-elle le menacer ?",
+        "options":  [
+                        "Le droit de refuser d\\u0027utiliser des outils numériques au travail ; l\\u0027IA peut forcer leur utilisation",
+                        "Le droit du salarié de ne pas être joignable en dehors des heures de travail ; une IA de surveillance qui monitore les connexions hors horaires peut créer une pression à rester connecté",
+                        "Le droit de débrancher le réseau Wi-Fi de l\\u0027entreprise ; l\\u0027IA peut le réactiver automatiquement",
+                        "Le droit de refuser les mises à jour logicielles ; l\\u0027IA peut les imposer"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le droit du salarié de ne pas être joignable en dehors des heures de travail ; une IA de surveillance qui monitore les connexions hors horaires peut créer une pression à rester connecté",
+        "explanation":  "Reconnu par la loi El Khomri (2016) en France, le droit à la déconnexion protège les salariés contre la pression du travail hors horaires. Des outils IA qui mesurent et valorisent la disponibilité hors horaires contreviennent à cet esprit en créant une incitation implicite à rester connecté."
+    },
+    {
+        "id":  57,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi les données utilisées pour entraîner un modèle IA de gestion des compétences peuvent-elles rapidement devenir obsolètes ?",
+        "options":  [
+                        "Parce que les logiciels IA ont une durée de vie de seulement 6 mois",
+                        "Parce que les compétences requises par les métiers évoluent rapidement sous l\\u0027effet des nouvelles technologies, rendant les référentiels passés inadaptés",
+                        "Parce que les salariés refusent de mettre à jour leurs profils de compétences",
+                        "Parce que les formats de fichiers changent trop souvent"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que les compétences requises par les métiers évoluent rapidement sous l\\u0027effet des nouvelles technologies, rendant les référentiels passés inadaptés",
+        "explanation":  "Un modèle IA entraîné sur les compétences valorisées il y a 3-5 ans peut recommander des formations ou des profils qui ne correspondent plus aux besoins actuels de l\\u0027entreprise. La transformation digitale, l\\u0027automatisation et l\\u0027IA elle-même font évoluer rapidement les référentiels de compétences."
+    },
+    {
+        "id":  58,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Dans le cadre du AI Act, quelle obligation spécifique pèse sur les fournisseurs d\\u0027outils IA \\u0027à haut risque\\u0027 utilisés en RH ?",
+        "options":  [
+                        "Ils doivent soumettre leurs algorithmes à un brevet européen",
+                        "Ils doivent publier leurs données d\\u0027entraînement en open source",
+                        "Ils doivent réaliser une évaluation de conformité, tenir un registre des systèmes et assurer une surveillance humaine effective",
+                        "Ils doivent obtenir l\\u0027agrément de chaque DIRECCTE régionale"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Ils doivent réaliser une évaluation de conformité, tenir un registre des systèmes et assurer une surveillance humaine effective",
+        "explanation":  "Le règlement IA européen impose aux fournisseurs d\\u0027IA à haut risque : une évaluation ex ante de conformité, un enregistrement dans une base de données EU, une documentation technique complète, des tests de robustesse et de non-discrimination, et un système de surveillance humaine."
+    },
+    {
+        "id":  59,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Qu\\u0027est-ce qu\\u0027un biais de confirmation dans un outil IA d\\u0027évaluation des performances RH et comment se manifeste-t-il ?",
+        "options":  [
+                        "L\\u0027IA confirme automatiquement toutes les décisions du manager sans les analyser",
+                        "L\\u0027IA surpondère les données qui corroborent les évaluations passées, renforçant les préjugés existants sur un salarié",
+                        "L\\u0027IA produit des rapports de performance identiques pour tous les salariés",
+                        "L\\u0027IA génère de fausses confirmations de formation dans le système"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L\\u0027IA surpondère les données qui corroborent les évaluations passées, renforçant les préjugés existants sur un salarié",
+        "explanation":  "Un modèle entraîné sur les évaluations passées peut apprendre à confirmer les jugements antérieurs : un salarié mal évalué par le passé sera systématiquement mal noté, même si ses performances ont objectivement progressé. Ce phénomène est particulièrement difficile à détecter."
+    },
+    {
+        "id":  60,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce que le \\u0027people analytics\\u0027 et quelle est sa valeur ajoutée stratégique pour une direction RH ?",
+        "options":  [
+                        "Un module de SIRH pour gérer les fiches de poste",
+                        "L\\u0027analyse de données RH à grande échelle pour orienter les décisions stratégiques sur les talents, la productivité et l\\u0027organisation",
+                        "Un outil de sondage annuel sur la satisfaction des salariés",
+                        "Une plateforme de mise en relation des candidats avec les recruteurs"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L\\u0027analyse de données RH à grande échelle pour orienter les décisions stratégiques sur les talents, la productivité et l\\u0027organisation",
+        "explanation":  "Le people analytics transforme la RH en fonction data-driven. Il permet de corréler des variables (formation, mobilité, engagement) avec des résultats business (performance, rétention) pour prendre des décisions éclairées sur la stratégie des talents."
+    },
+    {
+        "id":  61,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Quel est le principal défi de l\\u0027explicabilité (explainability) des modèles IA dans les décisions RH à fort enjeu ?",
+        "options":  [
+                        "Les modèles IA sont trop lents à expliquer leurs décisions en temps réel",
+                        "Les algorithmes les plus performants sont souvent des \\u0027boîtes noires\\u0027 dont on ne peut pas expliquer facilement les décisions",
+                        "Les salariés refusent de comprendre les explications fournies par l\\u0027IA",
+                        "L\\u0027explicabilité est uniquement requise pour les licenciements économiques"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Les algorithmes les plus performants sont souvent des \\u0027boîtes noires\\u0027 dont on ne peut pas expliquer facilement les décisions",
+        "explanation":  "Les modèles de deep learning très performants (ex. pour prédire le turnover) sont souvent opaques : il est difficile d\\u0027expliquer pourquoi le modèle a pris telle décision pour un individu donné. Or le RGPD et le AI Act imposent un droit à l\\u0027explication pour les décisions automatisées significatives."
+    },
+    {
+        "id":  62,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Quelle approche permet de réduire les biais discriminatoires dans un modèle IA de recrutement, après son déploiement ?",
+        "options":  [
+                        "Supprimer toutes les données historiques et repartir de zéro chaque année",
+                        "Effectuer des audits réguliers de disparate impact, analyser les métriques d\\u0027équité et réentraîner le modèle si nécessaire",
+                        "Augmenter la puissance de calcul du modèle pour améliorer sa précision globale",
+                        "Remplacer les algorithmes par des systèmes de tirage au sort pour les présélections"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Effectuer des audits réguliers de disparate impact, analyser les métriques d\\u0027équité et réentraîner le modèle si nécessaire",
+        "explanation":  "L\\u0027audit de disparate impact mesure si le modèle défavorise disproportionnellement un groupe protégé. Des métriques comme l\\u0027égalité des chances (equal opportunity) ou la parité démographique permettent de détecter et corriger les biais de façon continue."
+    },
+    {
+        "id":  63,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Comment fonctionne un système de recommandation de mobilité interne basé sur le filtrage collaboratif ?",
+        "options":  [
+                        "Il filtre les candidatures internes selon des critères définis manuellement par les RH",
+                        "Il identifie des \\u0027profils similaires\\u0027 parmi les salariés ayant évolué avec succès vers un poste, et recommande ce poste à des salariés au profil comparable",
+                        "Il compare les salaires internes pour recommander des postes mieux rémunérés",
+                        "Il filtre les mobilités selon les critères de l\\u0027ancienneté et du coefficient hiérarchique"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Il identifie des \\u0027profils similaires\\u0027 parmi les salariés ayant évolué avec succès vers un poste, et recommande ce poste à des salariés au profil comparable",
+        "explanation":  "Le filtrage collaboratif appliqué à la mobilité interne fonctionne comme un moteur de recommandation (similaire à Netflix) : il analyse les parcours de salariés \\u0027similaires\\u0027 (compétences, expérience, formation) qui ont réussi une transition vers un poste, puis suggère cette trajectoire à des profils comparables."
+    },
+    {
+        "id":  64,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Qu\\u0027est-ce que le \\u0027proxy discrimination\\u0027 dans un algorithme RH et pourquoi est-il difficile à détecter ?",
+        "options":  [
+                        "Une discrimination exercée par le manager humain qui utilise l\\u0027IA comme alibi pour ses décisions",
+                        "L\\u0027utilisation par l\\u0027algorithme de variables apparemment neutres (code postal, école fréquentée) qui sont en réalité corrélées à un critère protégé (origine, genre), produisant une discrimination indirecte",
+                        "Un biais introduit intentionnellement par le développeur de l\\u0027outil pour favoriser certains profils",
+                        "Une erreur de segmentation des données qui crée des groupes de candidats mal définis"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L\\u0027utilisation par l\\u0027algorithme de variables apparemment neutres (code postal, école fréquentée) qui sont en réalité corrélées à un critère protégé (origine, genre), produisant une discrimination indirecte",
+        "explanation":  "Un algorithme peut discriminer sans utiliser explicitement un critère protégé : le code postal corrèle avec l\\u0027origine ethnique, l\\u0027école fréquentée avec le milieu social. Ces \\u0027proxies\\u0027 produisent une discrimination indirecte illégale mais difficile à prouver car le critère discriminant n\\u0027est pas directement visible dans le modèle."
+    },
+    {
+        "id":  65,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Quelle est la distinction entre \\u0027surveillance légitime\\u0027 et \\u0027surveillance intrusive\\u0027 d\\u0027un salarié par IA selon la CNIL ?",
+        "options":  [
+                        "La surveillance légitime concerne les cadres ; la surveillance intrusive concerne les non-cadres",
+                        "La surveillance légitime est proportionnée, déclarée et justifiée par un intérêt légitime de l\\u0027entreprise ; la surveillance intrusive dépasse ce qui est nécessaire et porte atteinte à la vie privée",
+                        "La surveillance légitime utilise uniquement des caméras ; la surveillance intrusive utilise des logiciels",
+                        "La surveillance légitime est autorisée par le syndicat ; la surveillance intrusive ne l\\u0027est pas"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La surveillance légitime est proportionnée, déclarée et justifiée par un intérêt légitime de l\\u0027entreprise ; la surveillance intrusive dépasse ce qui est nécessaire et porte atteinte à la vie privée",
+        "explanation":  "La CNIL applique le principe de proportionnalité : la surveillance doit être adéquate, pertinente et limitée à ce qui est nécessaire. Un géolocalisateur pour un livreur peut être légitime ; un keylogger enregistrant chaque frappe d\\u0027un développeur est intrusive. L\\u0027information préalable du salarié est toujours obligatoire."
+    },
+    {
+        "id":  66,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Pourquoi le benchmark salarial par IA peut-il sous-estimer la valeur de certains profils rares ou émergents ?",
+        "options":  [
+                        "Parce que les IA ne peuvent pas accéder aux données salariales confidentielles des concurrents",
+                        "Parce que les profils rares ou émergents sont sous-représentés dans les bases de données de marché, rendant les statistiques peu fiables et biaisées vers les profils courants",
+                        "Parce que les IA arrondissent systématiquement les fourchettes salariales à la baisse",
+                        "Parce que la loi française interdit la comparaison des salaires avec des entreprises étrangères"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que les profils rares ou émergents sont sous-représentés dans les bases de données de marché, rendant les statistiques peu fiables et biaisées vers les profils courants",
+        "explanation":  "Les modèles IA de benchmark salarial s\\u0027appuient sur des données historiques de marché. Pour un spécialiste IA ou un ingénieur en cybersécurité industrielle, le nombre d\\u0027observations est faible et les données récentes manquent, ce qui conduit à des fourchettes sous-estimées et à des difficultés de recrutement ou de rétention."
+    },
+    {
+        "id":  67,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Comment les techniques de \\u0027graph neural networks\\u0027 peuvent-elles être appliquées à la gestion des compétences dans une grande organisation ?",
+        "options":  [
+                        "Elles permettent de créer des organigrammes interactifs en 3D",
+                        "Elles modélisent les relations entre compétences, postes et salariés sous forme de graphe pour identifier des chemins d\\u0027évolution optimaux et des synergies de compétences non évidentes",
+                        "Elles accélèrent le calcul des bulletins de paie complexes",
+                        "Elles sécurisent les données RH via des protocoles de chiffrement avancés"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Elles modélisent les relations entre compétences, postes et salariés sous forme de graphe pour identifier des chemins d\\u0027évolution optimaux et des synergies de compétences non évidentes",
+        "explanation":  "Les GNN représentent les compétences, postes et salariés comme des n…"
+    },
+    {
+        "id":  68,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Quel est le paradoxe du \\u0027privacy calculus\\u0027 pour les salariés face aux outils IA de bien-être au travail ?",
+        "options":  [
+                        "Les salariés trouvent ces outils trop complexes à utiliser",
+                        "Les salariés font un calcul coût-bénéfice : ils acceptent de partager des données personnelles sensibles en échange de bénéfices perçus (meilleure reconnaissance, support), mais sous-estiment les risques de réutilisation de ces données",
+                        "Les salariés refusent unanimement ces outils pour préserver leur vie privée",
+                        "Les salariés n\\u0027ont pas le droit légal de refuser ces outils dès lors qu\\u0027ils sont déployés par l\\u0027employeur"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Les salariés font un calcul coût-bénéfice : ils acceptent de partager des données personnelles sensibles en échange de bénéfices perçus (meilleure reconnaissance, support), mais sous-estiment les risques de réutilisation de ces données",
+        "explanation":  "Le privacy calculus décrit le processus par lequel les individus évaluent les bénéfices vs les risques du partage de données. En RH, un salarié peut accepter qu\\u0027une IA mesure son stress pour bénéficier d\\u0027un soutien, sans réaliser que ces données peuvent être utilisées lors d\\u0027une évaluation de performance ou d\\u0027une décision de promotion."
+    },
+    {
+        "id":  69,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "En quoi le \\u0027disparate impact test\\u0027 (test d\\u0027impact disparate) est-il un outil clé pour auditer un outil IA RH ?",
+        "options":  [
+                        "Il mesure la vitesse de traitement de l\\u0027IA pour différents types de dossiers",
+                        "Il compare les taux de sélection entre groupes protégés et le groupe majoritaire pour détecter une discrimination indirecte statistiquement significative",
+                        "Il teste la conformité technique de l\\u0027outil avec les normes ISO 27001",
+                        "Il évalue la satisfaction des recruteurs utilisant l\\u0027outil IA"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Il compare les taux de sélection entre groupes protégés et le groupe majoritaire pour détecter une discrimination indirecte statistiquement significative",
+        "explanation":  "Le disparate impact test, issu du droit américain (règle des 4/5), analyse si un groupe protégé (femmes, minorités) est sélectionné à un taux inférieur à 80 % du groupe majoritaire. En Europe, une logique similaire s\\u0027applique via le principe de discrimination indirecte : un critère neutre en apparence mais défavorable à un groupe protégé peut être illégal."
+    },
+    {
+        "id":  70,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Quelles sont les limites techniques et éthiques de l\\u0027analyse automatisée des entretiens annuels par NLP pour détecter les signaux de désengagement ?",
+        "options":  [
+                        "Le NLP ne peut analyser que des textes en anglais et les entretiens en français posent problème",
+                        "L\\u0027anonymisation imparfaite, l\\u0027interprétation hors contexte, le risque de profilage des salariés sans leur consentement éclairé et la réduction de la parole à des métriques faussement objectives",
+                        "Les entretiens annuels sont trop courts pour que le NLP puisse en extraire des données significatives",
+                        "Le NLP ne peut détecter que les sentiments positifs et non les signaux négatifs"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L\\u0027anonymisation imparfaite, l\\u0027interprétation hors contexte, le risque de profilage des salariés sans leur consentement éclairé et la réduction de la parole à des métriques faussement objectives",
+        "explanation":  "L\\u0027analyse NLP des entretiens annuels pose plusieurs problèmes : l\\u0027anonymisation peut être contournée par réidentification, le contexte (ton, non-verbal) est perdu, les salariés n\\u0027ont généralement pas consenti à ce type d\\u0027analyse approfondie, et la réduction d\\u0027un entretien riche à des scores peut donner une fausse impression d\\u0027objectivité."
+    },
+    {
+        "id":  71,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Comment le \\u0027transfer learning\\u0027 peut-il accélérer le déploiement d\\u0027un modèle IA de détection du burn-out dans une entreprise qui dispose de peu de données historiques ?",
+        "options":  [
+                        "En transférant les données d\\u0027autres entreprises directement dans le modèle sans anonymisation",
+                        "En partant d\\u0027un modèle pré-entraîné sur de larges datasets généraux (comportements au travail, santé mentale) puis en l\\u0027affinant (fine-tuning) sur les quelques données disponibles de l\\u0027entreprise",
+                        "En achetant les données historiques de burn-out d\\u0027entreprises concurrentes",
+                        "En demandant aux managers de saisir manuellement des exemples de burn-out passés pour entraîner le modèle"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En partant d\\u0027un modèle pré-entraîné sur de larges datasets généraux (comportements au travail, santé mentale) puis en l\\u0027affinant (fine-tuning) sur les quelques données disponibles de l\\u0027entreprise",
+        "explanation":  "Le transfer learning permet de réutiliser les connaissances générales apprises par un grand modèle et de les spécialiser sur un contexte particulier avec peu de données. Pour la détection du burn-out, cela évite de partir de zéro et de nécessiter des années de données d\\u0027entreprise, réduisant le temps et le coût de déploiement."
+    },
+    {
+        "id":  72,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "En quoi le concept de \\u0027responsabilité algorithmique\\u0027 challenge-t-il la doctrine traditionnelle de la responsabilité de l\\u0027employeur en droit du travail français ?",
+        "options":  [
+                        "Il exonère l\\u0027employeur de toute responsabilité si une IA prend une décision discriminatoire à sa place",
+                        "Il pose la question de qui est responsable quand une décision RH nuisible est prise par un algorithme : l\\u0027employeur reste responsable mais peut avoir du mal à expliquer la décision, compliquant le droit de recours du salarié",
+                        "Il transfère la responsabilité vers le fournisseur de l\\u0027outil IA, libérant totalement l\\u0027employeur",
+                        "Il crée une nouvelle catégorie juridique de \\u0027faute algorithmique\\u0027 distincte de la faute de l\\u0027employeur"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Il pose la question de qui est responsable quand une décision RH nuisible est prise par un algorithme : l\\u0027employeur reste responsable mais peut avoir du mal à expliquer la décision, compliquant le droit de recours du salarié",
+        "explanation":  "En droit français, l\\u0027employeur reste responsable des décisions prises avec des outils IA qu\\u0027il a choisi d\\u0027utiliser. Cependant, la complexité des algorithmes rend difficile la démonstration de la chaîne causale d\\u0027une discrimination devant les prud\\u0027hommes, et l\\u0027inexplicabilité des modèles peut priver le salarié d\\u0027un recours effectif."
+    },
+    {
+        "id":  73,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Quel risque spécifique le \\u0027federated learning\\u0027 est-il censé atténuer dans le cadre du développement d\\u0027outils IA RH mutualisés entre plusieurs entreprises ?",
+        "options":  [
+                        "Le risque de surentraînement (overfitting) des modèles sur de petits datasets",
+                        "Le risque de partage direct de données personnelles des salariés entre entreprises, en entraînant le modèle localement chez chaque entreprise sans centraliser les données brutes",
+                        "Le risque de plagiat des algorithmes entre entreprises concurrentes",
+                        "Le risque de dépendance vis-à-vis d\\u0027un seul fournisseur cloud pour le stockage des données RH"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le risque de partage direct de données personnelles des salariés entre entreprises, en entraînant le modèle localement chez chaque entreprise sans centraliser les données brutes",
+        "explanation":  "Le federated learning permet à plusieurs entreprises de contribuer à l\\u0027entraînement d\\u0027un modèle commun (ex. de prédiction du turnover) sans jamais partager leurs données brutes : seuls les gradients (mises à jour du modèle) sont échangés. Cela réduit le risque de violation du RGPD tout en permettant un modèle plus robuste grâce à plus de données."
+    },
+    {
+        "id":  74,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Dans quelle mesure le profilage psychologique des salariés via des outils IA (analyse d\\u0027écriture, de voix, micro-expressions) est-il légalement problématique en France ?",
+        "options":  [
+                        "Il est totalement autorisé si le salarié a signé son contrat de travail",
+                        "Il est légal uniquement pour les postes à responsabilité",
+                        "Il constitue potentiellement un traitement de données sensibles soumis à des restrictions strictes du RGPD et peut relever d\\u0027une atteinte à la vie privée",
+                        "Il est encadré uniquement par le code du sport"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Il constitue potentiellement un traitement de données sensibles soumis à des restrictions strictes du RGPD et peut relever d\\u0027une atteinte à la vie privée",
+        "explanation":  "L\\u0027analyse de voix, de micro-expressions ou d\\u0027écriture pour inférer des traits psychologiques constitue un traitement de données biométriques ou de santé, catégories spéciales sous le RGPD. Sans base légale solide et souvent impossible en pratique, ces techniques sont très risquées juridiquement."
+    },
+    {
+        "id":  75,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Comment la technique du \\u0027reinforcement learning from human feedback\\u0027 (RLHF) peut-elle être appliquée à un outil d\\u0027évaluation des compétences RH ?",
+        "options":  [
+                        "En demandant à l\\u0027IA de s\\u0027auto-évaluer chaque nuit pour s\\u0027améliorer",
+                        "En utilisant les retours des évaluateurs humains pour affiner et corriger les critères d\\u0027évaluation du modèle IA au fil du temps",
+                        "En remplaçant les formateurs par un système de récompenses automatiques",
+                        "En connectant l\\u0027outil IA à des bases de données externes de benchmarks sectoriels"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En utilisant les retours des évaluateurs humains pour affiner et corriger les critères d\\u0027évaluation du modèle IA au fil du temps",
+        "explanation":  "Le RLHF est une technique d\\u0027apprentissage où des évaluateurs humains notent les sorties du modèle, et ces notations servent à entraîner un modèle de récompense qui guide l\\u0027amélioration du système. En RH, cela permet d\\u0027aligner progressivement l\\u0027IA sur les valeurs et standards de l\\u0027entreprise."
+    },
+    {
+        "id":  76,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Qu\\u0027est-ce que le \\u0027concept drift\\u0027 dans un modèle IA RH prédictif et pourquoi nécessite-t-il une attention particulière ?",
+        "options":  [
+                        "Un bug causé par des mises à jour trop fréquentes du logiciel",
+                        "La dérive des performances du modèle lorsque les données réelles évoluent et s\\u0027éloignent des données d\\u0027entraînement",
+                        "Le fait que les salariés changent de poste plus rapidement qu\\u0027avant",
+                        "Une erreur d\\u0027encodage dans les fiches de compétences"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La dérive des performances du modèle lorsque les données réelles évoluent et s\\u0027éloignent des données d\\u0027entraînement",
+        "explanation":  "Un modèle entraîné avant une réorganisation majeure, une crise (ex. COVID) ou une évolution du marché du travail peut devenir inexact. Le concept drift impose de monitorer en continu les performances du modèle et de le réentraîner régulièrement sur des données récentes."
+    },
+    {
+        "id":  77,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Quelle est la différence entre \\u0027équité individuelle\\u0027 et \\u0027équité de groupe\\u0027 dans un algorithme RH, et pourquoi sont-elles parfois en tension ?",
+        "options":  [
+                        "L\\u0027équité individuelle concerne les cadres, l\\u0027équité de groupe les non-cadres",
+                        "L\\u0027équité individuelle traite chaque personne selon ses mérites propres ; l\\u0027équité de groupe assure une représentation proportionnelle ; elles peuvent se contredire si les données historiques sont biaisées",
+                        "L\\u0027équité individuelle est une notion juridique française ; l\\u0027équité de groupe est un concept américain sans portée légale en Europe",
+                        "Ce sont deux termes équivalents décrivant la même propriété mathématique"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L\\u0027équité individuelle traite chaque personne selon ses mérites propres ; l\\u0027équité de groupe assure une représentation proportionnelle ; elles peuvent se contredire si les données historiques sont biaisées",
+        "explanation":  "Il est mathématiquement impossible de satisfaire simultanément toutes les définitions de l\\u0027équité algorithmique (théorème d\\u0027impossibilité de Chouldechova). En RH, optimiser pour l\\u0027équité individuelle peut maintenir des inégalités systémiques, tandis que l\\u0027équité de groupe peut sembler \\u0027injuste\\u0027 au niveau individuel."
+    },
+    {
+        "id":  78,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Comment les modèles de langage (LLM) peuvent-ils être utilisés pour analyser la conformité des procédures RH avec le droit du travail en vigueur ?",
+        "options":  [
+                        "En remplaçant les avocats spécialisés en droit social pour rédiger les jugements prud\\u0027homaux",
+                        "En comparant automatiquement les procédures internes avec une base de connaissances juridique mise à jour, en signalant les écarts et en suggérant des corrections",
+                        "En traduisant les conventions collectives en langage simple pour les salariés",
+                        "En générant automatiquement des contrats de travail validés par le Conseil d\\u0027…?tat"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En comparant automatiquement les procédures internes avec une base de connaissances juridique mise à jour, en signalant les écarts et en suggérant des corrections",
+        "explanation":  "Des LLM spécialisés en droit du travail (RAG sur bases légales à jour) peuvent analyser les procédures RH internes (procédure disciplinaire, règlement intérieur, fiches de poste) et identifier des non-conformités potentielles. Ils constituent un premier niveau de veille juridique, mais leur supervision par un juriste reste indispensable."
+    },
+    {
+        "id":  79,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Qu\\u0027est-ce que le \\u0027chilling effect\\u0027 (effet dissuasif) lié à la surveillance par IA en entreprise et quelles en sont les conséquences RH ?",
+        "options":  [
+                        "Un refroidissement des serveurs qui ralentit les outils IA en hiver",
+                        "La tendance des salariés à s\\u0027autocensurer et modifier leur comportement naturel lorsqu\\u0027ils savent être surveillés, nuisant à la créativité, la prise de risque et la confiance",
+                        "Un effet de démotivation causé par des notes IA trop sévères lors des évaluations",
+                        "Le ralentissement des processus RH dû à la surcharge des systèmes de surveillance"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La tendance des salariés à s\\u0027autocensurer et modifier leur comportement naturel lorsqu\\u0027ils savent être surveillés, nuisant à la créativité, la prise de risque et la confiance",
+        "explanation":  "Le chilling effect, documenté en psychologie sociale et droit constitutionnel, décrit comment la surveillance modifie les comportements vers plus de conformité et moins d\\u0027authenticité. En entreprise, cela se traduit par une réduction de l\\u0027innovation, de la prise d\\u0027initiative, du dialogue social et une augmentation du stress."
+    },
+    {
+        "id":  80,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Quelle est la portée juridique du principe de \\u0027minimisation des données\\u0027 du RGPD appliqué aux outils IA RH de détection du burn-out ?",
+        "options":  [
+                        "Il oblige l\\u0027entreprise à ne collecter que les données strictement nécessaires à la détection du risque identifié, interdisant la collecte préventive de données en dehors de ce périmètre",
+                        "Il oblige l\\u0027entreprise à anonymiser toutes les données RH avant de les analyser",
+                        "Il interdit tout outil de détection du burn-out qui utilise plus de 10 variables",
+                        "Il oblige l\\u0027entreprise à informer chaque salarié en temps réel de chaque donnée collectée"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Il oblige l\\u0027entreprise à ne collecter que les données strictement nécessaires à la détection du risque identifié, interdisant la collecte préventive de données en dehors de ce périmètre",
+        "explanation":  "L\\u0027article 5(1)(c) du RGPD impose que les données soient \\u0027adéquates, pertinentes et limitées à ce qui est nécessaire\\u0027. Pour un outil de détection du burn-out, cela signifie ne collecter que les données directement utiles (absentéisme, horaires) et non pas un profilage global du salarié. La collecte \\u0027au cas où\\u0027 est illégale."
+    },
+    {
+        "id":  81,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Quelles sont les limites de l\\u0027explicabilité des modèles de gradient boosting (XGBoost, LightGBM) utilisés pour prédire le turnover RH ?",
+        "options":  [
+                        "Ces modèles sont entièrement opaques et ne permettent aucune forme d\\u0027explicabilité",
+                        "L\\u0027explicabilité locale (SHAP, LIME) peut identifier les variables influentes pour une prédiction individuelle, mais ne fournit pas d\\u0027explication causale, rendant difficile la prise de décision éthiquement justifiable",
+                        "Ces modèles ont une explicabilité parfaite grâce à leurs arbres de décision internes",
+                        "L\\u0027explicabilité de ces modèles est uniquement accessible aux data scientists et non aux RH"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L\\u0027explicabilité locale (SHAP, LIME) peut identifier les variables influentes pour une prédiction individuelle, mais ne fournit pas d\\u0027explication causale, rendant difficile la prise de décision éthiquement justifiable",
+        "explanation":  "Les valeurs SHAP identifient quelles features ont le plus contribué à une prédiction de turn-over pour un salarié donné, mais il s\\u0027agit de corrélations, pas de causalité. Dire à un manager \\u0027l\\u0027IA prédit un départ car ce salarié a 3 ans d\\u0027ancienneté et n\\u0027a pas été promu\\u0027 est une corrélation, pas une raison d\\u0027agir de façon discriminatoire."
+    },
+    {
+        "id":  82,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Comment le principe de \\u0027privacy by design\\u0027 du RGPD doit-il être appliqué lors du développement d\\u0027un outil IA de surveillance des salariés en télétravail ?",
+        "options":  [
+                        "Il suffit d\\u0027ajouter une charte de confidentialité à la fin du processus de développement",
+                        "La protection des données et la minimisation de la collecte doivent être intégrées dès la conception de l\\u0027outil, avec le moins de données personnelles possible collectées pour atteindre l\\u0027objectif légitime",
+                        "Le principe s\\u0027applique uniquement aux outils développés en interne, pas aux logiciels SaaS achetés à des éditeurs",
+                        "Il suffit de crypter toutes les données collectées pour satisfaire à cette obligation"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La protection des données et la minimisation de la collecte doivent être intégrées dès la conception de l\\u0027outil, avec le moins de données personnelles possible collectées pour atteindre l\\u0027objectif légitime",
+        "explanation":  "L\\u0027article 25 du RGPD impose le privacy by design et le privacy by default : la protection des données doit être pensée dès la conception, pas ajoutée après coup. Pour un outil de surveillance télétravail, cela signifie ne collecter que les données strictement nécessaires (ex. : disponibilité, pas de contenu des e-mails), agréger plutôt qu\\u0027analyser individuellement, et permettre l\\u0027audit."
+    },
+    {
+        "id":  83,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Pourquoi le recours à des \\u0027données d\\u0027entraînement synthétiques\\u0027 ne résout-il pas nécessairement le problème des biais algorithmiques en RH ?",
+        "options":  [
+                        "Parce que les données synthétiques sont illégales selon le RGPD",
+                        "Parce que si les données synthétiques sont générées à partir de données réelles biaisées ou selon des règles conçues par des humains eux-mêmes biaisés, les biais sont préservés ou créés dans les données synthétiques",
+                        "Parce que les modèles entraînés sur données synthétiques sont moins précis que ceux sur données réelles",
+                        "Parce que les données synthétiques ne peuvent pas représenter la diversité des profils RH réels"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que si les données synthétiques sont générées à partir de données réelles biaisées ou selon des règles conçues par des humains eux-mêmes biaisés, les biais sont préservés ou créés dans les données synthétiques",
+        "explanation":  "Les données synthétiques amplifient les distributions statistiques des données d\\u0027origine. Si les données réelles de recrutement montrent une sous-représentation des femmes en tech, les données synthétiques générées à partir de ces données préserveront ce biais. Par ailleurs, les règles de génération des données synthétiques sont rédigées par des humains pouvant introduire leurs propres biais."
+    },
+    {
+        "id":  84,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Comment les architectures RAG (Retrieval-Augmented Generation) peuvent-elles améliorer la fiabilité des chatbots RH pour les questions juridiques complexes ?",
+        "options":  [
+                        "En remplaçant entièrement la base de données juridique par les connaissances générales du LLM",
+                        "En permettant au LLM de rechercher en temps réel dans une base documentaire à jour (Code du travail, conventions collectives, accords d\\u0027entreprise) avant de générer sa réponse, réduisant les hallucinations",
+                        "En filtrant automatiquement les questions juridiques pour les rediriger vers un avocat externe",
+                        "En compressant les textes juridiques pour réduire le temps de réponse du chatbot"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En permettant au LLM de rechercher en temps réel dans une base documentaire à jour (Code du travail, conventions collectives, accords d\\u0027entreprise) avant de générer sa réponse, réduisant les hallucinations",
+        "explanation":  "Le RAG (Retrieval-Augmented Generation) ancre les réponses du LLM dans des documents de référence vérifiés plutôt que dans ses seules connaissances d\\u0027entraînement potentiellement obsolètes. Pour les chatbots RH juridiques, cela signifie que chaque réponse est fondée sur les textes légaux actuels de l\\u0027entreprise, avec citation des sources, réduisant drastiquement le risque d\\u0027hallucination juridique."
+    },
+    {
+        "id":  85,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Quelles sont les limites de la \\u0027parité démographique\\u0027 comme critère d\\u0027équité dans un système IA de sélection de candidats ?",
+        "options":  [
+                        "Elle est trop complexe à calculer pour des entreprises de moins de 500 salariés",
+                        "Forcer une sélection égale entre groupes peut conduire à sélectionner des candidats moins qualifiés dans les groupes surreprésentés, et ignore que des inégalités d\\u0027accès en amont peuvent rendre la comparaison injuste",
+                        "Elle ne s\\u0027applique qu\\u0027aux critères de genre et non aux autres critères protégés",
+                        "Elle n\\u0027est reconnue ni par le droit européen ni par le droit français"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Forcer une sélection égale entre groupes peut conduire à sélectionner des candidats moins qualifiés dans les groupes surreprésentés, et ignore que des inégalités d\\u0027accès en amont peuvent rendre la comparaison injuste",
+        "explanation":  "La parité démographique impose des taux de sélection égaux entre groupes, mais ne tient pas compte des inégalités structurelles qui font que certains groupes ont moins accès aux formations ou aux expériences valorisées. Elle peut également être perçue comme une discrimination positive créant de nouvelles injustices. Les critères d\\u0027équité algorithmique sont multiples et parfois contradictoires (théorème d\\u0027impossibilité)."
+    }
+]

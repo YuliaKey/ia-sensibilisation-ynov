@@ -1,4 +1,4 @@
-.create-account {
+﻿.create-account {
   min-height: 100vh;
   background: #F7F4EE;
   display: flex;
@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-/* ── Header ── */
+/* â”€â”€ Header â”€â”€ */
 .create-account__header {
   background: #F7F4EE;
   padding: 16px 24px 0;
@@ -51,7 +51,7 @@
   transition: width 0.35s ease;
 }
 
-/* ── Body ── */
+/* â”€â”€ Body â”€â”€ */
 .create-account__body {
   flex: 1;
   padding: 40px 24px 24px;
@@ -74,7 +74,7 @@
   margin: 0 0 32px;
 }
 
-/* ── Fields ── */
+/* â”€â”€ Fields â”€â”€ */
 .create-account__fields {
   display: flex;
   flex-direction: column;
@@ -164,7 +164,7 @@
   color: #9ca3af;
 }
 
-/* ── Service grid ── */
+/* â”€â”€ Service grid â”€â”€ */
 .create-account__service-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -194,7 +194,7 @@
   border-color: #0a0a0a;
 }
 
-/* ── Avatar (step 4) ── */
+/* â”€â”€ Avatar (step 4) â”€â”€ */
 .create-account__avatar-wrap {
   display: flex;
   flex-direction: column;
@@ -246,7 +246,7 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
-/* ── Password rules ── */
+/* â”€â”€ Password rules â”€â”€ */
 .create-account__rules {
   list-style: none;
   padding: 10px 4px 0;
@@ -266,7 +266,7 @@
 }
 
 .create-account__rules li::before {
-  content: '•';
+  content: 'â€¢';
   color: #f97316;
   font-size: 14px;
   flex-shrink: 0;
@@ -278,18 +278,18 @@
 }
 
 .create-account__rules li.ok::before {
-  content: '•';
+  content: 'â€¢';
   color: #16a34a;
 }
 
-/* ── Error ── */
+/* â”€â”€ Error â”€â”€ */
 .create-account__error {
   font-size: 13px;
   color: #ef4444;
   margin: 8px 0 0;
 }
 
-/* ── Footer ── */
+/* â”€â”€ Footer â”€â”€ */
 .create-account__footer {
   display: flex;
   flex-direction: column;
@@ -364,4 +364,50 @@
   background: #0a0a0a;
   color: #fff;
   border-color: #0a0a0a;
+}
+
+/* ===========================================================================
+   DESKTOP (>= 900px)
+   =========================================================================== */
+@media (min-width: 900px) {
+  .create-account {
+    background: linear-gradient(to bottom left, #efe7fb 0%, #fafbf7 48%, #e7f6e6 100%);
+    align-items: center;
+    padding-bottom: 56px;
+  }
+
+  .create-account__header {
+    width: 100%;
+    max-width: 560px;
+    background: transparent;
+    padding-top: 48px;
+  }
+
+  .create-account__body {
+    width: 100%;
+    max-width: 560px;
+    padding-top: 32px;
+  }
+
+  .create-account__footer {
+    width: 100%;
+    max-width: 560px;
+  }
+
+  /* Champs : fond légèrement teinté propre sur fond clair */
+  .create-account__input {
+    background: #f3f3f8;
+  }
+  .create-account__input:focus {
+    background: #eaeaf2;
+  }
+
+  .create-account__level,
+  .create-account__service-btn {
+    background: #f3f3f8;
+  }
+  .create-account__level:hover:not(.create-account__level--active),
+  .create-account__service-btn:hover:not(.create-account__service-btn--active) {
+    background: #eaeaf2;
+  }
 }

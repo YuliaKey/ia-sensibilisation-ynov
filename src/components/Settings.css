@@ -39,7 +39,7 @@
   font-weight: 700;
   color: #0a0a0a;
   text-align: center;
-  margin: 4px 0 16px;
+  margin: 20px 0 16px; /* espace en haut (le header n'est plus là) */
   letter-spacing: -0.5px;
 }
 
@@ -358,28 +358,78 @@
    DESKTOP (>= 900px)
    =========================================================================== */
 @media (min-width: 900px) {
+
+  /* Toutes les pages réglages : dégradé + centré */
   .settings {
     background: linear-gradient(to bottom left, #efe7fb 0%, #fafbf7 48%, #e7f6e6 100%);
     align-items: center;
     padding-bottom: 0;
   }
 
-  /* Masque le header mobile (back + logo) sur desktop :
-     la navbar BottomNav s'en charge */
-  .settings__header {
-    display: none;
+  /* ── Page principale Réglages ── */
+  .settings--main .settings__title {
+    margin-top: 96px;
+    text-align: left;
+    width: 100%;
+    max-width: 640px;
+  }
+  .settings--main .settings__body {
+    width: 100%;
+    max-width: 640px;
+    padding: 0 0 80px;
   }
 
+  /* ── Sous-pages (Profil, Confidentialité, FAQ…) ── */
+  /* Header sticky façon navbar : logo centré + bouton Retour */
+  .settings__header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    max-width: 100%;
+    height: 64px;
+    padding: 0 56px;
+    box-sizing: border-box;
+    /* background: rgba(255, 255, 255, 0.82); */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.07); */
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .settings__header .settings__back {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6b7280;
+    padding: 8px 0;
+    gap: 6px;
+  }
+  .settings__header .settings__back:hover {
+    color: #1c1c22;
+  }
+
+  /* Titre des sous-pages */
   .settings__title {
-    margin-top: 96px; /* compense la navbar fixe */
+    margin-top: 32px;
     text-align: left;
     width: 100%;
     max-width: 640px;
   }
 
+  /* Corps des sous-pages */
   .settings__body {
     width: 100%;
     max-width: 640px;
-    padding: 0 0 80px;
+    padding: 0 0 56px;
+  }
+
+  /* Contenu légal (CGU, Charte) : carte blanche */
+  .settings-legal {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 32px 36px;
+    box-shadow: 0 8px 32px rgba(80, 60, 120, 0.08);
   }
 }

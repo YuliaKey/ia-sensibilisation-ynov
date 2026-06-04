@@ -1,0 +1,1282 @@
+[
+    {
+        "id":  1,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce qu\\u0027un outil d\\u0027IA de revue automatisée de contrats peut faire concrètement ?",
+        "options":  [
+                        "Signer électroniquement les contrats à la place du juriste",
+                        "Identifier les clauses importantes, les risques et les écarts par rapport à un modèle de référence",
+                        "Négocier automatiquement les termes avec la partie adverse",
+                        "Enregistrer les contrats auprès des greffes de tribunaux"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Identifier les clauses importantes, les risques et les écarts par rapport à un modèle de référence",
+        "explanation":  "Les outils de contract review IA analysent le texte contractuel pour extraire les clauses clés (durée, pénalités, résiliation), détecter les clauses inhabituelles et signaler les écarts par rapport aux standards de l\\u0027entreprise."
+    },
+    {
+        "id":  2,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle aider un juriste dans sa recherche juridique ?",
+        "options":  [
+                        "En cherchant et synthétisant rapidement la jurisprudence et les textes de loi pertinents",
+                        "En remplaçant les bases de données juridiques comme Dalloz ou Lexis",
+                        "En rédigeant automatiquement les conclusions à déposer devant le tribunal",
+                        "En accédant aux dossiers confidentiels des juridictions"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "En cherchant et synthétisant rapidement la jurisprudence et les textes de loi pertinents",
+        "explanation":  "L\\u0027IA peut parcourir des milliers de décisions de justice et de textes législatifs pour identifier ceux qui sont pertinents et en proposer une synthèse, réduisant considérablement le temps de recherche documentaire."
+    },
+    {
+        "id":  3,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Pourquoi un juriste ne doit-il pas saisir des informations confidentielles d\\u0027un dossier client dans un chatbot IA public ?",
+        "options":  [
+                        "Parce que le chatbot ne comprend pas le langage juridique",
+                        "Parce que les réponses seront facturées au client final",
+                        "Parce que cela peut violer le secret professionnel et exposer les données du client",
+                        "Parce que les chatbots ne sont pas autorisés par le barreau à traiter des dossiers"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Parce que cela peut violer le secret professionnel et exposer les données du client",
+        "explanation":  "Le secret professionnel de l\\u0027avocat et du juriste est absolu. Saisir des informations client dans un outil tiers non sécurisé peut constituer une violation de ce secret et exposer le professionnel à des sanctions disciplinaires."
+    },
+    {
+        "id":  4,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qui est responsable d\\u0027une erreur juridique contenue dans un document rédigé avec l\\u0027aide d\\u0027un outil IA ?",
+        "options":  [
+                        "Le fournisseur de l\\u0027outil IA",
+                        "L\\u0027IA elle-même, qui a commis l\\u0027erreur",
+                        "Le client qui a demandé le document",
+                        "Le juriste ou l\\u0027avocat qui a utilisé l\\u0027outil et validé le document"
+                    ],
+        "correct_index":  3,
+        "correct_answer":  "Le juriste ou l\\u0027avocat qui a utilisé l\\u0027outil et validé le document",
+        "explanation":  "En droit, le professionnel du droit reste entièrement responsable de l\\u0027acte qu\\u0027il signe ou valide. L\\u0027IA n\\u0027a pas de personnalité juridique : son utilisateur professionnel assume la responsabilité des erreurs, même si l\\u0027IA les a introduites."
+    },
+    {
+        "id":  5,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Quelle est une limite importante des outils d\\u0027IA pour la recherche juridique aujourd\\u0027hui ?",
+        "options":  [
+                        "Ils ne peuvent analyser que les lois antérieures à 1990",
+                        "Ils ne fonctionnent qu\\u0027en anglais pour les questions de droit français",
+                        "Ils nécessitent une connexion directe aux serveurs du Conseil d\\u0027…?tat",
+                        "Ils peuvent citer des décisions de justice inexistantes ou mal retranscrire des sources"
+                    ],
+        "correct_index":  3,
+        "correct_answer":  "Ils peuvent citer des décisions de justice inexistantes ou mal retranscrire des sources",
+        "explanation":  "Les phénomènes d\\u0027hallucination des modèles de langage sont particulièrement dangereux en droit : plusieurs avocats ont déjà cité devant des tribunaux des arrêts inventés par l\\u0027IA, entraînant des sanctions disciplinaires graves."
+    },
+    {
+        "id":  6,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qu\\u0027impose l\\u0027article 22 du RGPD concernant le traitement automatisé de données personnelles dans un contexte juridique ?",
+        "options":  [
+                        "Il l\\u0027interdit totalement pour les professions juridiques",
+                        "Il impose que toute décision entièrement automatisée ayant des effets significatifs soit soumise à un droit d\\u0027opposition",
+                        "Il autorise le traitement automatisé sans restriction si les données sont chiffrées",
+                        "Il exige uniquement un consentement oral de la personne concernée"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Il impose que toute décision entièrement automatisée ayant des effets significatifs soit soumise à un droit d\\u0027opposition",
+        "explanation":  "L\\u0027article 22 du RGPD protège les personnes contre les décisions automatisées à effets juridiques significatifs. Elles ont le droit d\\u0027obtenir une intervention humaine, d\\u0027exprimer leur point de vue et de contester la décision."
+    },
+    {
+        "id":  7,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Dans quel domaine l\\u0027IA générative peut-elle aider un service juridique d\\u0027entreprise à gagner du temps ?",
+        "options":  [
+                        "La certification des documents officiels de l\\u0027entreprise",
+                        "La représentation de l\\u0027entreprise devant les tribunaux",
+                        "La rédaction d\\u0027un premier jet de contrats, NDA ou conditions générales",
+                        "La gestion des relations avec les greffes de tribunaux"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "La rédaction d\\u0027un premier jet de contrats, NDA ou conditions générales",
+        "explanation":  "L\\u0027IA générative peut produire une première version de documents juridiques courants (NDA, CGV, contrats de prestation) que le juriste relit, adapte et valide, réduisant considérablement le temps de rédaction."
+    },
+    {
+        "id":  8,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi l\\u0027IA ne peut-elle pas remplacer complètement le conseil juridique d\\u0027un avocat ou d\\u0027un juriste ?",
+        "options":  [
+                        "Parce que les barreaux ont techniquement bloqué l\\u0027accès aux IA",
+                        "Parce que le droit requiert une analyse contextuelle, un jugement humain et une responsabilité professionnelle que l\\u0027IA ne peut assumer",
+                        "Parce que l\\u0027IA ne peut lire que des PDF et non des contrats papier",
+                        "Parce que l\\u0027IA n\\u0027a pas accès à Internet"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que le droit requiert une analyse contextuelle, un jugement humain et une responsabilité professionnelle que l\\u0027IA ne peut assumer",
+        "explanation":  "Le droit n\\u0027est pas que technique : il implique l\\u0027interprétation de l\\u0027intention des parties, la prise en compte du contexte humain et économique, et la responsabilité d\\u0027un professionnel. Ces dimensions dépassent les capacités actuelles des IA."
+    },
+    {
+        "id":  9,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel est le risque principal lorsqu\\u0027un outil IA génère du contenu juridique s\\u0027appuyant sur des textes protégés par des droits d\\u0027auteur ?",
+        "options":  [
+                        "Le document ne sera pas valide devant un tribunal",
+                        "L\\u0027IA sera automatiquement considérée comme l\\u0027auteur du document",
+                        "Le contenu pourrait constituer une reproduction non autorisée d\\u0027une …",
+                        ",\r\n                        "
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Le contenu pourrait constituer une reproduction non autorisée d\\u0027une …",
+        "explanation":  "Les modèles IA sont entraînés sur de vastes corpus incluant des textes protégés. Le contenu généré peut reproduire des formulations protégées par le droit d\\u0027auteur, exposant l\\u0027utilisateur à des risques de contrefaçon."
+    },
+    {
+        "id":  10,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Pourquoi la profession d\\u0027avocat est-elle particulièrement sensible à l\\u0027adoption de l\\u0027IA ?",
+        "options":  [
+                        "Parce que les avocats ont peur de perdre leur emploi en raison du coût des licences IA",
+                        "Parce que les tribunaux interdisent formellement l\\u0027usage de l\\u0027IA dans les plaidoiries",
+                        "Parce que l\\u0027IA ne peut pas analyser des textes en latin du droit romain",
+                        "Parce que le secret professionnel, la déontologie et la responsabilité personnelle créent des contraintes spécifiques à l\\u0027usage de l\\u0027IA"
+                    ],
+        "correct_index":  3,
+        "correct_answer":  "Parce que le secret professionnel, la déontologie et la responsabilité personnelle créent des contraintes spécifiques à l\\u0027usage de l\\u0027IA",
+        "explanation":  "La profession d\\u0027avocat est encadrée par une déontologie stricte. Le secret professionnel absolu, l\\u0027indépendance professionnelle et la responsabilité personnelle imposent des précautions particulières qui ne s\\u0027appliquent pas à d\\u0027autres secteurs."
+    },
+    {
+        "id":  11,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle aider un juriste dans une procédure d\\u0027arbitrage international ?",
+        "options":  [
+                        "Elle remplace l\\u0027arbitre pour rendre la sentence finale",
+                        "Elle traduit automatiquement les pièces et synthétise les arguments des deux parties",
+                        "Elle négocie directement avec le tribunal arbitral",
+                        "Elle homologue automatiquement la sentence arbitrale dans tous les pays"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Elle traduit automatiquement les pièces et synthétise les arguments des deux parties",
+        "explanation":  "Dans l\\u0027arbitrage international, les dossiers comportent souvent des milliers de pièces dans plusieurs langues. L\\u0027IA peut traduire, indexer et synthétiser ces documents, facilitant le travail des conseils et réduisant les coûts de procédure."
+    },
+    {
+        "id":  12,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "…? quoi sert un outil IA d\\u0027analyse des décisions judiciaires ?",
+        "options":  [
+                        "…? rédiger automatiquement les jugements à la place du tribunal",
+                        "…? identifier des tendances dans les décisions rendues par une juridiction ou un juge",
+                        "…? notifier automatiquement les parties d\\u0027une décision de justice",
+                        "…? enregistrer les décisions au registre national des jugements"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "…? identifier des tendances dans les décisions rendues par une juridiction ou un juge",
+        "explanation":  "Les outils d\\u0027analyse des décisions judiciaires par IA permettent d\\u0027identifier des tendances jurisprudentielles, les critères retenus par un tribunal ou un juge, et d\\u0027évaluer la cohérence des décisions dans le temps, aidant ainsi les juristes à anticiper les issues contentieuses."
+    },
+    {
+        "id":  13,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Qu\\u0027est-ce qu\\u0027une hallucination dans un LLM utilisé à des fins juridiques ?",
+        "options":  [
+                        "Un bug qui fait planter l\\u0027application lors d\\u0027une recherche",
+                        "Une réponse visuellement perturbée avec des caractères illisibles",
+                        "La génération par l\\u0027IA d\\u0027informations fausses mais présentées avec assurance, comme des lois ou arrêts inexistants",
+                        "Un délai de réponse trop long qui perturbe le juriste"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "La génération par l\\u0027IA d\\u0027informations fausses mais présentées avec assurance, comme des lois ou arrêts inexistants",
+        "explanation":  "L\\u0027hallucination est l\\u0027un des risques majeurs des LLM en contexte juridique : le modèle peut citer des articles de loi, des arrêts ou des auteurs qui n\\u0027existent pas, avec une confiance apparente. Des avocats ont déjà été sanctionnés pour avoir soumis à des tribunaux des références inventées par l\\u0027IA."
+    },
+    {
+        "id":  14,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Pourquoi l\\u0027utilisation de l\\u0027IA dans les procédures d\\u0027appels d\\u0027offres publics soulève-t-elle des questions éthiques ?",
+        "options":  [
+                        "Parce que les collectivités publiques n\\u0027ont pas le droit d\\u0027utiliser des logiciels privés",
+                        "Parce que l\\u0027IA peut favoriser des biais dans l\\u0027évaluation des offres et violer le principe d\\u0027égalité de traitement des candidats",
+                        "Parce que les appels d\\u0027offres publics doivent obligatoirement être rédigés à la main",
+                        "Parce que seuls les juristes certifiés peuvent rédiger des marchés publics"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que l\\u0027IA peut favoriser des biais dans l\\u0027évaluation des offres et violer le principe d\\u0027égalité de traitement des candidats",
+        "explanation":  "Dans les marchés publics, le principe d\\u0027égalité de traitement est fondamental. Un outil IA qui évalue ou filtre les candidatures peut reproduire des biais liés à ses données d\\u0027entraînement, compromettant l\\u0027équité de la procédure et exposant l\\u0027acheteur public à des recours contentieux."
+    },
+    {
+        "id":  15,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi l\\u0027IA ne peut-elle pas valider seule la conformité d\\u0027un dossier d\\u0027exportation soumis au contrôle export (export control) ?",
+        "options":  [
+                        "Parce que les dossiers d\\u0027export sont toujours en anglais et l\\u0027IA ne comprend que le français",
+                        "Parce que le contrôle export implique des décisions souveraines et des listes de sanctions qui changent en temps réel",
+                        "Parce que les douanes refusent tout document généré par une IA",
+                        "Parce que l\\u0027IA ne peut pas lire les codes douaniers de nomenclature"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que le contrôle export implique des décisions souveraines et des listes de sanctions qui changent en temps réel",
+        "explanation":  "La compliance export control nécessite de vérifier des listes de sanctions (OFAC, UE, ONU) mises à jour en continu, d\\u0027interpréter des régimes d\\u0027autorisation complexes et de prendre des décisions engageant la responsabilité pénale de l\\u0027entreprise. Ces éléments exigent une supervision humaine constante."
+    },
+    {
+        "id":  16,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle assister un service juridique dans la détection de fraude fiscale interne ?",
+        "options":  [
+                        "En collectant les données fiscales des concurrents pour comparaison",
+                        "En remplaçant l\\u0027expert-comptable pour établir les déclarations fiscales",
+                        "En analysant des schémas d\\u0027optimisation anormaux dans les flux financiers et en alertant sur des risques de requalification",
+                        "En transmettant automatiquement les suspicions à la Direction Générale des Finances Publiques"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "En analysant des schémas d\\u0027optimisation anormaux dans les flux financiers et en alertant sur des risques de requalification",
+        "explanation":  "Les outils IA de tax compliance peuvent détecter des montages d\\u0027optimisation fiscale présentant des caractéristiques d\\u0027abus de droit ou d\\u0027acte anormal de gestion, en croisant des données financières internes avec la jurisprudence fiscale, et alerter le juriste avant un contrôle fiscal."
+    },
+    {
+        "id":  17,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Un salarié peut-il être licencié sur la seule décision d\\u0027un algorithme IA en droit français ?",
+        "options":  [
+                        "Oui, si le règlement intérieur le prévoit",
+                        "Oui, si le salarié a donné son accord préalable par écrit",
+                        "Non, toute décision de licenciement requiert une motivation humaine et un entretien préalable",
+                        "Oui, pour les entreprises de plus de 500 salariés soumises à des objectifs de performance"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Non, toute décision de licenciement requiert une motivation humaine et un entretien préalable",
+        "explanation":  "Le droit du travail français impose un entretien préalable au licenciement, une lettre de motivation circonstanciée et un processus impliquant un décideur humain identifié. Un licenciement fondé uniquement sur une décision algorithmique serait sans cause réelle et sérieuse et exposé à des sanctions."
+    },
+    {
+        "id":  18,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Quelle est la principale limite de l\\u0027IA pour assister une médiation entre deux parties en litige ?",
+        "options":  [
+                        "L\\u0027IA ne peut pas analyser des documents de plus de 100 pages",
+                        "L\\u0027IA ne peut pas facturer ses services de médiation",
+                        "La médiation requiert une empathie, une intelligence émotionnelle et une présence physique que l\\u0027IA ne possède pas",
+                        "L\\u0027IA ne connaît pas les règles de la médiation civile française"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "La médiation requiert une empathie, une intelligence émotionnelle et une présence physique que l\\u0027IA ne possède pas",
+        "explanation":  "La médiation est fondée sur la confiance, l\\u0027écoute active et la gestion des émotions des parties. Si l\\u0027IA peut préparer les dossiers ou proposer des options de compromis, elle ne peut pas remplacer le médiateur humain dans sa capacité à créer un espace de dialogue authentique."
+    },
+    {
+        "id":  20,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce qu\\u0027un smart contract et quel rôle peut jouer l\\u0027IA dans son exécution ?",
+        "options":  [
+                        "Un contrat rédigé en langage clair par une IA générative",
+                        "Un contrat papier intelligent avec une puce RFID intégrée",
+                        "Un programme informatique qui exécute automatiquement des obligations contractuelles lorsque des conditions prédéfinies sont remplies, pouvant être optimisé par IA",
+                        "Un système de signature électronique avancé homologué par l\\u0027ANSSI"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Un programme informatique qui exécute automatiquement des obligations contractuelles lorsque des conditions prédéfinies sont remplies, pouvant être optimisé par IA",
+        "explanation":  "Un smart contract est un programme déployé sur une blockchain qui exécute automatiquement des clauses contractuelles (paiement, livraison, résiliation) dès que les conditions codées sont satisfaites. L\\u0027IA peut assister la rédaction du code du contrat et la vérification de la conformité des conditions."
+    },
+    {
+        "id":  21,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Pourquoi la protection des données personnelles dans les dossiers clients juridiques est-elle particulièrement sensible ?",
+        "options":  [
+                        "Parce que les clients des avocats sont toujours des personnes publiques",
+                        "Parce que les dossiers juridiques contiennent souvent des données sensibles (santé, situation familiale, infractions) bénéficiant d\\u0027une protection renforcée",
+                        "Parce que le RGPD ne s\\u0027applique pas aux cabinets d\\u0027avocats de moins de 10 personnes",
+                        "Parce que les barreaux ont leur propre système de protection des données distinct du RGPD"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que les dossiers juridiques contiennent souvent des données sensibles (santé, situation familiale, infractions) bénéficiant d\\u0027une protection renforcée",
+        "explanation":  "Les dossiers traités par un service juridique ou un cabinet d\\u0027avocat comportent fréquemment des données de santé, des données relatives à des infractions pénales ou des situations familiales. Ces catégories particulières de données bénéficient d\\u0027une protection spécifique aux articles 9 et 10 du RGPD."
+    },
+    {
+        "id":  22,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Pourquoi un outil IA utilisé pour la surveillance des communications des salariés peut-il exposer l\\u0027employeur à des sanctions ?",
+        "options":  [
+                        "Parce que l\\u0027IA génère trop d\\u0027alertes qui saturent le service RH",
+                        "Parce que la surveillance des communications sans base légale, information préalable et proportionnalité viole le droit au respect de la vie privée",
+                        "Parce que les outils de surveillance IA sont interdits dans les entreprises de moins de 250 salariés",
+                        "Parce que la CNIL interdit tout monitoring des emails professionnels"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que la surveillance des communications sans base légale, information préalable et proportionnalité viole le droit au respect de la vie privée",
+        "explanation":  "La surveillance des communications des salariés est encadrée par l\\u0027article 8 de la CEDH, le RGPD et la jurisprudence de la Cour de cassation. Elle nécessite une base légale, une information préalable des salariés et doit être proportionnée au but poursuivi. Une IA qui analyse les emails ou messages en masse sans ces garanties expose l\\u0027employeur à des sanctions CNIL et à une nullité des preuves obtenues."
+    },
+    {
+        "id":  23,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Qu\\u0027est-ce que l\\u0027accréditation d\\u0027un système IA à usage juridique et pourquoi est-elle importante ?",
+        "options":  [
+                        "C\\u0027est la mise à jour automatique du logiciel par son éditeur",
+                        "C\\u0027est la reconnaissance officielle par un organisme compétent que le système répond à des critères de fiabilité, de sécurité et d\\u0027exactitude suffisants pour son usage juridique prévu",
+                        "C\\u0027est le contrat de licence signé entre l\\u0027éditeur IA et le cabinet d\\u0027avocats",
+                        "C\\u0027est la note attribuée par les utilisateurs sur les plateformes d\\u0027évaluation en ligne"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "C\\u0027est la reconnaissance officielle par un organisme compétent que le système répond à des critères de fiabilité, de sécurité et d\\u0027exactitude suffisants pour son usage juridique prévu",
+        "explanation":  "L\\u0027accréditation d\\u0027un système IA juridique garantit aux utilisateurs professionnels que le système a été évalué de façon indépendante. Elle couvre la précision des analyses, la résistance aux attaques adversariales, la traçabilité des décisions et la conformité aux exigences réglementaires comme l\\u0027AI Act, réduisant la responsabilité professionnelle de l\\u0027utilisateur."
+    },
+    {
+        "id":  24,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Dans quel cas l\\u0027IA peut-elle aider un service juridique dans la gestion d\\u0027un contentieux fiscal international ?",
+        "options":  [
+                        "En représentant l\\u0027entreprise devant l\\u0027administration fiscale étrangère",
+                        "En analysant automatiquement les conventions fiscales bilatérales pour identifier les mécanismes d\\u0027élimination de la double imposition applicables",
+                        "En calculant les impôts dus dans chaque pays sans vérification humaine",
+                        "En déposant les déclarations fiscales dans tous les pays d\\u0027implantation du groupe"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En analysant automatiquement les conventions fiscales bilatérales pour identifier les mécanismes d\\u0027élimination de la double imposition applicables",
+        "explanation":  "Les outils IA peuvent analyser les réseaux de conventions fiscales bilatérales (plus de 3 000 au niveau mondial) pour identifier les mécanismes applicables à une situation de double imposition, les clauses de non-discrimination, les procédures amiables disponibles, ce qui réduirait des heures de recherche manuelle à quelques minutes."
+    },
+    {
+        "id":  25,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Pourquoi la transparence algorithmique est-elle une exigence fondamentale pour les outils IA utilisés dans le cadre de décisions judiciaires ?",
+        "options":  [
+                        "Pour permettre aux éditeurs de logiciels de protéger leurs brevets algorithmiques",
+                        "Pour permettre aux avocats de facturer des honoraires plus élevés",
+                        "Pour garantir le droit des parties à comprendre et contester les éléments qui fondent une décision les concernant",
+                        "Pour satisfaire aux exigences de reporting financier des entreprises cotées"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Pour garantir le droit des parties à comprendre et contester les éléments qui fondent une décision les concernant",
+        "explanation":  "La transparence algorithmique dans les décisions judiciaires est une exigence du droit fondamental au procès équitable. Si un outil IA influe sur une décision, les parties doivent pouvoir comprendre la logique utilisée et la contester. Sans transparence, le droit à un recours effectif est vidé de sa substance."
+    },
+    {
+        "id":  26,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Pourquoi un contrat rédigé par IA sans relecture juridique peut-il contenir des clauses abusives sans que l\\u0027entreprise s\\u0027en aperçoive ?",
+        "options":  [
+                        "Parce que l\\u0027IA rédige toujours en faveur de la partie adverse",
+                        "Parce que l\\u0027IA peut reproduire des formulations standard qui, dans un contexte B2C, sont réputées abusives par la Commission des clauses abusives ou la jurisprudence",
+                        "Parce que les clauses abusives sont toujours en petits caractères et l\\u0027IA ne les voit pas",
+                        "Parce que l\\u0027IA ne connaît pas la distinction entre droit B2B et droit B2C"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que l\\u0027IA peut reproduire des formulations standard qui, dans un contexte B2C, sont réputées abusives par la Commission des clauses abusives ou la jurisprudence",
+        "explanation":  "La liste des clauses abusives (grises et noires) de l\\u0027article R212-1 et R212-2 du Code de la consommation évolue régulièrement. Un LLM entraîné sur des contrats anciens peut reproduire des clauses depuis lors qualifiées d\\u0027abusives, exposant l\\u0027entreprise à des actions en nullité ou à des actions collectives des associations de consommateurs."
+    },
+    {
+        "id":  27,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle aider un service juridique à préparer un dossier de dépôt de marque en vérifiant les antériorités ?",
+        "options":  [
+                        "En déposant automatiquement la marque à l\\u0027INPI sans intervention humaine",
+                        "En analysant les bases de données de marques existantes pour identifier des signes susceptibles d\\u0027entraîner un refus ou une opposition",
+                        "En protégeant automatiquement la marque dans tous les pays du monde",
+                        "En négociant avec les titulaires de marques antérieures conflictuelles"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En analysant les bases de données de marques existantes pour identifier des signes susceptibles d\\u0027entraîner un refus ou une opposition",
+        "explanation":  "Des outils IA de recherche de marques peuvent analyser les bases de données de l\\u0027INPI, de l\\u0027EUIPO et de l\\u0027OMPI pour identifier des antériorités phonétiques, visuelles ou conceptuelles susceptibles d\\u0027entraîner un refus ou une opposition. Ils permettent au juriste d\\u0027évaluer les risques avant de conseiller le dépôt et de définir une stratégie de protection appropriée."
+    },
+    {
+        "id":  28,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi les décisions d\\u0027un outil IA de scoring de risque juridique ne doivent-elles pas être appliquées automatiquement sans validation humaine ?",
+        "options":  [
+                        "Parce que les scores générés sont toujours trop élevés et créent une paralysie décisionnelle",
+                        "Parce que le score ne capture pas tous les facteurs contextuels et que le professionnel doit exercer son jugement, notamment face à des situations atypiques non couvertes par le modèle",
+                        "Parce que les outils de scoring IA ne sont pas compatibles avec les systèmes de gestion de dossiers juridiques",
+                        "Parce que les outils de scoring ne fonctionnent que pour les litiges commerciaux, pas pour les autres domaines du droit"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que le score ne capture pas tous les facteurs contextuels et que le professionnel doit exercer son jugement, notamment face à des situations atypiques non couvertes par le modèle",
+        "explanation":  "Les modèles de scoring de risque sont construits sur des données historiques et des variables identifiées. Ils ne peuvent pas capturer tous les facteurs contextuels d\\u0027un dossier (personnalité du juge, contexte économique conjoncturel, arguments novateurs) et sont inopérants face à des situations atypiques. Le professionnel doit utiliser le score comme indicateur, non comme décision."
+    },
+    {
+        "id":  29,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment un outil IA de due diligence contractuelle peut-il accélérer une opération de fusion-acquisition ?",
+        "options":  [
+                        "En négociant directement avec les conseils de la partie adverse",
+                        "En analysant automatiquement des centaines de contrats pour identifier les clauses de changement de contrôle et les risques",
+                        "En calculant automatiquement le prix d\\u0027acquisition cible",
+                        "En enregistrant la transaction auprès des autorités de régulation"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En analysant automatiquement des centaines de contrats pour identifier les clauses de changement de contrôle et les risques",
+        "explanation":  "Lors d\\u0027une due diligence M\\u0026A, les équipes juridiques doivent analyser des milliers de contrats. L\\u0027IA peut extraire automatiquement les clauses critiques (change of control, résiliation, confidentialité), réduisant le délai de plusieurs semaines à quelques jours."
+    },
+    {
+        "id":  30,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "L\\u0027AI Act européen impose-t-il des obligations aux systèmes IA utilisés pour assister des décisions judiciaires ?",
+        "options":  [
+                        "Oui, ils sont classés à haut risque et soumis à des exigences strictes de transparence, de supervision humaine et d\\u0027auditabilité",
+                        "Non, les systèmes judiciaires sont explicitement exclus de l\\u0027AI Act",
+                        "Uniquement si le système est utilisé par un juge, pas par un avocat",
+                        "Oui, mais seulement pour les décisions pénales, pas civiles ou commerciales"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Oui, ils sont classés à haut risque et soumis à des exigences strictes de transparence, de supervision humaine et d\\u0027auditabilité",
+        "explanation":  "L\\u0027AI Act classe les systèmes IA utilisés dans l\\u0027administration de la justice dans la catégorie \\u0027haut risque\\u0027. Ils doivent respecter des obligations de documentation, permettre la supervision humaine et être suffisamment transparents pour que les décisions puissent être expliquées."
+    },
+    {
+        "id":  31,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel risque spécifique pose l\\u0027utilisation d\\u0027un outil IA de rédaction de contrats non audité par le service juridique ?",
+        "options":  [
+                        "Le contrat sera rédigé en trop peu de temps",
+                        "L\\u0027outil IA peut refuser de rédiger certains types de contrats",
+                        "Des clauses incomplètes, ambiguës ou contraires au droit applicable peuvent passer inaperçues",
+                        "Le contrat sera trop long et détaillé pour être utile"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Des clauses incomplètes, ambiguës ou contraires au droit applicable peuvent passer inaperçues",
+        "explanation":  "Les outils IA générateurs de contrats peuvent produire des clauses syntaxiquement correctes mais juridiquement défaillantes ou inadaptées au droit local. Sans relecture par un juriste qualifié, ces erreurs peuvent engager la responsabilité de l\\u0027entreprise."
+    },
+    {
+        "id":  32,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi la conformité RGPD ne peut-elle pas être entièrement automatisée par une IA ?",
+        "options":  [
+                        "Parce que la CNIL interdit formellement l\\u0027usage de l\\u0027IA pour la conformité RGPD",
+                        "Parce que les outils RGPD IA ne fonctionnent qu\\u0027en anglais",
+                        "Parce que les mises à jour du RGPD sont trop fréquentes pour les modèles IA",
+                        "Parce que la conformité requiert des jugements contextuels, une mise en balance des intérêts et une responsabilité humaine non délégable"
+                    ],
+        "correct_index":  3,
+        "correct_answer":  "Parce que la conformité requiert des jugements contextuels, une mise en balance des intérêts et une responsabilité humaine non délégable",
+        "explanation":  "Le RGPD impose notamment la mise en balance des intérêts légitimes, l\\u0027appréciation du caractère sensible des données, et la désignation d\\u0027un DPO responsable. Ces décisions impliquent un jugement humain que l\\u0027IA ne peut remplacer."
+    },
+    {
+        "id":  33,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle aider un service juridique à surveiller la conformité réglementaire en continu ?",
+        "options":  [
+                        "En bloquant automatiquement les actions non conformes dans les systèmes métier",
+                        "En surveillant les publications officielles et en alertant sur les nouvelles obligations applicables",
+                        "En négociant des dérogations réglementaires auprès des autorités",
+                        "En certifiant automatiquement la conformité de l\\u0027entreprise"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En surveillant les publications officielles et en alertant sur les nouvelles obligations applicables",
+        "explanation":  "Les outils de regulatory intelligence IA surveillent les journaux officiels, les publications des autorités de régulation et la jurisprudence pour alerter automatiquement les équipes juridiques des nouvelles obligations qui leur sont applicables."
+    },
+    {
+        "id":  34,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "…? qui appartient le droit d\\u0027auteur sur un contrat commercial entièrement rédigé par une IA sans intervention humaine créative ?",
+        "options":  [
+                        "…? l\\u0027entreprise fournisseur de l\\u0027outil IA",
+                        "…? l\\u0027IA elle-même en tant qu\\u0027auteur reconnu",
+                        "En droit français et européen actuel, aucun droit d\\u0027auteur n\\u0027est reconnu car l\\u0027…",
+                        ",\r\n                        "
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "En droit français et européen actuel, aucun droit d\\u0027auteur n\\u0027est reconnu car l\\u0027…",
+        "explanation":  "Le droit d\\u0027auteur français et européen exige une création originale issue d\\u0027un effort intellectuel humain. Une …"
+    },
+    {
+        "id":  35,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle détecter un abus de position dominante algorithmique dans le droit de la concurrence ?",
+        "options":  [
+                        "En remplaçant l\\u0027Autorité de la concurrence dans ses enquêtes",
+                        "En analysant des données de prix et de comportements de marché pour identifier des schémas anticoncurrentiels générés par des algorithmes de tarification",
+                        "En bloquant automatiquement les comportements anticoncurrentiels en temps réel",
+                        "En certifiant que les algorithmes d\\u0027une entreprise sont conformes au droit de la concurrence"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En analysant des données de prix et de comportements de marché pour identifier des schémas anticoncurrentiels générés par des algorithmes de tarification",
+        "explanation":  "Des outils IA peuvent analyser des millions de données de prix et de comportements commerciaux pour détecter des coordinations algorithmiques de prix (hub-and-spoke algorithmique) ou des comportements d\\u0027éviction. Ces analyses peuvent étayer une saisine de l\\u0027Autorité de la concurrence ou une défense dans une procédure contentieuse."
+    },
+    {
+        "id":  36,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi les brevets générés par IA sans inventeur humain sont-ils refusés par l\\u0027OEB et l\\u0027INPI ?",
+        "options":  [
+                        "Parce que les IA ne peuvent pas déposer des dossiers de brevet en format électronique",
+                        "Parce que les brevets générés par IA sont toujours déjà dans le domaine public",
+                        "Parce que les législations en vigueur exigent qu\\u0027un inventeur soit une personne physique humaine",
+                        "Parce que les offices de brevets manquent d\\u0027examinateurs spécialisés en IA"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Parce que les législations en vigueur exigent qu\\u0027un inventeur soit une personne physique humaine",
+        "explanation":  "L\\u0027affaire DABUS a illustré cette problématique : l\\u0027OEB et plusieurs offices nationaux ont refusé d\\u0027attribuer la qualité d\\u0027inventeur à une IA. La Convention sur le brevet européen et les droits nationaux exigent qu\\u0027un inventeur soit une personne physique. Les inventions générées par IA nécessitent qu\\u0027un humain soit désigné inventeur."
+    },
+    {
+        "id":  37,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Qu\\u0027est-ce que la directive européenne sur la responsabilité en matière d\\u0027IA (AI Liability Directive) cherche à résoudre ?",
+        "options":  [
+                        "Elle vise à créer une personnalité juridique pour les systèmes IA les plus avancés",
+                        "Elle harmonise les règles nationales pour faciliter l\\u0027accès aux voies de recours des victimes de préjudices causés par des systèmes IA opaques",
+                        "Elle interdit aux avocats d\\u0027utiliser l\\u0027IA pour la défense de clients individuels",
+                        "Elle impose une assurance obligatoire à la charge des développeurs d\\u0027IA pour tous les usages professionnels"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Elle harmonise les règles nationales pour faciliter l\\u0027accès aux voies de recours des victimes de préjudices causés par des systèmes IA opaques",
+        "explanation":  "La proposition de directive AI Liability adresse le problème de la boîte noire algorithmique : les victimes d\\u0027un préjudice causé par une IA peinent à prouver le lien causal en raison de l\\u0027opacité des systèmes. La directive introduit des présomptions réfragables et des droits de divulgation pour alléger cette charge de la preuve."
+    },
+    {
+        "id":  38,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel risque juridique pose l\\u0027utilisation d\\u0027un algorithme de tarification dynamique par une entreprise en position dominante ?",
+        "options":  [
+                        "Le risque que les clients ne comprennent pas les prix affichés",
+                        "Le risque que l\\u0027algorithme soit protégé par un brevet concurrent",
+                        "Le risque de requalification en abus de position dominante ou en pratique anticoncurrentielle par l\\u0027Autorité de la concurrence",
+                        "Le risque d\\u0027une taxation supplémentaire sur les bénéfices algorithmiques"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Le risque de requalification en abus de position dominante ou en pratique anticoncurrentielle par l\\u0027Autorité de la concurrence",
+        "explanation":  "Un algorithme de tarification qui pratique des prix prédateurs, discriminatoires ou coordonnés avec d\\u0027autres acteurs peut constituer un abus de position dominante sous l\\u0027article 102 TFUE ou une entente sous l\\u0027article 101 TFUE. L\\u0027Autorité de la concurrence peut infliger des amendes allant jusqu\\u0027à 10 % du chiffre d\\u0027affaires mondial."
+    },
+    {
+        "id":  39,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle améliorer la gestion des données personnelles dans un cabinet juridique ou un service juridique d\\u0027entreprise ?",
+        "options":  [
+                        "En supprimant automatiquement toutes les données clients au bout de 6 mois",
+                        "En cartographiant les traitements, en détectant les données personnelles dans les documents et en alertant sur les durées de conservation dépassées",
+                        "En cryptant automatiquement tous les emails sortants sans intervention humaine",
+                        "En remplaçant le délégué à la protection des données dans ses missions légales"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En cartographiant les traitements, en détectant les données personnelles dans les documents et en alertant sur les durées de conservation dépassées",
+        "explanation":  "Des outils IA de data governance peuvent scanner les documents pour identifier et classer les données personnelles, automatiser la mise à jour du registre des traitements, alerter sur les dépassements de durée de conservation et suggérer des mesures de minimisation, facilitant la conformité RGPD continue du service juridique."
+    },
+    {
+        "id":  40,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi les smart contracts présentent-ils des risques juridiques significatifs malgré leur automatisation ?",
+        "options":  [
+                        "Parce qu\\u0027ils ne peuvent être exécutés que sur la blockchain Ethereum",
+                        "Parce que leur code est immuable une fois déployé, rendant difficile la correction d\\u0027erreurs ou l\\u0027adaptation aux circonstances imprévues",
+                        "Parce que les smart contracts ne sont reconnus par aucune juridiction dans le monde",
+                        "Parce qu\\u0027ils nécessitent obligatoirement un tiers de confiance notarial pour être valides"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que leur code est immuable une fois déployé, rendant difficile la correction d\\u0027erreurs ou l\\u0027adaptation aux circonstances imprévues",
+        "explanation":  "L\\u0027immutabilité de la blockchain est à double tranchant : si elle garantit l\\u0027exécution, elle empêche la modification du contrat en cas d\\u0027erreur de code, d\\u0027événement imprévu ou de changement de droit. Des bugs dans le code ont entraîné des pertes de centaines de millions d\\u0027euros, sans recours aisé."
+    },
+    {
+        "id":  41,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Comment le droit fiscal français encadre-t-il les schémas d\\u0027optimisation fiscale conçus par IA ?",
+        "options":  [
+                        "L\\u0027optimisation fiscale par IA est interdite par l\\u0027article 209 B du Code général des impôts",
+                        "La licéité dépend du fond : un montage abusif reste sanctionnable par la procédure d\\u0027abus de droit même s\\u0027il a été généré par IA",
+                        "Les schémas générés par IA bénéficient d\\u0027une présomption de conformité fiscale pendant 3 ans",
+                        "Le fisc ne peut pas requalifier un montage si celui-ci a été validé par un algorithme certifié"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La licéité dépend du fond : un montage abusif reste sanctionnable par la procédure d\\u0027abus de droit même s\\u0027il a été généré par IA",
+        "explanation":  "La procédure d\\u0027abus de droit (article L64 du Livre des procédures fiscales) et le mini-abus de droit s\\u0027appliquent indépendamment de la méthode ayant conduit à concevoir le schéma. Un montage fiscal purement artificiel ou inspiré principalement par des motivations fiscales reste requalifiable, qu\\u0027il ait été imaginé par un fiscaliste humain ou un algorithme."
+    },
+    {
+        "id":  42,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel est le principal danger de l\\u0027IA dans les procédures d\\u0027appels d\\u0027offres publics concernant l\\u0027évaluation des candidatures ?",
+        "options":  [
+                        "Le risque que les candidats utilisent l\\u0027IA pour rédiger leurs offres, ce qui violerait les règles",
+                        "Le risque de biais discriminatoires systématiques dans l\\u0027évaluation et la violation du principe d\\u0027égalité de traitement",
+                        "Le risque que l\\u0027IA sélectionne trop d\\u0027entreprises, augmentant le coût de la procédure",
+                        "Le risque que la durée de la procédure soit trop courte pour permettre aux PME de candidater"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le risque de biais discriminatoires systématiques dans l\\u0027évaluation et la violation du principe d\\u0027égalité de traitement",
+        "explanation":  "Un algorithme d\\u0027évaluation entraîné sur des données historiques peut reproduire des biais (favoriser les grandes entreprises, certains secteurs géographiques ou certaines formes juridiques). Ces biais violent le principe d\\u0027égalité de traitement garanti par le Code de la commande publique et les directives européennes, ouvrant la voie à des recours contentieux."
+    },
+    {
+        "id":  43,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle assister un juriste dans une procédure de médiation commerciale ?",
+        "options":  [
+                        "En remplaçant le médiateur et en imposant une solution aux parties",
+                        "En préparant des synthèses des positions des parties, en identifiant les points de convergence et en proposant des scénarios de compromis",
+                        "En enregistrant la séance de médiation et en la retranscrivant comme procès-verbal officiel",
+                        "En calculant automatiquement les dommages-intérêts dus par chaque partie"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En préparant des synthèses des positions des parties, en identifiant les points de convergence et en proposant des scénarios de compromis",
+        "explanation":  "L\\u0027IA peut valoriser la médiation en amont et en cours de processus : analyse des documents de chaque partie, identification des points d\\u0027accord latents, modélisation des scenarios de règlement. Elle aide le médiateur humain à structurer les échanges, sans jamais se substituer à son rôle de tiers facilitateur."
+    },
+    {
+        "id":  44,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi la certification d\\u0027un système IA à usage juridique est-elle difficile à obtenir dans le cadre de l\\u0027AI Act ?",
+        "options":  [
+                        "Parce que l\\u0027AI Act ne prévoit pas de procédure de certification pour les usages juridiques",
+                        "Parce que la certification nécessite une documentation technique exhaustive, des tests de robustesse, une traçabilité complète et une supervision humaine prouvée",
+                        "Parce que seuls les systèmes IA américains peuvent être certifiés selon les normes européennes",
+                        "Parce que les organismes de certification accrédités n\\u0027existent pas encore en Europe"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que la certification nécessite une documentation technique exhaustive, des tests de robustesse, une traçabilité complète et une supervision humaine prouvée",
+        "explanation":  "L\\u0027AI Act impose aux systèmes à haut risque (dont les usages judiciaires) une conformité préalable stricte : documentation du système complet, registres de logs, tests adversariaux, évaluations de biais, mécanismes de supervision humaine documentés. Ces exigences représentent un investissement significatif qui freine la certification."
+    },
+    {
+        "id":  45,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Un employeur peut-il utiliser un outil IA pour analyser les performances des salariés et déclencher une procédure disciplinaire en droit français ?",
+        "options":  [
+                        "Oui, sans restriction dès lors que les objectifs ont été définis dans le contrat de travail",
+                        "Non, la surveillance algorithmique est totalement interdite par le Code du travail",
+                        "Oui, mais le salarié doit être informé de l\\u0027existence du dispositif de surveillance et ses représentants du personnel consultés préalablement",
+                        "Oui, uniquement pour les salariés en période d\\u0027essai"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Oui, mais le salarié doit être informé de l\\u0027existence du dispositif de surveillance et ses représentants du personnel consultés préalablement",
+        "explanation":  "En droit du travail français, le pouvoir de surveillance de l\\u0027employeur est encadré par les articles L1222-4 et L2312-38 du Code du travail. Tout dispositif de contrôle de l\\u0027activité des salariés doit faire l\\u0027objet d\\u0027une information préalable des salariés concernés et d\\u0027une consultation du CSE. Le non-respect de ces obligations rend les preuves obtenues irrecevables."
+    },
+    {
+        "id":  46,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel risque particulier présente l\\u0027utilisation d\\u0027un LLM non spécialisé pour analyser des brevets dans le cadre d\\u0027une procédure d\\u0027opposition à l\\u0027OEB ?",
+        "options":  [
+                        "Le LLM peut traduire automatiquement en plusieurs langues mais avec des erreurs techniques",
+                        "Le LLM peut générer des antériorités fictives ou mal interpréter les revendications, introduisant des erreurs fatales dans la stratégie de brevetabilité",
+                        "Le LLM ne peut pas accéder aux bases de brevets publiques comme Espacenet",
+                        "Le LLM facture ses services à un tarif supérieur aux agents en brevets"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le LLM peut générer des antériorités fictives ou mal interpréter les revendications, introduisant des erreurs fatales dans la stratégie de brevetabilité",
+        "explanation":  "L\\u0027analyse de brevets requiert une précision technique et juridique extrême. Un LLM généraliste peut halluciner des références antérieures inexistantes ou interpréter incorrectement les revendications techniques. Dans une procédure d\\u0027opposition à l\\u0027OEB, de telles erreurs peuvent aboutir à une perte de droits définitive."
+    },
+    {
+        "id":  47,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment l\\u0027IA peut-elle aider un service juridique à gérer la compliance export control ?",
+        "options":  [
+                        "En négociant directement les licences d\\u0027exportation avec les autorités nationales",
+                        "En screenant automatiquement les clients, partenaires et transactions contre les listes de sanctions et en alertant sur les risques de conformité",
+                        "En certifiant la conformité des produits exportés aux normes douanières",
+                        "En calculant automatiquement les droits de douane applicables à chaque expédition"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En screenant automatiquement les clients, partenaires et transactions contre les listes de sanctions et en alertant sur les risques de conformité",
+        "explanation":  "Les outils de trade compliance IA permettent de vérifier en temps réel les entités impliquées dans une transaction contre les listes de sanctions (OFAC, UE, SECO), les listes de contrôle export et les listes de personnes déniées. Ils automatisent une vérification qui prendrait des heures manuellement et réduisent le risque de violation."
+    },
+    {
+        "id":  48,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Comment l\\u0027AI Act européen encadre-t-il les systèmes IA utilisés pour le recrutement et l\\u0027évaluation des salariés ?",
+        "options":  [
+                        "Il les interdit totalement pour préserver l\\u0027emploi humain",
+                        "Il les classe comme systèmes à haut risque, soumis à des obligations de transparence, d\\u0027auditabilité et de non-discrimination",
+                        "Il les autorise sans restriction car ils relèvent de la liberté d\\u0027entreprise",
+                        "Il n\\u0027en fait pas mention, laissant cette question au droit du travail national"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Il les classe comme systèmes à haut risque, soumis à des obligations de transparence, d\\u0027auditabilité et de non-discrimination",
+        "explanation":  "L\\u0027annexe III de l\\u0027AI Act classe explicitement les systèmes IA utilisés pour le recrutement, la sélection, la promotion ou la résiliation dans la catégorie haute risque. Leurs utilisateurs doivent respecter des obligations de documentation, permettre la supervision humaine et garantir que les décisions peuvent être expliquées aux travailleurs concernés."
+    },
+    {
+        "id":  49,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel est le risque dit d\\u0027automation bias dans le contexte d\\u0027un outil IA de revue de contrats ?",
+        "options":  [
+                        "Le juriste fait confiance aveuglément aux conclusions de l\\u0027IA sans exercer son propre jugement critique",
+                        "Le juriste passe trop de temps à configurer l\\u0027outil",
+                        "L\\u0027outil signale trop d\\u0027alertes, ralentissant le processus de revue",
+                        "L\\u0027IA refuse de traiter certains contrats trop complexes"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Le juriste fait confiance aveuglément aux conclusions de l\\u0027IA sans exercer son propre jugement critique",
+        "explanation":  "L\\u0027automation bias pousse les professionnels à valider sans vérification approfondie les outputs des systèmes automatisés. Pour un juriste, cela peut mener à valider des clauses problématiques simplement parce que l\\u0027IA ne les a pas signalées."
+    },
+    {
+        "id":  50,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi un outil IA entraîné sur du droit américain peut-il être risqué s\\u0027il est utilisé pour rédiger des contrats soumis au droit français ?",
+        "options":  [
+                        "Parce que l\\u0027IA ne comprend pas le français juridique",
+                        "Parce que les contrats français doivent obligatoirement être rédigés à la main",
+                        "Parce que les concepts juridiques, les présomptions et les obligations légales diffèrent fondamentalement entre systèmes de droit",
+                        "Parce que le droit américain est plus complexe et surchargera le modèle"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Parce que les concepts juridiques, les présomptions et les obligations légales diffèrent fondamentalement entre systèmes de droit",
+        "explanation":  "La common law (…?tats-Unis) et le droit civil (France) reposent sur des logiques différentes. Des clauses valides en droit américain peuvent être inopposables ou illicites en droit français. Un modèle non adapté au droit local est une source de risques majeurs."
+    },
+    {
+        "id":  51,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Comment le secret professionnel de l\\u0027avocat interagit-il avec l\\u0027usage d\\u0027un outil IA cloud pour analyser des dossiers clients ?",
+        "options":  [
+                        "Le secret professionnel ne s\\u0027applique pas aux outils numériques",
+                        "Le barreau autorise expressément tout usage cloud dès lors que le client a signé un mandat",
+                        "Le secret professionnel est automatiquement préservé par le chiffrement des données",
+                        "L\\u0027envoi de données protégées par le secret vers un cloud tiers peut constituer une violation, sauf garanties contractuelles et techniques suffisantes"
+                    ],
+        "correct_index":  3,
+        "correct_answer":  "L\\u0027envoi de données protégées par le secret vers un cloud tiers peut constituer une violation, sauf garanties contractuelles et techniques suffisantes",
+        "explanation":  "Le secret professionnel de l\\u0027avocat est d\\u0027ordre public. Confier des données couvertes par ce secret à un prestataire cloud nécessite des garanties contractuelles solides (confidentialité, non-utilisation pour entraînement, localisation des données en UE) et une validation déontologique."
+    },
+    {
+        "id":  52,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce que la justice prédictive et quelle est son utilité pour les juristes d\\u0027entreprise ?",
+        "options":  [
+                        "Un système qui remplace les juges par des algorithmes",
+                        "Un outil qui analyse la jurisprudence pour estimer les probabilités de succès d\\u0027un litige et orienter la stratégie contentieuse",
+                        "Un logiciel qui prédit les futures lois qui seront votées par le Parlement",
+                        "Un système qui automatise les déclarations fiscales de l\\u0027entreprise"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un outil qui analyse la jurisprudence pour estimer les probabilités de succès d\\u0027un litige et orienter la stratégie contentieuse",
+        "explanation":  "Les outils de justice prédictive analysent des milliers de décisions judiciaires pour identifier des tendances jurisprudentielles et estimer les chances de succès d\\u0027un litige. Ils aident les juristes d\\u0027entreprise à décider d\\u0027un recours ou d\\u0027une transaction amiable."
+    },
+    {
+        "id":  53,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel risque de conformité RGPD existe lorsqu\\u0027une entreprise utilise un outil IA pour automatiser la détection de clauses dans les contrats de travail de ses salariés ?",
+        "options":  [
+                        "Aucun, les contrats de travail ne sont pas des données personnelles",
+                        "L\\u0027IA ne peut pas traiter des contrats de travail pour des raisons techniques",
+                        "Le traitement des données personnelles des salariés sans base légale adéquate et sans information préalable peut violer le RGPD",
+                        "Ce traitement est autorisé car il relève de l\\u0027intérêt légitime de l\\u0027employeur sans restriction"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Le traitement des données personnelles des salariés sans base légale adéquate et sans information préalable peut violer le RGPD",
+        "explanation":  "Les contrats de travail contiennent des données personnelles des salariés. Leur traitement automatisé par une IA nécessite une base légale (obligation légale ou intérêt légitime documenté), une information préalable des salariés et, si nécessaire, une consultation des représentants du personnel."
+    },
+    {
+        "id":  54,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi les outils d\\u0027IA actuels peinent-ils à analyser des clauses de force majeure dans un contexte d\\u0027événements inédits ?",
+        "options":  [
+                        "Parce que les clauses de force majeure sont trop longues pour être traitées par l\\u0027IA",
+                        "Parce que l\\u0027IA ne comprend pas la notion de risque juridique",
+                        "Parce que les clauses de force majeure sont toujours rédigées en termes ambigus intentionnellement",
+                        "Parce qu\\u0027ils s\\u0027appuient sur une jurisprudence passée qui ne couvre pas nécessairement de nouveaux types d\\u0027événements sans précédent"
+                    ],
+        "correct_index":  3,
+        "correct_answer":  "Parce qu\\u0027ils s\\u0027appuient sur une jurisprudence passée qui ne couvre pas nécessairement de nouveaux types d\\u0027événements sans précédent",
+        "explanation":  "L\\u0027interprétation d\\u0027une clause de force majeure face à un événement inédit (pandémie mondiale, cyberattaque d\\u0027infrastructure critique) nécessite un raisonnement analogique que les modèles entraînés sur la jurisprudence passée réalisent avec difficulté et incertitude."
+    },
+    {
+        "id":  55,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi la reconnaissance d\\u0027une invention assistée par IA comme brevetable pose-t-elle un problème de droit de la propriété industrielle ?",
+        "options":  [
+                        "Parce que les inventions assistées par IA ont une durée de protection réduite à 10 ans",
+                        "Parce que déterminer la contribution créative humaine minimale suffisante pour revendiquer le statut d\\u0027inventeur reste juridiquement indéterminé",
+                        "Parce que les brevets IA ne peuvent être déposés qu\\u0027en anglais à l\\u0027OEB",
+                        "Parce que l\\u0027INPI refuse systématiquement les brevets mentionnant l\\u0027IA dans la description"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que déterminer la contribution créative humaine minimale suffisante pour revendiquer le statut d\\u0027inventeur reste juridiquement indéterminé",
+        "explanation":  "La frontière entre une invention assistée par IA (où l\\u0027humain garde le statut d\\u0027inventeur) et une invention générée par IA (sans inventeur humain reconnaissable) est floue. Les offices de brevets et les tribunaux n\\u0027ont pas encore établi de critères clairs pour mesurer la contribution inventive humaine minimale requise, créant une insécurité juridique pour les déposants."
+    },
+    {
+        "id":  56,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel est le risque juridique principal de l\\u0027utilisation d\\u0027un LLM pour analyser une sentence arbitrale en vue d\\u0027un recours en annulation ?",
+        "options":  [
+                        "Le risque que le LLM divulgue la sentence à la partie adverse",
+                        "Le risque que le LLM hallucine des moyens d\\u0027annulation inexistants ou méconnaisse les délais procéduraux spécifiques à l\\u0027arbitrage",
+                        "Le risque que le LLM refuse de traiter des sentences de plus de 200 pages",
+                        "Le risque que le fournisseur du LLM revendique des droits sur la sentence analysée"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le risque que le LLM hallucine des moyens d\\u0027annulation inexistants ou méconnaisse les délais procéduraux spécifiques à l\\u0027arbitrage",
+        "explanation":  "Le recours en annulation d\\u0027une sentence arbitrale est soumis à des délais courts et des cas d\\u0027ouverture limitativement énumérés (article 1520 CPC). Un LLM peut halluciner des motifs d\\u0027annulation non prévus par la loi ou omettre des délais impératifs, conduisant à des recours irrecevables ou à la forclusion de droits."
+    },
+    {
+        "id":  57,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Quel apport concret peut fournir un outil d\\u0027IA pour analyser les décisions d\\u0027une autorité de concurrence nationale en vue d\\u0027une stratégie de conformité ?",
+        "options":  [
+                        "Il peut automatiquement mettre en conformité les pratiques commerciales de l\\u0027entreprise",
+                        "Il peut identifier les critères retenus par l\\u0027autorité pour qualifier une pratique d\\u0027anticoncurrentielle et les seuils de tolérance implicites dans les décisions passées",
+                        "Il peut prédire les prochaines entreprises qui seront sanctionnées",
+                        "Il peut négocier des engagements avec l\\u0027autorité de concurrence au nom de l\\u0027entreprise"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Il peut identifier les critères retenus par l\\u0027autorité pour qualifier une pratique d\\u0027anticoncurrentielle et les seuils de tolérance implicites dans les décisions passées",
+        "explanation":  "L\\u0027analyse IA des décisions de l\\u0027Autorité de la concurrence ou de la Commission européenne peut dégager les patterns décisionnels, les seuils de parts de marché considérés comme critiques, les types de preuves acceptées ou les facteurs aggravants, informant ainsi une stratégie de compliance proactive."
+    },
+    {
+        "id":  58,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Dans le cadre d\\u0027une procédure d\\u0027arbitrage international, quels problèmes éthiques pose la divulgation d\\u0027une sentence confidentielle à un outil IA externe ?",
+        "options":  [
+                        "Aucun, la confidentialité de l\\u0027arbitrage ne s\\u0027applique pas aux outils numériques",
+                        "Le risque de violation de la confidentialité de la sentence, souvent contractuellement garantie, et d\\u0027exposition des données stratégiques des parties",
+                        "Uniquement le risque que l\\u0027IA modifie involontairement le contenu de la sentence",
+                        "Le risque que le fournisseur IA dépose une marque sur le nom de l\\u0027affaire arbitrale"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le risque de violation de la confidentialité de la sentence, souvent contractuellement garantie, et d\\u0027exposition des données stratégiques des parties",
+        "explanation":  "La confidentialité est un pilier de l\\u0027arbitrage international. Les sentences et les pièces de procédure sont souvent protégées par des clauses contractuelles de confidentialité. Soumettre ces documents à un LLM cloud sans garanties suffisantes (pas d\\u0027entraînement sur les données, hébergement souverain) peut constituer une violation grave de ces obligations."
+    },
+    {
+        "id":  59,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Selon l\\u0027AI Act, comment les systèmes IA utilisés pour assister des décisions judiciaires doivent-ils garantir la supervision humaine ?",
+        "options":  [
+                        "En produisant uniquement des résumés non contraignants, sans score ni recommandation",
+                        "En permettant à tout moment à un juge ou juriste qualifié d\\u0027ignorer, modifier ou annuler la recommandation du système",
+                        "En soumettant chaque décision à un vote d\\u0027un comité de validation composé d\\u0027avocats certifiés",
+                        "En limitant leur usage aux procédures inférieures à 10 000 euros"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En permettant à tout moment à un juge ou juriste qualifié d\\u0027ignorer, modifier ou annuler la recommandation du système",
+        "explanation":  "L\\u0027AI Act exige pour les systèmes à haut risque des mécanismes de supervision humaine effectifs : le professionnel doit avoir la capacité technique et organisationnelle de comprendre, contester et outrepasser toute décision ou recommandation du système IA."
+    },
+    {
+        "id":  60,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Quelle est la principale problématique de propriété intellectuelle soulevée par l\\u0027entraînement des modèles IA sur des bases de données jurisprudentielles commerciales ?",
+        "options":  [
+                        "Les annotations, résumés et classifications produits par des éditeurs juridiques sur ces décisions peuvent constituer des …",
+                        ",\r\n                        ",
+                        ",\r\n                        ",
+                        ",\r\n                        "
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Les annotations, résumés et classifications produits par des éditeurs juridiques sur ces décisions peuvent constituer des …",
+        "explanation":  "Si les décisions de justice elles-mêmes sont dans le domaine public, les bases de données enrichies par des éditeurs (Dalloz, LexisNexis) contenant des résumés, des classifications et des annotations constituent des …"
+    },
+    {
+        "id":  61,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Dans le cadre d\\u0027une analyse contractuelle IA, qu\\u0027est-ce que le problème de l\\u0027ambiguïté sémantique et pourquoi est-il particulièrement critique en droit ?",
+        "options":  [
+                        "C\\u0027est l\\u0027incapacité de l\\u0027IA à lire les contrats manuscrits",
+                        "C\\u0027est le problème technique lié à la taille excessive des fichiers PDF contractuels",
+                        "C\\u0027est la difficulté pour l\\u0027IA à traduire les termes latins du droit romain",
+                        "C\\u0027est le fait qu\\u0027un même terme peut avoir plusieurs significations selon le contexte juridique, et l\\u0027IA peut systématiquement choisir la mauvaise interprétation"
+                    ],
+        "correct_index":  3,
+        "correct_answer":  "C\\u0027est le fait qu\\u0027un même terme peut avoir plusieurs significations selon le contexte juridique, et l\\u0027IA peut systématiquement choisir la mauvaise interprétation",
+        "explanation":  "En droit, des termes comme \\u0027force majeure\\u0027, \\u0027bonne foi\\u0027 ou \\u0027préjudice\\u0027 ont des sens précis et variables selon le contexte (droit des contrats, droit pénal, droit international). Une IA qui interprète mal ces termes peut produire une analyse contractuelle fondamentalement erronée."
+    },
+    {
+        "id":  62,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Qu\\u0027est-ce que le contract lifecycle management (CLM) augmenté par l\\u0027IA et quels bénéfices apporte-t-il à un service juridique d\\u0027entreprise ?",
+        "options":  [
+                        "Un système qui remplace les juristes par des agents IA autonomes sur toute la chaîne contractuelle",
+                        "Un outil qui calcule automatiquement la valeur financière de chaque contrat en portefeuille",
+                        "Une plateforme qui automatise la création, la négociation, la signature, le suivi et le renouvellement des contrats avec des alertes intelligentes",
+                        "Un logiciel qui archive uniquement les contrats signés sans fonctionnalité d\\u0027analyse"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Une plateforme qui automatise la création, la négociation, la signature, le suivi et le renouvellement des contrats avec des alertes intelligentes",
+        "explanation":  "Un CLM IA couvre l\\u0027intégralité du cycle de vie contractuel : génération depuis des modèles, workflow de négociation et validation, signature électronique, extraction des obligations clés, alertes d\\u0027échéances et analyses de performance. Il réduit les risques d\\u0027oubli et de non-conformité."
+    },
+    {
+        "id":  63,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Comment la jurisprudence de la CJUE sur l\\u0027arrêt Schrems II affecte-t-elle l\\u0027utilisation d\\u0027outils IA américains par des services juridiques européens pour traiter des données de dossiers clients ?",
+        "options":  [
+                        "L\\u0027arrêt Schrems II valide l\\u0027utilisation d\\u0027outils IA américains sans restriction depuis l\\u0027accord Privacy Shield 2023",
+                        "L\\u0027arrêt invalide tout transfert vers les …?tats-Unis, rendant illégale toute utilisation d\\u0027outil IA américain",
+                        "L\\u0027arrêt impose une analyse d\\u0027impact des transferts (TIA) et des garanties appropriées (clauses contractuelles types + mesures supplémentaires) pour tout transfert de données personnelles vers des fournisseurs IA établis aux …?tats-Unis",
+                        "L\\u0027arrêt ne concerne que les données de santé, pas les données de dossiers juridiques"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "L\\u0027arrêt impose une analyse d\\u0027impact des transferts (TIA) et des garanties appropriées (clauses contractuelles types + mesures supplémentaires) pour tout transfert de données personnelles vers des fournisseurs IA établis aux …?tats-Unis",
+        "explanation":  "L\\u0027arrêt Schrems II (CJUE, 2020) a invalidé le Privacy Shield et soumis les transferts vers les …?tats-Unis à des conditions strictes. Les services juridiques utilisant des LLM américains doivent conduire une Transfer Impact Assessment, mettre en place des clauses contractuelles types actualisées et vérifier que des mesures techniques supplémentaires (chiffrement côté client) empêchent l\\u0027accès des autorités américaines aux données transférées."
+    },
+    {
+        "id":  64,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Pourquoi l\\u0027interprétabilité d\\u0027un système IA d\\u0027analyse des décisions judiciaires est-elle une exigence juridique et non seulement technique ?",
+        "options":  [
+                        "Parce que les magistrats doivent pouvoir comprendre l\\u0027IA pour valider leur formation continue",
+                        "Parce que le droit à un procès équitable (article 6 CEDH) et le principe de motivation des décisions judiciaires impliquent que les recommandations algorithmiques soient explicables et contestables",
+                        "Parce que l\\u0027interprétabilité est uniquement requise pour les systèmes IA utilisés par les avocats de la défense",
+                        "Parce que les algorithmes d\\u0027IA doivent être publiés au Journal officiel pour avoir une valeur probatoire"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que le droit à un procès équitable (article 6 CEDH) et le principe de motivation des décisions judiciaires impliquent que les recommandations algorithmiques soient explicables et contestables",
+        "explanation":  "Le droit au procès équitable garanti par l\\u0027article 6 CEDH et la jurisprudence de la CEDH imposent que les décisions affectant les droits des personnes soient motivées et contestables. Si un outil IA influe sur une décision judiciaire, son fonctionnement doit être suffisamment transparent pour permettre un recours effectif, ce qui rend l\\u0027interprétabilité une exigence de droit fondamental."
+    },
+    {
+        "id":  65,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Quels sont les risques juridiques spécifiques liés à l\\u0027utilisation d\\u0027un LLM pour générer des clauses d\\u0027arbitrage dans des contrats commerciaux internationaux ?",
+        "options":  [
+                        "Le seul risque est la longueur excessive des clauses générées",
+                        "Le LLM peut générer des clauses vagues, incohérentes avec le droit du siège de l\\u0027arbitrage, ou contenant des références à des règles d\\u0027arbitrage obsolètes ou inexistantes",
+                        "Le risque principal est que la clause sera inopposable car non signée par les deux parties",
+                        "Le LLM peut créer des conflits de compétence avec la juridiction nationale exclusivement"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le LLM peut générer des clauses vagues, incohérentes avec le droit du siège de l\\u0027arbitrage, ou contenant des références à des règles d\\u0027arbitrage obsolètes ou inexistantes",
+        "explanation":  "Une clause compromissoire défaillante peut conduire à une exception d\\u0027incompétence, à l\\u0027annulation de la sentence ou à son inexécution. Les LLM peuvent produire des clauses désignant un siège inexistant, se référant à une version périmée du règlement ICC ou CCI, ou omettant des éléments essentiels (langue, nombre d\\u0027arbitres, droit applicable). Ces erreurs n\\u0027apparaissent souvent qu\\u0027au moment du litige."
+    },
+    {
+        "id":  66,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Comment un système IA de NLP peut-il contribuer à la détection précoce de pratiques d\\u0027abus de position dominante algorithmique dans le secteur numérique ?",
+        "options":  [
+                        "En bloquant automatiquement les comportements anticoncurrentiels des plateformes numériques",
+                        "En analysant les signaux faibles dans les données de marché, les changements d\\u0027algorithmes des plateformes et la littérature sectorielle pour identifier des schémas d\\u0027éviction avant qu\\u0027ils ne soient formellement sanctionnés",
+                        "En remplaçant les économistes des autorités de concurrence dans l\\u0027évaluation des effets de marché",
+                        "En certifiant la neutralité algorithmique des plateformes numériques soumises au DMA"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En analysant les signaux faibles dans les données de marché, les changements d\\u0027algorithmes des plateformes et la littérature sectorielle pour identifier des schémas d\\u0027éviction avant qu\\u0027ils ne soient formellement sanctionnés",
+        "explanation":  "Des outils IA de surveillance concurrentielle peuvent corréler des variations de classements algorithmiques, des évolutions de parts de marché et des comportements de prix pour détecter des pratiques d\\u0027éviction ou de self-preferencing avant que les victimes n\\u0027introduisent une plainte formelle. Ils permettent une anticipation proactive de la compliance au regard du DMA et des règles de concurrence."
+    },
+    {
+        "id":  67,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Quelle est la portée de l\\u0027obligation de transparence imposée aux employeurs utilisant des systèmes IA pour prendre des décisions affectant les salariés, au regard du RGPD et de l\\u0027AI Act combinés ?",
+        "options":  [
+                        "Une simple mention dans le règlement intérieur suffit à satisfaire aux deux textes",
+                        "L\\u0027obligation se limite à informer les représentants du personnel sans nécessité d\\u0027information individuelle",
+                        "Les salariés ont droit à une information individuelle sur la logique des décisions automatisées, à un droit d\\u0027accès aux données traitées, à une explication des critères utilisés et à la possibilité de contester la décision devant un interlocuteur humain",
+                        "L\\u0027obligation de transparence ne s\\u0027applique qu\\u0027aux décisions de licenciement, pas aux évaluations de performance"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Les salariés ont droit à une information individuelle sur la logique des décisions automatisées, à un droit d\\u0027accès aux données traitées, à une explication des critères utilisés et à la possibilité de contester la décision devant un interlocuteur humain",
+        "explanation":  "La combinaison de l\\u0027article 22 RGPD (droit à ne pas faire l\\u0027objet d\\u0027une décision automatisée), de l\\u0027article 13/14 RGPD (information des personnes) et des exigences de l\\u0027AI Act pour les systèmes à haut risque crée une obligation de transparence substantielle : information individuelle, explicabilité des critères, droit de contestation avec intervention humaine garantie."
+    },
+    {
+        "id":  68,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Pourquoi le phénomène de copyfraud lié à l\\u0027entraînement des LLM pose-t-il un problème particulier pour les services juridiques qui utilisent ces outils ?",
+        "options":  [
+                        "Parce que les services juridiques peuvent être tenus responsables du contenu généré qui reproduit des …",
+                        ",\r\n                        ",
+                        ",\r\n                        ",
+                        ",\r\n                        "
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Parce que les services juridiques peuvent être tenus responsables du contenu généré qui reproduit des …",
+        "explanation":  "Si un LLM reproduit substantiellement des extraits d\\u0027…"
+    },
+    {
+        "id":  69,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "En quoi la qualification juridique d\\u0027un smart contract comme contrat au sens du droit civil français pose-t-elle des difficultés spécifiques ?",
+        "options":  [
+                        "Parce que les smart contracts ne peuvent pas être rédigés en français",
+                        "Parce qu\\u0027un smart contract automatise l\\u0027exécution mais ne résout pas les questions de consentement éclairé, de capacité des parties et de licéité de l\\u0027objet qui conditionnent la validité contractuelle",
+                        "Parce que le Code civil interdit expressément les contrats informatiques",
+                        "Parce que les smart contracts ne peuvent porter que sur des actifs numériques et non des droits civils"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu\\u0027un smart contract automatise l\\u0027exécution mais ne résout pas les questions de consentement éclairé, de capacité des parties et de licéité de l\\u0027objet qui conditionnent la validité contractuelle",
+        "explanation":  "Le Code civil français (article 1128) requiert un consentement des parties, leur capacité et un contenu licite et certain. Un smart contract automatise l\\u0027exécution des conditions, mais il ne garantit pas que ces conditions ont été acceptées en connaissance de cause, que les parties avaient la capacité juridique ou que l\\u0027objet n\\u0027est pas illicite. La validité contractuelle reste soumise au droit civil classique."
+    },
+    {
+        "id":  70,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Comment la doctrine du legal professional privilege (secret des communications avocat-client) est-elle menacée dans un contexte d\\u0027utilisation d\\u0027IA cloud par des cabinets d\\u0027avocats soumis à la fois au droit français et à des obligations de discovery en procédure américaine ?",
+        "options":  [
+                        "Le legal professional privilege est reconnu universellement et protège toutes les communications stockées dans le cloud quel que soit le pays",
+                        "La soumission des données du cabinet à un prestataire cloud américain peut les rendre accessible via une ordonnance de discovery américaine, contournant les protections du secret professionnel français et créant un conflit de lois insoluble pour le cabinet",
+                        "La discovery américaine ne peut pas s\\u0027appliquer à des données hébergées hors des …?tats-Unis",
+                        "Le cabinet peut simplement invoquer le RGPD pour bloquer toute discovery américaine sans autre démarche"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La soumission des données du cabinet à un prestataire cloud américain peut les rendre accessible via une ordonnance de discovery américaine, contournant les protections du secret professionnel français et créant un conflit de lois insoluble pour le cabinet",
+        "explanation":  "Le CLOUD Act américain permet aux autorités américaines d\\u0027accéder aux données hébergées par des entreprises américaines même sur des serveurs situés hors des …?tats-Unis. Un cabinet français utilisant un LLM américain pour analyser des dossiers peut se retrouver face à un conflit entre son obligation déontologique de secret professionnel français (absolu) et une ordonnance de discovery américaine appuyée sur le CLOUD Act, créant une situation d\\u0027impossibilité juridique qui justifie l\\u0027usage de solutions souveraines européennes."
+    },
+    {
+        "id":  71,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Comment la proposition de directive européenne sur la responsabilité en matière d\\u0027IA (AI Liability Directive) traite-t-elle la responsabilité des recommandations IA en droit ?",
+        "options":  [
+                        "La directive établit une responsabilité directe et exclusive du fournisseur IA pour tout préjudice causé par ses recommandations",
+                        "Elle exclut les professions juridiques de son champ d\\u0027application pour préserver l\\u0027indépendance du barreau",
+                        "Elle instaure une présomption de causalité facilitant pour la victime la preuve du lien entre le défaut du système IA et le dommage subi, tout en maintenant la responsabilité de l\\u0027utilisateur professionnel",
+                        "Elle impose une assurance obligatoire à la charge du client final de tout service juridique utilisant l\\u0027IA"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Elle instaure une présomption de causalité facilitant pour la victime la preuve du lien entre le défaut du système IA et le dommage subi, tout en maintenant la responsabilité de l\\u0027utilisateur professionnel",
+        "explanation":  "La proposition de directive AI Liability allège la charge de la preuve pour les victimes en instaurant une présomption réfragable de causalité. L\\u0027utilisateur professionnel (juriste, avocat) demeure responsable des préjudices causés par son usage du système IA, même si la preuve du lien causal est facilitée."
+    },
+    {
+        "id":  72,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Quel est le risque systémique d\\u0027une adoption massive d\\u0027outils IA de rédaction contractuelle par l\\u0027ensemble du marché juridique ?",
+        "options":  [
+                        "Les contrats deviendront trop longs car l\\u0027IA génère systématiquement du contenu excessif",
+                        "La demande en juristes diminuera de 50 % en 5 ans selon les projections du CNB",
+                        "Les tribunaux seront submergés de contentieux car les contrats IA sont plus souvent litigieux",
+                        "Une homogénéisation des clauses contractuelles réduisant la capacité des parties à négocier et créant des vulnérabilités partagées si un modèle dominant comporte des failles systématiques"
+                    ],
+        "correct_index":  3,
+        "correct_answer":  "Une homogénéisation des clauses contractuelles réduisant la capacité des parties à négocier et créant des vulnérabilités partagées si un modèle dominant comporte des failles systématiques",
+        "explanation":  "Si tous les acteurs d\\u0027un secteur utilisent le même modèle IA pour rédiger leurs contrats, ils convergeront vers des formulations similaires. Un biais ou une erreur systématique dans le modèle se propagera à l\\u0027ensemble du marché, créant un risque systémique et réduisant la diversité contractuelle garante d\\u0027une saine négociation."
+    },
+    {
+        "id":  73,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Pourquoi l\\u0027analyse de conformité RGPD d\\u0027un traitement par une IA ne peut-elle pas se substituer à l\\u0027analyse d\\u0027impact relative à la protection des données (AIPD) exigée par le règlement ?",
+        "options":  [
+                        "Parce que la CNIL interdit formellement l\\u0027usage de l\\u0027IA dans la rédaction des AIPD",
+                        "Parce que l\\u0027AIPD requiert une mise en balance documentée des intérêts et une validation DPO engageant la responsabilité d\\u0027une personne physique identifiée",
+                        "Parce que les modèles IA ne comprennent pas les concepts juridiques du RGPD",
+                        "Parce que l\\u0027AIPD ne concerne que les traitements effectués par les administrations publiques"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que l\\u0027AIPD requiert une mise en balance documentée des intérêts et une validation DPO engageant la responsabilité d\\u0027une personne physique identifiée",
+        "explanation":  "L\\u0027article 35 du RGPD impose une AIPD pour les traitements à risque élevé. Ce processus inclut une consultation des parties prenantes, une appréciation souveraine des risques résiduels et une décision assumée par le DPO sous sa responsabilité personnelle. Ces éléments requièrent un jugement humain et une imputabilité impossible à déléguer à une IA."
+    },
+    {
+        "id":  74,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Comment les techniques de retrieval-augmented generation (RAG) améliorent-elles spécifiquement les outils IA de recherche juridique par rapport aux modèles de langage standard ?",
+        "options":  [
+                        "Le RAG permet à l\\u0027IA de rédiger des contrats sans aucune intervention humaine",
+                        "Le RAG remplace la base de données juridique par un modèle entraîné une seule fois sur l\\u0027ensemble du droit européen",
+                        "Le RAG accélère uniquement le traitement des fichiers PDF volumineux",
+                        "Le RAG ancre les réponses dans des sources documentaires vérifiées et récentes (jurisprudence, textes légaux) réduisant les hallucinations et permettant la citation des sources"
+                    ],
+        "correct_index":  3,
+        "correct_answer":  "Le RAG ancre les réponses dans des sources documentaires vérifiées et récentes (jurisprudence, textes légaux) réduisant les hallucinations et permettant la citation des sources",
+        "explanation":  "Le RAG (retrieval-augmented generation) interroge une base documentaire externe au moment de la génération de la réponse. Pour la recherche juridique, cela signifie que l\\u0027IA cite des décisions réelles et récentes (Légifrance, bases d\\u0027éditeurs) plutôt que de produire des références inventées, réduisant drastiquement le risque d\\u0027hallucination juridique."
+    },
+    {
+        "id":  75,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Comment un système IA de NLP peut-il assister un arbitre international dans l\\u0027analyse de la lex mercatoria applicable à un litige commercial complexe ?",
+        "options":  [
+                        "En substituant son jugement à celui de l\\u0027arbitre sur l\\u0027application du droit transnational",
+                        "En identifiant dans la jurisprudence arbitrale internationale les usages du commerce et les principes généraux reconnus, permettant à l\\u0027arbitre de fonder sa sentence sur des sources vérifiables",
+                        "En produisant automatiquement la sentence arbitrale selon un modèle standardisé",
+                        "En traduisant instantanément tous les documents de la procédure dans la langue du siège"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En identifiant dans la jurisprudence arbitrale internationale les usages du commerce et les principes généraux reconnus, permettant à l\\u0027arbitre de fonder sa sentence sur des sources vérifiables",
+        "explanation":  "La lex mercatoria est constituée d\\u0027usages du commerce et de principes généraux dégagés par la pratique arbitrale internationale. Un outil IA peut analyser des milliers de sentences arbitrales publiées (CCI, CIRDI, CNUDCI) pour identifier les standards reconnus applicables à un cas spécifique, facilitant la motivation d\\u0027une sentence et réduisant le risque d\\u0027annulation pour défaut de base juridique."
+    },
+    {
+        "id":  76,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "…?thique \\u0026 société",
+        "question":  "Quel est le cadre juridique applicable en France à la surveillance algorithmique des communications électroniques des salariés dans un contexte de sécurité informatique (DLP) ?",
+        "options":  [
+                        "La surveillance DLP est totalement libre dès lors que le système est certifié par l\\u0027ANSSI",
+                        "La surveillance DLP des communications nécessite une autorisation préalable de l\\u0027inspection du travail",
+                        "La surveillance DLP est encadrée par la combinaison du RGPD, de la jurisprudence de la CEDH (B…frbulescu), du Code du travail et de la délibération CNIL, imposant proportionnalité, information préalable et consultation du CSE",
+                        "La surveillance DLP échappe au RGPD car elle relève de la cybersécurité nationale"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "La surveillance DLP est encadrée par la combinaison du RGPD, de la jurisprudence de la CEDH (B…frbulescu), du Code du travail et de la délibération CNIL, imposant proportionnalité, information préalable et consultation du CSE",
+        "explanation":  "L\\u0027arrêt B…frbulescu c. Roumanie de la Grande Chambre CEDH (2017) et la jurisprudence française de la Cour de cassation ont posé le principe de proportionnalité de la surveillance des communications professionnelles. La mise en place d\\u0027un outil DLP doit être déclarée à la CNIL, faire l\\u0027objet d\\u0027une AIPD si le risque est élevé, et le CSE doit être consulté préalablement conformément à l\\u0027article L2312-38 du Code du travail."
+    },
+    {
+        "id":  77,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Quels mécanismes juridiques permettent à un contribuable de contester un redressement fiscal fondé sur une analyse algorithmique de l\\u0027administration fiscale en droit français ?",
+        "options":  [
+                        "Le contribuable ne peut contester qu\\u0027en saisissant directement le Conseil d\\u0027…?tat",
+                        "Aucun mécanisme spécifique n\\u0027existe, le redressement algorithmique est définitif",
+                        "Le contribuable peut invoquer le droit d\\u0027accès aux algorithmes administratifs (loi CADA), le droit à une décision motivée par un agent humain et les droits de la défense dans la procédure contradictoire de redressement",
+                        "Le contribuable peut saisir la CNIL pour faire annuler le redressement fondé sur un traitement algorithmique"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Le contribuable peut invoquer le droit d\\u0027accès aux algorithmes administratifs (loi CADA), le droit à une décision motivée par un agent humain et les droits de la défense dans la procédure contradictoire de redressement",
+        "explanation":  "La loi pour une République numérique (2016) codifiée dans le CRPA oblige les administrations à mentionner l\\u0027usage d\\u0027un traitement algorithmique dans toute décision individuelle le mettant en …"
+    },
+    {
+        "id":  78,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Pourquoi la reconnaissance et l\\u0027exécution d\\u0027une sentence arbitrale internationale ne peut-elle pas être automatisée par un smart contract sans risque juridique majeur ?",
+        "options":  [
+                        "Parce que les smart contracts ne supportent pas les montants financiers supérieurs à 1 million d\\u0027euros",
+                        "Parce que la Convention de New York de 1958 exige une procédure judiciaire dans l\\u0027…?tat d\\u0027exécution permettant de vérifier les motifs de refus d\\u0027exequatur que l\\u0027automatisation ne peut anticiper",
+                        "Parce que les smart contracts ne peuvent exécuter que des décisions des juridictions étatiques",
+                        "Parce que la blockchain ne garantit pas la confidentialité requise par les règles d\\u0027arbitrage internationales"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que la Convention de New York de 1958 exige une procédure judiciaire dans l\\u0027…?tat d\\u0027exécution permettant de vérifier les motifs de refus d\\u0027exequatur que l\\u0027automatisation ne peut anticiper",
+        "explanation":  "La Convention de New York sur la reconnaissance et l\\u0027exécution des sentences arbitrales étrangères impose une procédure d\\u0027exequatur judiciaire dans l\\u0027…?tat d\\u0027exécution. Les tribunaux peuvent refuser l\\u0027exequatur pour contrariété à l\\u0027ordre public, vice de procédure ou arbitrabilité du litige. Ces contrôles de légalité souveraine ne peuvent être présupposés et automatisés par un smart contract."
+    },
+    {
+        "id":  79,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Comment les techniques d\\u0027IA d\\u0027analyse de réseau (graph analytics) peuvent-elles détecter des schémas d\\u0027optimisation fiscale agressive dans des structures de groupe complexes ?",
+        "options":  [
+                        "En calculant le taux effectif d\\u0027imposition de chaque entité et en le comparant au taux légal",
+                        "En cartographiant les flux financiers intragroupe pour identifier des structures en cascade conçues pour localiser les profits dans des juridictions à faible imposition sans substance économique réelle",
+                        "En remplaçant les conseillers fiscaux pour la structuration des groupes internationaux",
+                        "En certifiant la conformité des prix de transfert auprès de l\\u0027OCDE"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En cartographiant les flux financiers intragroupe pour identifier des structures en cascade conçues pour localiser les profits dans des juridictions à faible imposition sans substance économique réelle",
+        "explanation":  "Le graph analytics appliqué à la compliance fiscale analyse les relations entre entités d\\u0027un groupe, les flux de redevances, de dividendes et de prêts intragroupe pour détecter des structures BEPS (Base Erosion and Profit Shifting). Ces outils identifient les red flags OCDE (absence de substance, round-tripping, treaty shopping) permettant une défense proactive face aux administrations fiscales."
+    },
+    {
+        "id":  80,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Pourquoi l\\u0027utilisation d\\u0027un LLM pour analyser des communications en vue d\\u0027une surveillance de marché sous MiFID II pose-t-elle des problèmes de légalité spécifiques ?",
+        "options":  [
+                        "Parce que MiFID II interdit explicitement l\\u0027utilisation d\\u0027outils IA pour la surveillance des communications",
+                        "Parce que la surveillance des communications à des fins de compliance doit respecter le RGPD, la directive ePrivacy, et le droit à la vie privée des employés, nécessitant une base légale robuste et une minimisation des données incompatible avec l\\u0027analyse LLM large spectre",
+                        "Parce que les LLM ne peuvent pas analyser les communications vocales enregistrées requises par MiFID II",
+                        "Parce que MiFID II impose que la surveillance soit effectuée uniquement par des auditeurs certifiés AMF"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que la surveillance des communications à des fins de compliance doit respecter le RGPD, la directive ePrivacy, et le droit à la vie privée des employés, nécessitant une base légale robuste et une minimisation des données incompatible avec l\\u0027analyse LLM large spectre",
+        "explanation":  "MiFID II impose l\\u0027enregistrement et la surveillance des communications des personnes habilitées pour détecter les abus de marché. Mais cette obligation de compliance entre en tension avec le RGPD (finalité déterminée, minimisation) et la directive ePrivacy. Un LLM analysant massivement ces communications sans filtre préalable excède la finalité autorisée et constitue un traitement disproportionné, exposant l\\u0027établissement financier à des sanctions CNIL superposées aux sanctions AMF."
+    },
+    {
+        "id":  81,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Quel est le risque d\\u0027un phénomène de lock-in juridique lorsqu\\u0027une entreprise confie l\\u0027intégralité de sa gestion contractuelle à un seul fournisseur de CLM IA ?",
+        "options":  [
+                        "Le risque que le fournisseur augmente ses tarifs une fois la dépendance établie",
+                        "Un risque systémique de perte d\\u0027accès aux données contractuelles, de dépendance à la logique d\\u0027analyse propriétaire du fournisseur et d\\u0027impossibilité pratique de migrer sans perte d\\u0027historique et de contexte",
+                        "Le risque que les contrats générés ne soient valables que dans les pays où le fournisseur est accrédité",
+                        "Le risque que les salariés du service juridique perdent leurs compétences de rédaction contractuelle"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un risque systémique de perte d\\u0027accès aux données contractuelles, de dépendance à la logique d\\u0027analyse propriétaire du fournisseur et d\\u0027impossibilité pratique de migrer sans perte d\\u0027historique et de contexte",
+        "explanation":  "Le vendor lock-in dans les CLM IA présente des risques spécifiques : si le fournisseur cesse son activité ou modifie ses conditions, l\\u0027entreprise peut se trouver dans l\\u0027impossibilité d\\u0027accéder à ses propres contrats ou d\\u0027en exploiter l\\u0027analyse historique. La logique propriétaire du modèle d\\u0027analyse peut être incompatible avec d\\u0027autres systèmes, et le transfert des connaissances accumulées dans le modèle est souvent impossible, créant une dépendance stratégique."
+    }
+]
