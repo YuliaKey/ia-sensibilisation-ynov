@@ -1,39 +1,52 @@
 import { useEffect, useRef, useState } from 'react'
 import { supabase } from '../lib/supabase'
 import type { SkillLevel } from '../types/database'
+import Logo from './Logo'
 import './CreateAccount.css'
 
 type Service = { id: string; name: string }
-type Props   = { onLogin: () => void }
+type Props   = { onLogin: () => void; onBack: () => void }
 
 const LEVELS = [
-  { value: 'beginner' as SkillLevel, name: 'Novice',        emoji: '🌿', desc: "Je n'ai jamais utilisé l'IA." },
-  { value: 'beginner' as SkillLevel, name: 'Curieux',       emoji: '👀', desc: "J'ai testé quelques fois." },
+  { value: 'beginner' as SkillLevel, name: 'Novice',        emoji: '🌿', desc: "Je n'ai jamais/très peu utilisé l'IA." },
   { value: 'curious'  as SkillLevel, name: 'Intermédiaire', emoji: '🚀', desc: "Je l'utilise régulièrement." },
   { value: 'expert'   as SkillLevel, name: 'Avancé',        emoji: '🧠', desc: "Je prompt, j'automatise, je connais les limites." },
 ]
 
 const TOTAL_STEPS = 4
 
-function CreateAccount({ onLogin }: Props) {
+function passwordRules(pw: string) {
+  return {
+    length:  pw.length >= 12,
+    upper:   /[A-Z]/.test(pw),
+    digit:   /[0-9]/.test(pw),
+    special: /[*?!_\-@#$%^&]/.test(pw),
+  }
+}
+
+function CreateAccount({ onLogin, onBack }: Props) {
   const [step, setStep] = useState(1)
 
   const [firstName, setFirstName] = useState('')
   const [lastName,  setLastName]  = useState('')
   const [email,     setEmail]     = useState('')
   const [password,  setPassword]  = useState('')
+  const [confirm,   setConfirm]   = useState('')
 
   const [services,  setServices]  = useState<Service[]>([])
   const [serviceId, setServiceId] = useState('')
 
   const [levelIndex, setLevelIndex] = useState(0)
 
-  //const [avatarFile,    setAvatarFile]    = useState<File | null>(null)
   const [avatarPreview, setAvatarPreview] = useState<string | null>(null)
   const fileInputRef = useRef<HTMLInputElement>(null)
 
   const [error,   setError]   = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
+
+  const rules = passwordRules(password)
+  const allRulesOk = rules.length && rules.upper && rules.digit && rules.special
+  const confirmOk  = confirm === '' || confirm === password
 
   useEffect(() => {
     supabase.from('services').select('id, name').order('name').then(({ data }) => {
@@ -49,8 +62,12 @@ function CreateAccount({ onLogin }: Props) {
       setError('Tous les champs sont obligatoires.')
       return
     }
-    if (password.length < 6) {
-      setError('Le mot de passe doit contenir au moins 6 caractères.')
+    if (!allRulesOk) {
+      setError('Le mot de passe ne respecte pas les règles requises.')
+      return
+    }
+    if (password !== confirm) {
+      setError('Les mots de passe ne correspondent pas.')
       return
     }
     next()
@@ -64,7 +81,6 @@ function CreateAccount({ onLogin }: Props) {
   const handleAvatarChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0]
     if (!file) return
-    //setAvatarFile(file)
     setAvatarPreview(URL.createObjectURL(file))
   }
 
@@ -72,6 +88,7 @@ function CreateAccount({ onLogin }: Props) {
     setLoading(true)
     setError(null)
 
+    // 1. Créer le compte Supabase Auth
     const { data: authData, error: authError } = await supabase.auth.signUp({ email, password })
     if (authError || !authData.user) {
       setError(authError?.message ?? 'Erreur lors de la création du compte.')
@@ -79,25 +96,8 @@ function CreateAccount({ onLogin }: Props) {
       return
     }
 
-    const userId = authData.user.id
-
-    // Upload photo si sélectionnée
-    /*
-    let avatarUrl: string | null = null
-    if (avatarFile) {
-      const ext = avatarFile.name.split('.').pop()
-      const { error: uploadError } = await supabase.storage
-        .from('avatars')
-        .upload(`${userId}.${ext}`, avatarFile, { upsert: true })
-      if (!uploadError) {
-        const { data: urlData } = supabase.storage.from('avatars').getPublicUrl(`${userId}.${ext}`)
-        avatarUrl = urlData.publicUrl
-      }
-    }
-      */
-
     const { error: profileError } = await supabase.from('users').insert({
-      id:             userId,
+      id:             authData.user.id,
       first_name:     firstName.trim(),
       last_name:      lastName.trim(),
       service_id:     serviceId,
@@ -108,7 +108,6 @@ function CreateAccount({ onLogin }: Props) {
 
     if (profileError) setError(profileError.message)
     setLoading(false)
-    // AuthContext onAuthStateChange redirige vers Quiz
   }
 
   const nextAction = step === 1 ? handleStep1
@@ -120,25 +119,19 @@ function CreateAccount({ onLogin }: Props) {
     ? (loading ? 'Création...' : "C'est parti !")
     : 'Suivant'
 
-  const nextFilled = (step === 1 && !!firstName && !!lastName && !!email && password.length >= 6) ||
+  const nextFilled = (step === 1 && !!firstName && !!lastName && !!email && allRulesOk && password === confirm && confirm !== '') ||
                      (step === 2 && !!serviceId) ||
                      (step === 3)
-  // step 4 toujours outlined (photo optionnelle)
 
   return (
     <div className="create-account">
 
       {/* Header */}
       <div className="create-account__header">
-        <span className="create-account__logo">prisme</span>
-        <div className="create-account__tabs">
-          <button className="create-account__tab" onClick={onLogin}>Se connecter</button>
-          <button className="create-account__tab create-account__tab--active">Créer un compte</button>
-        </div>
+        <Logo variant="text" />
+        <span className="create-account__page-title">Créer un compte</span>
         <div className="create-account__progress">
-          {Array.from({ length: TOTAL_STEPS }).map((_, i) => (
-            <div key={i} className={`create-account__progress-seg${step > i ? ' create-account__progress-seg--active' : ''}`} />
-          ))}
+          <div className="create-account__progress-fill" style={{ width: `${(step / TOTAL_STEPS) * 100}%` }} />
         </div>
       </div>
 
@@ -157,8 +150,24 @@ function CreateAccount({ onLogin }: Props) {
                 value={lastName} onChange={e => setLastName(e.target.value)} autoComplete="family-name" />
               <input className="create-account__input" type="email" placeholder="mail@mail.com*"
                 value={email} onChange={e => setEmail(e.target.value)} autoComplete="email" />
-              <input className="create-account__input" type="password" placeholder="Mot de passe*"
-                value={password} onChange={e => setPassword(e.target.value)} autoComplete="new-password" />
+              <div>
+                <input className="create-account__input" type="password" placeholder="mot de passe*"
+                  value={password} onChange={e => setPassword(e.target.value)} autoComplete="new-password" />
+                <ul className="create-account__rules">
+                  <li className={rules.length  ? 'ok' : ''}>Au moins <strong>12 caractères</strong></li>
+                  <li className={rules.upper   ? 'ok' : ''}>Doit inclure au moins <strong>1 majuscule</strong></li>
+                  <li className={rules.digit   ? 'ok' : ''}>Doit inclure au moins <strong>1 chiffre</strong></li>
+                  <li className={rules.special ? 'ok' : ''}>Doit inclure au moins <strong>1 caractère spécial</strong> (*?!_-)</li>
+                </ul>
+              </div>
+              <input
+                className={`create-account__input${!confirmOk ? ' create-account__input--error' : ''}`}
+                type="password"
+                placeholder="confirmer mot de passe*"
+                value={confirm}
+                onChange={e => setConfirm(e.target.value)}
+                autoComplete="new-password"
+              />
             </div>
           </>
         )}
@@ -242,13 +251,21 @@ function CreateAccount({ onLogin }: Props) {
 
       {/* Footer */}
       <div className="create-account__footer">
-        <button className="create-account__back" onClick={() => step === 1 ? onLogin() : back()}>←</button>
-        <button
-          className={`create-account__next${nextFilled ? ' create-account__next--filled' : ''}`}
-          onClick={nextAction}
-          disabled={loading}>
-          {nextLabel}
-        </button>
+        {step === 1 && (
+          <div className="create-account__login-prompt">
+            <p>Déjà un compte ? <strong onClick={onLogin}>Connectez-vous !</strong></p>
+            
+          </div>
+        )}
+        <div className="create-account__footer-row">
+          <button className="create-account__back" onClick={step === 1 ? onBack : back}>←</button>
+          <button
+            className={`create-account__next${nextFilled ? ' create-account__next--filled' : ''}`}
+            onClick={nextAction}
+            disabled={loading}>
+            {nextLabel}
+          </button>
+        </div>
       </div>
 
     </div>

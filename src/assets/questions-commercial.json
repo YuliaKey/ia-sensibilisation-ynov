@@ -1,0 +1,1090 @@
+[
+    {
+        "id":  1,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "A quoi sert un outil de scoring de leads basé sur l'IA dans une équipe commerciale ?",
+        "options":  [
+                        "A envoyer automatiquement des e-mails promotionnels à tous les contacts",
+                        "A prioriser les prospects selon leur probabilité de conversion",
+                        "A supprimer les contacts inactifs du CRM",
+                        "A générer des factures clients"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "A prioriser les prospects selon leur probabilité de conversion",
+        "explanation":  "Le scoring de leads analyse les données comportementales et démographiques pour attribuer un score à chaque prospect, permettant aux commerciaux de concentrer leurs efforts sur les opportunités les plus prometteuses."
+    },
+    {
+        "id":  2,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Qu'est-ce qu'un CRM intelligent enrichi par l'IA peut faire automatiquement ?",
+        "options":  [
+                        "Passer des appels téléphoniques à la place du commercial",
+                        "Signer des contrats commerciaux",
+                        "Suggérer la prochaine action à mener sur un prospect",
+                        "Recruter de nouveaux commerciaux"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Suggérer la prochaine action à mener sur un prospect",
+        "explanation":  "Un CRM augmenté par l'IA analyse l'historique des interactions et suggère la meilleure action suivante (appel, e-mail, démo), améliorant la productivité des équipes commerciales."
+    },
+    {
+        "id":  3,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Comment l'IA peut-elle aider à personnaliser une offre commerciale ?",
+        "options":  [
+                        "En choisissant la couleur de la présentation",
+                        "En adaptant le contenu et le prix selon le profil et l'historique du client",
+                        "En réduisant systématiquement les prix de 10 %",
+                        "En traduisant l'offre en plusieurs langues uniquement"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En adaptant le contenu et le prix selon le profil et l'historique du client",
+        "explanation":  "L'IA analyse les données clients (achats passés, comportement, secteur) pour proposer une offre sur-mesure, augmentant ainsi les taux de conversion et la satisfaction client."
+    },
+    {
+        "id":  4,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi les prévisions de ventes générées par l'IA peuvent-elles être inexactes ?",
+        "options":  [
+                        "L'IA calcule uniquement en dollars, pas en euros",
+                        "L'IA ne peut pas analyser des données historiques",
+                        "L'IA peut mal anticiper des événements imprévus comme une crise économique",
+                        "L'IA refuse de travailler avec des données clients réelles"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "L'IA peut mal anticiper des événements imprévus comme une crise économique",
+        "explanation":  "Les modèles de prévision s'appuient sur des données passées. Ils peinent à prévoir des ruptures de marché soudaines (pandémie, crise géopolitique) qui n'ont pas de précédent dans les données d'entraînement."
+    },
+    {
+        "id":  5,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel risque existe-t-il à saisir des données confidentielles de clients dans un chatbot IA public ?",
+        "options":  [
+                        "Le chatbot peut devenir trop lent",
+                        "Ces données peuvent être utilisées pour entraîner le modèle ou être exposées",
+                        "Le chatbot refusera de répondre",
+                        "La qualité des réponses diminuera"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Ces données peuvent être utilisées pour entraîner le modèle ou être exposées",
+        "explanation":  "Les outils IA grand public (ChatGPT, GeminiA�) peuvent, selon leurs conditions d'utilisation, intégrer les données saisies dans leur base d'entraînement ou les exposer à des tiers. Il ne faut jamais y saisir des données clients confidentielles."
+    },
+    {
+        "id":  6,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "éthique & société",
+        "question":  "Pourquoi est-il important d'informer les clients lorsqu'un chatbot de vente est piloté par l'IA ?",
+        "options":  [
+                        "Pour que le client puisse choisir un autre fournisseur",
+                        "Pour respecter la transparence et la confiance dans la relation commerciale",
+                        "Parce que la loi interdit les chatbots non signalés aux clients",
+                        "Parce que les chatbots IA sont moins efficaces s'ils sont cachés"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour respecter la transparence et la confiance dans la relation commerciale",
+        "explanation":  "La transparence sur l'utilisation de l'IA dans les échanges commerciaux est un principe éthique fondamental. Elle renforce la confiance et évite le sentiment de manipulation chez le client."
+    },
+    {
+        "id":  7,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Que peut faire l'IA pour analyser la concurrence dans un contexte commercial ?",
+        "options":  [
+                        "Espionner illégalement les systèmes informatiques des concurrents",
+                        "Surveiller automatiquement les prix, offres et actualités publiques des concurrents",
+                        "Prédire avec certitude les stratégies futures des concurrents",
+                        "Copier automatiquement les offres des concurrents"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Surveiller automatiquement les prix, offres et actualités publiques des concurrents",
+        "explanation":  "L'IA peut agréger et analyser des données publiques (sites web, réseaux sociaux, communiqués) pour suivre les tendances concurrentielles, sans aucune action illégale."
+    },
+    {
+        "id":  8,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Dans une équipe commerciale, quelle tâche l'IA ne peut PAS réaliser seule efficacement ?",
+        "options":  [
+                        "Analyser un grand volume de données clients",
+                        "Envoyer des relances automatiques par e-mail",
+                        "Instaurer une relation de confiance durable avec un grand compte",
+                        "Classer des leads par secteur d'activité"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Instaurer une relation de confiance durable avec un grand compte",
+        "explanation":  "La relation humaine, l'empathie et la compréhension des enjeux stratégiques d'un grand compte restent des compétences irremplaçables du commercial. L'IA peut assister mais pas substituer la dimension relationnelle."
+    },
+    {
+        "id":  9,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "éthique & société",
+        "question":  "Que signifie le RGPD pour un commercial qui utilise un outil IA traitant des données clients ?",
+        "options":  [
+                        "Il peut utiliser toutes les données disponibles sans restriction",
+                        "Il doit s'assurer que le traitement des données respecte les droits des personnes concernées",
+                        "Il doit supprimer toutes les données après chaque vente",
+                        "Il est dispensé de demander le consentement si l'IA est certifiée"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Il doit s'assurer que le traitement des données respecte les droits des personnes concernées",
+        "explanation":  "Le RGPD s'applique à tout traitement de données personnelles, y compris ceux réalisés via des outils IA. Le commercial reste responsable de la conformité des données qu'il utilise."
+    },
+    {
+        "id":  10,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Qu'est-ce que le risque de biais dans un outil de scoring de leads IA ?",
+        "options":  [
+                        "Le logiciel peut tomber en panne sans prévenir",
+                        "Le modèle peut désavantager systématiquement certains profils de prospects sur des critères injustifiés",
+                        "Le score attribué est toujours trop élevé",
+                        "L'outil consomme trop de mémoire informatique"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le modèle peut désavantager systématiquement certains profils de prospects sur des critères injustifiés",
+        "explanation":  "Si les données d'entraînement reflètent des biais historiques (ex : certains secteurs ou régions moins suivis), le modèle les reproduira et discriminera inconsciemment certains prospects."
+    },
+    {
+        "id":  11,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "A quoi sert le scoring de leads dans le conseil en stratégie ?",
+        "options":  [
+                        "A envoyer des propositions à tous les contacts",
+                        "A prioriser les prospects selon leur potentiel de conversion",
+                        "A supprimer les doublons du CRM",
+                        "A calculer les honoraires légaux"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "A prioriser les prospects selon leur potentiel de conversion",
+        "explanation":  "Le scoring aide à prioriser les comptes et contacts les plus prometteurs selon des signaux de maturité, d'intérêt et de valeur potentielle."
+    },
+    {
+        "id":  12,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Que permet un CRM enrichi par l'IA à une équipe business development ?",
+        "options":  [
+                        "Passer les appels à la place du partner",
+                        "Suggérer la prochaine action commerciale",
+                        "Signer les NDA automatiquement",
+                        "Créer les slides de mission"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Suggérer la prochaine action commerciale",
+        "explanation":  "Un CRM IA peut recommander la prochaine action utile à partir de l'historique d'échanges et du contexte du compte."
+    },
+    {
+        "id":  13,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Quel est l'intérêt de l'IA dans la préparation d'un pitch de conseil ?",
+        "options":  [
+                        "Remplacer totalement les consultants",
+                        "Aider à personnaliser le message pour le client",
+                        "Fixer le prix sans validation",
+                        "Aviter toute phase de découverte"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Aider à personnaliser le message pour le client",
+        "explanation":  "L'IA peut aider à adapter le discours au secteur, au contexte et aux enjeux du client, tout en laissant la validation aux équipes."
+    },
+    {
+        "id":  14,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Que peut automatiser l'IA dans la qualification d'un lead pour un cabinet de conseil ?",
+        "options":  [
+                        "La signature du contrat",
+                        "Le tri selon taille, secteur et urgence du besoin",
+                        "La nomination du partner responsable",
+                        "La facturation finale"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le tri selon taille, secteur et urgence du besoin",
+        "explanation":  "L'IA peut classer et qualifier les leads à partir de critères utiles pour orienter les efforts commerciaux."
+    },
+    {
+        "id":  15,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Pourquoi l'analyse de compte est-elle utile avant un rendez-vous commercial ?",
+        "options":  [
+                        "Pour supprimer le besoin d'écoute",
+                        "Pour comprendre le contexte, les enjeux et les décideurs",
+                        "Pour éviter toute proposition",
+                        "Pour réduire le nombre de slides"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour comprendre le contexte, les enjeux et les décideurs",
+        "explanation":  "L'analyse de compte permet de préparer un échange plus pertinent en identifiant le contexte, les priorités et les parties prenantes."
+    },
+    {
+        "id":  16,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "A quoi sert une aide IA dans la rédaction d'une proposition commerciale ?",
+        "options":  [
+                        "A remplacer le sponsor client",
+                        "A produire un premier jet structuré",
+                        "A garantir l'acceptation du client",
+                        "A fixer la stratégie du cabinet"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "A produire un premier jet structuré",
+        "explanation":  "L'IA peut générer une base de proposition claire, ensuite retravaillée par l'équipe commerciale et les experts métier."
+    },
+    {
+        "id":  17,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Quel est l'apport d'une IA de veille concurrentielle dans le conseil ?",
+        "options":  [
+                        "Espionner les systèmes privés des concurrents",
+                        "Suivre les offres publiques, les mouvements de marché et les signaux faibles",
+                        "Remplacer la stratégie du cabinet",
+                        "Supprimer le besoin d'analyse humaine"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Suivre les offres publiques, les mouvements de marché et les signaux faibles",
+        "explanation":  "Elle agrège des sources publiques pour aider à comprendre le marché, les acteurs et les tendances."
+    },
+    {
+        "id":  18,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Que peut faire l'IA pour aider à préparer une réunion de découverte ?",
+        "options":  [
+                        "Générer une trame de questions adaptées au contexte du client",
+                        "Décider seule de la mission",
+                        "Remplacer le partner en entretien",
+                        "Négocier les honoraires"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Générer une trame de questions adaptées au contexte du client",
+        "explanation":  "Une IA peut proposer une checklist de questions pour explorer le contexte, les objectifs et les irritants du client."
+    },
+    {
+        "id":  19,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Pourquoi l'IA est-elle utile pour synthétiser des notes d'entretien ?",
+        "options":  [
+                        "Pour supprimer les comptes rendus",
+                        "Pour extraire les points clés et les actions",
+                        "Pour remplacer la présence du consultant",
+                        "Pour figer la stratégie"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour extraire les points clés et les actions",
+        "explanation":  "La synthèse automatique aide à capitaliser rapidement sur un rendez-vous et à diffuser les enseignements internes."
+    },
+    {
+        "id":  20,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Que permet l'IA dans le suivi du pipeline commercial ?",
+        "options":  [
+                        "Créer des mandats de conseil",
+                        "Identifier les dossiers à relancer ou à risque",
+                        "Supprimer les opportunités faibles",
+                        "Négocier les contrats à la place des équipes"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Identifier les dossiers à relancer ou à risque",
+        "explanation":  "L'IA peut aider à repérer les opportunités en retard, les comptes à relancer et les risques de dérive dans le pipe."
+    },
+    {
+        "id":  21,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi une recommandation IA pour un compte stratégique doit-elle être vérifiée ?",
+        "options":  [
+                        "Parce qu'elle est toujours fausse",
+                        "Parce qu'elle peut manquer de contexte ou de nuances",
+                        "Parce qu'elle ne fonctionne qu'en anglais",
+                        "Parce qu'elle remplace le marché"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu'elle peut manquer de contexte ou de nuances",
+        "explanation":  "Une recommandation peut être utile mais elle ne capture pas toujours les éléments politiques, relationnels ou sectoriels."
+    },
+    {
+        "id":  22,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi un modèle de scoring peut-il être trompeur dans le conseil ?",
+        "options":  [
+                        "Parce qu'il ne calcule pas les notes",
+                        "Parce qu'il dépend de données historiques parfois incomplètes",
+                        "Parce qu'il supprime les prospects",
+                        "Parce qu'il ne traite pas les emails"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu'il dépend de données historiques parfois incomplètes",
+        "explanation":  "Si les données d'entrée sont lacunaires ou biaisées, le score obtenu peut orienter l'équipe dans la mauvaise direction."
+    },
+    {
+        "id":  23,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Que signifie le fait qu'un assistant IA ait un périmètre limité ?",
+        "options":  [
+                        "Qu'il comprend tous les cas complexes",
+                        "Qu'il doit escalader les exceptions vers un humain",
+                        "Qu'il ne peut pas aider du tout",
+                        "Qu'il remplace le comité de direction"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Qu'il doit escalader les exceptions vers un humain",
+        "explanation":  "L'IA doit transférer les cas hors cadre à un interlocuteur humain plutôt que d'inventer une réponse."
+    },
+    {
+        "id":  24,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi une IA peut-elle être moins fiable sur un appel d'offres très atypique ?",
+        "options":  [
+                        "Parce qu'elle n'aime pas les gros fichiers",
+                        "Parce qu'elle a été peu exposée à ce type de contexte",
+                        "Parce qu'elle bloque les PDF",
+                        "Parce qu'elle ne gère que les emails"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu'elle a été peu exposée à ce type de contexte",
+        "explanation":  "Les performances dépendent de l'entraînement et des exemples vus, surtout quand les dossiers s'écartent du standard."
+    },
+    {
+        "id":  25,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi l'IA ne doit-elle pas décider seule d'un go/no-go commercial ?",
+        "options":  [
+                        "Parce que le jugement humain reste indispensable",
+                        "Parce qu'elle interdit les réponses",
+                        "Parce qu'elle ne sait pas compter les points",
+                        "Parce qu'elle n'analyse pas les clients"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Parce que le jugement humain reste indispensable",
+        "explanation":  "Le go/no-go dépend aussi de la stratégie, de la relation, des marges et des signaux non structurés qu'un humain doit arbitrer."
+    },
+    {
+        "id":  26,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi une IA de pricing peut-elle être inadaptée au conseil en stratégie ?",
+        "options":  [
+                        "Parce que les honoraires ne sont jamais négociés",
+                        "Parce que la valeur perçue et le contexte relationnel comptent autant que les données",
+                        "Parce qu'elle ne gère pas les devis",
+                        "Parce qu'elle fait toujours des prix fixes"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que la valeur perçue et le contexte relationnel comptent autant que les données",
+        "explanation":  "Le pricing en conseil dépend fortement de la valeur créée, du positionnement du cabinet et du niveau de confiance avec le client."
+    },
+    {
+        "id":  27,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi un assistant IA ne suffit-il pas pour préparer une soutenance client ?",
+        "options":  [
+                        "Parce qu'il ne peut pas capter tous les enjeux politiques et décisionnels",
+                        "Parce qu'il ne sait pas lire les slides",
+                        "Parce qu'il bloque les réunions",
+                        "Parce qu'il remplace le sponsor"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Parce qu'il ne peut pas capter tous les enjeux politiques et décisionnels",
+        "explanation":  "La soutenance demande d'anticiper les réactions, les objections et les enjeux de pouvoir au sein du client."
+    },
+    {
+        "id":  28,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi les prévisions commerciales peuvent-elles se dégrader ?",
+        "options":  [
+                        "Parce que le marché, les priorités et les décideurs évoluent",
+                        "Parce que l'IA devient plus lente avec le temps",
+                        "Parce que les CRM suppriment les données",
+                        "Parce que les devis ne sont plus lisibles"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Parce que le marché, les priorités et les décideurs évoluent",
+        "explanation":  "Les prévisions basées sur le passé deviennent moins fiables si les conditions de marché changent."
+    },
+    {
+        "id":  29,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi une IA ne remplace-t-elle pas le réseau relationnel d'un partner ?",
+        "options":  [
+                        "Parce qu'elle ne peut pas créer de confiance durable",
+                        "Parce qu'elle n'a pas accès au CRM",
+                        "Parce qu'elle ne lit pas les mails",
+                        "Parce qu'elle refuse les rendez-vous"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Parce qu'elle ne peut pas créer de confiance durable",
+        "explanation":  "Le développement commercial en conseil repose beaucoup sur la relation, la crédibilité et l'historique de confiance."
+    },
+    {
+        "id":  30,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi une proposition générée par IA doit-elle être relue par un senior ?",
+        "options":  [
+                        "Parce qu'elle contient toujours des fautes",
+                        "Parce qu'elle peut manquer d'alignement stratégique ou juridique",
+                        "Parce qu'elle n'est pas adaptée aux slides",
+                        "Parce qu'elle ne sait pas structurer le texte"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu'elle peut manquer d'alignement stratégique ou juridique",
+        "explanation":  "Une proposition peut être bien rédigée mais inexacte, mal positionnée ou trop générique."
+    },
+    {
+        "id":  31,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment fonctionne le pricing dynamique basé sur l'IA dans un contexte B2B ?",
+        "options":  [
+                        "Le prix est fixé aléatoirement selon l'humeur du marché",
+                        "L'IA analyse la demande, la concurrence et le profil client pour ajuster les prix en temps réel",
+                        "L'IA demande au client son budget maximum avant de fixer le prix",
+                        "Le prix est ajusté uniquement une fois par an en fonction des résultats annuels"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L'IA analyse la demande, la concurrence et le profil client pour ajuster les prix en temps réel",
+        "explanation":  "Le pricing dynamique IA prend en compte de nombreux signaux (saisonnalité, comportement d'achat, élasticité-prix estimée, actions concurrentes) pour proposer le prix optimal à chaque instant."
+    },
+    {
+        "id":  32,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi un modèle d'IA de prévision commerciale peut-il se dégrader avec le temps ?",
+        "options":  [
+                        "L'IA se fatigue comme un humain après plusieurs mois d'utilisation",
+                        "Le modèle est basé sur des données passées qui peuvent ne plus refléter la réalité du marché",
+                        "Les serveurs IA ont une durée de vie limitée à 12 mois",
+                        "L'IA perd sa licence commerciale au bout d'un an"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le modèle est basé sur des données passées qui peuvent ne plus refléter la réalité du marché",
+        "explanation":  "On parle de 'data drift' ou 'model drift' : si les conditions de marché évoluent mais que le modèle n'est pas réentraîné, ses prédictions deviennent de moins en moins fiables."
+    },
+    {
+        "id":  33,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel problème éthique et légal pose l'utilisation de l'IA pour collecter des données comportementales de prospects à leur insu ?",
+        "options":  [
+                        "Aucun, si les données sont anonymisées après collecte",
+                        "Cela peut violer le RGPD et éroder la confiance des clients",
+                        "C'est illégal uniquement pour les entreprises de plus de 250 salariés",
+                        "C'est autorisé si les données ne sont pas revendues"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Cela peut violer le RGPD et éroder la confiance des clients",
+        "explanation":  "La collecte de données comportementales sans base légale claire (consentement, intérêt légitime documenté) viole le RGPD. En cas de découverte, les conséquences réputationnelles et financières peuvent être sévères."
+    },
+    {
+        "id":  34,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "éthique & société",
+        "question":  "Un commercial reçoit une recommandation de l'IA pour ne pas contacter un segment de clients jugé 'peu rentable'. Quelle doit être sa réaction ?",
+        "options":  [
+                        "Suivre aveuglément la recommandation car l'IA est toujours objective",
+                        "Ignorer complètement l'outil IA et travailler uniquement à l'instinct",
+                        "Questionner les critères du modèle et évaluer si ce segment mérite quand même une attention",
+                        "Signaler l'outil IA comme défaillant au service informatique"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Questionner les critères du modèle et évaluer si ce segment mérite quand même une attention",
+        "explanation":  "L'IA est un outil d'aide à la décision, pas un décideur. Le commercial doit exercer son jugement critique, notamment pour éviter des discriminations commerciales et des occasions manquées."
+    },
+    {
+        "id":  35,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Qu'est-ce que la 'next best action' recommandée par un CRM IA ?",
+        "options":  [
+                        "L'action à ne surtout pas faire avec un client difficile",
+                        "La prochaine étape commerciale optimale calculée selon l'historique et le comportement du client",
+                        "Le meilleur produit à acheter pour améliorer le CRM",
+                        "La prochaine formation recommandée pour le commercial"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La prochaine étape commerciale optimale calculée selon l'historique et le comportement du client",
+        "explanation":  "La 'next best action' est une fonctionnalité IA qui analyse le parcours client et prédit quelle action (appel, démo, relance) maximisera les chances de conversion à l'instant T."
+    },
+    {
+        "id":  36,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Quel est le principal risque d'une personnalisation commerciale trop poussée grâce à l'IA ?",
+        "options":  [
+                        "Le client recevra des offres trop génériques",
+                        "Le client peut se sentir surveillé et mal à l'aise avec le niveau de précision des offres",
+                        "L'IA générera des prix trop bas pour l'entreprise",
+                        "Les commerciaux perdront toutes leurs compétences de négociation"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le client peut se sentir surveillé et mal à l'aise avec le niveau de précision des offres",
+        "explanation":  "Une personnalisation trop fine peut créer un effet 'creepy' : le client se sent espionné, ce qui nuit à la relation de confiance. Il faut trouver le bon équilibre entre pertinence et discrétion."
+    },
+    {
+        "id":  37,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment l'IA peut-elle aider à cibler une campagne de prospection en conseil ?",
+        "options":  [
+                        "En identifiant les comptes les plus pertinents",
+                        "En remplaçant le pitch du partner",
+                        "En envoyant le même message à tous",
+                        "En supprimant les contacts du CRM"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "En identifiant les comptes les plus pertinents",
+        "explanation":  "L'IA aide à segmenter les cibles selon des critères utiles comme le secteur, la taille ou les signaux d'intention."
+    },
+    {
+        "id":  38,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Que peut faire une IA de veille pour un cabinet de stratégie ?",
+        "options":  [
+                        "Suivre les actualités, levées de fonds et mouvements du marché",
+                        "Signer des mandats",
+                        "Réaliser les entretiens clients",
+                        "Vérifier les contrats de travail"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Suivre les actualités, levées de fonds et mouvements du marché",
+        "explanation":  "La veille automatisée enrichit la compréhension du marché et alimente les opportunités commerciales."
+    },
+    {
+        "id":  39,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "A quoi sert l'analyse de signaux faibles dans la vente de missions de conseil ?",
+        "options":  [
+                        "A repérer des opportunités avant les concurrents",
+                        "A supprimer les prospects froids",
+                        "A remplacer le networking",
+                        "A calculer les charges sociales"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "A repérer des opportunités avant les concurrents",
+        "explanation":  "Les signaux faibles aident à détecter des besoins potentiels avant qu'ils ne deviennent explicites."
+    },
+    {
+        "id":  40,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Quel est l'intérêt d'une IA pour préparer une synthèse client avant comité ?",
+        "options":  [
+                        "Résumer les enjeux, risques et priorités",
+                        "Créer le budget annuel",
+                        "Remplacer la gouvernance",
+                        "Supprimer la validation"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Résumer les enjeux, risques et priorités",
+        "explanation":  "Une synthèse claire aide à préparer un échange de haut niveau avec le client."
+    },
+    {
+        "id":  41,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment l'IA peut-elle aider à répondre à un appel d'offres ?",
+        "options":  [
+                        "En structurant un premier draft à partir des exigences",
+                        "En envoyant la réponse sans relecture",
+                        "En fixant la note finale",
+                        "En supprimant les contraintes"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "En structurant un premier draft à partir des exigences",
+        "explanation":  "L'IA accélère la production d'un premier jet cohérent, mais la validation reste humaine."
+    },
+    {
+        "id":  42,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Quel est l'apport d'un assistant IA pour les notes de réunion commerciales ?",
+        "options":  [
+                        "Extraire les décisions, risques et actions",
+                        "Créer des factures automatiques",
+                        "Supprimer le suivi de projet",
+                        "Remplacer le responsable de compte"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Extraire les décisions, risques et actions",
+        "explanation":  "L'assistant peut transformer une réunion en plan d'action exploitable rapidement."
+    },
+    {
+        "id":  43,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Que permet un outil d'aide à la négociation commerciale ?",
+        "options":  [
+                        "Préparer des scénarios et des arguments",
+                        "Imposer le prix au client",
+                        "Supprimer toute marge",
+                        "Signer à la place du partner"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Préparer des scénarios et des arguments",
+        "explanation":  "L'IA peut aider à préparer des scénarios de négociation et des concessions possibles."
+    },
+    {
+        "id":  44,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Pourquoi un cabinet peut-il utiliser l'IA pour analyser les appels d'offres entrants ?",
+        "options":  [
+                        "Pour qualifier plus vite les opportunités",
+                        "Pour ignorer les cahiers des charges",
+                        "Pour remplacer la lecture juridique",
+                        "Pour supprimer les équipes"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Pour qualifier plus vite les opportunités",
+        "explanation":  "L'IA aide à extraire les exigences clés et à décider si l'opportunité vaut la peine d'être poursuivie."
+    },
+    {
+        "id":  45,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Que permet l'IA dans le suivi du compte client ?",
+        "options":  [
+                        "Identifier les opportunités d'upsell ou cross-sell",
+                        "Supprimer les réunions",
+                        "Bloquer les échanges",
+                        "Réduire le nombre de partenaires"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Identifier les opportunités d'upsell ou cross-sell",
+        "explanation":  "L'IA peut repérer les occasions d'élargir la relation commerciale sur un compte existant."
+    },
+    {
+        "id":  46,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment l'IA peut-elle aider à préparer un entretien de discovery ?",
+        "options":  [
+                        "En générant des questions adaptées au contexte du client",
+                        "En remplaçant le consultant",
+                        "En produisant le contrat final",
+                        "En fixant la durée de la mission"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "En générant des questions adaptées au contexte du client",
+        "explanation":  "Une trame préparée améliore la qualité de l'échange et la collecte d'informations."
+    },
+    {
+        "id":  47,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "A quoi sert un tableau de bord commercial enrichi par l'IA ?",
+        "options":  [
+                        "A prioriser les efforts et suivre le pipe",
+                        "A masquer les opportunités perdues",
+                        "A calculer les honoraires légaux",
+                        "A supprimer les données"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "A prioriser les efforts et suivre le pipe",
+        "explanation":  "Le tableau de bord IA permet de visualiser les opportunités, leur probabilité et les actions à mener."
+    },
+    {
+        "id":  48,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Que peut automatiser l'IA dans la gestion des références clients ?",
+        "options":  [
+                        "La mise en forme, la recherche et la réutilisation des preuves de valeur",
+                        "La signature des contrats",
+                        "Le suivi de la paie",
+                        "La création d'un centre de coûts"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "La mise en forme, la recherche et la réutilisation des preuves de valeur",
+        "explanation":  "L'IA peut aider à retrouver rapidement des cas clients pertinents pour un pitch ou une proposition."
+    },
+    {
+        "id":  49,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Quel est l'intérêt d'un moteur de recherche sémantique sur les assets commerciaux ?",
+        "options":  [
+                        "Retrouver rapidement des slides, cas clients et propositions proches du besoin",
+                        "Supprimer les documents obsolètes automatiquement",
+                        "Créer des missions de conseil",
+                        "Calculer les bonus des commerciaux"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Retrouver rapidement des slides, cas clients et propositions proches du besoin",
+        "explanation":  "La recherche sémantique accélère la réutilisation de contenus utiles dans la vente."
+    },
+    {
+        "id":  50,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment l'IA peut-elle aider à estimer l'appétence d'un client pour une mission ?",
+        "options":  [
+                        "En analysant les interactions, les engagements et les signaux d'intérêt",
+                        "En remplaçant le rendez-vous",
+                        "En fixant le pricing seul",
+                        "En supprimant les objections"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "En analysant les interactions, les engagements et les signaux d'intérêt",
+        "explanation":  "L'IA peut donner des indices sur la maturité d'un prospect à partir de ses comportements."
+    },
+    {
+        "id":  51,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi un modèle de recommandation commerciale peut-il produire de mauvais résultats sur un nouveau secteur ?",
+        "options":  [
+                        "Parce qu'il manque d'exemples comparables",
+                        "Parce qu'il refuse les secteurs inconnus",
+                        "Parce qu'il ne sait pas lire les devis",
+                        "Parce qu'il bloque les nouveaux clients"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Parce qu'il manque d'exemples comparables",
+        "explanation":  "Sans données représentatives, le modèle généralise mal à un contexte inédit."
+    },
+    {
+        "id":  52,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi l'IA ne suffit-elle pas pour vendre une mission de transformation stratégique ?",
+        "options":  [
+                        "Parce que la vente repose aussi sur la confiance et le jugement humain",
+                        "Parce qu'elle ne peut pas générer de texte",
+                        "Parce qu'elle ne connaît pas les prix",
+                        "Parce qu'elle ne lit pas les emails"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Parce que la vente repose aussi sur la confiance et le jugement humain",
+        "explanation":  "La vente de conseil dépend de la crédibilité, du relationnel et de la lecture politique du compte."
+    },
+    {
+        "id":  53,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Quel est le risque d'un assistant IA qui résume une proposition de mission ?",
+        "options":  [
+                        "Perdre des nuances importantes du cadrage",
+                        "Améliorer la précision juridique",
+                        "Augmenter la valeur de la mission",
+                        "Supprimer les avenants"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Perdre des nuances importantes du cadrage",
+        "explanation":  "Un résumé peut simplifier à l'excès et omettre des éléments essentiels."
+    },
+    {
+        "id":  54,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi une recommandation de prix IA doit-elle être validée par un senior ?",
+        "options":  [
+                        "Parce qu'elle ne connaît pas le contexte stratégique du compte",
+                        "Parce qu'elle refuse les remises",
+                        "Parce qu'elle ne traite pas les marges",
+                        "Parce qu'elle ne sait pas calculer"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Parce qu'elle ne connaît pas le contexte stratégique du compte",
+        "explanation":  "Le prix dépend aussi du positionnement du cabinet, de la relation et des objectifs commerciaux."
+    },
+    {
+        "id":  55,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "éthique & société",
+        "question":  "Dans le cadre de l'AI Act européen, dans quelle catégorie de risque se trouvent les systèmes IA utilisés pour évaluer la solvabilité de clients professionnels ?",
+        "options":  [
+                        "Risque minimal, aucune régulation spécifique",
+                        "Risque inacceptable, interdits en Europe",
+                        "Risque élevé, soumis à des obligations strictes de transparence et d'audit",
+                        "Risque modéré, avec simple déclaration volontaire"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Risque élevé, soumis à des obligations strictes de transparence et d'audit",
+        "explanation":  "L'AI Act classe les systèmes d'évaluation de crédit et de solvabilité dans la catégorie 'haut risque'. Ils doivent être transparents, auditables et ne pas discriminer illégalement les personnes."
+    },
+    {
+        "id":  56,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment l'IA générative peut-elle être utilisée dans la rédaction de propositions commerciales ?",
+        "options":  [
+                        "Elle remplace entièrement le commercial en signant les propositions automatiquement",
+                        "Elle génère un premier jet personnalisé à partir des données CRM, que le commercial finalise",
+                        "Elle traduit uniquement les propositions en langue étrangère",
+                        "Elle vérifie uniquement l'orthographe des documents"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Elle génère un premier jet personnalisé à partir des données CRM, que le commercial finalise",
+        "explanation":  "Les outils IA génératifs peuvent créer des ébauches de propositions en intégrant les données du client (secteur, besoins, historique), réduisant le temps de rédaction tout en laissant au commercial le soin de valider et personnaliser."
+    },
+    {
+        "id":  57,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Qu'est-ce qu'une 'hallucination' de l'IA et quel impact peut-elle avoir dans un contexte de vente ?",
+        "options":  [
+                        "Un bug visuel sur l'interface du CRM",
+                        "Une réponse inventée mais plausible de l'IA, pouvant induire un commercial ou un client en erreur",
+                        "Un phénomène où l'IA prédit des ventes impossibles à réaliser",
+                        "Une erreur de calcul dans les prévisions financières"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une réponse inventée mais plausible de l'IA, pouvant induire un commercial ou un client en erreur",
+        "explanation":  "Les modèles de langage peuvent 'halluciner' : produire des informations factuellement incorrectes mais formulées avec assurance. Dans un contexte commercial, cela peut mener à de fausses promesses ou des erreurs stratégiques."
+    },
+    {
+        "id":  58,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi l'IA peut-elle avoir du mal à analyser correctement le sentiment d'un client dans un échange commercial oral ?",
+        "options":  [
+                        "L'IA ne comprend pas les langues autres que l'anglais",
+                        "L'ironie, le contexte culturel et les sous-entendus restent difficiles à interpréter précisément",
+                        "L'IA ne peut pas traiter des fichiers audio",
+                        "Les clients parlent toujours trop vite pour l'IA"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L'ironie, le contexte culturel et les sous-entendus restent difficiles à interpréter précisément",
+        "explanation":  "L'analyse de sentiment IA peut détecter des émotions basiques mais rate souvent l'ironie, le second degré et les nuances culturelles, qui sont pourtant fondamentales dans une négociation commerciale."
+    },
+    {
+        "id":  59,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "éthique & société",
+        "question":  "Un outil IA de pricing dynamique propose systématiquement des prix plus élevés à certains codes postaux. Quel problème cela pose-t-il ?",
+        "options":  [
+                        "Aucun, c'est le principe du pricing au mérite",
+                        "Cela peut constituer une discrimination géographique contraire au droit de la consommation",
+                        "Cela optimise les marges, c'est donc une pratique recommendée",
+                        "Cela pose uniquement un problème de concurrence déloyale entre commerciaux"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Cela peut constituer une discrimination géographique contraire au droit de la consommation",
+        "explanation":  "Une tarification différenciée basée sur la géolocalisation peut être assimilée à de la discrimination si elle défavorise systématiquement certaines zones sans justification légitime. Les autorités de régulation y sont de plus en plus attentives."
+    },
+    {
+        "id":  60,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Qu'est-ce que l'analyse prédictive du churn (attrition client) dans un contexte commercial IA ?",
+        "options":  [
+                        "Une technique pour augmenter automatiquement les prix des clients fidèles",
+                        "Un modèle qui identifie les clients susceptibles de partir pour anticiper des actions de rétention",
+                        "Un système qui supprime automatiquement les clients inactifs du CRM",
+                        "Un outil qui analyse la rotation des commerciaux dans l'entreprise"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un modèle qui identifie les clients susceptibles de partir pour anticiper des actions de rétention",
+        "explanation":  "Le modèle de prédiction du churn analyse des signaux faibles (baisse de commandes, moins d'interactions, tickets supportA�) pour alerter les commerciaux avant que le client ne parte, permettant des actions proactives de fidélisation."
+    },
+    {
+        "id":  61,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Quelle technique permet à un modèle IA de scoring commercial d'expliquer pourquoi un lead reçoit un score élevé ?",
+        "options":  [
+                        "Le deep learning non supervisé",
+                        "Les méthodes d'explicabilité comme SHAP (SHapley Additive exPlanations)",
+                        "La régression linéaire simple",
+                        "Le clustering k-means"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Les méthodes d'explicabilité comme SHAP (SHapley Additive exPlanations)",
+        "explanation":  "SHAP est une méthode d'explicabilité basée sur la théorie des jeux coopératifs. Elle décompose la prédiction d'un modèle en contributions de chaque variable, permettant de comprendre précisément pourquoi un lead est jugé prioritaire."
+    },
+    {
+        "id":  62,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Dans un pipeline de vente IA, qu'est-ce que le problème de 'leakage' de données ?",
+        "options":  [
+                        "Une fuite de données vers un concurrent",
+                        "L'utilisation accidentelle d'informations du futur lors de l'entraînement, qui fausse les performances réelles",
+                        "Un bug qui fait fuir les données clients vers le cloud",
+                        "La perte de données lors d'une migration de CRM"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L'utilisation accidentelle d'informations du futur lors de l'entraînement, qui fausse les performances réelles",
+        "explanation":  "Le data leakage se produit quand des informations qui n'auraient pas été disponibles au moment de la prédiction réelle sont incluses dans l'entraînement. Le modèle semble très performant en test mais échoue en production."
+    },
+    {
+        "id":  63,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "éthique & société",
+        "question":  "Dans le cadre de l'AI Act, quelles obligations spécifiques s'appliquent aux systèmes IA à haut risque utilisés dans des décisions commerciales affectant des personnes physiques ?",
+        "options":  [
+                        "Aucune obligation spécifique, le droit commercial suffit",
+                        "Documentation technique, supervision humaine, tests de robustesse et enregistrement dans la base de l'UE",
+                        "Uniquement une obligation de résultat sur la précision du modèle",
+                        "Simple notification à la CNIL avant mise en production"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Documentation technique, supervision humaine, tests de robustesse et enregistrement dans la base de l'UE",
+        "explanation":  "L'AI Act impose aux systèmes IA à haut risque : une documentation technique complète, des mécanismes de supervision humaine, des tests de robustesse et de non-discrimination, et un enregistrement dans la base de données EU AI."
+    },
+    {
+        "id":  64,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Quel risque spécifique existe lorsqu'un modèle de pricing IA est entraîné sur des données de marché partagées entre concurrents ?",
+        "options":  [
+                        "Le modèle sera moins précis car il a trop de données",
+                        "Cela peut constituer une entente tarifaire tacite prohibée par le droit de la concurrence",
+                        "Le modèle ne pourra pas s'adapter aux fluctuations saisonnières",
+                        "Les données partagées créent des doublons qui dégradent les prévisions"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Cela peut constituer une entente tarifaire tacite prohibée par le droit de la concurrence",
+        "explanation":  "Si des concurrents utilisent des données de marché communes pour entraîner leurs modèles de pricing, ils peuvent converger vers des prix similaires sans communication directe. Les autorités de concurrence (ADLC, Commission européenne) qualifient cela d'entente algorithmique."
+    },
+    {
+        "id":  65,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Pourquoi les modèles de prévision des ventes basés sur le deep learning sont-ils souvent moins interprétables que les modèles statistiques classiques, et quelles en sont les conséquences managériales ?",
+        "options":  [
+                        "Parce qu'ils utilisent un langage de programmation différent, incompréhensible par les managers",
+                        "En raison de leur nature de 'boîte noire', il est difficile de justifier une prévision à la direction, ce qui nuit à l'adoption et à la gouvernance",
+                        "Parce qu'ils sont entraînés sur des données confidentielles inaccessibles au management",
+                        "Parce qu'ils ne produisent que des probabilités et non des chiffres précis"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En raison de leur nature de 'boîte noire', il est difficile de justifier une prévision à la direction, ce qui nuit à l'adoption et à la gouvernance",
+        "explanation":  "Les réseaux de neurones profonds transforment les données à travers de nombreuses couches sans logique explicite lisible. Un directeur commercial ou un comité de direction ne peut pas comprendre 'pourquoi' le modèle prédit X, ce qui freine la confiance, la responsabilisation et la gouvernance des décisions."
+    },
+    {
+        "id":  66,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "éthique & société",
+        "question":  "Dans un contexte de vente B2C, comment concilier personnalisation IA et droit à la non-discrimination selon le RGPD et la jurisprudence française ?",
+        "options":  [
+                        "En utilisant uniquement des données pseudonymisées pour tous les traitements de personnalisation",
+                        "En documentant la base légale, en excluant les attributs protégés des modèles et en permettant aux individus de contester les décisions automatisées",
+                        "En demandant un consentement explicite uniquement pour les données sensibles",
+                        "En sous-traitant la personnalisation à un prestataire certifié ISO 27001"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En documentant la base légale, en excluant les attributs protégés des modèles et en permettant aux individus de contester les décisions automatisées",
+        "explanation":  "Le RGPD (art. 22) interdit les décisions entièrement automatisées ayant des effets significatifs sur une personne sans droit d'opposition. Les attributs protégés (origine, religion, santé) ne doivent pas être utilisés dans les modèles. Toute décision doit pouvoir être expliquée et contestée."
+    },
+    {
+        "id":  67,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Quel est le risque d'une dépendance excessive aux recommandations d'un outil IA de CRM dans une équipe commerciale à long terme ?",
+        "options":  [
+                        "L'outil deviendra trop cher à maintenir",
+                        "L'atrophie des compétences de jugement des commerciaux et une vulnérabilité accrue aux biais du modèle non détectés",
+                        "Les commerciaux voudront être remplacés par l'IA",
+                        "Le CRM sera surchargé de données inutiles"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L'atrophie des compétences de jugement des commerciaux et une vulnérabilité accrue aux biais du modèle non détectés",
+        "explanation":  "Si les commerciaux délèguent systématiquement leur jugement à l'IA sans l'interroger, ils perdent progressivement leur capacité d'analyse critique. En cas de dérive du modèle, personne ne sera capable de la détecter. C'est ce qu'on appelle l'automation bias."
+    },
+    {
+        "id":  68,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Qu'est-ce que la 'customer lifetime value' (CLV) prédictive et comment l'IA améliore-t-elle son estimation par rapport aux méthodes traditionnelles ?",
+        "options":  [
+                        "La CLV prédictive est un indice boursier calculé par l'IA à partir de données publiques",
+                        "L'IA intègre des centaines de variables comportementales et contextuelles non linéaires que les modèles RFM classiques ne capturent pas, améliorant significativement la précision des projections",
+                        "L'IA calcule la CLV uniquement à partir du panier moyen des 12 derniers mois",
+                        "La CLV prédictive IA remplace le plan commercial annuel car elle prédit exactement les revenus futurs"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L'IA intègre des centaines de variables comportementales et contextuelles non linéaires que les modèles RFM classiques ne capturent pas, améliorant significativement la précision des projections",
+        "explanation":  "Les modèles RFM (Récence, Fréquence, Montant) sont limités aux données transactionnelles. Les modèles IA de CLV prédictive incorporent les comportements digitaux, la saisonnalité, le contexte économique et des interactions complexes entre variables, offrant des projections bien plus précises pour prioriser les investissements commerciaux."
+    }
+]

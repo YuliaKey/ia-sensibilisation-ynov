@@ -1,0 +1,439 @@
+﻿.settings {
+  min-height: 100vh;
+  background: #F7F4EE;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--sans);
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/* â”€â”€ Header â”€â”€ */
+.settings__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px 8px;
+}
+
+.settings__back {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #0a0a0a;
+  padding: 4px 0;
+}
+
+.settings__logo {
+  font-size: 18px;
+  font-weight: 800;
+  font-style: italic;
+  color: #0a0a0a;
+}
+
+.settings__title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #0a0a0a;
+  text-align: center;
+  margin: 20px 0 16px; /* espace en haut (le header n'est plus là) */
+  letter-spacing: -0.5px;
+}
+
+/* â”€â”€ Body â”€â”€ */
+.settings__body {
+  flex: 1;
+  padding: 0 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  overflow-y: auto;
+}
+
+/* â”€â”€ Section label â”€â”€ */
+.settings__section-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #9ca3af;
+  text-align: center;
+  margin: 10px 0 2px;
+  letter-spacing: 0.02em;
+}
+
+/* â”€â”€ Row â”€â”€ */
+.settings-row {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 20px;
+  background: #EAEAF2;
+  border: none;
+  border-radius: 16px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #0a0a0a;
+  cursor: pointer;
+  font-family: var(--sans);
+  text-align: left;
+  transition: opacity 0.1s;
+}
+
+.settings-row:active {
+  opacity: 0.75;
+}
+
+.settings-row--soft {
+  background: #fce4ec;
+  color: #c0284a;
+  justify-content: flex-start;
+}
+
+.settings-row--danger {
+  background: #c0284a;
+  color: #fff;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.settings-row--icon {
+  justify-content: space-between;
+}
+
+.settings-row--toggle {
+  justify-content: space-between;
+  cursor: default;
+}
+
+.settings-row--slider {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: default;
+}
+
+/* â”€â”€ Toggle â”€â”€ */
+.settings-toggle {
+  width: 48px;
+  height: 28px;
+  border-radius: 999px;
+  background: #d1d5db;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.2s;
+  flex-shrink: 0;
+  padding: 0;
+}
+
+.settings-toggle--on {
+  background: #4ade80;
+}
+
+.settings-toggle__thumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+.settings-toggle--on .settings-toggle__thumb {
+  transform: translateX(20px);
+}
+
+/* â”€â”€ Slider â”€â”€ */
+.settings-slider {
+  width: 100%;
+  appearance: none;
+  height: 4px;
+  border-radius: 999px;
+  background: #d1d5db;
+  outline: none;
+  cursor: pointer;
+}
+
+.settings-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #0a0a0a;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+/* â”€â”€ Confirm delete â”€â”€ */
+.settings__confirm-delete {
+  background: #fff0f3;
+  border-radius: 16px;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.settings__confirm-delete p {
+  font-size: 14px;
+  color: #c0284a;
+  margin: 0;
+  font-weight: 500;
+}
+
+.settings__delete-error {
+  color: #ef4444 !important;
+  font-size: 12px !important;
+}
+
+.settings__confirm-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.settings__confirm-cancel {
+  flex: 1;
+  padding: 12px;
+  border-radius: 999px;
+  background: #EAEAF2;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0a0a0a;
+  cursor: pointer;
+  font-family: var(--sans);
+}
+
+.settings__confirm-ok {
+  flex: 1;
+  padding: 12px;
+  border-radius: 999px;
+  background: #c0284a;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  font-family: var(--sans);
+}
+
+.settings__confirm-ok:disabled {
+  opacity: 0.5;
+}
+
+/* â”€â”€ Input â”€â”€ */
+.settings-input {
+  width: 100%;
+  padding: 18px 20px;
+  background: #EAEAF2;
+  border: none;
+  border-radius: 16px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #0a0a0a;
+  font-family: var(--sans);
+  outline: none;
+  box-sizing: border-box;
+  appearance: none;
+}
+
+.settings-input::placeholder {
+  color: #9ca3af;
+}
+
+/* â”€â”€ Save button â”€â”€ */
+.settings-row--save {
+  background: #0a0a0a;
+  color: #fff;
+  justify-content: center;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.settings-row--saved {
+  background: #16a34a;
+}
+
+.settings-row--disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.settings-row--link {
+  text-decoration: none;
+  color: #0a0a0a;
+  display: flex;
+}
+
+/* â”€â”€ Hint â”€â”€ */
+.settings__hint {
+  font-size: 13px;
+  color: #9ca3af;
+  text-align: center;
+  padding: 0 4px;
+  line-height: 1.5;
+  margin: 4px 0 0;
+}
+
+.settings__soon {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+/* â”€â”€ FAQ â”€â”€ */
+.settings-faq-item {
+  background: #EAEAF2;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.settings-faq-q {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 20px;
+  background: none;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #0a0a0a;
+  cursor: pointer;
+  font-family: var(--sans);
+  text-align: left;
+}
+
+.settings-faq-a {
+  font-size: 14px;
+  color: #6b7280;
+  padding: 0 20px 16px;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* â”€â”€ Legal â”€â”€ */
+.settings-legal {
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.7;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.settings-legal h2 {
+  font-size: 17px;
+  font-weight: 800;
+  color: #0a0a0a;
+  margin: 0 0 4px;
+}
+
+.settings-legal h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0a0a0a;
+  margin: 12px 0 2px;
+}
+
+.settings-legal p {
+  margin: 0;
+}
+
+/* â”€â”€ Version â”€â”€ */
+.settings__version {
+  font-size: 12px;
+  color: #9ca3af;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 16px;
+}
+
+/* ===========================================================================
+   DESKTOP (>= 900px)
+   =========================================================================== */
+@media (min-width: 900px) {
+
+  /* Toutes les pages réglages : dégradé + centré */
+  .settings {
+    background: linear-gradient(to bottom left, #efe7fb 0%, #fafbf7 48%, #e7f6e6 100%);
+    align-items: center;
+    padding-bottom: 0;
+  }
+
+  /* ── Page principale Réglages ── */
+  .settings--main .settings__title {
+    margin-top: 96px;
+    text-align: left;
+    width: 100%;
+    max-width: 640px;
+  }
+  .settings--main .settings__body {
+    width: 100%;
+    max-width: 640px;
+    padding: 0 0 80px;
+  }
+
+  /* ── Sous-pages (Profil, Confidentialité, FAQ…) ── */
+  /* Header sticky façon navbar : logo centré + bouton Retour */
+  .settings__header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    max-width: 100%;
+    height: 64px;
+    padding: 0 56px;
+    box-sizing: border-box;
+    /* background: rgba(255, 255, 255, 0.82); */
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.07); */
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .settings__header .settings__back {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6b7280;
+    padding: 8px 0;
+    gap: 6px;
+  }
+  .settings__header .settings__back:hover {
+    color: #1c1c22;
+  }
+
+  /* Titre des sous-pages */
+  .settings__title {
+    margin-top: 32px;
+    text-align: left;
+    width: 100%;
+    max-width: 640px;
+  }
+
+  /* Corps des sous-pages */
+  .settings__body {
+    width: 100%;
+    max-width: 640px;
+    padding: 0 0 56px;
+  }
+
+  /* Contenu légal (CGU, Charte) : carte blanche */
+  .settings-legal {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 32px 36px;
+    box-shadow: 0 8px 32px rgba(80, 60, 120, 0.08);
+  }
+}

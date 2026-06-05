@@ -164,8 +164,26 @@
 @media (min-width: 900px) {
   .lb {
     align-items: center;
-    padding: 28px 56px 56px;
+    padding: 96px 56px 56px; /* 96px = hauteur barre nav (68px) + marge */
     background: linear-gradient(to bottom left, #efe7fb 0%, #fafbf7 48%, #e7f6e6 100%);
+  }
+
+  /* Header mobile masqué sur desktop (la BottomNav fournit le logo) */
+  .lb__top {
+    display: none;
+  }
+
+  .lb__title,
+  .lb__subtitle {
+    text-align: left;
+    width: 100%;
+    max-width: 560px;
+  }
+
+  .lb__toggle {
+    width: 100%;
+    max-width: 560px;
+    justify-content: flex-start;
   }
 
   .lb__card {

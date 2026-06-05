@@ -1,0 +1,1442 @@
+[
+    {
+        "id":  1,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Qu'est-ce que l'OCR (Optical Character Recognition) permet de faire dans un service administratif ?",
+        "options":  [
+                        "Scanner des visages pour contrôler les accès au bâtiment",
+                        "Numériser et convertir automatiquement des documents papier en texte exploitable",
+                        "Envoyer automatiquement des e-mails de relance aux fournisseurs",
+                        "Créer des tableaux de bord de suivi des performances"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Numériser et convertir automatiquement des documents papier en texte exploitable",
+        "explanation":  "L'OCR analyse des images de documents pour en extraire le texte. Couplée à l'IA, elle permet de traiter des formulaires, factures ou courriers papier sans ressaisie manuelle, réduisant les erreurs et les délais de traitement."
+    },
+    {
+        "id":  2,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Comment un assistant virtuel peut-il aider le back-office administratif au quotidien ?",
+        "options":  [
+                        "En signant électroniquement les contrats à la place des responsables",
+                        "En remplaçant le logiciel de comptabilité de l'entreprise",
+                        "En répondant automatiquement aux questions fréquentes et en guidant les demandes internes",
+                        "En prenant physiquement en charge la livraison des courriers internes"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "En répondant automatiquement aux questions fréquentes et en guidant les demandes internes",
+        "explanation":  "Un assistant virtuel (chatbot) peut traiter 24h/24 les questions récurrentes (congés, remboursements, procédures) et orienter les demandes complexes vers le bon interlocuteur, libérant du temps aux équipes administratives."
+    },
+    {
+        "id":  3,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Qu'est-ce qu'un workflow d'approbation automatisé par l'IA améliore principalement ?",
+        "options":  [
+                        "La vitesse de circulation et de validation des demandes en acheminant automatiquement les dossiers aux bons valideurs",
+                        "La qualité de la connexion Internet dans les bureaux",
+                        "La gestion des stocks de fournitures de bureau",
+                        "La sécurité physique des locaux en vérifiant les badges d'accès"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "La vitesse de circulation et de validation des demandes en acheminant automatiquement les dossiers aux bons valideurs",
+        "explanation":  "Un workflow automatisé dirige chaque demande (congé, achat, note de frais) vers le bon niveau d'approbation selon des règles prédéfinies, éliminant les relances manuelles et réduisant les délais de traitement."
+    },
+    {
+        "id":  4,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Comment l'IA peut-elle aider à la gestion des commandes fournisseurs dans un service administratif ?",
+        "options":  [
+                        "En négociant directement les prix avec les fournisseurs par téléphone",
+                        "En supprimant le besoin de tout contact humain avec les fournisseurs",
+                        "En imprimant automatiquement les bons de commande en couleur",
+                        "En comparant automatiquement les devis, en détectant les anomalies et en suivant les délais de livraison"
+                    ],
+        "correct_index":  3,
+        "correct_answer":  "En comparant automatiquement les devis, en détectant les anomalies et en suivant les délais de livraison",
+        "explanation":  "L'IA peut analyser et comparer des devis, vérifier la conformité des commandes avec les contrats cadres, détecter des écarts de prix inhabituels et envoyer des alertes sur les délais, réduisant les erreurs et les risques de fraude."
+    },
+    {
+        "id":  5,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Peut-on utiliser un outil IA grand public pour traiter des dossiers contenant des données personnelles de salariés ?",
+        "options":  [
+                        "Oui, si les données sont envoyées en pièce jointe plutôt que collées dans le chat",
+                        "Oui, à condition de ne pas mentionner le nom de l'entreprise",
+                        "Non, cela expose l'entreprise à des risques de violation du RGPD",
+                        "Oui, tous les outils IA sont conformes au RGPD par défaut"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Non, cela expose l'entreprise à des risques de violation du RGPD",
+        "explanation":  "Les données personnelles (RH, clients, fournisseurs) sont protégées par le RGPD. Leur saisie dans un outil IA grand public sans garanties contractuelles constitue une violation potentielle, exposant l'entreprise à des sanctions importantes."
+    },
+    {
+        "id":  6,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Une IA de traitement des demandes administratives peut-elle gérer des situations totalement imprévues dans sa programmation ?",
+        "options":  [
+                        "Oui, elle s'adapte spontanément à toutes les situations grâce à son intelligence générale",
+                        "Non, elle doit escalader les cas hors de son périmètre vers un agent humain",
+                        "Oui, mais uniquement si la demande est formulée en anglais",
+                        "Non, elle bloque et supprime automatiquement toutes les demandes atypiques"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Non, elle doit escalader les cas hors de son périmètre vers un agent humain",
+        "explanation":  "Les outils IA ont un périmètre défini. Face à une situation complexe, ambiguë ou hors norme, le système doit détecter ses limites et transférer la demande à un humain, plutôt que de fournir une réponse incorrecte ou de bloquer le traitement."
+    },
+    {
+        "id":  7,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel risque présente l'archivage automatique par IA de documents contenant des données sensibles ?",
+        "options":  [
+                        "Un risque de surcharge électrique des serveurs de l'entreprise",
+                        "Une perte de qualité d'impression des documents archivés",
+                        "Une incompatibilité avec les logiciels de traitement de texte standards",
+                        "Un accès non autorisé à des données confidentielles si les droits d'accès sont mal configurés"
+                    ],
+        "correct_index":  3,
+        "correct_answer":  "Un accès non autorisé à des données confidentielles si les droits d'accès sont mal configurés",
+        "explanation":  "Un système d'archivage IA mal paramétré peut rendre accessibles des documents confidentiels à des personnes non autorisées. La gestion fine des droits d'accès, le chiffrement et les audits réguliers sont indispensables."
+    },
+    {
+        "id":  8,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "éthique & société",
+        "question":  "Lors de la mise en place d'un outil IA de traitement des courriers, quelle obligation s'applique vis-à-vis des employés concernés ?",
+        "options":  [
+                        "Leur demander de signer un NDA sur les capacités de l'outil avant tout déploiement",
+                        "Les informer et les former à l'utilisation du nouvel outil",
+                        "Leur interdire d'utiliser les anciens outils jusqu'à la fin de la transition",
+                        "Leur proposer systématiquement une rupture conventionnelle"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Les informer et les former à l'utilisation du nouvel outil",
+        "explanation":  "Toute transformation des pratiques de travail implique d'informer les salariés (via les IRP le cas échéant), de les former et de les accompagner. Cette obligation est à la fois légale, éthique et facteur clé de succès du projet."
+    },
+    {
+        "id":  9,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "éthique & société",
+        "question":  "Pourquoi est-il important de maintenir une traçabilité des décisions prises par un système d'IA administratif ?",
+        "options":  [
+                        "Pour facturer les services rendus par l'IA aux autres départements",
+                        "Pour mesurer la vitesse de traitement de l'IA et la comparer à celle des humains",
+                        "Pour pouvoir justifier les décisions, corriger les erreurs et répondre aux obligations légales",
+                        "Pour alimenter uniquement les statistiques de productivité du service"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Pour pouvoir justifier les décisions, corriger les erreurs et répondre aux obligations légales",
+        "explanation":  "La traçabilité permet d'auditer le fonctionnement du système, d'identifier des biais ou erreurs, de répondre aux demandes d'explication des usagers et de satisfaire aux exigences légales telles que le RGPD et l'AI Act européen."
+    },
+    {
+        "id":  10,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel danger présente le fait de faire confiance aveuglément aux résultats d'un outil IA de planification des ressources ?",
+        "options":  [
+                        "L'IA peut planifier des réunions en dehors des horaires d'ouverture des salles si ses données de référence sont incorrectes ou obsolètes",
+                        "L'IA risque de consommer trop d'énergie et d'augmenter la facture électrique",
+                        "L'IA peut refuser de planifier certaines ressources si elles ne sont pas dans sa base de données",
+                        "L'IA peut envoyer des invitations de réunion à des personnes extérieures à l'entreprise"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "L'IA peut planifier des réunions en dehors des horaires d'ouverture des salles si ses données de référence sont incorrectes ou obsolètes",
+        "explanation":  "Les systèmes IA produisent des résultats basés sur leurs données d'entrée. Si les référentiels (horaires, capacités, disponibilités) sont inexacts, les suggestions seront incorrectes. Une vérification humaine reste nécessaire pour les décisions critiques."
+    },
+    {
+        "id":  11,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "é quoi sert principalement la classification automatique des courriers entrants ?",
+        "options":  [
+                        "é supprimer les courriers inutiles sans les lire",
+                        "é orienter chaque courrier vers le bon service selon son contenu",
+                        "é transformer les courriers en fichiers audio",
+                        "é signer automatiquement les réponses"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "é orienter chaque courrier vers le bon service selon son contenu",
+        "explanation":  "La classification automatique permet d'identifier le sujet d'un courrier et de le diriger vers le bon traitement, ce qui accélère la prise en charge et réduit les erreurs de routage."
+    },
+    {
+        "id":  12,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Que permet de faire un outil de résumé automatique dans un service administratif ?",
+        "options":  [
+                        "Résumer un long document en quelques points clés",
+                        "Supprimer les passages juridiques importants",
+                        "Remplacer systématiquement la validation humaine",
+                        "Créer automatiquement un contrat signé"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Résumer un long document en quelques points clés",
+        "explanation":  "Un outil de résumé aide à lire plus vite les dossiers volumineux en mettant en avant les informations essentielles, mais il ne remplace pas l'analyse humaine."
+    },
+    {
+        "id":  13,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Quel est l'intérêt d'un moteur de recherche intelligent dans une GED ?",
+        "options":  [
+                        "Il ne recherche que les documents les plus récents",
+                        "Il comprend mieux les requêtes et retrouve plus facilement les bons documents",
+                        "Il imprime les documents automatiquement",
+                        "Il supprime les doublons de stockage sans intervention"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Il comprend mieux les requêtes et retrouve plus facilement les bons documents",
+        "explanation":  "Un moteur intelligent améliore la recherche documentaire en interprétant le sens de la requête, pas seulement les mots exacts saisis."
+    },
+    {
+        "id":  14,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Que peut automatiser une IA dans le traitement des factures ?",
+        "options":  [
+                        "La saisie des montants, dates et références",
+                        "La signature juridique du contrat fournisseur",
+                        "Le paiement bancaire sans aucune validation",
+                        "La négociation commerciale avec tous les fournisseurs"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "La saisie des montants, dates et références",
+        "explanation":  "L'IA peut extraire automatiquement les informations utiles d'une facture pour accélérer la saisie et le contrôle."
+    },
+    {
+        "id":  15,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Quel est le rôle d'un assistant virtuel interne ?",
+        "options":  [
+                        "Répondre aux questions fréquentes des employés",
+                        "Remplacer le service RH",
+                        "Archiver tous les emails de l'entreprise",
+                        "Supprimer les demandes trop complexes"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Répondre aux questions fréquentes des employés",
+        "explanation":  "Un assistant virtuel peut aider sur les questions récurrentes et orienter les utilisateurs vers la bonne procédure ou le bon interlocuteur."
+    },
+    {
+        "id":  16,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Qu'est-ce que l'IA peut aider à faire dans le tri des demandes internes ?",
+        "options":  [
+                        "Identifier le bon niveau d'urgence",
+                        "Signer les demandes à la place du manager",
+                        "Créer un nouveau règlement intérieur",
+                        "Supprimer les demandes non conformes"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Identifier le bon niveau d'urgence",
+        "explanation":  "L'IA peut aider à prioriser les demandes selon des critères définis, comme le type de demande ou le niveau d'urgence."
+    },
+    {
+        "id":  17,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi faut-il vérifier une réponse donnée par une IA administrative ?",
+        "options":  [
+                        "Parce qu'elle est toujours fausse",
+                        "Parce qu'elle peut se tromper ou manquer de contexte",
+                        "Parce qu'elle ne fonctionne qu'en français",
+                        "Parce qu'elle refuse les questions simples"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu'elle peut se tromper ou manquer de contexte",
+        "explanation":  "Une IA peut produire une réponse plausible mais inexacte. Une vérification humaine reste nécessaire, surtout pour les sujets sensibles."
+    },
+    {
+        "id":  18,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Que signifie le fait qu'une IA ait un périmètre limité ?",
+        "options":  [
+                        "Elle peut traiter tous les cas possibles",
+                        "Elle doit être supervisée pour les situations hors du cadre prévu",
+                        "Elle fonctionne sans aucune règle",
+                        "Elle remplace automatiquement les experts"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Elle doit être supervisée pour les situations hors du cadre prévu",
+        "explanation":  "Une IA ne sait traiter correctement que les situations prévues dans sa conception ou son entraînement."
+    },
+    {
+        "id":  19,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi une IA ne doit-elle pas décider seule sur un dossier RH sensible ?",
+        "options":  [
+                        "Parce qu'elle n'a pas accès à Internet",
+                        "Parce que la décision peut avoir un impact humain et juridique important",
+                        "Parce qu'elle ne peut pas lire les documents",
+                        "Parce qu'elle ne sait pas compter"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que la décision peut avoir un impact humain et juridique important",
+        "explanation":  "Les dossiers RH sensibles nécessitent une appréciation humaine, notamment à cause des conséquences juridiques, sociales et éthiques."
+    },
+    {
+        "id":  20,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi une IA peut-elle être moins fiable sur un document inhabituel ?",
+        "options":  [
+                        "Parce qu'elle aime seulement les fichiers texte",
+                        "Parce qu'elle a été moins entraînée sur ce type de document",
+                        "Parce qu'elle refuse les PDF",
+                        "Parce qu'elle n'accepte pas les signatures"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu'elle a été moins entraînée sur ce type de document",
+        "explanation":  "Les performances d'une IA dépendent des exemples vus à l'entraînement. Un format rare ou atypique peut entraîner davantage d'erreurs."
+    },
+    {
+        "id":  21,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel risque existe si des données sensibles sont envoyées à un outil IA public ?",
+        "options":  [
+                        "Une meilleure confidentialité",
+                        "Une violation potentielle de la protection des données",
+                        "Une réduction des délais légaux",
+                        "Une meilleure conformité automatique"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une violation potentielle de la protection des données",
+        "explanation":  "L'envoi de données sensibles dans un outil public peut exposer l'entreprise à des risques juridiques et de sécurité."
+    },
+    {
+        "id":  22,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel problème peut causer un mauvais paramétrage des accès dans un système d'archivage IA ?",
+        "options":  [
+                        "Un accès non autorisé à certains documents",
+                        "Une amélioration des performances",
+                        "Une meilleure protection automatique",
+                        "Une augmentation du nombre d'employés"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Un accès non autorisé à certains documents",
+        "explanation":  "Si les droits d'accès sont mal configurés, des documents confidentiels peuvent devenir visibles par des personnes non autorisées."
+    },
+    {
+        "id":  23,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Pourquoi faut-il éviter de faire confiance aveuglément à une IA de planification ?",
+        "options":  [
+                        "Parce qu'elle peut utiliser des données incorrectes ou obsolètes",
+                        "Parce qu'elle refuse toujours les rendez-vous",
+                        "Parce qu'elle ne sait traiter que le matin",
+                        "Parce qu'elle bloque les calendriers"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Parce qu'elle peut utiliser des données incorrectes ou obsolètes",
+        "explanation":  "Une IA de planification peut produire de mauvais résultats si les données de référence ne sont pas à jour."
+    },
+    {
+        "id":  24,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel danger présente une suppression automatique de demandes par IA ?",
+        "options":  [
+                        "Le traitement plus rapide des cas complexes",
+                        "La perte de demandes légitimes",
+                        "L'amélioration des contrôles",
+                        "La création d'un historique complet"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La perte de demandes légitimes",
+        "explanation":  "Une automatisation trop agressive peut rejeter à tort des dossiers pourtant valides."
+    },
+    {
+        "id":  25,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "éthique & société",
+        "question":  "Que faut-il faire avant de déployer un nouvel outil IA dans une équipe ?",
+        "options":  [
+                        "Ne rien dire pour éviter les résistances",
+                        "Informer et former les utilisateurs",
+                        "Supprimer les outils existants immédiatement",
+                        "Réserver l'outil au seul service informatique"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Informer et former les utilisateurs",
+        "explanation":  "L'accompagnement des équipes est essentiel pour réussir le déploiement d'un outil IA et respecter les obligations d'information."
+    },
+    {
+        "id":  26,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "éthique & société",
+        "question":  "Pourquoi faut-il garder une trace des décisions prises par une IA ?",
+        "options":  [
+                        "Pour pouvoir les justifier et les corriger si besoin",
+                        "Pour augmenter le volume de stockage",
+                        "Pour éviter toute responsabilité humaine",
+                        "Pour supprimer les explications"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Pour pouvoir les justifier et les corriger si besoin",
+        "explanation":  "La traçabilité permet d'auditer les décisions, de corriger les erreurs et de répondre aux obligations de transparence."
+    },
+    {
+        "id":  27,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "éthique & société",
+        "question":  "Quel principe consiste à protéger les données dès la conception d'un outil ?",
+        "options":  [
+                        "Privacy by default",
+                        "Privacy by design",
+                        "Data by speed",
+                        "Secure by print"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Privacy by design",
+        "explanation":  "Le privacy by design impose d'intégrer la protection des données dès les premières étapes de conception."
+    },
+    {
+        "id":  28,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "éthique & société",
+        "question":  "Pourquoi les employés doivent-ils être formés à l'usage d'un outil IA ?",
+        "options":  [
+                        "Pour éviter toute utilisation",
+                        "Pour comprendre ses limites et bien l'utiliser",
+                        "Pour remplacer les règles de sécurité",
+                        "Pour supprimer les contrôles"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour comprendre ses limites et bien l'utiliser",
+        "explanation":  "La formation aide les utilisateurs à comprendre ce que l'outil peut faire, ce qu'il ne peut pas faire, et comment l'utiliser correctement."
+    },
+    {
+        "id":  29,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "éthique & société",
+        "question":  "Pourquoi un service administratif doit-il conserver un point de contact humain ?",
+        "options":  [
+                        "Pour traiter les cas simples uniquement",
+                        "Pour gérer les dossiers complexes ou sensibles",
+                        "Pour supprimer l'automatisation",
+                        "Pour éviter toute réponse rapide"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour gérer les dossiers complexes ou sensibles",
+        "explanation":  "Un recours humain est nécessaire pour les cas atypiques, sensibles ou litigieux."
+    },
+    {
+        "id":  30,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "éthique & société",
+        "question":  "Quel est un avantage de l'automatisation bien encadrée ?",
+        "options":  [
+                        "Réduire les erreurs et les délais",
+                        "Supprimer toute validation",
+                        "Remplacer toutes les équipes",
+                        "Rendre les règles inutiles"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Réduire les erreurs et les délais",
+        "explanation":  "Une automatisation bien conçue accélère le traitement des tâches répétitives tout en limitant les erreurs humaines."
+    },
+    {
+        "id":  31,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Qu'est-ce que l'extraction d'entités nommées (NER) apporte dans le traitement automatique des courriers entrants ?",
+        "options":  [
+                        "Elle permet d'identifier automatiquement les noms, dates, montants et références dans un texte",
+                        "Elle traduit les courriers reçus en plusieurs langues simultanément",
+                        "Elle vérifie l'orthographe et la grammaire des courriers avant traitement",
+                        "Elle classe les courriers par ordre d'arrivée chronologique"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Elle permet d'identifier automatiquement les noms, dates, montants et références dans un texte",
+        "explanation":  "Le NER (Named Entity Recognition) est une technique d'IA qui repère automatiquement dans un texte les éléments structurants (noms, entreprises, dates, numéros de commande), facilitant le routage et l'indexation automatique des courriers."
+    },
+    {
+        "id":  32,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment la RPA (Robotic Process Automation) combinée à l'IA transforme-t-elle les processus back-office ?",
+        "options":  [
+                        "En supprimant le besoin d'un ERP ou d'un SIRH dans l'entreprise",
+                        "En remplaçant physiquement les employés par des robots dans les bureaux",
+                        "En automatisant les tâches répétitives tout en ajoutant une capacité de compréhension du contexte pour les données non structurées",
+                        "En gérant automatiquement les relations sociales dans l'entreprise"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "En automatisant les tâches répétitives tout en ajoutant une capacité de compréhension du contexte pour les données non structurées",
+        "explanation":  "La RPA robotise les tâches structurées ; couplée à l'IA, elle peut traiter des données non structurées (textes libres, images) et prendre des décisions simples, transformant profondément les processus de back-office."
+    },
+    {
+        "id":  33,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Un système d'IA de traitement des factures peut-il reconnaître tous les formats de factures sans configuration particulière ?",
+        "options":  [
+                        "Oui, l'IA lit tous les formats de factures sans entraînement spécifique grâce à son intelligence générale",
+                        "Non, ses performances dépendent des formats sur lesquels il a été entraîné et il peut faire des erreurs sur des formats inhabituels",
+                        "Oui, à condition que les factures soient envoyées en format PDF uniquement",
+                        "Non, l'IA ne peut traiter que les factures émises par des logiciels certifiés ISO"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Non, ses performances dépendent des formats sur lesquels il a été entraîné et il peut faire des erreurs sur des formats inhabituels",
+        "explanation":  "Les modèles d'IA de traitement documentaire sont entraînés sur des jeux de données spécifiques. Face à un format inhabituel ou très différent de ceux vus à l'entraînement, le taux d'erreur augmente significativement et nécessite une vérification humaine."
+    },
+    {
+        "id":  34,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi une IA d'archivage intelligent ne peut-elle pas décider seule des durées de conservation des documents ?",
+        "options":  [
+                        "Parce qu'elle ne comprend pas les formats de date européens",
+                        "Parce que cette décision nécessite un abonnement premium à l'outil IA",
+                        "Parce qu'elle manque d'espace de stockage pour traiter ce calcul complexe",
+                        "Parce que les durées de conservation sont définies par la loi et engagent la responsabilité juridique de l'entreprise"
+                    ],
+        "correct_index":  3,
+        "correct_answer":  "Parce que les durées de conservation sont définies par la loi et engagent la responsabilité juridique de l'entreprise",
+        "explanation":  "Les durées de conservation légales (fiscales, sociales, contractuelles) sont fixées par des textes réglementaires. L'IA peut aider à les appliquer, mais la politique d'archivage doit être définie et validée par des responsables juridiques."
+    },
+    {
+        "id":  35,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Que peut provoquer la sur-automatisation du traitement des demandes administratives sans supervision humaine suffisante ?",
+        "options":  [
+                        "Une amélioration continue et sans limite de la satisfaction des usagers",
+                        "Des refus automatiques injustifiés et une perte de contact humain avec les usagers",
+                        "Une augmentation des coûts de personnel administratif",
+                        "Un ralentissement inévitable des systèmes informatiques de l'entreprise"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Des refus automatiques injustifiés et une perte de contact humain avec les usagers",
+        "explanation":  "Automatiser à l'excès le traitement des demandes peut conduire à des rejets algorithmiques de cas légitimes et à une déshumanisation du service. Un point de contact humain doit toujours rester accessible pour les cas complexes ou sensibles."
+    },
+    {
+        "id":  36,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "éthique & société",
+        "question":  "Qu'est-ce que le droit à l'explication prévu par le RGPD implique pour un système d'IA traitant des demandes administratives ?",
+        "options":  [
+                        "L'entreprise doit expliquer à la CNIL pourquoi elle a choisi d'utiliser de l'IA",
+                        "Toute personne peut demander une explication humaine sur les décisions automatisées la concernant",
+                        "L'IA doit publier son code source sur internet pour être transparente",
+                        "Les employés doivent expliquer à leurs supérieurs le fonctionnement de l'IA qu'ils utilisent"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Toute personne peut demander une explication humaine sur les décisions automatisées la concernant",
+        "explanation":  "L'article 22 du RGPD accorde aux individus le droit de ne pas faire l'objet de décisions entièrement automatisées produisant des effets significatifs, ainsi que le droit d'obtenir une intervention et une explication humaine de ces décisions."
+    },
+    {
+        "id":  37,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Que permet la reconnaissance d'entités nommées dans un courrier ?",
+        "options":  [
+                        "Identifier les noms, dates et montants",
+                        "Traduire automatiquement le courrier",
+                        "Supprimer les doublons",
+                        "Signer le document"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Identifier les noms, dates et montants",
+        "explanation":  "La NER permet de repérer automatiquement les éléments importants d'un texte pour faciliter le traitement documentaire."
+    },
+    {
+        "id":  38,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Quel est l'apport principal de la RPA combinée à l'IA ?",
+        "options":  [
+                        "Automatiser des tâches répétitives avec compréhension du contexte",
+                        "Remplacer l'ERP de l'entreprise",
+                        "Supprimer les règles métier",
+                        "Gérer les badges d'accès"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Automatiser des tâches répétitives avec compréhension du contexte",
+        "explanation":  "La RPA gère les actions répétitives et l'IA ajoute de la compréhension sur les données non structurées."
+    },
+    {
+        "id":  39,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "En quoi un outil IDP est-il plus avancé qu'un OCR simple ?",
+        "options":  [
+                        "Il comprend et structure mieux l'information",
+                        "Il supprime les documents scannés",
+                        "Il remplace la base de données",
+                        "Il imprime automatiquement les factures"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Il comprend et structure mieux l'information",
+        "explanation":  "L'IDP combine plusieurs techniques pour extraire, structurer et contrôler la cohérence des données extraites."
+    },
+    {
+        "id":  40,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Que fait un système de GED augmentée par l'IA ?",
+        "options":  [
+                        "Il retrouve des documents grâce au sens de la requête",
+                        "Il supprime les documents anciens",
+                        "Il remplace la conservation légale",
+                        "Il convertit les documents en vidéos"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Il retrouve des documents grâce au sens de la requête",
+        "explanation":  "Une GED augmentée comprend mieux les questions en langage naturel et améliore l'accès à l'information."
+    },
+    {
+        "id":  41,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Que permet un workflow d'approbation automatisé ?",
+        "options":  [
+                        "Acheminer les demandes vers les bons valideurs",
+                        "Supprimer les niveaux hiérarchiques",
+                        "éviter toute trace des validations",
+                        "Rendre inutile la politique interne"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Acheminer les demandes vers les bons valideurs",
+        "explanation":  "Un workflow automatisé dirige les demandes selon des règles prédéfinies pour fluidifier les validations."
+    },
+    {
+        "id":  42,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "é quoi sert une IA de comparaison de devis ?",
+        "options":  [
+                        "é détecter les écarts et anomalies",
+                        "é signer les contrats",
+                        "é remplacer le service achat",
+                        "é supprimer les fournisseurs"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "é détecter les écarts et anomalies",
+        "explanation":  "L'IA peut comparer des devis, repérer les différences inhabituelles et aider à la décision."
+    },
+    {
+        "id":  43,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi une IA de traitement des factures peut-elle faire des erreurs sur certains formats ?",
+        "options":  [
+                        "Parce qu'elle dépend des modèles sur lesquels elle a été entraînée",
+                        "Parce qu'elle refuse les documents scannés",
+                        "Parce qu'elle ne sait pas lire les chiffres",
+                        "Parce qu'elle bloque les fichiers PDF"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Parce qu'elle dépend des modèles sur lesquels elle a été entraînée",
+        "explanation":  "Ses performances varient selon les formats vus à l'entraînement, et les formats atypiques augmentent le risque d'erreur."
+    },
+    {
+        "id":  44,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi une IA d'archivage ne peut-elle pas fixer seule les durées de conservation ?",
+        "options":  [
+                        "Parce que ces durées relèvent d'obligations légales",
+                        "Parce qu'elle ne supporte pas les dates",
+                        "Parce qu'elle ne sait pas compter les années",
+                        "Parce qu'elle ne peut gérer que les emails"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Parce que ces durées relèvent d'obligations légales",
+        "explanation":  "Les durées de conservation sont encadrées par la réglementation et doivent être validées par l'organisation."
+    },
+    {
+        "id":  45,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Que doit faire une IA face à un cas hors de son périmètre ?",
+        "options":  [
+                        "Inventer une réponse",
+                        "Escalader vers un humain",
+                        "Supprimer la demande",
+                        "Bloquer tous les utilisateurs"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Escalader vers un humain",
+        "explanation":  "Les cas complexes ou imprévus doivent être transférés à un agent humain pour éviter les erreurs."
+    },
+    {
+        "id":  46,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Quel est le risque principal d'un moteur IA trop dépendant de données obsolètes ?",
+        "options":  [
+                        "Des résultats incorrects",
+                        "Une meilleure précision",
+                        "Un accès plus rapide aux fichiers",
+                        "Une conformité automatique"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Des résultats incorrects",
+        "explanation":  "Si les référentiels ne sont pas à jour, l'IA peut produire des recommandations erronées."
+    },
+    {
+        "id":  47,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel risque existe si une IA classe mal des courriers sensibles ?",
+        "options":  [
+                        "Un accès inapproprié ou un mauvais traitement",
+                        "Une meilleure confidentialité",
+                        "Une réduction des coûts de stockage",
+                        "Une baisse des exigences réglementaires"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Un accès inapproprié ou un mauvais traitement",
+        "explanation":  "Une mauvaise classification peut diriger un document vers le mauvais service ou exposer des données sensibles."
+    },
+    {
+        "id":  48,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel problème peut créer une sur-automatisation du back-office ?",
+        "options":  [
+                        "Une déshumanisation du traitement",
+                        "Une hausse de la qualité",
+                        "Une disparition des erreurs",
+                        "Une réduction des besoins de contrôle"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Une déshumanisation du traitement",
+        "explanation":  "Automatiser trop loin peut éloigner les usagers d'un interlocuteur humain et produire des rejets injustifiés."
+    },
+    {
+        "id":  49,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Pourquoi une IA de notes de frais nécessite-t-elle une supervision humaine ?",
+        "options":  [
+                        "Pour détecter les anomalies et éviter la fraude",
+                        "Pour supprimer les justificatifs",
+                        "Pour accélérer les remboursements sans contrôle",
+                        "Pour remplacer la comptabilité"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Pour détecter les anomalies et éviter la fraude",
+        "explanation":  "Sans contrôle humain, une IA peut valider des dépenses fictives ou inhabituelles."
+    },
+    {
+        "id":  50,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel danger un mauvais archivage automatique peut-il provoquer ?",
+        "options":  [
+                        "Une fuite de documents confidentiels",
+                        "Une meilleure organisation",
+                        "Une suppression des obligations légales",
+                        "Une baisse du volume documentaire"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Une fuite de documents confidentiels",
+        "explanation":  "Des droits mal configurés ou une indexation trop large peuvent exposer des documents à des personnes non autorisées."
+    },
+    {
+        "id":  51,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel est le risque d'un assistant IA manipulé par des instructions cachées ?",
+        "options":  [
+                        "Le prompt injection",
+                        "Le chiffrement fort",
+                        "La compression de données",
+                        "La signature électronique"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Le prompt injection",
+        "explanation":  "Le prompt injection consiste à insérer des instructions malveillantes dans des contenus traités par l'IA pour altérer son comportement."
+    },
+    {
+        "id":  52,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "éthique & société",
+        "question":  "Qu'est-ce que le droit à l'explication implique dans un système de décision automatisée ?",
+        "options":  [
+                        "Une explication humaine peut être demandée",
+                        "Le code source doit être publié",
+                        "La décision est toujours automatique",
+                        "L'IA n'a pas besoin d'être documentée"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Une explication humaine peut être demandée",
+        "explanation":  "Les personnes concernées doivent pouvoir obtenir une explication sur une décision automatisée qui les affecte."
+    },
+    {
+        "id":  53,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "éthique & société",
+        "question":  "Pourquoi faut-il consulter les équipes avant de déployer un outil IA au travail ?",
+        "options":  [
+                        "Parce que cela modifie souvent les conditions de travail",
+                        "Parce que l'IA l'impose automatiquement",
+                        "Parce que cela supprime les obligations légales",
+                        "Parce que les salariés n'ont pas le droit de savoir"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Parce que cela modifie souvent les conditions de travail",
+        "explanation":  "L'introduction d'un nouvel outil peut changer les pratiques, les responsabilités et les contrôles au sein des équipes."
+    },
+    {
+        "id":  54,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "éthique & société",
+        "question":  "Quel principe consiste à minimiser les données utilisées par un système IA ?",
+        "options":  [
+                        "Data minimization",
+                        "Data maximization",
+                        "Privacy by output",
+                        "Auto retention"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Data minimization",
+        "explanation":  "Il faut ne collecter et ne traiter que les données nécessaires à l'objectif du système."
+    },
+    {
+        "id":  55,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Qu'est-ce que le traitement intelligent de documents (IDP) apporte en plus d'un simple OCR classique ?",
+        "options":  [
+                        "Une vitesse de numérisation 10 fois supérieure à l'OCR classique",
+                        "Un stockage automatique dans le cloud sans besoin de licence supplémentaire",
+                        "La capacité de comprendre le sens du contenu, d'extraire des données structurées et de valider leur cohérence",
+                        "La possibilité d'imprimer les documents en couleur automatiquement"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "La capacité de comprendre le sens du contenu, d'extraire des données structurées et de valider leur cohérence",
+        "explanation":  "L'IDP combine OCR, NLP et machine learning pour non seulement lire le texte, mais comprendre sa structure et son sens : il sait qu'un montant est un total HT, qu'une date est une échéance, et peut détecter des incohérences dans les données."
+    },
+    {
+        "id":  56,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment un système de GED augmentée par l'IA améliore-t-il la recherche documentaire par rapport à une GED classique ?",
+        "options":  [
+                        "En limitant l'accès aux documents les plus récents pour accélérer la recherche",
+                        "En traduisant automatiquement tous les documents en anglais pour uniformiser les recherches",
+                        "En indexant uniquement les titres et les auteurs des documents pour plus de rapidité",
+                        "En comprenant le sens des requêtes en langage naturel et en retrouvant les documents pertinents même sans les mots exacts"
+                    ],
+        "correct_index":  3,
+        "correct_answer":  "En comprenant le sens des requêtes en langage naturel et en retrouvant les documents pertinents même sans les mots exacts",
+        "explanation":  "Grâce au traitement sémantique, une GED augmentée par l'IA comprend qu'une recherche sur 'accord de confidentialité' doit aussi remonter les 'NDA'. Elle va bien au-delà de la simple correspondance de mots-clés."
+    },
+    {
+        "id":  57,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel est le principal risque lié à une automatisation complète du traitement des notes de frais par l'IA sans contrôle humain ?",
+        "options":  [
+                        "Un ralentissement du temps de traitement dû aux vérifications algorithmiques",
+                        "Le risque de fraude non détectée si l'IA n'est pas calibrée pour repérer les anomalies inhabituelles",
+                        "Une augmentation des frais généraux de l'entreprise liée au coût des licences IA",
+                        "L'incompatibilité technique avec les logiciels de comptabilité existants"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le risque de fraude non détectée si l'IA n'est pas calibrée pour repérer les anomalies inhabituelles",
+        "explanation":  "Une IA non entraînée à la détection de fraude peut valider des notes de frais fictives ou gonflées. La supervision humaine des dossiers atypiques et des contrôles d'anomalies statistiques restent indispensables dans tout processus financier automatisé."
+    },
+    {
+        "id":  58,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel danger spécifique représente la numérisation et l'indexation automatique de documents contenant des données de santé des employés ?",
+        "options":  [
+                        "Un risque de violation du secret médical et d'accès non autorisé à des données de santé classées sensibles sous le RGPD",
+                        "Un risque de saturation de l'espace de stockage du serveur d'archivage",
+                        "Un risque de dégradation de la qualité d'impression lors de la restitution des documents",
+                        "Un risque de perte d'emploi pour le personnel médical de l'entreprise"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Un risque de violation du secret médical et d'accès non autorisé à des données de santé classées sensibles sous le RGPD",
+        "explanation":  "Les données de santé sont des données sensibles au sens du RGPD, bénéficiant d'une protection renforcée. Leur traitement automatisé doit faire l'objet d'une DPIA, de mesures de sécurité spécifiques et d'habilitations d'accès très strictes."
+    },
+    {
+        "id":  59,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "éthique & société",
+        "question":  "Dans le cadre du RGPD, qu'est-ce qu'une analyse d'impact (DPIA) et quand est-elle obligatoire pour un projet IA administratif ?",
+        "options":  [
+                        "Un audit informatique annuel obligatoire pour toutes les entreprises de plus de 50 salariés",
+                        "Un formulaire à remplir une seule fois lors de la création de l'entreprise",
+                        "Une évaluation obligatoire avant tout traitement susceptible d'engendrer un risque élevé pour les droits des personnes",
+                        "Une certification délivrée par la CNIL autorisant l'utilisation de l'IA dans l'entreprise"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Une évaluation obligatoire avant tout traitement susceptible d'engendrer un risque élevé pour les droits des personnes",
+        "explanation":  "La DPIA est requise notamment pour les traitements à grande échelle de données sensibles ou les décisions automatisées. Elle documente les risques identifiés et les mesures pour les atténuer, et doit être menée avant tout déploiement."
+    },
+    {
+        "id":  60,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi les contrats administratifs complexes ne peuvent-ils pas être entièrement gérés par une IA sans supervision juridique ?",
+        "options":  [
+                        "Parce que l'IA ne sait pas lire les PDF de plus de 50 pages",
+                        "Parce que la signature électronique n'est pas reconnue juridiquement dans tous les pays",
+                        "Parce que l'interprétation des clauses ambiguës, les négociations et la responsabilité juridique requièrent un jugement humain expert",
+                        "Parce que l'IA ne peut pas accéder aux bases de données juridiques publiques en temps réel"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Parce que l'interprétation des clauses ambiguës, les négociations et la responsabilité juridique requièrent un jugement humain expert",
+        "explanation":  "L'IA peut extraire, résumer et comparer des clauses contractuelles, mais l'interprétation d'une clause litigieuse, la négociation de conditions commerciales ou l'engagement de responsabilité juridique nécessitent impérativement l'intervention d'un juriste."
+    },
+    {
+        "id":  61,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Dans une architecture de traitement documentaire IA, que désigne le terme RAG (Retrieval-Augmented Generation) ?",
+        "options":  [
+                        "Un protocole de chiffrement des documents archivés dans le cloud d'entreprise",
+                        "Un système de reconnaissance automatique des graffitis et annotations sur les courriers",
+                        "Un standard de formatage des métadonnées dans les systèmes de GED",
+                        "Une technique combinant la recherche dans une base documentaire et la génération de réponses contextualisées par un LLM"
+                    ],
+        "correct_index":  3,
+        "correct_answer":  "Une technique combinant la recherche dans une base documentaire et la génération de réponses contextualisées par un LLM",
+        "explanation":  "Le RAG permet à un LLM de répondre à des questions en s'appuyant sur les documents internes de l'entreprise. Appliqué au back-office, il permet à un assistant IA de répondre précisément à partir du référentiel documentaire de l'organisation."
+    },
+    {
+        "id":  62,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Qu'est-ce que le phénomène de data drift peut provoquer dans un système de classification automatique de courriers ?",
+        "options":  [
+                        "Une dégradation des performances du modèle si le type ou le vocabulaire des courriers reçus évolue significativement sans réentraînement",
+                        "Une augmentation progressive et maîtrisée du volume de courriers traités par l'IA",
+                        "Un envoi accidentel de courriers à de mauvais destinataires dans la base contacts",
+                        "Un crash du serveur d'archivage dû à la surcharge des requêtes de classification"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Une dégradation des performances du modèle si le type ou le vocabulaire des courriers reçus évolue significativement sans réentraînement",
+        "explanation":  "Si les courriers reçus évoluent (nouveaux types de demandes, changement de terminologie client) sans réentraînement du modèle, le taux d'erreur de classification augmente progressivement de manière insidieuse, sans alerte visible."
+    },
+    {
+        "id":  63,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Quel risque de sécurité spécifique est lié à l'intégration d'un LLM dans un système de traitement des demandes administratives entrantes ?",
+        "options":  [
+                        "La consommation excessive de bande passante réseau par les requêtes envoyées au LLM",
+                        "L'incompatibilité entre les versions du modèle LLM et les versions de l'ERP en place",
+                        "L'injection de prompts malveillants dans les e-mails entrants pour manipuler le comportement du système IA",
+                        "La perte de mise en forme des documents lors de la conversion depuis le format PDF"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "L'injection de prompts malveillants dans les e-mails entrants pour manipuler le comportement du système IA",
+        "explanation":  "Des acteurs malveillants peuvent intégrer des instructions cachées dans des e-mails ou formulaires pour manipuler le LLM (exfiltration de données, modification de réponses automatiques). Cette menace nécessite des garde-fous spécifiques dans l'architecture."
+    },
+    {
+        "id":  64,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "éthique & société",
+        "question":  "Lors de la consultation des instances représentatives du personnel sur un projet d'IA administrative, quelle obligation légale s'impose en France ?",
+        "options":  [
+                        "Il suffit d'envoyer un e-mail d'information au délégué syndical la veille du lancement",
+                        "Aucune obligation, l'IA n'est pas soumise aux procédures de consultation des IRP",
+                        "La consultation n'est obligatoire que si l'outil entraîne la suppression de plus de 10 postes",
+                        "Le CSE doit être informé et consulté avant tout déploiement d'un outil modifiant les conditions de travail ou comportant un suivi de l'activité"
+                    ],
+        "correct_index":  3,
+        "correct_answer":  "Le CSE doit être informé et consulté avant tout déploiement d'un outil modifiant les conditions de travail ou comportant un suivi de l'activité",
+        "explanation":  "En droit français, le CSE doit être consulté sur tout projet technologique modifiant les conditions de travail ou comportant un traitement de données relatives aux salariés é"
+    },
+    {
+        "id":  65,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Que désigne un système de traitement documentaire basé sur RAG pour un assistant interne ?",
+        "options":  [
+                        "Une base documentaire enrichie pour générer des réponses contextualisées",
+                        "Un moteur de compression de fichiers",
+                        "Un système de signature électronique",
+                        "Un module de scan des identités"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Une base documentaire enrichie pour générer des réponses contextualisées",
+        "explanation":  "Le RAG permet de combiner récupération documentaire et génération de texte afin de répondre à partir d'un corpus interne."
+    },
+    {
+        "id":  66,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Que permet un modèle de classification avancée de courriers par rapport à des règles fixes ?",
+        "options":  [
+                        "De mieux gérer des cas semi-structurés et variés",
+                        "De supprimer les exceptions",
+                        "De remplacer le besoin de données",
+                        "De garantir zéro erreur"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "De mieux gérer des cas semi-structurés et variés",
+        "explanation":  "Un modèle IA peut mieux s'adapter à des courriers divers qu'un simple ensemble de règles rigides."
+    },
+    {
+        "id":  67,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Pourquoi le straight-through processing devient-il plus large avec l'IA ?",
+        "options":  [
+                        "Parce que l'IA aide à traiter aussi certains cas semi-structurés",
+                        "Parce que l'IA supprime les règles métier",
+                        "Parce que l'IA remplace la conformité",
+                        "Parce que l'IA élimine les contrôles"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Parce que l'IA aide à traiter aussi certains cas semi-structurés",
+        "explanation":  "L'IA étend le traitement automatique au-delà des dossiers strictement conformes."
+    },
+    {
+        "id":  68,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Quel est l'intérêt d'un système capable de comparer automatiquement des contrats ?",
+        "options":  [
+                        "Identifier des clauses divergentes ou inhabituelles",
+                        "Signer les documents sans validation",
+                        "Supprimer la lecture juridique",
+                        "Remplacer le service achats"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Identifier des clauses divergentes ou inhabituelles",
+        "explanation":  "La comparaison automatique aide à repérer rapidement des écarts entre versions ou contrats similaires."
+    },
+    {
+        "id":  69,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Pourquoi une IA d'assistance réglementaire doit-elle s'appuyer sur des documents à jour ?",
+        "options":  [
+                        "Pour limiter les réponses obsolètes",
+                        "Pour éviter toute recherche",
+                        "Pour supprimer les validations",
+                        "Pour garantir l'absence de biais"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Pour limiter les réponses obsolètes",
+        "explanation":  "Une base documentaire à jour réduit le risque que l'assistant génère des réponses fondées sur d'anciens textes."
+    },
+    {
+        "id":  70,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Pourquoi un LLM peut-il être risqué dans un contexte administratif sensible ?",
+        "options":  [
+                        "Parce qu'il peut halluciner des règles inexistantes",
+                        "Parce qu'il refuse tous les textes longs",
+                        "Parce qu'il ne fonctionne qu'en mode hors ligne",
+                        "Parce qu'il ne sait pas générer de texte"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Parce qu'il peut halluciner des règles inexistantes",
+        "explanation":  "Un LLM peut produire une réponse très convaincante mais fausse s'il n'est pas encadré par des sources fiables."
+    },
+    {
+        "id":  71,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Quel problème peut apparaître si un modèle de courrier n'est jamais réentraîné ?",
+        "options":  [
+                        "Une baisse progressive de performance",
+                        "Une amélioration automatique",
+                        "Une suppression du besoin d'audit",
+                        "Une meilleure adaptation aux nouveaux cas"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Une baisse progressive de performance",
+        "explanation":  "Avec l'évolution des usages et des formulations, un modèle non mis à jour devient moins fiable."
+    },
+    {
+        "id":  72,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Pourquoi une IA ne peut-elle pas gérer seule l'interprétation d'une clause contractuelle ambiguë ?",
+        "options":  [
+                        "Parce que cela demande un jugement juridique humain",
+                        "Parce qu'elle ne lit pas les contrats",
+                        "Parce qu'elle ne sait pas détecter les mots clés",
+                        "Parce qu'elle ne peut pas traiter les fichiers PDF"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Parce que cela demande un jugement juridique humain",
+        "explanation":  "Les clauses ambiguës nécessitent une appréciation contextuelle et une responsabilité juridique qu'une IA ne peut pas assumer seule."
+    },
+    {
+        "id":  73,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Pourquoi une IA doit-elle escalader les cas atypiques vers un humain ?",
+        "options":  [
+                        "Parce qu'elle ne sait pas gérer toutes les exceptions",
+                        "Parce qu'elle refuse les cas simples",
+                        "Parce qu'elle ne peut pas classer les emails",
+                        "Parce qu'elle remplace les règles internes"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Parce qu'elle ne sait pas gérer toutes les exceptions",
+        "explanation":  "Les situations inhabituelles dépassent souvent le cadre prévu et doivent être traitées par un humain."
+    },
+    {
+        "id":  74,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Quel est le risque d'utiliser une IA comme unique source pour une procédure interne ?",
+        "options":  [
+                        "Obtenir des instructions inexactes ou obsolètes",
+                        "Améliorer automatiquement la conformité",
+                        "Supprimer les erreurs humaines",
+                        "Accélérer la mise à jour réglementaire"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Obtenir des instructions inexactes ou obsolètes",
+        "explanation":  "Une IA seule ne garantit pas l'exactitude ni la mise à jour des procédures internes."
+    },
+    {
+        "id":  75,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Quel danger représente l'injection de prompts dans des emails traités par une IA ?",
+        "options":  [
+                        "La manipulation du comportement du système",
+                        "La compression des pièces jointes",
+                        "La suppression des métadonnées",
+                        "La réduction des coûts de calcul"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "La manipulation du comportement du système",
+        "explanation":  "Des instructions cachées peuvent pousser l'IA à révéler des données ou à produire des réponses incorrectes."
+    },
+    {
+        "id":  76,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Que peut provoquer une mauvaise configuration des droits dans une GED augmentée ?",
+        "options":  [
+                        "Une exposition de documents confidentiels",
+                        "Une meilleure séparation des rôles",
+                        "Une réduction des risques",
+                        "Une baisse du volume de recherche"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Une exposition de documents confidentiels",
+        "explanation":  "Une GED intelligente reste soumise aux règles d'accès et de confidentialité ; un mauvais paramétrage crée des risques de fuite."
+    },
+    {
+        "id":  77,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Quel est le principal risque d'un système d'approbation automatisé en chaîne ?",
+        "options":  [
+                        "La propagation d'une erreur initiale",
+                        "La disparition des délais",
+                        "La suppression des contrôles",
+                        "L'amélioration continue des décisions"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "La propagation d'une erreur initiale",
+        "explanation":  "Une erreur non détectée en amont peut se diffuser dans toute la chaîne de traitement."
+    },
+    {
+        "id":  78,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Pourquoi la détection d'anomalies est-elle importante dans l'automatisation financière ?",
+        "options":  [
+                        "Pour repérer des fraudes ou des écarts inhabituels",
+                        "Pour supprimer les justificatifs",
+                        "Pour éviter les contrôles internes",
+                        "Pour accélérer les paiements sans vérification"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Pour repérer des fraudes ou des écarts inhabituels",
+        "explanation":  "Dans les flux financiers, l'IA doit aider à détecter les écarts anormaux plutôt qu'à les valider aveuglément."
+    },
+    {
+        "id":  79,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Quel danger est lié au traitement de données de santé par un système IA documentaire ?",
+        "options":  [
+                        "Une violation renforcée de la confidentialité",
+                        "Une meilleure protection automatique",
+                        "Une suppression légale du secret médical",
+                        "Une baisse du besoin de sécurité"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Une violation renforcée de la confidentialité",
+        "explanation":  "Les données de santé exigent des précautions particulières, notamment en matière d'habilitation et de sécurité."
+    },
+    {
+        "id":  80,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "éthique & société",
+        "question":  "Quel document sert à évaluer les risques d'un traitement IA susceptible d'impacter les personnes ?",
+        "options":  [
+                        "La DPIA",
+                        "Le plan de test unitaire",
+                        "Le guide utilisateur",
+                        "Le tableau de bord KPI"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "La DPIA",
+        "explanation":  "L'analyse d'impact permet d'identifier les risques et de définir les mesures de réduction appropriées avant déploiement."
+    },
+    {
+        "id":  81,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "éthique & société",
+        "question":  "Pourquoi la consultation du CSE est-elle importante lors du déploiement d'un outil IA ?",
+        "options":  [
+                        "Parce que l'outil peut modifier l'organisation et le suivi du travail",
+                        "Parce que l'outil remplace la réglementation",
+                        "Parce que cela supprime les obligations d'information",
+                        "Parce que l'IA demande toujours un vote"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Parce que l'outil peut modifier l'organisation et le suivi du travail",
+        "explanation":  "Tout projet susceptible de modifier les conditions de travail ou de suivre l'activité des salariés doit être présenté aux représentants du personnel."
+    },
+    {
+        "id":  82,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "éthique & société",
+        "question":  "Que signifie le principe de privacy by design dans un projet IA documentaire ?",
+        "options":  [
+                        "Intégrer les protections dès la conception",
+                        "Ajouter les protections après la mise en production",
+                        "Ne protéger que les fichiers marqués confidentiels",
+                        "Laisser chaque utilisateur choisir ses règles"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Intégrer les protections dès la conception",
+        "explanation":  "La protection des données doit être pensée dès le départ, pas ajoutée après coup."
+    },
+    {
+        "id":  83,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "éthique & société",
+        "question":  "Pourquoi la traçabilité des décisions IA est-elle essentielle ?",
+        "options":  [
+                        "Pour auditer, corriger et expliquer les choix effectués",
+                        "Pour supprimer les responsabilités",
+                        "Pour éviter toute transparence",
+                        "Pour accélérer le stockage"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Pour auditer, corriger et expliquer les choix effectués",
+        "explanation":  "La traçabilité soutient l'auditabilité du système et la conformité réglementaire."
+    },
+    {
+        "id":  84,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "éthique & société",
+        "question":  "Pourquoi faut-il limiter les données utilisées par une IA administrative ?",
+        "options":  [
+                        "Pour réduire les risques de confidentialité et respecter le principe de minimisation",
+                        "Pour stocker plus d'informations",
+                        "Pour éviter toute sécurité",
+                        "Pour remplacer les procédures"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Pour réduire les risques de confidentialité et respecter le principe de minimisation",
+        "explanation":  "Limiter les données à ce qui est nécessaire réduit les risques juridiques et opérationnels."
+    },
+    {
+        "id":  85,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Dans un projet d'automatisation back-office, que désigne le straight-through processing (STP) et quel rôle l'IA y joue-t-elle ?",
+        "options":  [
+                        "Le STP est un protocole réseau pour sécuriser les transferts de fichiers administratifs sensibles",
+                        "Le STP désigne le traitement bout en bout sans intervention humaine des dossiers conformes ; l'IA étend son périmètre aux cas semi-structurés",
+                        "Le STP désigne la validation simultanée d'un même dossier par plusieurs responsables en parallèle",
+                        "Le STP désigne l'impression automatique des documents sans relecture humaine préalable"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le STP désigne le traitement bout en bout sans intervention humaine des dossiers conformes ; l'IA étend son périmètre aux cas semi-structurés",
+        "explanation":  "Le STP traditionnel ne traitait que les cas parfaitement conformes à des règles rigides. L'IA permet d'étendre ce périmètre à des dossiers partiellement non conformes en comprenant le contexte, réduisant significativement la part d'intervention humaine."
+    },
+    {
+        "id":  86,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "éthique & société",
+        "question":  "Comment le principe de privacy by design s'applique-t-il concrètement lors du développement d'un outil IA d'archivage documentaire ?",
+        "options":  [
+                        "En intégrant dès la conception les mesures de protection des données (minimisation, pseudonymisation, contrôle d'accès) plutôt qu'a posteriori",
+                        "En ajoutant un bandeau de cookies sur l'interface utilisateur de l'outil de GED",
+                        "En chiffrant uniquement les documents contenant le mot confidentiel dans leur titre",
+                        "En rédigeant une politique de confidentialité affichée sur l'intranet de l'entreprise"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "En intégrant dès la conception les mesures de protection des données (minimisation, pseudonymisation, contrôle d'accès) plutôt qu'a posteriori",
+        "explanation":  "Privacy by design impose d'anticiper les enjeux de protection des données dès les premières phases de conception : quelles données sont réellement nécessaires, comment les protéger techniquement, qui y accède et comment les supprimer en fin de cycle de vie."
+    },
+    {
+        "id":  87,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Quelles sont les limites techniques d'un LLM utilisé comme assistant administratif pour répondre à des questions sur la réglementation interne ?",
+        "options":  [
+                        "Il répond uniquement aux questions formulées en anglais et ne supporte pas le français",
+                        "Il ne peut pas traiter des textes réglementaires de plus de 5 pages simultanément",
+                        "Il peut halluciner des règles inexistantes, sa connaissance dépend des documents fournis et il ne se met pas à jour automatiquement",
+                        "Il ne peut pas fonctionner sans une connexion Internet haut débit permanente"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Il peut halluciner des règles inexistantes, sa connaissance dépend des documents fournis et il ne se met pas à jour automatiquement",
+        "explanation":  "Un LLM peut inventer des règles avec assurance (hallucination), ne connaît que ce qu'on lui a fourni et ne se met pas à jour seul lorsque la réglementation change. Pour la réglementation interne, une architecture RAG avec des documents à jour est indispensable."
+    },
+    {
+        "id":  88,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Dans un système d'approbation automatisé par IA, qu'est-ce qu'une cascade d'automatisation peut provoquer en cas d'erreur initiale non détectée ?",
+        "options":  [
+                        "Un simple message d'erreur affiché immédiatement à l'utilisateur final pour correction",
+                        "Un ralentissement progressif mais contrôlé de l'ensemble du système informatique",
+                        "Une alerte automatique envoyée immédiatement à l'équipe de sécurité informatique",
+                        "La propagation et l'amplification d'une erreur à travers plusieurs processus enchaînés, créant un incident systémique difficile à tracer"
+                    ],
+        "correct_index":  3,
+        "correct_answer":  "La propagation et l'amplification d'une erreur à travers plusieurs processus enchaînés, créant un incident systémique difficile à tracer",
+        "explanation":  "Quand des processus automatisés sont chaînés les uns aux autres, une erreur non détectée en amont se propage à toutes les étapes suivantes. Plus la chaîne est longue, plus la correction est complexe et les impacts potentiellement graves et difficiles à auditer."
+    },
+    {
+        "id":  89,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Dans une architecture de back-office automatisé, quel est le rôle principal du RAG ?",
+        "options":  [
+                        "Relier un modèle génératif à une base documentaire fiable",
+                        "Remplacer le stockage documentaire",
+                        "Signer automatiquement les dossiers",
+                        "Classer les emails selon leur heure d'arrivée"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Relier un modèle génératif à une base documentaire fiable",
+        "explanation":  "Le RAG améliore la qualité des réponses en les ancrant dans les documents de référence de l'organisation."
+    },
+    {
+        "id":  90,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Comment l'IA peut-elle étendre le périmètre du STP ?",
+        "options":  [
+                        "En permettant de traiter des cas semi-structurés au lieu des seuls cas rigides",
+                        "En supprimant toute validation",
+                        "En remplaçant tous les référentiels métiers",
+                        "En évitant les documents scannés"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "En permettant de traiter des cas semi-structurés au lieu des seuls cas rigides",
+        "explanation":  "L'IA augmente le volume de dossiers pouvant être traités automatiquement, même lorsque le contenu est imparfaitement structuré."
+    }
+]

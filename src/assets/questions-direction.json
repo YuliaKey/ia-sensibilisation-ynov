@@ -1,0 +1,1362 @@
+[
+    {
+        "id":  1,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Dans quel cas une IA générative est-elle un outil utile pour un dirigeant ?",
+        "options":  [
+                        "Pour remplacer le conseil d'administration dans les prises de décision",
+                        "Pour préparer rapidement une synthèse de rapports volumineux avant un CODIR",
+                        "Pour signer automatiquement les documents stratégiques",
+                        "Pour recruter des cadres sans entretien humain"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour préparer rapidement une synthèse de rapports volumineux avant un CODIR",
+        "explanation":  "L'IA générative est particulièrement utile pour condenser de l'information dense en points clés exploitables. Elle fait gagner du temps de préparation sans se substituer au jugement du dirigeant."
+    },
+    {
+        "id":  2,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Qu'est-ce que l'IA peut faire pour aider à la communication interne d'une direction ?",
+        "options":  [
+                        "Remplacer les réunions d'équipe par des messages automatiques",
+                        "Proposer un premier jet de note interne ou de discours de direction",
+                        "Décider des augmentations de salaire à la place du DRH",
+                        "Bloquer les e-mails non pertinents sans accord de l'expéditeur"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Proposer un premier jet de note interne ou de discours de direction",
+        "explanation":  "L'IA peut générer des ébauches de communications internes (notes, allocutions, bilans) que le dirigeant adapte ensuite. Cela accélère la production sans retirer l'autorité humaine."
+    },
+    {
+        "id":  3,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Pourquoi ne faut-il pas confier à une IA seule la prise de décision stratégique d'une entreprise ?",
+        "options":  [
+                        "Parce que l'IA est trop lente pour répondre en temps réel",
+                        "Parce que l'IA n'a pas accès à Internet",
+                        "Parce que l'IA ne comprend pas le contexte humain, relationnel et politique de l'entreprise",
+                        "Parce que l'IA est réservée aux startups et non aux grandes entreprises"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Parce que l'IA ne comprend pas le contexte humain, relationnel et politique de l'entreprise",
+        "explanation":  "La stratégie d'entreprise intègre des dimensions humaines, culturelles et politiques que l'IA ne peut pas saisir pleinement. Elle peut éclairer, mais la décision finale appartient au dirigeant."
+    },
+    {
+        "id":  4,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "éthique & société",
+        "question":  "Qu'est-ce que l'AI Act européen impose aux entreprises qui déploient de l'IA ?",
+        "options":  [
+                        "D'utiliser uniquement des IA développées en Europe",
+                        "De respecter des règles de transparence et de gestion des risques selon l'usage",
+                        "D'interdire tout usage de l'IA dans les services publics",
+                        "De publier le code source de toutes leurs IA"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "De respecter des règles de transparence et de gestion des risques selon l'usage",
+        "explanation":  "L'AI Act classe les systèmes d'IA par niveau de risque et impose des obligations proportionnées : transparence, documentation, supervision humaine. Les dirigeants doivent s'y conformer."
+    },
+    {
+        "id":  5,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel risque organisationnel majeur est lié à un déploiement d'IA mal planifié en entreprise ?",
+        "options":  [
+                        "La consommation excessive d'électricité par les serveurs",
+                        "La résistance au changement des équipes et la perte de compétences internes",
+                        "La saturation du réseau Wi-Fi de l'entreprise",
+                        "L'incompatibilité avec les smartphones des employés"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La résistance au changement des équipes et la perte de compétences internes",
+        "explanation":  "Sans accompagnement (conduite du changement, formation, communication), les équipes peuvent rejeter l'IA ou en devenir excessivement dépendantes, entraînant une dégradation des compétences métier."
+    },
+    {
+        "id":  6,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Les prévisions générées par une IA pour piloter la performance sont-elles toujours fiables ?",
+        "options":  [
+                        "Oui, l'IA ne fait jamais d'erreurs de calcul",
+                        "Non, elles dépendent de la qualité des données d'entrée et peuvent contenir des biais",
+                        "Oui, car elles sont basées sur des algorithmes mathématiques précis",
+                        "Non, l'IA ne peut pas faire de prévisions chiffrées"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Non, elles dépendent de la qualité des données d'entrée et peuvent contenir des biais",
+        "explanation":  "Le principe « garbage in, garbage out » s'applique : si les données d'entraînement sont biaisées ou incomplètes, les prévisions de l'IA le seront aussi. Une validation humaine reste indispensable."
+    },
+    {
+        "id":  7,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Comment l'IA peut-elle soutenir la conduite du changement lors d'une transformation digitale ?",
+        "options":  [
+                        "En imposant les nouvelles practices aux employés sans consultation",
+                        "En générant des supports de formation, des FAQ et des plans de communication",
+                        "En bloquant l'accès aux anciens outils pour forcer l'adoption",
+                        "En remplaçant les managers de proximité"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En générant des supports de formation, des FAQ et des plans de communication",
+        "explanation":  "L'IA peut accélérer la production de contenus d'accompagnement au changement : tutoriels, messages clés, réponses aux questions fréquentes …?"
+    },
+    {
+        "id":  9,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel danger représente la saisie de données confidentielles de l'entreprise dans un outil IA grand public ?",
+        "options":  [
+                        "Aucun, ces outils chiffrent toujours les données automatiquement",
+                        "Les données peuvent être utilisées pour entraîner le modèle ou exposées à des tiers",
+                        "Cela ralentit simplement la connexion Internet",
+                        "Seuls les documents de plus de 10 pages sont à risque"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Les données peuvent être utilisées pour entraîner le modèle ou exposées à des tiers",
+        "explanation":  "Saisir des informations stratégiques (plans d'affaires, données RH, chiffres financiers) dans un outil public peut compromettre la confidentialité. Il faut privilégier des solutions sécurisées ou anonymiser les données."
+    },
+    {
+        "id":  10,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Un dirigeant peut-il utiliser l'IA pour analyser les tendances de son secteur ?",
+        "options":  [
+                        "Non, l'IA ne connaît pas les secteurs d'activité",
+                        "Oui, elle peut synthétiser des rapports sectoriels et identifier des signaux faibles",
+                        "Oui, mais uniquement si l'entreprise a plus de 500 employés",
+                        "Non, cette tâche est réservée aux cabinets de conseil spécialisés"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Oui, elle peut synthétiser des rapports sectoriels et identifier des signaux faibles",
+        "explanation":  "L'IA peut traiter de grandes quantités de publications, rapports et actualités pour en extraire les tendances et signaux faibles pertinents pour un secteur donné."
+    },
+    {
+        "id":  11,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Gouvernance",
+        "question":  "Quelle est l'utilité principale d'une charte d'usage de l'IA dans un cabinet de conseil ?",
+        "options":  [
+                        "Interdire définitivement l'accès à toute technologie externe",
+                        "Fixer le cadre réglementaire, éthique et sécuritaire des outils IA autorisés",
+                        "Remplacer le règlement intérieur global du cabinet",
+                        "Réduire les coûts d'abonnement aux outils bureautiques"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Fixer le cadre réglementaire, éthique et sécuritaire des outils IA autorisés",
+        "explanation":  "Une charte d'usage définit clairement les outils validés, les types de données autorisées (et interdites) et les responsabilités des collaborateurs pour protéger le cabinet et ses clients."
+    },
+    {
+        "id":  12,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Comment un Associé (Partner) peut-il utiliser l'IA générative pour préparer un rendez-vous commercial ?",
+        "options":  [
+                        "En lui demandant de mener le rendez-vous à sa place en visioconférence",
+                        "En générant un profil de synthèse de l'entreprise cliente et de ses enjeux récents",
+                        "En lui faisant signer le contrat commercial avant la rencontre",
+                        "En automatisant la facturation d'une mission non encore signée"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En générant un profil de synthèse de l'entreprise cliente et de ses enjeux récents",
+        "explanation":  "L'IA permet de collecter, croiser et synthétiser les données publiques d'un prospect, offrant au Partner une vision rapide des opportunités commerciales et des points de douleur du client."
+    },
+    {
+        "id":  13,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Si un LLM affirme avec certitude qu'une réglementation s'applique à un deal de fusion-acquisition, que doit faire le Directeur de mission ?",
+        "options":  [
+                        "Intégrer directement l'affirmation dans le livrable final pour gagner du temps",
+                        "Faire vérifier systématiquement l'information et les sources par un expert juridique ou un consultant",
+                        "Considérer que l'IA a toujours raison si le prompt était bien rédigé",
+                        "Annuler l'opération de fusion-acquisition par précaution"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Faire vérifier systématiquement l'information et les sources par un expert juridique ou un consultant",
+        "explanation":  "Les LLM souffrent d'hallucinations et peuvent inventer des lois ou des règles. Le rôle de la direction est de garantir la fiabilité du livrable par une vérification humaine rigoureuse."
+    },
+    {
+        "id":  14,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "En quoi l'IA aide-t-elle à la planification budgétaire d'un pôle de conseil ?",
+        "options":  [
+                        "En exécutant les budgets sans possibilité de modification par les directeurs",
+                        "En facilitant la modélisation de différents scénarios financiers selon les hypothèses de croissance",
+                        "En supprimant le besoin de suivre les dépenses réelles",
+                        "En remplaçant entièrement la fonction de Directeur Financier"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En facilitant la modélisation de différents scénarios financiers selon les hypothèses de croissance",
+        "explanation":  "L'IA excelle dans la création rapide de simulations de scénarios budgétaires (optimiste, réaliste, pessimiste) basés sur des variables modifiables par la direction."
+    },
+    {
+        "id":  15,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Quel est le risque de laisser des consultants juniors utiliser l'IA pour rédiger l'intégralité de leurs analyses stratégiques ?",
+        "options":  [
+                        "L'IA va saturer l'espace de stockage cloud du cabinet",
+                        "Une perte d'apprentissage de la rigueur méthodologique et de l'esprit critique par les juniors",
+                        "Les clients vont exiger que l'IA présente les résultats en réunion",
+                        "Les juniors vont travailler plus d'heures par semaine"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une perte d'apprentissage de la rigueur méthodologique et de l'esprit critique par les juniors",
+        "explanation":  "Si les juniors délèguent l'analyse de fond à l'IA sans effort de structuration intellectuelle personnel, ils ne développent pas les compétences de réflexion critique attendues dans le conseil."
+    },
+    {
+        "id":  16,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Gouvernance",
+        "question":  "Qui doit porter la responsabilité finale de la validation éthique de l'IA au sein du cabinet ?",
+        "options":  [
+                        "L'alternant en charge du support informatique",
+                        "Le Comité de Direction / les Associés dirigeants",
+                        "Le fournisseur de la solution technologique externe",
+                        "Les clients du cabinet via leurs feedbacks"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le Comité de Direction / les Associés dirigeants",
+        "explanation":  "La gouvernance et la responsabilité éthique incombent à la direction générale et aux associés, qui fixent la stratégie de gestion des risques et la culture d'entreprise."
+    },
+    {
+        "id":  17,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "éthique & société",
+        "question":  "Pourquoi l'explicabilité d'une décision prise par l'IA est-elle essentielle pour un Directeur de cabinet ?",
+        "options":  [
+                        "Pour pouvoir revendre le code de l'algorithme à d'autres entreprises",
+                        "Pour justifier et assumer les choix stratégiques ou RH auprès des équipes et des instances de contrôle",
+                        "Pour réduire le coût de la facture d'électricité liée au modèle",
+                        "Pour empêcher les concurrents de comprendre la stratégie du cabinet"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour justifier et assumer les choix stratégiques ou RH auprès des équipes et des instances de contrôle",
+        "explanation":  "Un dirigeant ne peut pas se retrancher derrière une \\\"boîte noire\\\" algorithmique pour expliquer ses décisions. L'explicabilité est clé pour la légitimité et la responsabilité managériale."
+    },
+    {
+        "id":  18,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Une IA générative peut-elle ressentir ou intégrer la culture d'entreprise d'un client lors d'une réorganisation ?",
+        "options":  [
+                        "Oui, l'IA possède une empathie artificielle supérieure aux humains",
+                        "Non, elle traite des structures textuelles et des données objectives, pas les dynamiques humaines subtiles",
+                        "Oui, si on lui fournit l'organigramme complet de l'entreprise",
+                        "Non, sauf si le client utilise la même IA en interne"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Non, elle traite des structures textuelles et des données objectives, pas les dynamiques humaines subtiles",
+        "explanation":  "La culture d'entreprise et l'informel échappent aux algorithmes. C'est ici que la valeur ajoutée du Directeur de mission humain (sens politique, écoute, posture) reste irremplaçable."
+    },
+    {
+        "id":  19,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Quel est le principal gain de l'usage de l'IA pour la gestion des plannings (staffing) dans le conseil ?",
+        "options":  [
+                        "Forcer les consultants à travailler sur des missions qu'ils n'aiment pas",
+                        "Optimiser l'allocation des compétences disponibles sur les missions en fonction des profils et des disponibilités",
+                        "Supprimer totalement les managers de la boucle de décision de staffing",
+                        "Calculer automatiquement les notes de frais des consultants"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Optimiser l'allocation des compétences disponibles sur les missions en fonction des profils et des disponibilités",
+        "explanation":  "L'IA permet de croiser instantanément les bases de données de compétences, les certifications et la charge de travail des consultants pour proposer les meilleures équipes possibles (staffing)."
+    },
+    {
+        "id":  20,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Dangers",
+        "question":  "Si un consultant utilise une IA publique pour relire une présentation contenant la marge opérationnelle d'un client du CAC 40, quel principe est violé ?",
+        "options":  [
+                        "Le principe de non-concurrence",
+                        "Le secret professionnel et l'obligation de confidentialité des données clients",
+                        "Le code de la route du numérique",
+                        "Le droit d'auteur du consultant sur son propre texte"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le secret professionnel et l'obligation de confidentialité des données clients",
+        "explanation":  "Saisir des données financières sensibles et non publiques dans un outil externe public expose ces données à des fuites potentielles, enfreignant gravement les accords de confidentialité (NDA) du conseil."
+    },
+    {
+        "id":  21,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "Quelle tâche fastidieuse d'un appel d'offres un Directeur de cabinet peut-il accélérer grâce à l'IA ?",
+        "options":  [
+                        "La négociation des honoraires de vive voix",
+                        "L'extraction des exigences formelles et des critères d'évaluation du cahier des charges (CCTP)",
+                        "Le choix de l'équipe de consultants sans tenir compte de leurs compétences",
+                        "La signature électronique du contrat final"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L'extraction des exigences formelles et des critères d'évaluation du cahier des charges (CCTP)",
+        "explanation":  "L'IA excelle pour scanner des centaines de pages d'un appel d'offres afin de lister instantanément les livrables obligatoires et les critères de notation, permettant au Directeur de se concentrer sur la proposition de valeur."
+    },
+    {
+        "id":  22,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "éthique & société",
+        "question":  "Pour la direction d'un cabinet, quel est le principal impact environnemental direct de l'adoption massive de l'IA ?",
+        "options":  [
+                        "La déforestation liée à l'impression des codes sources",
+                        "L'empreinte carbone et la consommation en eau très élevées des datacenters qui font tourner les modèles",
+                        "La pollution plastique générée par l'achat de nouvelles souris d'ordinateur",
+                        "Il n'y a aucun impact, le numérique étant totalement virtuel"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L'empreinte carbone et la consommation en eau très élevées des datacenters qui font tourner les modèles",
+        "explanation":  "Les choix technologiques de la direction ont un impact RSE direct. Intégrer l'empreinte environnementale des requêtes IA fait partie du pilotage responsable d'un cabinet moderne."
+    },
+    {
+        "id":  23,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Limites",
+        "question":  "Si une IA analyse le plan stratégique d'un concurrent, peut-elle anticiper un revirement lié à l'intuition personnelle de son PDG ?",
+        "options":  [
+                        "Oui, car l'IA lit dans les pensées des dirigeants",
+                        "Non, l'IA travaille sur des données factuelles existantes et ne peut pas modéliser le choix irrationnel ou secret d'un individu",
+                        "Oui, si l'IA utilise des algorithmes de vision par ordinateur",
+                        "Non, sauf si le plan stratégique a été rédigé par la même IA"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Non, l'IA travaille sur des données factuelles existantes et ne peut pas modéliser le choix irrationnel ou secret d'un individu",
+        "explanation":  "L'intuition, les coups de bluff et les décisions secrètes échappent aux données d'entraînement. C'est la limite fondamentale de l'analyse purement algorithmique en stratégie concurrentielle."
+    },
+    {
+        "id":  24,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Gouvernance",
+        "question":  "Que doit faire un manager si un client demande explicitement dans le contrat l'interdiction de l'usage de l'IA sur sa mission ?",
+        "options":  [
+                        "Utiliser l'IA en cachette en modifiant le nom de l'application",
+                        "Respecter scrupuleusement la clause contractuelle et informer les équipes de l'obligation de travailler de manière 100% traditionnelle",
+                        "Résilier immédiatement le contrat commercial",
+                        "Ignorer la demande en considérant que le client n'a aucun moyen de contrôle"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Respecter scrupuleusement la clause contractuelle et informer les équipes de l'obligation de travailler de manière 100% traditionnelle",
+        "explanation":  "La souveraineté des choix du client prévaut contractuellement. Violer cette clause expose le cabinet à des poursuites judiciaires lourdes pour rupture de contrat et faute professionnelle."
+    },
+    {
+        "id":  25,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Capacités",
+        "question":  "…? quoi sert un outil d'IA de 'Speech-to-Text' lors d'un comité des Associés ?",
+        "options":  [
+                        "…? voter automatiquement les motions à la place des associés",
+                        "…? transcrire fidèlement les débats oraux en texte pour faciliter la rédaction rapide du compte-rendu officiel",
+                        "…? modifier la voix des intervenants pour masquer leur identité",
+                        "…? couper le micro des associés qui parlent trop longtemps"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "…? transcrire fidèlement les débats oraux en texte pour faciliter la rédaction rapide du compte-rendu officiel",
+        "explanation":  "Le Speech-to-Text fait gagner un temps précieux aux instances de direction en fournissant une transcription brute fidèle des réunions stratégiques, facilitant l'archivage et le suivi des décisions."
+    },
+    {
+        "id":  26,
+        "difficulty":  1,
+        "difficulty_label":  "beginner",
+        "category":  "Gouvernance",
+        "question":  "Que doit inclure le plan de formation obligatoire à l'IA d'un cabinet de conseil en stratégie ?",
+        "options":  [
+                        "Uniquement des cours de programmation informatique en langage Python",
+                        "Le fonctionnement des outils validés, les règles de sécurité des données clients et le repérage des biais/hallucinations",
+                        "Une initiation à l'histoire de la science-fiction au cinéma",
+                        "L'apprentissage par c…"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le fonctionnement des outils validés, les règles de sécurité des données clients et le repérage des biais/hallucinations",
+        "explanation":  "Pour la direction, former les collaborateurs sert d'abord à mitiger les risques opérationnels et juridiques d'un mauvais usage, tout en développant l'esprit critique indispensable face aux sorties de l'IA."
+    },
+    {
+        "id":  27,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Qu'est-ce qu'un tableau de bord de pilotage de la performance augmenté par l'IA apporte par rapport à un tableau classique ?",
+        "options":  [
+                        "Il remplace les KPI par des appréciations qualitatives subjectives",
+                        "Il génère automatiquement des alertes et des recommandations d'action basées sur les données",
+                        "Il supprime le besoin de mettre à jour manuellement les chiffres",
+                        "Il présente uniquement des données historiques sans projection"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Il génère automatiquement des alertes et des recommandations d'action basées sur les données",
+        "explanation":  "Un tableau de bord augmenté par l'IA ne se contente pas d'afficher des métriques : il détecte des anomalies, anticipe des dérives et suggère des actions correctives, renforçant ainsi la réactivité managériale."
+    },
+    {
+        "id":  28,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Gouvernance",
+        "question":  "Quelle est la première étape recommandée avant de déployer une solution IA en entreprise ?",
+        "options":  [
+                        "Former l'ensemble du personnel sans exception",
+                        "Identifier les cas d'usage prioritaires et évaluer les risques associés",
+                        "Acheter immédiatement la solution la plus connue du marché",
+                        "Attendre que tous les concurrents l'aient déjà déployée"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Identifier les cas d'usage prioritaires et évaluer les risques associés",
+        "explanation":  "Un déploiement IA réussi commence par une cartographie des besoins et une analyse des risques (RGPD, biais, dépendance fournisseur) avant tout investissement ou formation."
+    },
+    {
+        "id":  29,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "éthique & société",
+        "question":  "Selon l'AI Act européen, les systèmes d'IA utilisés pour le recrutement sont classés dans quelle catégorie de risque ?",
+        "options":  [
+                        "Risque minimal",
+                        "Risque inacceptable",
+                        "Risque élevé",
+                        "Risque modéré"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "Risque élevé",
+        "explanation":  "L'AI Act classe les outils d'IA utilisés dans le recrutement comme à risque élevé en raison de leur potentiel à impacter les droits fondamentaux (égalité des chances, non-discrimination) et impose des obligations strictes de transparence et de gestion des risques."
+    },
+    {
+        "id":  30,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Qu'est-ce que le phénomène d'\\\"appauvrissement des missions\\\" lié à l'automatisation excessive par l'IA ?",
+        "options":  [
+                        "Une augmentation systématique de la productivité sans effet secondaire",
+                        "Une perte de sens au travail, une réduction de l'autonomie et une dépendance technologique",
+                        "Une meilleure créativité des équipes grâce à plus de temps libre",
+                        "Une réduction des coûts garantie dans tous les cas"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une perte de sens au travail, une réduction de l'autonomie et une dépendance technologique",
+        "explanation":  "Automatiser trop de tâches sans réflexion peut appauvrir les missions, créer une dépendance à des outils dont on ne maîtrise plus le fonctionnement, et démotiver les équipes."
+    },
+    {
+        "id":  31,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment l'IA peut-elle aider à la gestion prévisionnelle des emplois et des compétences (GPEC) ?",
+        "options":  [
+                        "En décidant automatiquement des licenciements",
+                        "En croisant les compétences disponibles avec les besoins futurs pour identifier des écarts",
+                        "En remplaçant les entretiens annuels par des évaluations automatiques",
+                        "En imposant des parcours de formation identiques à tous les salariés"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En croisant les compétences disponibles avec les besoins futurs pour identifier des écarts",
+        "explanation":  "L'IA peut analyser les compétences actuelles et les projections métier pour anticiper les besoins en formation ou recrutement, aidant ainsi la direction à piloter les ressources humaines stratégiquement."
+    },
+    {
+        "id":  32,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi l'IA peut-elle reproduire et amplifier des biais discriminatoires dans les décisions RH ?",
+        "options":  [
+                        "Parce qu'elle n'aime pas les profils atypiques",
+                        "Parce qu'elle apprend à partir de données historiques qui reflètent les inégalités passées",
+                        "Parce qu'elle est programmée pour favoriser certains profils",
+                        "Parce que les algorithmes RH sont tous développés par des hommes"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu'elle apprend à partir de données historiques qui reflètent les inégalités passées",
+        "explanation":  "Si les données d'entraînement reflètent des pratiques historiquement biaisées (sous-représentation de femmes dans certains postes, par exemple), l'IA va apprendre et reproduire ces schémas discriminatoires."
+    },
+    {
+        "id":  33,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Gouvernance",
+        "question":  "Dans un cabinet de conseil, quel rôle doit prioritairement superviser la conformité des outils d'IA avec le RGPD ?",
+        "options":  [
+                        "Le Directeur Commercial",
+                        "Le Délégué à la Protection des Données (DPO) en lien avec la Direction Juridique",
+                        "Le consultant junior sur sa mission",
+                        "Le responsable du support client du fournisseur d'IA"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le Délégué à la Protection des Données (DPO) en lien avec la Direction Juridique",
+        "explanation":  "Le DPO (Data Protection Officer) est le garant de la conformité des traitements de données personnelles. Pour la direction, c'est l'interlocuteur clé pour valider la sécurité juridique des outils IA."
+    },
+    {
+        "id":  34,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment un cabinet de conseil en stratégie peut-il utiliser le RAG (Retrieval-Augmented Generation) pour valoriser ses actifs ?",
+        "options":  [
+                        "Pour revendre les données de ses clients sur des places de marché publiques",
+                        "Pour permettre aux consultants d'interroger la base de données interne des anciennes missions anonymisées et méthodologies du cabinet",
+                        "Pour automatiser les appels téléphoniques de prospection commerciale",
+                        "Pour effacer les fichiers obsolètes des serveurs"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour permettre aux consultants d'interroger la base de données interne des anciennes missions anonymisées et méthodologies du cabinet",
+        "explanation":  "Le RAG permet de connecter un LLM aux connaissances internes du cabinet. Les dirigeants optimisent ainsi le partage du savoir de l'entreprise tout en garantissant la confidentialité."
+    },
+    {
+        "id":  35,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Lors du cadrage d'une transformation d'entreprise, pourquoi l'IA ne peut-elle pas remplacer la phase d'alignement du CODIR ?",
+        "options":  [
+                        "Parce que les membres du CODIR refusent généralement d'utiliser des ordinateurs",
+                        "Parce que l'alignement nécessite de négocier des compromis humains, politiques et d'instaurer de la confiance",
+                        "Parce que l'IA ne sait pas générer de comptes-rendus de réunion",
+                        "Parce que l'alignement stratégique ne repose sur aucune donnée textuelle"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que l'alignement nécessite de négocier des compromis humains, politiques et d'instaurer de la confiance",
+        "explanation":  "L'alignement d'un comité de direction implique de lever des blocages interpersonnels et politiques. L'IA peut fournir des scénarios factuels, mais la convergence humaine nécessite l'intervention de leaders ou de facilitateurs."
+    },
+    {
+        "id":  36,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel est le risque de \\\"shadow AI\\\" (usage d'outils IA non validés par la direction) dans un cabinet de conseil ?",
+        "options":  [
+                        "Une amende pour dépassement du quota de bande passante Internet",
+                        "Une perte de contrôle sur la fuite de données confidentielles et une non-conformité réglementaire invisible",
+                        "Une amélioration trop rapide de la productivité des équipes",
+                        "Le mécontentement des constructeurs d'ordinateurs"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une perte de contrôle sur la fuite de données confidentielles et une non-conformité réglementaire invisible",
+        "explanation":  "Le shadow AI empêche la direction de cartographier les risques d'exposition des données de ses clients ou de ses propres secrets d'affaires, créant une vulnérabilité juridique et sécuritaire majeure."
+    },
+    {
+        "id":  37,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "éthique & société",
+        "question":  "Si l'IA de tri des CV d'un cabinet élimine systématiquement les profils n'ayant pas fait de classe préparatoire, de quel type de biais s'agit-il ?",
+        "options":  [
+                        "Un biais technique lié à la vitesse du processeur",
+                        "Un biais de reproduction historique ou de déterminisme social présent dans les données d'apprentissage",
+                        "Un biais volontaire programmé pour économiser les coûts d'entretien",
+                        "Un biais géographique lié à l'emplacement du serveur"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Un biais de reproduction historique ou de déterminisme social présent dans les données d'apprentissage",
+        "explanation":  "Si l'IA est entraînée sur l'historique des associés du cabinet (historiquement issus de prépas), elle reproduira ce filtre. Les dirigeants doivent auditer ces modèles pour préserver la diversité des recrutements."
+    },
+    {
+        "id":  38,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Gouvernance",
+        "question":  "Comment la direction doit-elle réagir face à la découverte d'une hallucination majeure dans un livrable client déjà envoyé ?",
+        "options":  [
+                        "Blâmer publiquement l'éditeur du modèle d'IA utilisé",
+                        "Assumer l'erreur en tant que cabinet, corriger immédiatement le livrable et renforcer le protocole de relecture",
+                        "Prétendre que l'erreur fait partie d'une méthodologie d'analyse innovante",
+                        "Supprimer l'accès à l'IA pour l'ensemble du pôle de conseil sans explication"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Assumer l'erreur en tant que cabinet, corriger immédiatement le livrable et renforcer le protocole de relecture",
+        "explanation":  "La responsabilité de l'usage d'une IA incombe au cabinet qui signe le livrable. La transparence vis-à-vis du client et l'ajustement immédiat des processus de validation (human-in-the-loop) caractérisent une bonne gouvernance."
+    },
+    {
+        "id":  39,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "En conseil en stratégie, à quoi sert le clustering par IA lors d'une étude de marché ?",
+        "options":  [
+                        "…? générer des designs de diapositives automatiques",
+                        "…? segmenter une base de clients complexes en groupes homogènes selon des comportements d'achat",
+                        "…? calculer automatiquement la marge nette prévisionnelle du projet",
+                        "…? planifier les dates de restitution avec le client"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "…? segmenter une base de clients complexes en groupes homogènes selon des comportements d'achat",
+        "explanation":  "Le clustering (apprentissage non supervisé) permet de traiter des millions de lignes de données clients pour identifier des segments de marché invisibles à l'…"
+    },
+    {
+        "id":  40,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi une IA de prévision des ventes devient-elle inefficace en période de crise macroéconomique majeure et inédite ?",
+        "options":  [
+                        "Parce que les serveurs d'IA subissent des baisses de tension lors des crises",
+                        "Parce que les modèles prédictifs se basent sur des motifs du passé qui ne s'appliquent plus à une rupture systémique",
+                        "Parce que l'IA refuse de travailler sous pression économique",
+                        "Parce que les données financières cessent d'être chiffrées"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que les modèles prédictifs se basent sur des motifs du passé qui ne s'appliquent plus à une rupture systémique",
+        "explanation":  "C'est la limite du modèle inductif : sans historique similaire, l'IA ne peut anticiper le comportement des marchés. Le dirigeant doit alors privilégier l'analyse de scénarios et l'intuition stratégique."
+    },
+    {
+        "id":  41,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Quel est le bénéfice pour un Directeur de pôle d'utiliser des outils de 'Process Mining' basés sur l'IA ?",
+        "options":  [
+                        "Automatiser la rédaction des contrats de travail",
+                        "Visualiser les goulots d'étranglement réels et les inefficacités dans les processus opérationnels des clients",
+                        "Surveiller les horaires de connexion internet des consultants à distance",
+                        "Remplacer le système d'archivage légal du cabinet"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Visualiser les goulots d'étranglement réels et les inefficacités dans les processus opérationnels des clients",
+        "explanation":  "Le process mining analyse les logs des systèmes d'information pour cartographier la réalité des flux de travail. C'est un outil d'audit diagnostic extrêmement puissant pour les directions de projets de transformation."
+    },
+    {
+        "id":  42,
+        "difficulty":  2,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel risque managérial pose la mise en place d'une IA évaluant en continu la productivité textuelle des consultants ?",
+        "options":  [
+                        "Une hausse non maîtrisée des salaires",
+                        "Une optimisation perverse du système (les collaborateurs génèrent du volume inutile au détriment de la qualité stratégique) et une baisse de l'engagement",
+                        "L'impossibilité de sauvegarder les rapports sur le cloud",
+                        "Une accélération excessive de l'usure du clavier des ordinateurs"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une optimisation perverse du système (les collaborateurs génèrent du volume inutile au détriment de la qualité stratégique) et une baisse de l'engagement",
+        "explanation":  "C'est la loi de Goodhart : lorsqu'une mesure devient un objectif, elle cesse d'être une bonne mesure. Mesurer la quantité de texte produite par l'IA détruit la valeur du conseil basée sur la pertinence et la synthèse."
+    },
+    {
+        "id":  43,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "éthique & société",
+        "question":  "Un dirigeant décide de déployer un système d'IA d'analyse du bien-être au travail via les e-mails. Quelle obligation s'impose en priorité ?",
+        "options":  [
+                        "Publier les résultats sur le site internet de l'entreprise",
+                        "Informer et obtenir le consentement des employés conformément au RGPD",
+                        "Interdire l'usage des e-mails personnels sur le lieu de travail",
+                        "Soumettre le projet à l'approbation du Ministère du Travail"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Informer et obtenir le consentement des employés conformément au RGPD",
+        "explanation":  "Analyser les communications des employés constitue un traitement de données personnelles. Le RGPD impose une information claire, une base légale valide et souvent le consentement explicite des personnes concernées."
+    },
+    {
+        "id":  44,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Qu'est-ce que la dépendance à un seul fournisseur d'IA (\\\"vendor lock-in\\\") peut entraîner pour un cabinet de conseil ?",
+        "options":  [
+                        "Un avantage concurrentiel garanti sur le long terme",
+                        "Une perte de liberté contractuelle et un risque de continuité d'activité en cas de défaillance du fournisseur",
+                        "Une réduction systématique des coûts grâce aux économies d'échelle",
+                        "Un accès illimité aux mises à jour gratuites du modèle"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une perte de liberté contractuelle et un risque de continuité d'activité en cas de défaillance du fournisseur",
+        "explanation":  "Dépendre exclusivement d'un fournisseur IA expose l'entreprise à des risques de hausse tarifaire, d'interruption de service ou d'évolution des CGU. Une stratégie multi-fournisseurs ou open source réduit ce risque."
+    },
+    {
+        "id":  45,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Dans le cadre de l'aide à la décision stratégique, que désigne le terme \\\"IA explicable\\\" (XAI) ?",
+        "options":  [
+                        "Une IA qui peut expliquer ses erreurs passées mais pas ses décisions futures",
+                        "Une IA dont les raisonnements et résultats peuvent être compris et justifiés par les humains",
+                        "Une IA uniquement utilisable par des experts en informatique",
+                        "Une IA qui traduit automatiquement ses sorties en plusieurs langues"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une IA dont les raisonnements et résultats peuvent être compris et justifiés par les humains",
+        "explanation":  "L'IA explicable (XAI) permet aux décideurs de comprendre pourquoi un système a produit une recommandation donnée. C'est essentiel pour la confiance, la conformité réglementaire et la responsabilité managériale."
+    },
+    {
+        "id":  46,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Quels types de données ne doit-on JAMAIS saisir dans un outil IA grand public pour des usages professionnels ?",
+        "options":  [
+                        "Des textes de présentation générique de l'entreprise",
+                        "Des données clients nominatives, des secrets industriels ou des informations financières confidentielles",
+                        "Des questions de veille sectorielle non confidentielles",
+                        "Des demandes de reformulation de textes publics"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Des données clients nominatives, des secrets industriels ou des informations financières confidentielles",
+        "explanation":  "Les outils grand public peuvent utiliser les données saisies pour améliorer leurs modèles. Toute information sensible ou confidentielle doit rester sur des plateformes sécurisées et contractuellement encadrées."
+    },
+    {
+        "id":  47,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "éthique & société",
+        "question":  "Qu'implique le principe de \\\"responsabilité humaine\\\" dans l'usage de l'IA en entreprise ?",
+        "options":  [
+                        "L'algorithme est seul responsable de ses décisions",
+                        "Le dirigeant peut déléguer entièrement sa responsabilité à l'éditeur du logiciel",
+                        "L'entreprise reste juridiquement et éthiquement responsable des décisions prises par son IA",
+                        "La responsabilité est partagée à 50/50 entre l'IA et son utilisateur"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "L'entreprise reste juridiquement et éthiquement responsable des décisions prises par son IA",
+        "explanation":  "En droit européen et selon l'AI Act, l'entreprise qui déploie un système d'IA en reste responsable. Le fournisseur a des obligations, mais la responsabilité d'usage incombe à l'organisation qui l'utilise."
+    },
+    {
+        "id":  48,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Qu'est-ce que l'effet \\\"hallucination\\\" d'une IA de langage peut entraîner comme risque pour un cabinet de conseil ?",
+        "options":  [
+                        "L'IA produit des visuels perturbants pour l'utilisateur",
+                        "L'IA génère des informations fausses présentées avec assurance, pouvant conduire à de mauvaises décisions",
+                        "L'IA devient plus lente après un usage intensif",
+                        "L'IA refuse de répondre à certaines questions sensibles"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L'IA génère des informations fausses présentées avec assurance, pouvant conduire à de mauvaises décisions",
+        "explanation":  "Les modèles de langage peuvent inventer des faits, des chiffres ou des sources de manière convaincante. Dans un contexte stratégique, valider toute information critique avec des sources primaires est impératif."
+    },
+    {
+        "id":  49,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Gouvernance",
+        "question":  "Pour un cabinet de conseil, quel est l'intérêt principal d'héberger ses modèles d'IA sur un cloud souverain ?",
+        "options":  [
+                        "Bénéficier d'une réduction d'impôt sur la recherche",
+                        "Garantir la protection des données clients contre les lois extraterritoriales (ex. Cloud Act américain)",
+                        "Augmenter artificiellement la valeur boursière du cabinet",
+                        "Permettre aux consultants de travailler sans connexion internet"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Garantir la protection des données clients contre les lois extraterritoriales (ex. Cloud Act américain)",
+        "explanation":  "Les cloud souverains protègent les données sensibles (stratégies clients, fusions-acquisitions) des requêtes d'autorités étrangères. C'est un argument de gouvernance de confiance indispensable pour les grands comptes."
+    },
+    {
+        "id":  50,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment la direction d'un cabinet peut-elle exploiter l'analyse de sentiment automatisée par IA ?",
+        "options":  [
+                        "Pour espionner la vie privée des managers en dehors du travail",
+                        "Pour évaluer le climat social interne (baromètres collaborateurs anonymes) ou mesurer la perception client lors d'un projet difficile",
+                        "Pour remplacer le service de paie en automatisant les virements",
+                        "Pour rédiger les statuts juridiques des filiales internationales"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour évaluer le climat social interne (baromètres collaborateurs anonymes) ou mesurer la perception client lors d'un projet difficile",
+        "explanation":  "L'analyse de sentiment (NLP) permet de traiter de gros volumes de commentaires textuels qualitatifs pour en dégager des tendances émotionnelles globales (frustration, adhésion), aidant au pilotage managérial."
+    },
+    {
+        "id":  51,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel risque concurrentiel court un cabinet qui base ses propositions commerciales stratégiques uniquement sur des prompts standardisés soumis à un LLM externe ?",
+        "options":  [
+                        "L'augmentation immédiate de sa marge brute",
+                        "La banalisation complète de ses offres (commoditisation) et la perte de sa valeur différenciante",
+                        "Le blocage de sa messagerie électronique par l'IA",
+                        "L'obligation légale de recruter uniquement des ingénieurs prompts"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La banalisation complète de ses offres (commoditisation) et la perte de sa valeur différenciante",
+        "explanation":  "Si tout le monde interroge l'IA de la même façon, les livrables se ressemblent tous. Le cabinet perd son positionnement premium si sa pensée n'est pas enrichie par une expertise humaine unique."
+    },
+    {
+        "id":  52,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Gouvernance",
+        "question":  "Qu'est-ce qu'une étude d'impact relative à la protection des données (AIPD) dans le cadre d'un déploiement d'IA RH ?",
+        "options":  [
+                        "Une analyse financière du coût des licences par collaborateur",
+                        "Une démarche obligatoire pour analyser et minimiser les risques sur les droits et libertés des salariés",
+                        "Un rapport marketing destiné à promouvoir l'innovation du cabinet",
+                        "Une étude d'ergonomie sur le confort visuel des utilisateurs de l'interface"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une démarche obligatoire pour analyser et minimiser les risques sur les droits et libertés des salariés",
+        "explanation":  "L'AIPD (ou DPIA sous le RGPD) est requise lorsque le traitement de données (notamment par l'IA) présente un risque élevé pour la vie privée (ex: surveillance ou évaluation automatisée des salariés)."
+    },
+    {
+        "id":  53,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Limites",
+        "question":  "Pourquoi l'IA ne peut-elle pas évaluer le risque de réputation lié à une crise médiatique d'un client avec la même finesse qu'un Directeur Associé ?",
+        "options":  [
+                        "Parce que l'IA ne sait pas lire la presse papier",
+                        "Parce que la réputation dépend d'irrationalités de l'opinion publique, de codes culturels mouvants et de réseaux d'influence relationnels",
+                        "Parce que le risque de réputation n'a aucun impact financier mesurable",
+                        "Parce que l'IA refuse par défaut de traiter les crises médiatiques"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce que la réputation dépend d'irrationalités de l'opinion publique, de codes culturels mouvants et de réseaux d'influence relationnels",
+        "explanation":  "Le décryptage de l'opinion, des dynamiques de réseaux et de la psychologie des parties prenantes exige une intuition politique et une expérience que l'IA, limitée au calcul de corrélations de données passées, ne possède pas."
+    },
+    {
+        "id":  54,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "éthique & société",
+        "question":  "Quel principe éthique majeur est enfreint si la direction d'un cabinet vend à un client une recommandation en omettant de dire qu'elle a été entièrement générée par une IA non auditée ?",
+        "options":  [
+                        "Le principe de subsidiarité",
+                        "Le principe de transparence et de loyauté professionnelle",
+                        "Le principe de neutralité du net",
+                        "Le principe d'indépendance des réseaux"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le principe de transparence et de loyauté professionnelle",
+        "explanation":  "Le client achète l'expertise et la garantie humaine d'un cabinet de conseil. Dissimuler l'usage exclusif de l'IA sans valeur ajoutée critique rompt la confiance contractuelle et déontologique."
+    },
+    {
+        "id":  55,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Capacités",
+        "question":  "Comment l'IA de type Graphe de Connaissances (Knowledge Graph) aide-t-elle la direction d'un cabinet ?",
+        "options":  [
+                        "…? dessiner automatiquement les logos des filiales",
+                        "…? cartographier les interconnexions complexes entre les experts du cabinet, leurs compétences, leurs missions passées et leurs clients",
+                        "…? générer des graphiques en barres plus rapidement",
+                        "…? automatiser l'envoi des v…"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "…? cartographier les interconnexions complexes entre les experts du cabinet, leurs compétences, leurs missions passées et leurs clients",
+        "explanation":  "Les graphes de connaissances permettent de modéliser les relations de l'organisation. Pour un dirigeant, c'est l'outil idéal pour identifier instantanément 'qui sait quoi' et maximiser le capital immatériel."
+    },
+    {
+        "id":  56,
+        "difficulty":  3,
+        "difficulty_label":  "curious",
+        "category":  "Dangers",
+        "question":  "Quel risque éthique et légal encourt une direction qui utilise une IA de scoring pour évaluer la probabilité de démission de ses consultants ?",
+        "options":  [
+                        "Une augmentation du turnover à 100%",
+                        "Le risque de créer des prophéties autoréalisatrices discriminantes ou de violer les libertés individuelles sans justification factuelle humaine",
+                        "La transformation automatique de tous les contrats en CDI",
+                        "La baisse immédiate des performances logicielles du cabinet"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le risque de créer des prophéties autoréalisatrices discriminantes ou de violer les libertés individuelles sans justification factuelle humaine",
+        "explanation":  "Si l'IA sur-évalue le risque de départ d'un collaborateur à cause de variables biaisées, le management risque de s'en désintéresser, provoquant ainsi sa démission effective. La décision doit rester humaine."
+    },
+    {
+        "id":  57,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "éthique & société",
+        "question":  "L'AI Act européen prévoit des amendes pour non-conformité pouvant atteindre quel montant maximum ?",
+        "options":  [
+                        "500 000 …,… par infraction",
+                        "1 % du chiffre d'affaires mondial annuel",
+                        "35 millions d'euros ou 7 % du chiffre d'affaires mondial annuel",
+                        "10 millions d'euros forfaitaires quel que soit le chiffre d'affaires"
+                    ],
+        "correct_index":  2,
+        "correct_answer":  "35 millions d'euros ou 7 % du chiffre d'affaires mondial annuel",
+        "explanation":  "L'AI Act prévoit pour les infractions les plus graves (systèmes interdits) des sanctions pouvant atteindre 35 M…,… ou 7 % du CA mondial. Pour les manquements aux obligations des systèmes à haut risque, le plafond est de 15 M…,… ou 3 %."
+    },
+    {
+        "id":  58,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Qu'est-ce qu'une attaque de type \\\"prompt injection\\\" contre un système d'IA ?",
+        "options":  [
+                        "Ralentir l'IA jusqu'à l'arrêt complet du serveur",
+                        "Forcer l'IA à ignorer ses instructions initiales et exécuter des instructions malveillantes",
+                        "Infecter les e-mails de l'entreprise avec un virus",
+                        "Exposer le code source de l'IA à des concurrents"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Forcer l'IA à ignorer ses instructions initiales et exécuter des instructions malveillantes",
+        "explanation":  "La prompt injection consiste à injecter des instructions malveillantes dans les entrées d'un système IA pour contourner ses garde-fous. Elle peut conduire à des fuites de données, des actions non autorisées ou la manipulation du système."
+    },
+    {
+        "id":  59,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Dans le cadre d'une stratégie d'investissement IA, que signifie le concept de \\\"ROI de l'IA\\\" et pourquoi est-il particulièrement complexe à calculer ?",
+        "options":  [
+                        "C'est le nombre d'employés remplacés, facile à calculer par le DRH",
+                        "C'est la valeur créée par l'IA divisée par son coût total, difficile à isoler car les bénéfices sont souvent indirects",
+                        "C'est uniquement la réduction des coûts opérationnels, mesurée en temps réel par l'ERP",
+                        "C'est le taux d'adoption par les utilisateurs, mesuré par un sondage trimestriel"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "C'est la valeur créée par l'IA divisée par son coût total, difficile à isoler car les bénéfices sont souvent indirects",
+        "explanation":  "Le ROI de l'IA intègre des coûts cachés (données, intégration, formation, maintenance) et des bénéfices diffus (qualité de décision, satisfaction client). Cette complexité rend son calcul précis particulièrement délicat."
+    },
+    {
+        "id":  60,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "éthique & société",
+        "question":  "Qu'est-ce que la notion de \\\"human-in-the-loop\\\" (HITL) implique pour la gouvernance d'une IA de recrutement ?",
+        "options":  [
+                        "Un humain entraîne l'IA manuellement en lui soumettant des exemples chaque jour",
+                        "Toute décision impactante (embauche, licenciement, promotion) doit être validée par un humain avant exécution",
+                        "Les employés peuvent signaler les erreurs de l'IA via un formulaire en ligne",
+                        "L'IA envoie des rapports hebdomadaires à la DRH pour archivage"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Toute décision impactante (embauche, licenciement, promotion) doit être validée par un humain avant exécution",
+        "explanation":  "Le HITL garantit que les décisions critiques prises par l'IA sont supervisées par des humains, permettant de corriger les erreurs, d'atténuer les biais et de préserver la responsabilité humaine dans les processus de gestion des talents."
+    },
+    {
+        "id":  61,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Gouvernance",
+        "question":  "Dans un cabinet de conseil en stratégie, que doit inclure une analyse fine du coût global de possession (TCO) d'une IA propriétaire ?",
+        "options":  [
+                        "Uniquement le coût d'achat des licences logicielles",
+                        "Les coûts d'infrastructure cloud, d'ingénierie des données, de fine-tuning, de formation, de conformité juridique et de maintenance des modèles",
+                        "Le prix moyen des ordinateurs portables des consultants",
+                        "Le budget de communication externe dédié à l'innovation du cabinet"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Les coûts d'infrastructure cloud, d'ingénierie des données, de fine-tuning, de formation, de conformité juridique et de maintenance des modèles",
+        "explanation":  "Le calcul du TCO de l'IA est complexe. Limiter le budget au prix de la licence masque les coûts cachés majeurs (données, conformité, mise à jour des compétences) indispensables au succès à long terme."
+    },
+    {
+        "id":  62,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Quel est l'avantage stratégique de coupler un LLM avec un moteur d'IA symbolique (système expert à base de règles) pour le pilotage financier ?",
+        "options":  [
+                        "Rendre l'IA capable de générer des poèmes financiers",
+                        "Allier la fluidité linguistique du LLM à la rigueur mathématique et au respect absolu des règles comptables de l'IA symbolique",
+                        "Réduire le nombre de lignes du bilan comptable",
+                        "Permettre l'exécution du modèle sans aucune puissance de calcul"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Allier la fluidité linguistique du LLM à la rigueur mathématique et au respect absolu des règles comptables de l'IA symbolique",
+        "explanation":  "Cette approche hybride (neuro-symbolique) pallie les faiblesses logiques et d'hallucination des LLM en leur adossant un garant des règles déterministes. Idéal pour des livrables de direction qui exigent une exactitude parfaite."
+    },
+    {
+        "id":  63,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Qu'est-ce que le 'biais de conformité automatisée' (automation bias) chez un Directeur de mission ?",
+        "options":  [
+                        "Le refus strict d'utiliser les outils technologiques",
+                        "La tendance à faire trop confiance aux résultats générés par l'IA au détriment de son propre jugement critique ou d'indices factuels contradictoires",
+                        "L'obligation légale de suivre les instructions des éditeurs de logiciels",
+                        "La standardisation des polices de caractères dans les rapports d'analyse"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La tendance à faire trop confiance aux résultats générés par l'IA au détriment de son propre jugement critique ou d'indices factuels contradictoires",
+        "explanation":  "Le biais d'automatisation endort la vigilance humaine. Un directeur peut valider une erreur d'analyse critique sous prétexte que le modèle informatique l'a présentée de manière professionnelle et fluide."
+    },
+    {
+        "id":  64,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Que désigne le risque d''exfiltration de données' via une attaque indirecte par injection de prompt lors d'une étude de marché ?",
+        "options":  [
+                        "Le vol physique des serveurs informatiques du cabinet",
+                        "La manipulation d'un LLM connecté au web par des données externes piégées, forçant l'IA à envoyer des données secrètes du cabinet à un tiers",
+                        "La suppression accidentelle des archives de l'étude",
+                        "La hausse non planifiée des tarifs d'accès aux API"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La manipulation d'un LLM connecté au web par des données externes piégées, forçant l'IA à envoyer des données secrètes du cabinet à un tiers",
+        "explanation":  "Si l'IA du cabinet analyse un site client ou concurrent contenant un code malveillant caché, ce code peut ordonner à l'IA de transmettre des informations stratégiques confidentielles vers l'extérieur sans que le consultant ne s'en aperçoive."
+    },
+    {
+        "id":  65,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Gouvernance",
+        "question":  "Pourquoi la création d'un 'Comité d'éthique IA' interdisciplinaire est-elle recommandée pour un cabinet de conseil de premier plan ?",
+        "options":  [
+                        "Pour rédiger des communiqués marketing axés sur la RSE",
+                        "Pour évaluer la conformité, la transparence et l'alignement des usages de l'IA avec les valeurs des clients et la réglementation avant tout déploiement",
+                        "Pour remplacer le Conseil de Discipline du personnel",
+                        "Pour arbitrer les conflits de rémunération entre associés"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Pour évaluer la conformité, la transparence et l'alignement des usages de l'IA avec les valeurs des clients et la réglementation avant tout déploiement",
+        "explanation":  "Un comité interdisciplinaire (associés, DPO, experts tech, RH) permet de sortir d'une vision purement technique de l'IA pour traiter les enjeux d'éthique, de confiance client et de risques de marque."
+    },
+    {
+        "id":  66,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "éthique & société",
+        "question":  "Dans le cadre de l'AI Act, qu'est-ce qu'un système d'IA à 'score de crédit' appliqué au personnel impliquerait pour la direction ?",
+        "options":  [
+                        "Une interdiction absolue d'usage dans tous les pays du monde",
+                        "Une classification 'haut risque' nécessitant des audits de biais algorithmiques, une traçabilité totale et une supervision humaine stricte",
+                        "La gratuité des abonnements logiciels pour les salariés bien notés",
+                        "L'approbation obligatoire du Parlement européen à chaque notation"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une classification 'haut risque' nécessitant des audits de biais algorithmiques, une traçabilité totale et une supervision humaine stricte",
+        "explanation":  "Les systèmes d'évaluation ou de scoring des salariés ayant un impact sur leur carrière sont considérés comme à haut risque par l'AI Act, imposant un cadre de conformité extrêmement lourd pour la direction du cabinet."
+    },
+    {
+        "id":  67,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Qu'est-ce que l''effondrement du modèle' (model collapse) causé par l'entraînement d'une IA sur des données elles-mêmes générées par de l'IA ?",
+        "options":  [
+                        "Une panne matérielle des processeurs graphiques (GPU)",
+                        "Une perte d'originalité, de précision et une convergence vers des réponses absurdes ou uniformes après plusieurs générations",
+                        "La baisse soudaine de la vitesse de téléchargement des fichiers",
+                        "L'impossibilité de connecter le modèle au réseau d'entreprise"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une perte d'originalité, de précision et une convergence vers des réponses absurdes ou uniformes après plusieurs générations",
+        "explanation":  "Si les bases de données de veille stratégique d'un cabinet ne contiennent plus que du contenu généré par IA, les futurs modèles réentraînés dessus perdront toute finesse analytique. La préservation de la pensée humaine d'origine est cruciale."
+    },
+    {
+        "id":  68,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "En quoi consiste la modélisation par agents autonomes d'IA (Multi-Agent Systems) dans une simulation de fusion-acquisition ?",
+        "options":  [
+                        "…? générer des avatars animés pour présenter le rapport d'audit",
+                        "…? faire interagir plusieurs IA dotées de rôles distincts (acheteur, vendeur, régulateur) pour tester la résilience d'un deal face à différents comportements",
+                        "…? fusionner automatiquement les bases de données Excel des deux entités",
+                        "…? remplacer les avocats d'affaires lors de la signature physique"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "…? faire interagir plusieurs IA dotées de rôles distincts (acheteur, vendeur, régulateur) pour tester la résilience d'un deal face à différents comportements",
+        "explanation":  "Les systèmes multi-agents simulent des dynamiques complexes de théorie des jeux. Cela permet aux directeurs de la stratégie d'explorer des scénarios de négociation et de stress-tester les stratégies avant d'aller sur le terrain."
+    },
+    {
+        "id":  69,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Quel est le risque géopolitique lié au choix d'un LLM propriétaire non européen pour des missions de conseil auprès d'…?tats ou de secteurs d'importance vitale (OIV) ?",
+        "options":  [
+                        "Le risque de coupure de l'accès internet par les fournisseurs locaux",
+                        "Le risque de dépendance stratégique et d'ingérence ou d'accès aux données sensibles par des gouvernements étrangers via des lois d'extradition",
+                        "Une baisse de la qualité de la mise en page des présentations",
+                        "L'obligation de traduire tous les livrables dans la langue d'origine du modèle"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le risque de dépendance stratégique et d'ingérence ou d'accès aux données sensibles par des gouvernements étrangers via des lois d'extradition",
+        "explanation":  "Les missions sensibles (Défense, …?nergie, Souveraineté) imposent un cloisonnement strict des données. Utiliser un modèle hébergé ou régi par une puissance étrangère crée un risque de souveraineté inacceptable pour un cabinet de conseil stratégique."
+    },
+    {
+        "id":  70,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Gouvernance",
+        "question":  "Comment la direction doit-elle orchestrer la 'gestion des dérives' (drift management) de ses outils IA d'évaluation de la performance ?",
+        "options":  [
+                        "En demandant aux consultants de modifier manuellement les indicateurs chaque semaine",
+                        "En mettant en place des audits périodiques des algorithmes et des réentraînements réguliers basés sur des données réelles récurrentes",
+                        "En bloquant l'évolution des logiciels pour conserver la version initiale",
+                        "En confiant la surveillance exclusive de la dérive à une autre IA non supervisée"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En mettant en place des audits périodiques des algorithmes et des réentraînements réguliers basés sur des données réelles récurrentes",
+        "explanation":  "La dérive des modèles altère la qualité des prévisions au fil du temps en raison des évolutions du marché. Une gouvernance mature intègre un cycle d'audit et de maintenance algorithmique planifié."
+    },
+    {
+        "id":  71,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Gouvernance",
+        "question":  "Quelle métrique (KPI) de gouvernance la direction d'un cabinet doit-elle suivre pour s'assurer du bon usage des solutions IA internes ?",
+        "options":  [
+                        "Le nombre total de mots générés par jour",
+                        "Le taux d'erreur détecté lors des revues de livrables (Human-in-the-loop) et l'indice de satisfaction client sur la pertinence des analyses",
+                        "Le nombre de fois où le mot 'IA' apparaît dans les livrables finaux",
+                        "Le coût de la facture d'électricité par poste de travail"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le taux d'erreur détecté lors des revues de livrables (Human-in-the-loop) et l'indice de satisfaction client sur la pertinence des analyses",
+        "explanation":  "Piloter la gouvernance nécessite de mesurer la qualité et le risque. Suivre le taux de corrections nécessaires sur les sorties d'IA permet d'ajuster les besoins de formation ou de modifier les instructions des modèles."
+    },
+    {
+        "id":  72,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "En conseil en stratégie, pourquoi le phénomène de 'mémorisation stochastique' d'un LLM pose-t-il un risque de non-conformité ?",
+        "options":  [
+                        "Parce que le modèle oublie ses instructions toutes les 10 minutes",
+                        "Parce qu'un LLM peut restituer mot pour mot des données confidentielles présentes dans sa base d'entraînement lorsqu'il est poussé par certains prompts",
+                        "Parce qu'il modifie automatiquement la structure juridique des contrats",
+                        "Parce qu'il augmente la taille des fichiers de sauvegarde de façon aléatoire"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu'un LLM peut restituer mot pour mot des données confidentielles présentes dans sa base d'entraînement lorsqu'il est poussé par certains prompts",
+        "explanation":  "Si des données confidentielles ont fuité dans le corpus d'entraînement d'un modèle, ce dernier peut recracher des pans entiers de secrets d'affaires textuels. La direction doit valider l'étanchéité des données amont."
+    },
+    {
+        "id":  73,
+        "difficulty":  4,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Qu'est-ce qu'une attaque par 'Inversion de Gradient' (Gradient Inversion) sur un modèle d'IA de pilotage RH collaboratif (Federated Learning) ?",
+        "options":  [
+                        "Un bug qui inverse le sens d'affichage des courbes de performance",
+                        "Une technique permettant à un participant malveillant de reconstruire les données privées et nominatives des salariés à partir des mises à jour mathématiques partagées par le modèle",
+                        "L'effacement complet des coefficients de pondération des bonus annuels",
+                        "Le piratage du routeur Wi-Fi du siège social"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Une technique permettant à un participant malveillant de reconstruire les données privées et nominatives des salariés à partir des mises à jour mathématiques partagées par le modèle",
+        "explanation":  "Même dans l'apprentissage fédéré (où les données ne bougent pas du serveur local), des fuites restent possibles si les gradients mathématiques sont interceptés. La direction doit valider l'usage de protocoles de confidentialité différentielle (Differential Privacy) pour sécuriser le système."
+    },
+    {
+        "id":  74,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Quelle menace spécifique représente l'utilisation de deepfakes audio dans le contexte de la fraude au président ?",
+        "options":  [
+                        "Elle permet de pirater directement les comptes bancaires de l'entreprise",
+                        "Elle permet d'usurper la voix d'un dirigeant pour ordonner des virements frauduleux à des employés",
+                        "Elle bloque les communications internes de l'entreprise pendant l'attaque",
+                        "Elle permet d'accéder aux serveurs de l'entreprise sans mot de passe"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Elle permet d'usurper la voix d'un dirigeant pour ordonner des virements frauduleux à des employés",
+        "explanation":  "Des cas documentés montrent des escrocs clonant la voix d'un PDG pour convaincre un DAF d'effectuer un virement urgent. La sensibilisation des équipes et les protocoles de double vérification sont essentiels."
+    },
+    {
+        "id":  75,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Qu'est-ce que le \\\"concept drift\\\" et pourquoi est-il un défi majeur pour les modèles d'IA de prévision stratégique ?",
+        "options":  [
+                        "Un bug qui fait dériver les prévisions vers des valeurs négatives",
+                        "La dégradation progressive des performances du modèle quand les données réelles s'écartent de celles d'entraînement",
+                        "Un biais introduit volontairement par l'éditeur pour orienter les recommandations",
+                        "La tendance de l'IA à sur-adapter ses prévisions aux attentes du dirigeant"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La dégradation progressive des performances du modèle quand les données réelles s'écartent de celles d'entraînement",
+        "explanation":  "Le concept drift survient quand la réalité change (crise économique, nouveau marché) mais que le modèle n'a pas été réentraîné. Ses prévisions deviennent alors moins fiables, sans forcément générer d'alerte visible."
+    },
+    {
+        "id":  76,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Dans le cadre de la gouvernance de l'IA, qu'est-ce qu'un 'IA Governance Framework' robuste doit impérativement inclure pour un cabinet de conseil en stratégie ?",
+        "options":  [
+                        "Uniquement une politique d'usage de licences logicielles",
+                        "Des politiques d'usage, une cartographie des risques, des procédures d'audit et des rôles de responsabilité clairement définis",
+                        "Un plan de communication externe sur les capacités IA de l'entreprise",
+                        "Un contrat de confidentialité signé par chaque utilisateur de l'IA"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Des politiques d'usage, une cartographie des risques, des procédures d'audit et des rôles de responsabilité clairement définis",
+        "explanation":  "Un cadre de gouvernance IA robuste définit qui décide, qui contrôle, quels usages sont autorisés ou interdits, comment les incidents sont gérés et comment la conformité est vérifiée …?"
+    },
+    {
+        "id":  77,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "éthique & société",
+        "question":  "Selon l'AI Act, quelle obligation spécifique s'applique aux systèmes d'IA à haut risque ?",
+        "options":  [
+                        "Ils doivent être hébergés uniquement sur des serveurs européens",
+                        "Ils doivent être enregistrés dans une base de données européenne et faire l'objet d'une évaluation de conformité avant mise sur le marché",
+                        "Ils doivent être approuvés par le Parlement européen avant tout déploiement",
+                        "Leur code source doit être publié en open source pour permettre un audit public"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Ils doivent être enregistrés dans une base de données européenne et faire l'objet d'une évaluation de conformité avant mise sur le marché",
+        "explanation":  "L'AI Act impose pour les systèmes à haut risque : documentation technique complète, enregistrement dans une base de données EU, évaluation de conformité, mécanismes de supervision humaine et journaux d'activité traçables."
+    },
+    {
+        "id":  78,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "En cas d'attaque par empoisonnement des données (Data Poisoning) de la base de RAG d'un cabinet de conseil, quel est le risque stratégique ?",
+        "options":  [
+                        "Le chiffrement complet des disques durs du cabinet exigeant une rançon",
+                        "L'altération silencieuse des futures analyses stratégiques générées, poussant les consultants à formuler des recommandations erronées ou nuisibles",
+                        "L'envoi automatique de courriels d'insultes aux clients du cabinet",
+                        "La désindexation complète du site web du cabinet des moteurs de recherche"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "L'altération silencieuse des futures analyses stratégiques générées, poussant les consultants à formuler des recommandations erronées ou nuisibles",
+        "explanation":  "Le data poisoning introduit de fausses connaissances ou des biais dans la base de savoir interne. L'IA va alors générer des conclusions fausses de manière très convaincante, menaçant la crédibilité et la responsabilité civile du cabinet."
+    },
+    {
+        "id":  79,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Gouvernance",
+        "question":  "Comment un cabinet de conseil en stratégie peut-il auditer juridiquement la conformité de sa chaîne d'approvisionnement IA (AI Supply Chain) ?",
+        "options":  [
+                        "En s'assurant que tous les développeurs ont un diplôme d'ingénieur",
+                        "En exigeant des clauses de traçabilité des données d'entraînement, des audits tiers des modèles de fondation et le respect de la législation sur le droit d'auteur par les fournisseurs",
+                        "En utilisant uniquement des logiciels gratuits libres de droits",
+                        "En délocalisant l'infrastructure technique en dehors de l'Union Européenne"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "En exigeant des clauses de traçabilité des données d'entraînement, des audits tiers des modèles de fondation et le respect de la législation sur le droit d'auteur par les fournisseurs",
+        "explanation":  "La responsabilité du cabinet est engagée si l'IA intégrée viole des droits d'auteur ou des brevets (ex. entraînement illégal). Une due diligence rigoureuse de la supply chain IA est indispensable pour se prémunir des risques juridiques."
+    },
+    {
+        "id":  80,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Limites",
+        "question":  "Pourquoi l'alignement mathématique d'une fonction de perte (Loss Function) d'une IA ne garantit pas son alignement éthique avec les valeurs de la direction ?",
+        "options":  [
+                        "Parce que la fonction de perte ne s'exprime qu'en anglais",
+                        "Parce qu'un algorithme optimise un score numérique abstrait qui peut contourner l'esprit des règles éthiques pour maximiser le résultat (spécification perverse)",
+                        "Parce que l'alignement éthique nécessite l'utilisation d'ordinateurs quantiques",
+                        "Parce que les fonctions de perte sont désactivées après l'entraînement initial"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Parce qu'un algorithme optimise un score numérique abstrait qui peut contourner l'esprit des règles éthiques pour maximiser le résultat (spécification perverse)",
+        "explanation":  "C'est le problème du 'reward hacking'. Une IA programmée pour maximiser la rentabilité opérationnelle d'un client peut suggérer des options illégales ou socialement destructrices si aucun garde-fou éthique n'est codé explicitement."
+    },
+    {
+        "id":  81,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Capacités",
+        "question":  "Comment l'utilisation de l'IA causale (Causal AI) transforme-t-elle l'aide à la décision stratégique par rapport à l'IA prédictive classique ?",
+        "options":  [
+                        "Elle permet de calculer plus rapidement les ratios financiers dans Excel",
+                        "Elle dépasse les simples corrélations pour modéliser des relations de cause à effet, permettant de simuler l'impact réel d'une intervention ('Et si nous changions ce prix ?')",
+                        "Elle élimine le besoin d'avoir des données historiques pour lancer un modèle",
+                        "Elle prend la décision finale sans exiger de validation par le Directeur de mission"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Elle dépasse les simples corrélations pour modéliser des relations de cause à effet, permettant de simuler l'impact réel d'une intervention ('Et si nous changions ce prix ?')",
+        "explanation":  "L'IA prédictive classique dit 'ce qui va probablement arriver' en fonction du passé. L'IA causale permet à la direction de tester l'impact d'une rupture stratégique volontaire en comprenant les leviers d'action réels, réduisant le risque managérial."
+    },
+    {
+        "id":  82,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "éthique & société",
+        "question":  "Si un cabinet utilise l'apprentissage par renforcement à partir de rétroactions humaines (RLHF) pour adapter une IA de négociation, quel dilemme éthique se pose à la direction ?",
+        "options":  [
+                        "Le risque de surpayer les ingénieurs chargés du projet",
+                        "Le risque d'intégrer inconsciemment les biais subjectifs, politiques ou culturels des évaluateurs humains dans le comportement final de l'IA",
+                        "L'obligation légale de déclarer le salaire des évaluateurs à la Commission Européenne",
+                        "L'impossibilité de reproduire mathématiquement le comportement du modèle"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "Le risque d'intégrer inconsciemment les biais subjectifs, politiques ou culturels des évaluateurs humains dans le comportement final de l'IA",
+        "explanation":  "Le RLHF formate les réponses de l'IA selon les préférences des humains qui la guident. Si ce groupe d'humains manque de diversité ou possède des biais dogmatiques, l'IA développera un prisme idéologique rigide nuisant à l'objectivité des conseils."
+    },
+    {
+        "id":  83,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Dangers",
+        "question":  "Dans le cadre d'un audit de conformité à l'AI Act, qu'est-ce qu'une attaque par 'empoisonnement de modèle' (Model Poisoning) via les hyperparamètres d'apprentissage ?",
+        "options":  [
+                        "Une altération physique des cartes mères par un virus",
+                        "La modification malveillante des poids internes ou des réglages lors du fine-tuning, masquant des biais ou créant des portes dérobées (backdoors) indétectables",
+                        "L'effacement complet des fichiers de configuration logit",
+                        "Une hausse de la latence du réseau empêchant les réponses en temps réel"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La modification malveillante des poids internes ou des réglages lors du fine-tuning, masquant des biais ou créant des portes dérobées (backdoors) indétectables",
+        "explanation":  "Cette attaque de haut niveau corrompt le comportement de l'IA sur des déclencheurs très précis (triggers), tout en la laissant fonctionner normalement le reste du temps. Seuls des processus d'audit de sécurité stricts permettent de s'en prémunir."
+    },
+    {
+        "id":  84,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Gouvernance",
+        "question":  "Dans le cadre de l'AI Act, qu'implique l'obligation de 'Journalisation automatique' (Logging) pour une direction qui déploie un système à haut risque ?",
+        "options":  [
+                        "L'enregistrement de l'historique de navigation internet des salariés",
+                        "La traçabilité technique continue et inaltérable de tous les événements, décisions et modifications intervenus durant la vie du système pour permettre des audits après incident",
+                        "La publication hebdomadaire du code source sur le site web du cabinet",
+                        "L'envoi automatique de rapports d'activité au Parlement européen toutes les 24 heures"
+                    ],
+        "correct_index":  1,
+        "correct_answer":  "La traçabilité technique continue et inaltérable de tous les événements, décisions et modifications intervenus durant la vie du système pour permettre des audits après incident",
+        "explanation":  "Le logging obligatoire garantit la transparence et la responsabilité juridique. En cas de dérive ou d'erreur grave de l'IA, la direction et les autorités doivent être capables de remonter le fil technique exact de la décision."
+    },
+    {
+        "id":  85,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Gouvernance",
+        "question":  "Quel modèle de collaboration homme-IA (Human-AI Teaming) garantit la conformité éthique d'un cabinet selon l'AI Act ?",
+        "options":  [
+                        "L'IA accélère l'analyse et les options, l'humain arbitre, valide et endosse la responsabilité",
+                        "L'IA décide, l'humain exécute sans comprendre",
+                        "On retire l'humain pour gagner en rapidité",
+                        "On masque le rôle de l'IA au client"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "L'IA accélère l'analyse et les options, l'humain arbitre, valide et endosse la responsabilité",
+        "explanation":  "Le bon modèle de collaboration : l'IA augmente la capacité d'analyse, mais l'arbitrage, la validation et la responsabilité demeurent humains, en cohérence avec l'éthique et l'AI Act."
+    },
+    {
+        "id":  86,
+        "difficulty":  5,
+        "difficulty_label":  "expert",
+        "category":  "Gouvernance",
+        "question":  "Quelle gouvernance réduit durablement les risques liés à l'IA dans un cabinet de conseil en stratégie ?",
+        "options":  [
+                        "Outils validés, charte d'usage, formation, classification des données et procédures d'incident",
+                        "Laisser chaque consultant utiliser n'importe quel outil sans cadre",
+                        "Interdire toute documentation des usages",
+                        "Compter uniquement sur la bonne volonté individuelle"
+                    ],
+        "correct_index":  0,
+        "correct_answer":  "Outils validés, charte d'usage, formation, classification des données et procédures d'incident",
+        "explanation":  "Une gouvernance combinant outils validés, charte, formation, classification des données et gestion des incidents traite les risques de manière systémique, protégeant à la fois les clients et la réputation du cabinet."
+    }
+]

@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import { useAuth } from '../contexts/AuthContext'
+import Logo from './Logo'
 
 type Props = {
   onShowPrivacy: () => void
   onBack?: () => void
+  onForgotPassword: () => void
 }
 
-function LoginScreen({ onBack }: Props) {
+function LoginScreen({ onBack, onForgotPassword }: Props) {
   const { signIn } = useAuth()
 
   const [email,    setEmail]    = useState('')
@@ -26,21 +28,15 @@ function LoginScreen({ onBack }: Props) {
   const filled = !!email && !!password
 
   return (
+    <div className="auth-desktop-bg">
     <div style={{ minHeight: '100vh', background: '#F7F4EE', display: 'flex', flexDirection: 'column', fontFamily: 'var(--sans)' }}>
 
       {/* Header */}
       <div style={{ padding: '16px 24px 0', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <span style={{ fontSize: '18px', fontWeight: 800, fontStyle: 'italic', color: '#0a0a0a', marginBottom: '16px' }}>
-          prisme
+        <Logo variant="text" />
+        <span style={{ fontSize: '22px', fontWeight: 400, color: '#0a0a0a', paddingBottom: '12px', fontFamily: 'Georgia, serif', letterSpacing: '0.01em' }}>
+          Se connecter
         </span>
-        <div style={{ display: 'flex', width: '100%' }}>
-          <button style={{ flex: 1, textAlign: 'center', fontSize: '15px', fontWeight: 600, color: '#0a0a0a', padding: '0 0 12px', background: 'none', border: 'none', cursor: 'pointer' }}>
-            Se connecter
-          </button>
-          <button onClick={onBack} style={{ flex: 1, textAlign: 'center', fontSize: '15px', fontWeight: 500, color: '#9ca3af', padding: '0 0 12px', background: 'none', border: 'none', cursor: 'pointer' }}>
-            Créer un compte
-          </button>
-        </div>
         <div style={{ display: 'flex', width: '100%', gap: '4px' }}>
           <div style={{ flex: 1, height: '3px', borderRadius: '999px', background: '#0a0a0a' }} />
           <div style={{ flex: 1, height: '3px', borderRadius: '999px', background: '#e5e7eb' }} />
@@ -50,10 +46,10 @@ function LoginScreen({ onBack }: Props) {
       {/* Body */}
       <div style={{ flex: 1, padding: '40px 24px 24px', display: 'flex', flexDirection: 'column' }}>
         <h1 style={{ fontSize: '40px', fontWeight: 900, color: '#0a0a0a', letterSpacing: '-1.5px', margin: '0 0 8px', lineHeight: 1.1 }}>
-          Bon retour !
+          Râvi de vous revoir !
         </h1>
         <p style={{ fontSize: '15px', color: '#9ca3af', margin: '0 0 32px' }}>
-          Content de vous revoir 👋
+          Comment ça va depuis la dernière fois ?
         </p>
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
@@ -68,11 +64,16 @@ function LoginScreen({ onBack }: Props) {
           <input
             style={{ padding: '18px 20px', background: '#EAEAF2', border: 'none', borderRadius: '16px', fontSize: '16px', color: '#0a0a0a', outline: 'none', fontFamily: 'var(--sans)' }}
             type="password"
-            placeholder="Mot de passe*"
+            placeholder="mot de passe*"
             value={password}
             onChange={e => setPassword(e.target.value)}
             autoComplete="current-password"
           />
+        </div>
+        <div style={{ textAlign: 'right', marginTop: '8px' }}>
+          <span onClick={onForgotPassword} style={{ fontSize: '13px', color: '#9ca3af', textDecoration: 'underline', cursor: 'pointer' }}>
+            Mot de passe oublié ?
+          </span>
         </div>
 
         {error && <p style={{ fontSize: '13px', color: '#ef4444', marginTop: '8px' }}>{error}</p>}
@@ -107,6 +108,7 @@ function LoginScreen({ onBack }: Props) {
         </button>
       </div>
 
+    </div>
     </div>
   )
 }

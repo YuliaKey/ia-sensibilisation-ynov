@@ -3,6 +3,7 @@ import { useAuth } from '../contexts/AuthContext'
 import { supabase } from '../lib/supabase'
 import BottomNav from './BottomNav'
 import type { AppView } from './BottomNav'
+import Logo from './Logo'
 import './Leaderboard.css'
 
 type UserRow = {
@@ -27,9 +28,10 @@ const MEDALS = ['🥇', '🥈', '🥉']
 
 type LeaderboardProps = {
   onNavigate: (view: AppView) => void
+  onSettings?: () => void
 }
 
-function Leaderboard({ onNavigate }: LeaderboardProps) {
+function Leaderboard({ onNavigate, onSettings }: LeaderboardProps) {
   const { session, profile } = useAuth()
   const meId = session?.user.id
   const myServiceId = profile?.service_id ?? null
@@ -90,7 +92,7 @@ function Leaderboard({ onNavigate }: LeaderboardProps) {
     <div className="lb">
       <header className="lb__top">
         <span className="lb__logo">
-          prisme
+          <Logo variant="text" />
         </span>
         <button
           type="button"
@@ -143,7 +145,7 @@ function Leaderboard({ onNavigate }: LeaderboardProps) {
         )}
       </div>
 
-      <BottomNav active="leaderboard" onNavigate={onNavigate} />
+      <BottomNav active="leaderboard" onNavigate={onNavigate} onSettings={onSettings} />
     </div>
   )
 }

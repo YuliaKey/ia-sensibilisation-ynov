@@ -1,13 +1,24 @@
 import { useEffect, useState } from 'react'
-import questionsData from '../assets/questions-conseil-strategie.json'
 import { useAuth } from '../contexts/AuthContext'
 import { BASE_POINTS, getUserLevel, saveQuizResult } from '../lib/quizResults'
 import BottomNav from './BottomNav'
 import type { AppView } from './BottomNav'
+import Logo from './Logo'
 import './Quiz.css'
 
-type SkillLevel = 'beginner' | 'curious' | 'expert'
+// ── Imports des banques de questions par service ──────────────────────────────
+import strategieQuestions    from '../assets/questions-strategie.json'
+import generalQuestions      from '../assets/questions-general.json'
+import rhQuestions           from '../assets/questions-rh.json'
+import financeQuestions      from '../assets/questions-finance.json'
+import informatiqueQuestions from '../assets/questions-informatique.json'
+import directionQuestions    from '../assets/questions-direction.json'
+import administratifQuestions from '../assets/questions-administratif.json'
+import marketingQuestions    from '../assets/questions-communication-marketing.json'
+import commercialQuestions   from '../assets/questions-commercial.json'
+import juridiqueQuestions    from '../assets/questions-juridique.json'
 
+type SkillLevel = 'beginner' | 'curious' | 'expert'
 
 type Question = {
   id: number
@@ -24,7 +35,30 @@ type Question = {
 // Nombre de questions par série.
 const SERIES_SIZE = 8
 
-const seedQuestionsFromAi = questionsData as Question[]
+/** Mapping nom de service → banque de questions.
+ *  Clés = noms exacts des services dans la table `services`.
+ *  Fallback : questions Stratégie si le service n'est pas reconnu. */
+const QUESTIONS_BY_SERVICE: Record<string, Question[]> = {
+  'Stratégie':               strategieQuestions    as Question[],
+  'Ressources Humaines':     rhQuestions           as Question[],
+  'Finance':                 financeQuestions      as Question[],
+  'Informatique':            informatiqueQuestions as Question[],
+  'Direction':               directionQuestions    as Question[],
+  'Administratif':           administratifQuestions as Question[],
+  'Communication & Marketing': marketingQuestions  as Question[],
+  'Commercial':              commercialQuestions   as Question[],
+  'Juridique':               juridiqueQuestions    as Question[],
+}
+
+/** Retourne la banque de questions adaptée au service.
+ *  Fallback : questions générales (service "Autre" ou non reconnu). */
+function getQuestionsForService(service: string | null): Question[] {
+  if (service && QUESTIONS_BY_SERVICE[service]) {
+    return QUESTIONS_BY_SERVICE[service]
+  }
+  // Pas de service ou service "Autre" → questions générales
+  return generalQuestions as Question[]
+}
 
 // Mélange aléatoire (Fisher-Yates) sur une copie du tableau.
 function shuffle<T>(arr: T[]): T[] {
@@ -48,21 +82,26 @@ function shuffleOptions(q: Question): Question {
   }
 }
 
-// Tire une série de questions du niveau donné, au hasard, avec options mélangées.
-function buildSeries(level: SkillLevel): Question[] {
-  const pool = seedQuestionsFromAi.filter((q) => q.difficulty_label === level)
-  return shuffle(pool).slice(0, SERIES_SIZE).map(shuffleOptions)
+/** Tire une série depuis la banque adaptée au service et au niveau. */
+function buildSeries(level: SkillLevel, pool: Question[]): Question[] {
+  const filtered = pool.filter((q) => q.difficulty_label === level)
+  return shuffle(filtered).slice(0, SERIES_SIZE).map(shuffleOptions)
 }
 
 type QuizProps = {
   onNavigate: (view: AppView) => void
+  onHome?:    () => void
+  onSettings?: () => void
 }
 
-function Quiz({ onNavigate }: QuizProps) {
+function Quiz({ onNavigate, onHome, onSettings }: QuizProps) {
   // Utilisateur authentifié (App ne rend le Quiz que si une session existe).
-  const { session, profile } = useAuth()
-  const userId = session?.user.id
+  const { session, profile, serviceName } = useAuth()
+  const userId    = session?.user.id
   const firstName = profile?.first_name ?? ''
+
+  // Banque de questions adaptée au service de l'utilisateur.
+  const questionPool = getQuestionsForService(serviceName)
 
   // Niveau de l'utilisateur, récupéré dynamiquement depuis la base.
   const [level, setLevel] = useState<SkillLevel | null>(null)
@@ -80,7 +119,7 @@ function Quiz({ onNavigate }: QuizProps) {
 
   // Démarre une série pour un niveau donné et réinitialise l'état du quiz.
   const startSeries = (lvl: SkillLevel) => {
-    setQuestions(buildSeries(lvl))
+    setQuestions(buildSeries(lvl, questionPool))
     setIndex(0)
     setSelected(null)
     setValidated(false)
@@ -190,13 +229,11 @@ function Quiz({ onNavigate }: QuizProps) {
     return (
       <div className="quiz">
         <header className="quiz__brand">
-          <span className="quiz__logo">
-            <span className="quiz__spark">✦&nbsp;</span>prisme
-          </span>
+          <Logo variant="full" />
         </header>
 
         <div className="quiz__top">
-          <span className="quiz__toplogo">prisme</span>
+          <Logo variant="text" />
           <button
             type="button"
             className="quiz__close"
@@ -253,7 +290,7 @@ function Quiz({ onNavigate }: QuizProps) {
             <button
               type="button"
               className="quiz__cta quiz__cta--pink"
-              onClick={startNewSeries}
+              onClick={onHome ?? startNewSeries}
             >
               Revenir à l'accueil
             </button>
@@ -267,7 +304,7 @@ function Quiz({ onNavigate }: QuizProps) {
           </div>
         </div>
 
-        <BottomNav active="quiz" onNavigate={onNavigate} />
+        <BottomNav active="quiz" onNavigate={onNavigate} onSettings={onSettings} />
       </div>
     )
   }
@@ -276,14 +313,12 @@ function Quiz({ onNavigate }: QuizProps) {
     <div className="quiz">
       {/* En-tête marque (desktop uniquement) */}
       <header className="quiz__brand">
-        <span className="quiz__logo">
-          <span className="quiz__spark">✦&nbsp;</span>prisme
-        </span>
+        <Logo variant="full" />
       </header>
 
       {/* En-tête mobile : logo + fermer */}
       <div className="quiz__top">
-        <span className="quiz__toplogo">prisme</span>
+        <Logo variant="text" />
         <button
           type="button"
           className="quiz__close"

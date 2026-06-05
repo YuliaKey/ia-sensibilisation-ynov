@@ -36,9 +36,23 @@
 .hist__settings {
   border: none;
   background: none;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 600;
   color: #6b7280;
   cursor: pointer;
+  /* Touch target minimum 44×44px pour mobile */
+  min-height: 44px;
+  min-width: 44px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0.08);
+}
+
+.hist__settings:active {
+  background: rgba(0,0,0,0.06);
 }
 
 .hist__title {
@@ -127,18 +141,19 @@
 @media (min-width: 900px) {
   .hist {
     align-items: center;
-    padding: 28px 56px 56px;
+    padding: 96px 56px 56px; /* 96px = hauteur barre nav (68px) + marge */
     background: linear-gradient(to bottom left, #efe7fb 0%, #fafbf7 48%, #e7f6e6 100%);
   }
 
+  /* Header mobile masqué sur desktop (la BottomNav fournit le logo) */
   .hist__top {
-    width: 100%;
-    max-width: 680px;
+    display: none;
   }
 
   .hist__title {
     width: 100%;
-    max-width: 680px;
+    max-width: 720px;
+    text-align: left;
   }
 
   .hist__card {
